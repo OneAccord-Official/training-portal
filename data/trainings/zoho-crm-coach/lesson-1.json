@@ -1,0 +1,84 @@
+{
+  "id": "lesson-1",
+  "title": "Lesson 1: The Big Picture (Zoho One vs. CRM)",
+  "completionTitle": "You've completed Lesson 1: The Big Picture — Zoho One vs. CRM",
+  "keyConcepts": [
+    "Zoho One as the training starting point",
+    "The difference between Zoho One and Zoho CRM",
+    "Zoho CRM as OneAccord's source of truth",
+    "Basic CRM navigation",
+    "Core CRM modules"
+  ],
+  "nextTeaser": "The next lesson focuses on setting up your professional Zoho workspace, including your profile, notifications, email integration, and mobile setup.",
+  "nextLessonId": "lesson-2",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Follow Along: Log In Now.</strong> Before we begin, please open a new tab and log in to <strong>one.zoho.com</strong>. While you can also access the system via crm.zoho.com, we use the Zoho One layout for all our training guides. The features are identical in both, but the navigation menus are located in different places. Logging into the \"One\" view now will ensure your screen matches these lessons.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>The CRM Philosophy: Our \"Source of Truth\"</h3><p>At OneAccord, Zoho CRM is more than just a digital rolodex; it is the central nervous system of our business. Our \"Source of Truth\" philosophy means that if an interaction, a meeting note, or a deal status isn't in Zoho, it effectively didn't happen. By keeping all data in one place, we ensure:</p><ul><li><strong>Seamless Collaboration:</strong> Any Principal can step in to support a deal with full context.</li><li><strong>Growth Loop Integrity:</strong> Our automated referral asks only work if our data is accurate.</li><li><strong>Historical Memory:</strong> We maintain a permanent record of our relationships that outlasts any single email thread.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Navigation Mastery: Suite vs. Workspace</h3><p><strong>Zoho One (one.zoho.com) — The Suite:</strong> Think of this as your Dashboard. It is the unified interface that gives you access to every Zoho app we use (CRM, Campaigns, Bookings, etc.) in one browser tab. This is the view we will be using throughout this training.</p><p><strong>Zoho CRM (crm.zoho.com) — The Workspace:</strong> This is your Engine Room. It focuses exclusively on the sales pipeline, contacts, and accounts.</p>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "On your Zoho One dashboard, look at the left-hand sidebar. Find the CRM icon and click it to open your workspace.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>The Top Bar: Your Universal Tools</h3><p>The icons at the top of your screen are your \"Quick Access\" tools available from any page.</p><ul><li><strong>Global Search:</strong> Type a name, phone number, or company. Zoho searches across all modules.</li><li><strong>The Plus (+) Icon:</strong> Your \"Quick Create.\" Use this to add a new Task, Meeting, or Inquiry without leaving your current page.</li><li><strong>The Bell (Notifications):</strong> Your command center for alerts, mentions from colleagues, or task reminders.</li><li><strong>Zia (The AI Assistant):</strong> Ask Zia questions like \"What is my revenue for this month?\"</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Hover your mouse over the Plus (+) icon at the top right. Notice how many different types of records you can create instantly.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>The Bottom Bar: Real-Time Communication</h3><p>The bottom of your screen stays pinned as you navigate:</p><ul><li><strong>Cliq (Chats & Channels):</strong> An internal communication tool.</li><li><strong>Recent Items:</strong> Click the clock icon to see the last five records you visited.</li><li><strong>Reminders:</strong> The alarm clock icon shows activities due right now.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>The Menu: The CRM Modules</h3><p>The sidebar (or top menu depending on your view) organizes our data. We primarily use:</p><ul><li><strong>Contact:</strong> Individual people.</li><li><strong>Account:</strong> The companies those people work for.</li><li><strong>Referral Partners:</strong> A list of people or companies who refer business to us.</li><li><strong>Tasks, Meetings, & Calls:</strong> Your daily activity logs.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Find the Inquiries module in your menu. Click it to see the list of incoming prospects.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "question",
+      "format": "true_false",
+      "prompt": "True or False: If I have a great meeting with a prospect but don't log it in Zoho, it still counts toward my performance metrics.",
+      "correctIndex": 1,
+      "feedbackCorrect": "Right — if it isn't in Zoho, it didn't happen. Untracked meetings don't count toward your metrics.",
+      "feedbackIncorrect": "Not quite — at OneAccord, if it isn't in Zoho, it didn't happen. Untracked meetings don't count toward your metrics."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Where is the fastest way to add a new task?",
+      "options": ["The Bell (Notifications) icon", "The Plus (+) Icon in the Top Bar", "The Cliq chat panel", "The Recent Items clock icon"],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct — the Plus (+) icon is your Quick Create for a new Task, Meeting, or Inquiry from anywhere.",
+      "feedbackIncorrect": "The fastest way is the Plus (+) Icon in the Top Bar — your Quick Create tool."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Which URL should you use to follow along with OneAccord training?",
+      "options": ["crm.zoho.com", "one.zoho.com", "zoho.com/one", "portal.zoho.com"],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct — we use the Zoho One layout (one.zoho.com) for all our training guides.",
+      "feedbackIncorrect": "It's one.zoho.com — we use the Zoho One layout for all our training guides."
+    }
+  ]
+}

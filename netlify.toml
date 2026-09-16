@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+# No X-Frame-Options / frame-ancestors restriction is set here, so the portal
+# can be embedded via SharePoint's Embed web part out of the box.
+#
+# Once this is live, tighten it to only allow OneAccord's SharePoint tenant
+# to frame the portal (replace <tenant> below), rather than leaving it
+# embeddable by any site:
+#
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     Content-Security-Policy = "frame-ancestors 'self' https://<tenant>.sharepoint.com"

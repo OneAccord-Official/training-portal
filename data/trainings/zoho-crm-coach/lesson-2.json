@@ -1,0 +1,101 @@
+{
+  "id": "lesson-2",
+  "title": "Lesson 2: Your Professional Setup",
+  "completionTitle": "You've completed Lesson 2: Your Professional Setup",
+  "keyConcepts": [
+    "Configuring your Zoho profile",
+    "Managing notifications",
+    "Connecting email integration",
+    "Creating your professional email signature",
+    "Using Zoho CRM mobile tools"
+  ],
+  "nextTeaser": "The next lesson focuses on creating and managing your personal Zoho Bookings page, including availability, calendar integration, and client scheduling.",
+  "nextLessonId": "lesson-3",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Now that you understand the \"Big Picture,\" it's time to move into your own workspace and make it professional. This lesson covers the settings that ensure your clients see a polished image and that your email activity is tracked automatically.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. Establishing Your Profile</h3><p>A professional profile is essential for internal collaboration. When a colleague sees you assigned to a deal, your photo and title help them identify you immediately.</p><ul><li><strong>Profile Photo:</strong> Upload a high-resolution professional headshot.</li><li><strong>Personal Details:</strong> Verify your Name, Title, and Phone Number.</li><li><strong>Time Zone:</strong> Ensure your time zone is set correctly to prevent calendar booking errors.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Click your Profile Icon (top right) → My Settings → Personal Settings. Take a moment to upload your photo and verify your information. When done, save, then click the big red X in the top left corner.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Notification Mastery</h3><p>Zoho can be noisy if not configured correctly. You want to be alerted to important deal changes without being buried in emails.</p><ul><li><strong>Feeds:</strong> This is where internal \"social\" updates happen.</li><li><strong>Signal Notifications:</strong> These are the real-time \"pops\" you get when a lead opens an email or visits our website.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "In the same My Settings menu, find Notifications. Ensure \"Email Notifications\" are toggled OFF for things you check daily in the CRM to avoid double-alerts in your Outlook inbox.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. The Power of Email Integration</h3><p>This is the most important technical step in your setup. By linking your Outlook/Exchange account, Zoho will automatically \"listen\" for emails from your contacts and log them in the CRM for you.</p><ul><li><strong>Automatic Tracking:</strong> You don't have to manually BCC or copy-paste emails.</li><li><strong>Transparency:</strong> Your team can see the latest correspondence on a deal without asking you for an update.</li></ul><p><strong>How to link your email:</strong> Click the Gear Icon in the top right corner → Channels → Email → select Office 365 / Exchange → follow the prompts to authorize the connection.</p><p><strong>BCC Feature:</strong> If you ever send an email from a private account and want it in the CRM, you can use your unique \"BCC to CRM\" address found in these settings.</p>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Navigate to Setup (Gear Icon) → Channels → Email. Check your \"Email Configuration\" status to see if your account is already linked.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>4. Your Digital Business Card: The Signature</h3><p>Every email you send from within Zoho should look identical to your standard Outlook signature.</p><ul><li><strong>Standardization:</strong> Use the OneAccord brand standards. You may need to remove the picture to make it a small enough file size to save.</li><li><strong>Links:</strong> Include your Zoho Bookings link (set up in Lesson 3) to make scheduling easier.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "In Email Settings, click on the Email Signature tab. Paste your standard OneAccord signature here and click Save. You may have to remove your photo for it to be the correct size.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>5. The Mobile App</h3><p>Sales doesn't just happen at a desk. The Zoho CRM mobile app is powerful — it allows you to \"Check-in\" to meetings, log voice-to-text notes immediately after a call, and find client addresses on a map.</p>"
+    },
+    {
+      "type": "activity",
+      "label": "Action Item",
+      "instructions": "Search for \"Zoho CRM\" in the App Store or Google Play Store. Log in using your OneAccord credentials.",
+      "confirmText": "I've completed this — continue"
+    },
+    {
+      "type": "question",
+      "format": "true_false",
+      "prompt": "True or False: I have to manually BCC every email to get it into the CRM once my Outlook is linked.",
+      "correctIndex": 1,
+      "feedbackCorrect": "Right — once linked, tracking is automatic. No manual BCC needed.",
+      "feedbackIncorrect": "False — once your Outlook is linked, email tracking happens automatically, no manual BCC needed."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Where do I go to change my profile picture?",
+      "options": ["Personal Settings", "Email Signature tab", "Notifications settings", "The Social tab"],
+      "correctIndex": 0,
+      "feedbackCorrect": "Correct — Personal Settings is where you manage your profile photo and details.",
+      "feedbackIncorrect": "It's Personal Settings, under your Profile Icon → My Settings."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What is the benefit of the mobile app \"Check-in\" feature?",
+      "options": [
+        "It automatically drafts a follow-up email",
+        "It logs your location and time at a client site for accurate activity reporting",
+        "It schedules your next meeting automatically",
+        "It syncs your contacts to LinkedIn"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct — Check-in logs your location and time at a client site for accurate reporting.",
+      "feedbackIncorrect": "Check-in logs your location and time at a client site so activity reporting stays accurate."
+    }
+  ]
+}
