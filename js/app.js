@@ -39,6 +39,7 @@ const state = {
   currentLessonId: null,
   lessonBlocks: [],
   blockCursor: 0,
+  expandedTrainings: new Set(), // training ids whose lesson list is open in the nav
 };
 
 const navEl = document.getElementById("training-list");
@@ -50,6 +51,10 @@ async function init() {
   try {
     const res = await fetch("data/trainings-index.json");
     state.index = await res.json();
+    // Default to the first training open so the nav isn't empty on first load.
+    if (state.index.trainings.length) {
+      state.expandedTrainings.add(state.index.trainings[0].id);
+    }
     renderNav();
   } catch (err) {
     navEl.innerHTML = `<div style="padding:0 20px;color:#f5b7b1;">Couldn't load the training list.</div>`;
@@ -57,35 +62,52 @@ async function init() {
   }
 }
 
-/* ---------------- Nav ---------------- */
+/* ---------------- Nav ----------------
+ * Each training is a collapsible section: a clickable header (with a
+ * chevron) toggles its lesson list open/closed. `state.expandedTrainings`
+ * tracks which sections are open across re-renders; loading a lesson always
+ * opens that lesson's training so the active item is visible.
+ */
 
 function renderNav() {
   navEl.innerHTML = "";
   state.index.trainings.forEach((training) => {
-    const heading = document.createElement("div");
-    heading.className = "nav-training";
-    heading.textContent = training.title;
+    const isOpen = state.expandedTrainings.has(training.id);
+
+    const heading = document.createElement("button");
+    heading.type = "button";
+    heading.className = "nav-training" + (isOpen ? " is-open" : "");
+    heading.innerHTML = `<span class="nav-training__chevron">▸</span><span>${training.title}</span>`;
+    heading.addEventListener("click", () => {
+      if (state.expandedTrainings.has(training.id)) {
+        state.expandedTrainings.delete(training.id);
+      } else {
+        state.expandedTrainings.add(training.id);
+      }
+      renderNav();
+    });
     navEl.appendChild(heading);
+
+    const list = document.createElement("div");
+    list.className = "nav-lessons" + (isOpen ? "" : " is-collapsed");
 
     training.lessons.forEach((lesson) => {
       const item = document.createElement("div");
       const isPending = lesson.status === "pending";
       const isDone = isLessonComplete(training.id, lesson.id);
-      item.className = "nav-lesson" + (isPending ? " is-pending" : "");
+      const isActive = training.id === state.currentTrainingId && lesson.id === state.currentLessonId;
+      item.className = "nav-lesson" + (isPending ? " is-pending" : "") + (isActive ? " is-active" : "");
       item.innerHTML = `<span class="nav-lesson__check">${isDone ? "✅" : "⬜"}</span><span>${lesson.title}</span>`;
       if (!isPending) {
         item.addEventListener("click", () => loadLesson(training, lesson));
       } else {
         item.title = "Content coming soon";
       }
-      navEl.appendChild(item);
+      list.appendChild(item);
     });
-  });
-}
 
-function markActiveInNav(lessonId) {
-  document.querySelectorAll(".nav-lesson").forEach((el) => el.classList.remove("is-active"));
-  // Re-render is simplest given the small nav size; keeps active-state logic in one place.
+    navEl.appendChild(list);
+  });
 }
 
 /* ---------------- Lesson loading ---------------- */
@@ -94,6 +116,7 @@ async function loadLesson(training, lesson) {
   state.currentTrainingId = training.id;
   state.currentLessonId = lesson.id;
   state.blockCursor = 0;
+  state.expandedTrainings.add(training.id);
 
   mainEl.innerHTML = `<div class="lesson-header">
       <h1>${lesson.title}</h1>
