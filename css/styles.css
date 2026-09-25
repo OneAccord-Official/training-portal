@@ -44,13 +44,42 @@ body {
 }
 
 .nav-training {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
   padding: 10px 20px;
+  font: inherit;
   font-weight: 600;
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: rgba(255,255,255,0.6);
   margin-top: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.nav-training:hover { color: rgba(255,255,255,0.85); }
+
+.nav-training__chevron {
+  display: inline-block;
+  font-size: 0.75rem;
+  transition: transform 0.15s ease;
+}
+
+.nav-training.is-open .nav-training__chevron {
+  transform: rotate(90deg);
+}
+
+.nav-lessons {
+  overflow: hidden;
+}
+
+.nav-lessons.is-collapsed {
+  display: none;
 }
 
 .nav-lesson {
