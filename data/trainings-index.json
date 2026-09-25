@@ -6,13 +6,12 @@
       "lessons": [
         { "id": "lesson-1", "title": "1. The Big Picture (Zoho One vs. CRM)", "status": "ready" },
         { "id": "lesson-2", "title": "2. Your Professional Setup", "status": "ready" },
-        { "id": "lesson-3", "title": "3. Your Personal Bookings Page", "status": "pending" },
-        { "id": "lesson-4", "title": "4. Data Hierarchy & The Lead Flow", "status": "pending" },
-        { "id": "lesson-5", "title": "5. Working the Pipeline", "status": "pending" },
-        { "id": "lesson-6", "title": "6. Activity Management & Zia", "status": "pending" },
-        { "id": "lesson-7", "title": "7. The Referral Growth Loops", "status": "pending" },
-        { "id": "lesson-8", "title": "8. Reports, Analytics & Mobile", "status": "pending" },
-        { "id": "lesson-9", "title": "9. Master Social Media in Zoho CRM", "status": "pending" }
+        { "id": "lesson-3", "title": "3. Your Personal Bookings Page", "status": "ready" },
+        { "id": "lesson-4", "title": "4. Data Hierarchy & The Lead Flow", "status": "ready" },
+        { "id": "lesson-5", "title": "5. Working the Buyer's Journey", "status": "ready" },
+        { "id": "lesson-6", "title": "6. Activity Management", "status": "ready" },
+        { "id": "lesson-7", "title": "7. Using AI Alongside Zoho", "status": "ready" },
+        { "id": "lesson-8", "title": "8. Reports, Analytics & Mobile", "status": "ready" }
       ]
     },
     {
