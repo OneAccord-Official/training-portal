@@ -1,0 +1,194 @@
+{
+  "id": "module-2",
+  "title": "Module 2: Qualifying Clients",
+  "completionTitle": "You've completed Module 2: Qualifying Clients",
+  "keyConcepts": [
+    "Always be qualifying (ABQ)",
+    "Right-size clients: our $25M+ focus",
+    "BANT: Budget, Authority, Need, Timing",
+    "Red flags beyond BANT",
+    "\"You can't manufacture pain\""
+  ],
+  "nextTeaser": "Next, Module 3 goes deeper into discovery and shows how the OneAccord community helps you serve the client.",
+  "nextLessonId": "module-3",
+  "resources": [
+    {
+      "label": "OneAccord Sales Coach & resources",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/SitePages/Home.aspx"
+    },
+    {
+      "label": "OneAccord Sales Playbook",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/OneAccord-Sales-Playbook.pdf"
+    },
+    {
+      "label": "The B.U.Y.E.R.S. Journey",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/The%20B.U.Y.E.R.S.%20Journey.pdf"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Module 2 of 5.</strong> Learn to qualify thoroughly up front so we only pursue right-size, right-time, right-fit clients. Don't always be closing. Always be qualifying.</p><p>Here's how this module works: watch the video, work through a few short sections, answer a quick knowledge check, respond to a scenario (your coach grades it, and 3 of 4 points passes), then build one piece of your personal <strong>Sales Game Plan</strong>.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/_layouts/15/embed.aspx?UniqueId=ba527215-de00-44c6-8f1c-18e1c5a3432e&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "OneAccord Sales Video 2 - Qualifying Clients",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/03%20Sales%20Enablement/Training%20Videos/OneAccord%20Sales%20Video%202%20-%20Qualifying%20Clients.mp4"
+        },
+        {
+          "label": "Read the transcript",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/03%20Sales%20Enablement/Training%20Videos/2%20Transcript%20OneAccord%20Sales%20Video%202%20-%20Qualifying%20Clients.docx?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. Right fit over winning</h3><ul><li>Right fit matters more than winning. A square peg in a round hole \"fits,\" but it leaves gaps around the edges.</li><li><strong>Capacity isn't only budget.</strong> It's also time, energy and people. A client without capacity turns an engagement into frustration for both sides.</li><li><strong>\"Ears to hear\":</strong> will the owner receive hard truths delivered with compassion?</li><li><strong>\"You can't manufacture pain.\"</strong> If the need or timing isn't there, keep them in the pipeline and wait for their season. Don't want it more than they do.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Right-size clients</h3><table><tr><th>Annual revenue</th><th>Fit</th></tr><tr><td>$25M+</td><td>Our focus today</td></tr><tr><td>Under $25M</td><td>An exception, not the rule. We still take on a few smaller clients, so qualify carefully and involve your managing principal early.</td></tr></table><p>Look at the <em>bottom line</em>, not just the top line. A $30M company losing money may not be able to invest.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. BANT, with questions to ask</h3><table><tr><th></th><th>What you're confirming</th><th>Try asking</th></tr><tr><td><strong>Budget</strong></td><td>Can they invest, based on the bottom line?</td><td>\"Have you set aside resources to solve this?\" · \"What has this problem cost you over the past year?\"</td></tr><tr><td><strong>Authority</strong></td><td>Who decides, and who else must agree (partners, board, spouse)?</td><td>\"Who else would be involved in a decision like this?\" · \"How have you made similar decisions before?\"</td></tr><tr><td><strong>Need</strong></td><td>Is it a need-to-have or a nice-to-have? Is there real pain?</td><td>\"What happens if nothing changes in the next 12 months?\" · \"Why now?\"</td></tr><tr><td><strong>Timing</strong></td><td>Is this their season? It might be 3 weeks, 3 months or 3 years out.</td><td>\"Is there a deadline or event driving this?\" · \"What else competes for your attention this year?\"</td></tr></table>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>4. Red flags beyond BANT</h3><p>From the Sales Playbook, watch for:</p><ul><li>No identifiable value we can create</li><li>You can't reach the real decision-maker</li><li>Unclear decision criteria or decision process</li><li>Pain the owner won't name</li><li>No internal champion</li><li>No critical event creating urgency</li></ul><p>Several red flags you can't resolve means it's time to disqualify (Module 4 covers how).</p><h3>5. BANT, then B.U.Y.E.R.S.</h3><p>BANT happens up front, before you invest real time. Once a prospect qualifies, you track their progress through the <strong>B.U.Y.E.R.S. Journey</strong> (covered in depth in Module 5). A prospect who isn't <em>Bothered</em> (who can't name the problem and has no sense of urgency) isn't an opportunity yet.</p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A $30M company wants to engage but is losing money. What's the main concern?",
+      "options": [
+        "They're too large",
+        "The top line fits, but the bottom line may not support the investment",
+        "Unprofitable companies are never a fit",
+        "There's no concern if the owner is motivated"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Budget is about the bottom line, not just revenue.",
+      "feedbackIncorrect": "The concern is the bottom line: the top line fits, but they may not be able to invest."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A prospect has $12M in revenue and a clear need. What's the right approach?",
+      "options": [
+        "Pursue it like any other deal",
+        "Decline immediately",
+        "Qualify carefully: it's below our $25M+ focus, so involve your managing principal before investing much time, or refer them",
+        "Offer a discount"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct. Smaller clients are exceptions, so bring in your managing principal early.",
+      "feedbackIncorrect": "Smaller clients are exceptions. Qualify carefully and involve your managing principal early, or refer them."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What does \"you can't manufacture pain\" mean?",
+      "options": [
+        "Don't exaggerate problems in proposals",
+        "If the need and timing aren't there, you can't create them. Wait for their season",
+        "Create urgency in the first meeting",
+        "Only pursue companies in crisis"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Exactly. Keep them in the pipeline and wait for the right season.",
+      "feedbackIncorrect": "It means you can't create need or timing. Keep them in the pipeline and wait for their season."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "The owner loves the idea but says his two partners \"would need to weigh in.\" Which BANT element needs work?",
+      "options": [
+        "Budget",
+        "Authority",
+        "Need",
+        "Timing"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. You need to understand who decides and how.",
+      "feedbackIncorrect": "It's Authority. The partners are part of the decision."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>A well-known local company ($60M, profitable) is interested in working with us. They've replaced their CFO four times in ten years, and leadership has a reputation for not taking advice. A colleague is eager to pursue them.</p><p>Walk through BANT and decide what to do.</p>",
+      "rubric": [
+        "Works through BANT explicitly and notes that budget and size check out",
+        "Identifies the 'ears to hear' / leadership receptiveness risk, using the CFO turnover as a signal",
+        "Names what they'd need to learn or test before investing more time",
+        "Reaches a clear decision (pursue with conditions, wait, or decline) with reasoning"
+      ],
+      "passThreshold": 3,
+      "coachContext": "Qualify thoroughly up front: ABQ, always be qualifying. OneAccord focuses on $25M+ revenue companies; a few smaller clients are exceptions, so qualify carefully and involve a managing principal early. BANT: Budget (bottom line, not just top line; a $30M company losing money may not be able to invest), Authority (who decides, and who else must agree: partners, board, spouse), Need (need-to-have vs nice-to-have; real pain; 'you can't manufacture pain'), Timing (right season: 3 weeks, 3 months or 3 years). Capacity is also time, energy and people. 'Ears to hear': will leadership receive hard truth delivered with compassion? Red flags from the playbook: no identifiable value, can't reach the decision-maker, unclear decision criteria or process, pain the owner won't name, no internal champion, no critical event. Keep good-but-not-ready prospects in the pipeline; don't want it more than they do. BANT comes first; qualified prospects are then tracked through the B.U.Y.E.R.S. Journey (Bothered = can identify the problem and expresses urgency)."
+    },
+    {
+      "type": "deliverable",
+      "id": "gameplan-piece",
+      "title": "Qualify a Live Prospect",
+      "promptHtml": "<p>Pick one real prospect (you can anonymize the name). Run them through BANT honestly. It's fine to write \"unknown\" and flag what you still need to learn.</p>",
+      "fields": [
+        {
+          "id": "prospect",
+          "label": "Prospect (industry, approximate size, how they came to you)",
+          "rows": 2
+        },
+        {
+          "id": "bant",
+          "label": "What you know for Budget, Authority, Need and Timing",
+          "rows": 7
+        },
+        {
+          "id": "flags",
+          "label": "Red flags or open questions",
+          "rows": 4
+        },
+        {
+          "id": "next",
+          "label": "The next 3 questions you'll ask them, and your call: pursue, wait or refer",
+          "rows": 5
+        }
+      ],
+      "criteria": [
+        "Each BANT element is addressed honestly, with gaps flagged rather than assumed",
+        "Red flags are considered, not skipped",
+        "The next questions are open-ended and specific to this prospect",
+        "There is a clear pursue / wait / refer decision with a reason (and a managing principal involved if under $25M)"
+      ],
+      "coachContext": "Qualify thoroughly up front: ABQ, always be qualifying. OneAccord focuses on $25M+ revenue companies; a few smaller clients are exceptions, so qualify carefully and involve a managing principal early. BANT: Budget (bottom line, not just top line; a $30M company losing money may not be able to invest), Authority (who decides, and who else must agree: partners, board, spouse), Need (need-to-have vs nice-to-have; real pain; 'you can't manufacture pain'), Timing (right season: 3 weeks, 3 months or 3 years). Capacity is also time, energy and people. 'Ears to hear': will leadership receive hard truth delivered with compassion? Red flags from the playbook: no identifiable value, can't reach the decision-maker, unclear decision criteria or process, pain the owner won't name, no internal champion, no critical event. Keep good-but-not-ready prospects in the pipeline; don't want it more than they do. BANT comes first; qualified prospects are then tracked through the B.U.Y.E.R.S. Journey (Bothered = can identify the problem and expresses urgency)."
+    },
+    {
+      "type": "reflection",
+      "id": "reflection",
+      "prompt": "Is there a deal in your pipeline you want more than the prospect does? What would it take to move it forward or let it rest?",
+      "coachContext": "Qualify thoroughly up front: ABQ, always be qualifying. OneAccord focuses on $25M+ revenue companies; a few smaller clients are exceptions, so qualify carefully and involve a managing principal early. BANT: Budget (bottom line, not just top line; a $30M company losing money may not be able to invest), Authority (who decides, and who else must agree: partners, board, spouse), Need (need-to-have vs nice-to-have; real pain; 'you can't manufacture pain'), Timing (right season: 3 weeks, 3 months or 3 years). Capacity is also time, energy and people. 'Ears to hear': will leadership receive hard truth delivered with compassion? Red flags from the playbook: no identifiable value, can't reach the decision-maker, unclear decision criteria or process, pain the owner won't name, no internal champion, no critical event. Keep good-but-not-ready prospects in the pipeline; don't want it more than they do. BANT comes first; qualified prospects are then tracked through the B.U.Y.E.R.S. Journey (Bothered = can identify the problem and expresses urgency)."
+    },
+    {
+      "type": "links",
+      "html": "<div class='callout'><strong>Keep using this after training:</strong> Use the OneAccord Sales Coach before qualifying calls. It uses the same BANT and B.U.Y.E.R.S. language as this training.</div>",
+      "links": [
+        {
+          "label": "OneAccord Sales Coach & resources",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/SitePages/Home.aspx"
+        },
+        {
+          "label": "OneAccord Sales Playbook",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/OneAccord-Sales-Playbook.pdf"
+        },
+        {
+          "label": "The B.U.Y.E.R.S. Journey",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/The%20B.U.Y.E.R.S.%20Journey.pdf"
+        }
+      ]
+    }
+  ]
+}

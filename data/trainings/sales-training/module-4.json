@@ -1,0 +1,171 @@
+{
+  "id": "module-4",
+  "title": "Module 4: Gracefully Declining an Engagement",
+  "completionTitle": "You've completed Module 4: Gracefully Declining an Engagement",
+  "keyConcepts": [
+    "Conviction makes you convincing",
+    "Why should they, and why won't they?",
+    "The two most common reasons to decline: budget and receptivity",
+    "Thinking in probability of success",
+    "Parting as friends, and documenting it in Zoho"
+  ],
+  "nextTeaser": "Next, Module 5 brings it together: how to show up, build trust, and close through the B.U.Y.E.R.S. Journey.",
+  "nextLessonId": "module-5",
+  "resources": [
+    {
+      "label": "OneAccord Sales Coach & resources",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/SitePages/Home.aspx"
+    },
+    {
+      "label": "OneAccord Sales Playbook",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/OneAccord-Sales-Playbook.pdf"
+    },
+    {
+      "label": "The B.U.Y.E.R.S. Journey",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/The%20B.U.Y.E.R.S.%20Journey.pdf"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Module 4 of 5.</strong> Build the discernment to walk away when your conviction isn't strong, and the skill to do it while keeping the relationship.</p><p>Here's how this module works: watch the video, work through a few short sections, answer a quick knowledge check, respond to a scenario (your coach grades it, and 3 of 4 points passes), then build one piece of your personal <strong>Sales Game Plan</strong>.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/_layouts/15/embed.aspx?UniqueId=328d03b7-96ce-4373-bd12-d5343026b2a7&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "OneAccord Sales Video 4 - Gracefully decline an engagement",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/03%20Sales%20Enablement/Training%20Videos/OneAccord%20Sales%20Video%204%20-%20Gracefully%20decline%20an%20engagement.mp4"
+        },
+        {
+          "label": "Read the transcript",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/03%20Sales%20Enablement/Training%20Videos/4%20Transcript%20OneAccord%20Sales%20Video%204%20-%20Gracefully%20decline%20an%20engagement.docx?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. Conviction makes you convincing</h3><ul><li>If you aren't convinced we're the right fit, don't try to convince them.</li><li>Before presenting OneAccord, answer two questions: <strong>Why should they</strong> engage us? <strong>Why won't they?</strong> (budget, fear, a spouse or partner, employee buy-in, timing)</li><li>Set it up early: <em>\"If I can't see how this will serve you, we won't go forward, and I'll introduce you to someone who's a better fit.\"</em></li><li>Leave a path back: <em>\"If you do X first, I think you'll be ready, and we can revisit.\"</em></li><li>\"We get some, we miss some.\" When the relationship leads, a \"no\" today isn't a loss.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Discernment</h3><ul><li><strong>The two most common reasons to decline:</strong> (1) budget, and (2) the owner's receptivity, meaning their willingness to lean into the work.</li><li><strong>Think in probability of success.</strong> Our work is hard and expensive. If your honest read of success is lower than you're comfortable with, challenge your own optimism. Don't take it.</li><li><strong>Can't afford us?</strong> Say so clearly and early, and offer an introduction to someone who can help.</li><li><strong>Gut says no?</strong> Watch for missing buy-in, owner discord, or problems that would stop us succeeding. Talk it through with your managing principal. Don't decide alone.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. Know their four paths, and part as friends</h3><p>Every prospect can <strong>do nothing</strong>, <strong>solve it internally</strong>, <strong>hire someone else</strong>, or <strong>partner with OneAccord</strong>. Asking which way they lean surfaces the \"why won't they\" early.</p><p><strong>Parting as friends is a successful outcome.</strong> \"Shake hands, part friends.\" In Zoho CRM, mark the opportunity disqualified and document why, so the next conversation starts from the truth.</p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What should you be able to answer before presenting OneAccord?",
+      "options": [
+        "Their budget and who decides",
+        "Why they should engage us, and why they won't",
+        "Their revenue and growth rate",
+        "Who referred them"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Both answers give you conviction, or tell you it isn't there.",
+      "feedbackIncorrect": "Answer both: why they should engage us, and why they won't."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What are the two most common reasons to decline an engagement?",
+      "options": [
+        "Industry and location",
+        "Budget, and the owner's willingness to lean into the work",
+        "Company size and headcount",
+        "Timing and competition"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct. Budget first, then receptivity.",
+      "feedbackIncorrect": "Most often it's budget, and the owner's receptivity to doing the work."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You've decided a prospect isn't the right fit. What do you do in Zoho?",
+      "options": [
+        "Delete the record",
+        "Leave it open in case things change",
+        "Mark it disqualified and document the reason",
+        "Reassign it to another principal"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. Documenting why keeps the record honest for next time.",
+      "feedbackIncorrect": "Mark it disqualified and document why."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>After two meetings, you like the owner, and she can afford a CSP. But her leadership team is openly resistant, and she says, <em>\"I'll just make them do it.\"</em> She's ready to sign.</p><p>Write what you'd say to her.</p>",
+      "rubric": [
+        "States honestly that you don't have conviction this will succeed right now, without hedging",
+        "Names the specific concern (team buy-in and receptivity) with compassion",
+        "Offers a path forward: what would need to change, or an alternative resource",
+        "Keeps the relationship open ('shake hands, part friends')"
+      ],
+      "passThreshold": 3,
+      "coachContext": "Conviction makes you convincing: if you aren't convinced OneAccord is the right fit, don't try to convince them. Before presenting, answer 'why should they engage us?' and 'why won't they?' (budget, fear, a spouse or partner, employee buy-in, timing). Set the expectation early: if I can't see how this will serve you, we won't go forward and I'll introduce you to someone who's a better fit. Leave a path back: if you do X first, we can revisit. The two most common reasons to decline are budget and the owner's receptivity or willingness to lean into the work. Think in probability of success; our work is hard and expensive, so challenge your own optimism. If they can't afford us, say so clearly and early and offer an introduction. Talk gut-feel concerns through with your managing principal. Four paths a prospect can take: do nothing, solve it internally, hire someone else, or partner with OneAccord. Parting as friends is a successful outcome ('shake hands, part friends'; relationships transcend the transaction). In Zoho, mark the opportunity disqualified and document why."
+    },
+    {
+      "type": "deliverable",
+      "id": "gameplan-piece",
+      "title": "My Decline Talk Track",
+      "promptHtml": "<p>Write your own words, 2–4 sentences each, for the three moments below. Make them sound like you.</p>",
+      "fields": [
+        {
+          "id": "setup",
+          "label": "Setting the fit expectation in a first meeting",
+          "rows": 4
+        },
+        {
+          "id": "budget",
+          "label": "Declining because of budget",
+          "rows": 4
+        },
+        {
+          "id": "receptivity",
+          "label": "Declining because of receptivity or buy-in",
+          "rows": 4
+        }
+      ],
+      "criteria": [
+        "Honest and direct, delivered with compassion",
+        "Each decline includes a clear next step, path back, or referral",
+        "No false promises or pressure",
+        "Sounds natural, not scripted"
+      ],
+      "coachContext": "Conviction makes you convincing: if you aren't convinced OneAccord is the right fit, don't try to convince them. Before presenting, answer 'why should they engage us?' and 'why won't they?' (budget, fear, a spouse or partner, employee buy-in, timing). Set the expectation early: if I can't see how this will serve you, we won't go forward and I'll introduce you to someone who's a better fit. Leave a path back: if you do X first, we can revisit. The two most common reasons to decline are budget and the owner's receptivity or willingness to lean into the work. Think in probability of success; our work is hard and expensive, so challenge your own optimism. If they can't afford us, say so clearly and early and offer an introduction. Talk gut-feel concerns through with your managing principal. Four paths a prospect can take: do nothing, solve it internally, hire someone else, or partner with OneAccord. Parting as friends is a successful outcome ('shake hands, part friends'; relationships transcend the transaction). In Zoho, mark the opportunity disqualified and document why."
+    },
+    {
+      "type": "reflection",
+      "id": "reflection",
+      "prompt": "Is there an opportunity you've kept alive only because saying no felt hard?",
+      "coachContext": "Conviction makes you convincing: if you aren't convinced OneAccord is the right fit, don't try to convince them. Before presenting, answer 'why should they engage us?' and 'why won't they?' (budget, fear, a spouse or partner, employee buy-in, timing). Set the expectation early: if I can't see how this will serve you, we won't go forward and I'll introduce you to someone who's a better fit. Leave a path back: if you do X first, we can revisit. The two most common reasons to decline are budget and the owner's receptivity or willingness to lean into the work. Think in probability of success; our work is hard and expensive, so challenge your own optimism. If they can't afford us, say so clearly and early and offer an introduction. Talk gut-feel concerns through with your managing principal. Four paths a prospect can take: do nothing, solve it internally, hire someone else, or partner with OneAccord. Parting as friends is a successful outcome ('shake hands, part friends'; relationships transcend the transaction). In Zoho, mark the opportunity disqualified and document why."
+    },
+    {
+      "type": "links",
+      "html": "<div class='callout'><strong>Keep using this after training:</strong> Not sure whether to pursue? Run the opportunity past the OneAccord Sales Coach, then your managing principal.</div>",
+      "links": [
+        {
+          "label": "OneAccord Sales Coach & resources",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/SitePages/Home.aspx"
+        },
+        {
+          "label": "OneAccord Sales Playbook",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/OneAccord-Sales-Playbook.pdf"
+        },
+        {
+          "label": "The B.U.Y.E.R.S. Journey",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/The%20B.U.Y.E.R.S.%20Journey.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "module-1",
+  "title": "Module 1: Engaging with Referral Partners",
+  "completionTitle": "You've completed Module 1: Engaging with Referral Partners",
+  "keyConcepts": [
+    "Why referral partners refer, and what they worry about",
+    "The three kinds of business OneAccord serves",
+    "What makes OneAccord different",
+    "The four-meeting referral partner cadence",
+    "Talking about investment without quoting prices"
+  ],
+  "nextTeaser": "Next, Module 2 covers how to qualify clients with BANT so you only pursue the right ones.",
+  "nextLessonId": "module-2",
+  "resources": [
+    {
+      "label": "OneAccord Sales Coach & resources",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/SitePages/Home.aspx"
+    },
+    {
+      "label": "OneAccord Sales Playbook",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/OneAccord-Sales-Playbook.pdf"
+    },
+    {
+      "label": "The B.U.Y.E.R.S. Journey",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/The%20B.U.Y.E.R.S.%20Journey.pdf"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Module 1 of 5.</strong> Learn how to find the right referral partners, engage them the OneAccord way, and track them in Zoho.</p><p>Here's how this module works: watch the video, work through a few short sections, answer a quick knowledge check, respond to a scenario (your coach grades it, and 3 of 4 points passes), then build one piece of your personal <strong>Sales Game Plan</strong>.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/_layouts/15/embed.aspx?UniqueId=73af1bfa-352b-4e35-8ad8-4684fc91fc4c&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "OneAccord Sales Video 1 - Referral Partners",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/03%20Sales%20Enablement/Training%20Videos/OneAccord%20Sales%20Video%201%20-%20Referral%20Partners.mp4"
+        },
+        {
+          "label": "Read the transcript",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/03%20Sales%20Enablement/Training%20Videos/1%20Transcript%20OneAccord%20Sales%20Video%201%20-%20Referral%20Partners.docx?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video — continue",
+      "note": "<strong>Note on pricing:</strong> The prices mentioned in this video are out of date, and pricing changes over time, so don't quote numbers. By the time pricing comes up, a managing principal should be involved to guide that conversation."
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. Why referral partners refer</h3><p>Referral partners (CPAs, financial advisors, investment bankers) send clients to OneAccord because they <em>care about their clients</em>. They often see a problem before the owner does, such as a business that isn't ready to sell and would leave money on the table.</p><p>Their biggest worry is that <strong>a bad referral damages their own reputation</strong>. That's why trust comes before referrals.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Who we serve and why we're different</h3><p>We serve three kinds of business:</p><ul><li><strong>Preparing to sell:</strong> owners who want to get the most value out of a once-in-a-lifetime exit.</li><li><strong>Fast-growing:</strong> companies missing a key leader, where fractional or interim talent gets them from here to there.</li><li><strong>Turnarounds:</strong> businesses in a tight spot that need a way out.</li></ul><p>What makes us different:</p><ul><li>We focus on the middle market that the big firms overlook.</li><li>Our people have <em>actually run companies</em>: former CEOs, COOs and CROs with \"dirt under their fingernails.\"</li><li>Everything starts with an assessment, the Client Success Plan (CSP). Then we can move from strategy into execution, with fractional and interim leaders who help carry out the plan.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. Talking about investment</h3><p>With referral partners, be candid that our work is a meaningful investment that varies by scope. That helps them spot which clients are a good fit. With the owner, don't lead with cost.</p><p>Reframe price as value: <em>\"What is it costing you to not solve this problem?\"</em></p><p>Don't quote numbers. Pricing changes over time, and a managing principal guides pricing conversations.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>4. Building the relationship</h3><ul><li><strong>Who makes a good partner:</strong> bankers, attorneys, CPAs, wealth managers, PE contacts, peer-group leaders (Vistage, Convene, C12), and EOS or Scaling Up coaches. Look for direct access to owners and CEOs, an eagerness to reciprocate, and shared values.</li><li><strong>Firm vs. individual:</strong> OneAccord builds firm-to-firm partnerships through mixers and co-hosted events, but referrals come from <em>people</em>. You own your individual relationships inside those firms.</li><li><strong>How many:</strong> in your first 90 days, map 30–50 potential partners, grow 10–15 active referral relationships, and aim for 3–5 warm introductions.</li></ul><table><tr><th>Meeting</th><th>Focus</th></tr><tr><td>1. About them</td><td>Listen: their business, their clients, their goals</td></tr><tr><td>2. About OneAccord</td><td>Who we serve, our value, success stories</td></tr><tr><td>3. Showcase</td><td>Swap sample work (bring a sample CSP)</td></tr><tr><td>4. Plan</td><td>Agree how and how often you'll introduce each other</td></tr></table><p>After that, stay in touch three or four times a year.</p>"
+    },
+    {
+      "type": "activity",
+      "label": "In Zoho CRM",
+      "instructions": "Every referral partner and every meeting gets logged in Zoho's <strong>Referral Partners</strong> module. If you need a refresher, see the <strong>Zoho CRM Training Coach</strong> in the menu on the left, especially <em>Lesson 1: The Big Picture</em> and <em>Lesson 4: Data Hierarchy &amp; The Lead Flow</em>.",
+      "confirmText": "Got it — continue"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A referral partner asks what a CSP costs. What's the best response?",
+      "options": [
+        "Quote the price mentioned in the training video",
+        "Be candid that it's a meaningful investment that varies by scope, and that a managing principal guides pricing",
+        "Refuse to discuss cost at all",
+        "Estimate a number yourself to keep things moving"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Be candid so they can help qualify, but leave specific pricing to a managing principal.",
+      "feedbackIncorrect": "Not quite. Be candid that it's a meaningful investment that varies by scope, and let a managing principal guide pricing."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What is a referral partner's biggest worry about referring clients to you?",
+      "options": [
+        "Losing the client to OneAccord",
+        "A bad referral damaging their own reputation",
+        "Not getting a referral fee",
+        "The client's budget"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Exactly. Their reputation is on the line, which is why trust comes before referrals.",
+      "feedbackIncorrect": "The biggest worry is that a bad referral damages their own reputation. Trust comes first."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "OneAccord has a firm-level partnership with a wealth advisory firm. Whose job is the relationship with an individual advisor there?",
+      "options": [
+        "OneAccord leadership's, since it's a firm partnership",
+        "Nobody's; the firm relationship is enough",
+        "Yours, the principal's: referrals come from individual relationships",
+        "Marketing's, through the newsletter"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct. Firm partnerships open doors, but referrals come from people you know.",
+      "feedbackIncorrect": "It's yours. Firm-to-firm partnerships help, but referrals come from individual relationships."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What is the focus of your first meeting with a new referral partner?",
+      "options": [
+        "Presenting OneAccord's services",
+        "Them: their business, clients and goals",
+        "Swapping sample work products",
+        "Agreeing on referral fees"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Meeting one is all about them. Show up as a giver.",
+      "feedbackIncorrect": "Meeting one is all about them. OneAccord comes in meeting two."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>You're at lunch with a CPA you just met. She says: <em>\"I have a few clients who might need help, but why would I send them to you instead of a big-name firm? And what's this going to cost them?\"</em></p><p>Write what you'd say to her.</p>",
+      "rubric": [
+        "Names at least one real differentiator: operators who have run companies, middle-market focus, or strategy through execution",
+        "Is candid that engagements are a meaningful investment that varies by scope, without quoting numbers, and says a managing principal guides pricing",
+        "Frames cost against the cost of not solving the problem (value, not price)",
+        "Makes it about her clients, inviting her help to spot which ones are a good fit"
+      ],
+      "passThreshold": 3,
+      "coachContext": "Referral partners (CPAs, financial advisors, investment bankers, attorneys, wealth managers, PE contacts, peer-group leaders such as Vistage/Convene/C12, EOS/Scaling Up coaches) refer because they care about their clients and often see the problem before the owner does. Their biggest worry is that a bad referral damages their own reputation. OneAccord serves three kinds of business: owners preparing to sell, fast-growing companies missing a key leader (fractional/interim), and turnarounds. Differentiators: middle-market focus, principals who have actually run companies, and moving from strategy (the Client Success Plan, CSP) into execution with fractional and interim leaders. Be candid with partners that our work is a meaningful investment so they can help qualify, but do not quote prices: pricing changes over time and a managing principal guides pricing conversations. Reframe price as value: what is it costing them not to solve the problem. Referral partner meetings: (1) all about them, (2) about OneAccord, (3) showcase sample work such as a sample CSP, (4) agree a plan for introductions; then stay in touch 3-4 times a year. Firm-to-firm partnerships exist, but each principal owns individual relationships. 90-day targets: map 30-50 potential partners, 10-15 active relationships, 3-5 warm introductions. Log partners in Zoho CRM's Referral Partners module."
+    },
+    {
+      "type": "deliverable",
+      "id": "gameplan-piece",
+      "title": "My Referral Partners",
+      "promptHtml": "<p>Build the first section of your Sales Game Plan using your real network.</p>",
+      "fields": [
+        {
+          "id": "partners",
+          "label": "Your top 5 referral partners or targets",
+          "rows": 6,
+          "placeholder": "Name / firm, type (CPA, banker…), which of our three client types they'd likely send"
+        },
+        {
+          "id": "email",
+          "label": "Outreach email asking for a first meeting",
+          "rows": 6,
+          "placeholder": "Remember: meeting one is all about them"
+        },
+        {
+          "id": "talktrack",
+          "label": "Your 3-sentence talk track: why OneAccord",
+          "rows": 4
+        }
+      ],
+      "criteria": [
+        "Partners are types that actually reach OneAccord's clients (owners and CEOs of $25M+ companies)",
+        "The outreach email is about them (a giver, not a pitch) and asks for a first meeting",
+        "The talk track names a real differentiator and sounds natural, not salesy"
+      ],
+      "coachContext": "Referral partners (CPAs, financial advisors, investment bankers, attorneys, wealth managers, PE contacts, peer-group leaders such as Vistage/Convene/C12, EOS/Scaling Up coaches) refer because they care about their clients and often see the problem before the owner does. Their biggest worry is that a bad referral damages their own reputation. OneAccord serves three kinds of business: owners preparing to sell, fast-growing companies missing a key leader (fractional/interim), and turnarounds. Differentiators: middle-market focus, principals who have actually run companies, and moving from strategy (the Client Success Plan, CSP) into execution with fractional and interim leaders. Be candid with partners that our work is a meaningful investment so they can help qualify, but do not quote prices: pricing changes over time and a managing principal guides pricing conversations. Reframe price as value: what is it costing them not to solve the problem. Referral partner meetings: (1) all about them, (2) about OneAccord, (3) showcase sample work such as a sample CSP, (4) agree a plan for introductions; then stay in touch 3-4 times a year. Firm-to-firm partnerships exist, but each principal owns individual relationships. 90-day targets: map 30-50 potential partners, 10-15 active relationships, 3-5 warm introductions. Log partners in Zoho CRM's Referral Partners module."
+    },
+    {
+      "type": "reflection",
+      "id": "reflection",
+      "prompt": "Which one partner relationship would have the biggest impact if you invested in it this quarter?",
+      "coachContext": "Referral partners (CPAs, financial advisors, investment bankers, attorneys, wealth managers, PE contacts, peer-group leaders such as Vistage/Convene/C12, EOS/Scaling Up coaches) refer because they care about their clients and often see the problem before the owner does. Their biggest worry is that a bad referral damages their own reputation. OneAccord serves three kinds of business: owners preparing to sell, fast-growing companies missing a key leader (fractional/interim), and turnarounds. Differentiators: middle-market focus, principals who have actually run companies, and moving from strategy (the Client Success Plan, CSP) into execution with fractional and interim leaders. Be candid with partners that our work is a meaningful investment so they can help qualify, but do not quote prices: pricing changes over time and a managing principal guides pricing conversations. Reframe price as value: what is it costing them not to solve the problem. Referral partner meetings: (1) all about them, (2) about OneAccord, (3) showcase sample work such as a sample CSP, (4) agree a plan for introductions; then stay in touch 3-4 times a year. Firm-to-firm partnerships exist, but each principal owns individual relationships. 90-day targets: map 30-50 potential partners, 10-15 active relationships, 3-5 warm introductions. Log partners in Zoho CRM's Referral Partners module."
+    },
+    {
+      "type": "links",
+      "html": "<div class='callout'><strong>Keep using this after training:</strong> For call prep, talk tracks, and ongoing resources, use the OneAccord Sales Coach on the Sales & Marketing site.</div>",
+      "links": [
+        {
+          "label": "OneAccord Sales Coach & resources",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/SitePages/Home.aspx"
+        },
+        {
+          "label": "OneAccord Sales Playbook",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/OneAccord-Sales-Playbook.pdf"
+        },
+        {
+          "label": "The B.U.Y.E.R.S. Journey",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/The%20B.U.Y.E.R.S.%20Journey.pdf"
+        }
+      ]
+    }
+  ]
+}

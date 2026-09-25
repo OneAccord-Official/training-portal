@@ -18,11 +18,11 @@
       "id": "sales-training",
       "title": "OneAccord Sales Training",
       "lessons": [
-        { "id": "module-1", "title": "1. Engaging with Referral Partners", "status": "pending" },
-        { "id": "module-2", "title": "2. Qualifying Clients", "status": "pending" },
-        { "id": "module-3", "title": "3. Leveraging Community", "status": "pending" },
-        { "id": "module-4", "title": "4. Gracefully Declining an Engagement", "status": "pending" },
-        { "id": "module-5", "title": "5. Closing, Trust & Credibility", "status": "pending" }
+        { "id": "module-1", "title": "1. Engaging with Referral Partners", "status": "ready" },
+        { "id": "module-2", "title": "2. Qualifying Clients", "status": "ready" },
+        { "id": "module-3", "title": "3. Leveraging Community to Serve", "status": "ready" },
+        { "id": "module-4", "title": "4. Gracefully Declining an Engagement", "status": "ready" },
+        { "id": "module-5", "title": "5. Closing Deals: Trust & Credibility", "status": "ready" }
       ]
     }
   ]

@@ -84,3 +84,37 @@ Graph) to build the index instead of `trainings-index.json`, and writes a row
 to `Completions` instead of `localStorage`. Nothing in `app.js`'s rendering
 logic needs to change — only the two functions marked `TODO(phase 3)` at the
 bottom of `js/app.js`.
+
+## Sales Training (5 modules) and the AI coach
+
+The OneAccord Sales Training lives in `data/trainings/sales-training/module-1.json` … `module-5.json`.
+Each module follows the same flow: **video** (SharePoint embed, with "open in SharePoint" and
+"read the transcript" fallbacks) → short **learn** sections → **multiple-choice** knowledge check →
+an AI-graded **scenario** (4 rubric points, 3 to pass) → a **Game Plan** section the AI reviews →
+an optional **reflection**. Module 5 ends by assembling every Game Plan section into one
+downloadable plan (Word or print/PDF).
+
+New block types (all in `js/app.js`): `links`, `scenario`, `deliverable`, `reflection`, `gameplan`.
+The `video` block also now accepts `note`, `links` and `confirmText`.
+
+### The coach function (`netlify/functions/coach.js`)
+
+Scenario grading, Game Plan reviews and reflection replies call a Netlify Function that talks to
+the Claude API.
+
+- **Setup:** in Netlify → Site configuration → Environment variables, add `ANTHROPIC_API_KEY`.
+  Optionally set `ANTHROPIC_MODEL` (default `claude-sonnet-4-6`). Redeploy.
+- **Security:** the browser only sends ids and the learner's text. The function reads the rubric
+  and criteria from the published lesson JSON itself, so it can't be used as a general AI proxy.
+  Ids are validated and input length is capped.
+- **Until the key is set:** the training still works. Scenarios fall back to a self-check against
+  the rubric, and Game Plan sections save without review.
+
+### Editing content
+
+To change a rubric, question, or text, edit the module JSON and push; Netlify redeploys. Keep
+each scenario's `rubric` to 4 points and keep `id`s stable (`scenario`, `gameplan-piece`,
+`reflection`), because the Game Plan and the coach look blocks up by id.
+
+Progress, scenario scores and Game Plan drafts are stored in the learner's browser for now
+(`localStorage`). The SharePoint Training Completions wiring replaces this later.

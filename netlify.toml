@@ -12,3 +12,6 @@
 #   for = "/*"
 #   [headers.values]
 #     Content-Security-Policy = "frame-ancestors 'self' https://<tenant>.sharepoint.com"
+
+[functions]
+  directory = "netlify/functions"

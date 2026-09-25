@@ -1,0 +1,180 @@
+{
+  "id": "module-3",
+  "title": "Module 3: Leveraging Community to Serve",
+  "completionTitle": "You've completed Module 3: Leveraging Community to Serve",
+  "keyConcepts": [
+    "Running a 30–60 minute discovery interview",
+    "Going deep on where the need actually sits",
+    "Relationships transcend the transaction",
+    "Using the OneAccord community, not flying solo",
+    "A plenty mindset"
+  ],
+  "nextTeaser": "Next, Module 4 covers the hardest skill in sales: gracefully declining when it isn't the right fit.",
+  "nextLessonId": "module-4",
+  "resources": [
+    {
+      "label": "OneAccord Sales Coach & resources",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/SitePages/Home.aspx"
+    },
+    {
+      "label": "OneAccord Sales Playbook",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/OneAccord-Sales-Playbook.pdf"
+    },
+    {
+      "label": "The B.U.Y.E.R.S. Journey",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/The%20B.U.Y.E.R.S.%20Journey.pdf"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Module 3 of 5.</strong> Run a deep discovery conversation to find exactly what a client needs, then draw on the OneAccord community to serve it. You don't have to have every answer.</p><p>Here's how this module works: watch the video, work through a few short sections, answer a quick knowledge check, respond to a scenario (your coach grades it, and 3 of 4 points passes), then build one piece of your personal <strong>Sales Game Plan</strong>.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/_layouts/15/embed.aspx?UniqueId=180e2ef8-b17a-46c2-aa47-54f8c994d71b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "OneAccord Sales Video 3 - Qualifying Clients part 2 Leveraging Community",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/03%20Sales%20Enablement/Training%20Videos/OneAccord%20Sales%20Video%203%20-%20Qualifying%20Clients%20part%202%20Leveraging%20Community.mp4"
+        },
+        {
+          "label": "Read the transcript",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/03%20Sales%20Enablement/Training%20Videos/3%20Transcript%20OneAccord%20Sales%20Video%203%20-%20Qualifying%20Clients%20part%202%20Leveraging%20Community.docx?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. Relationships transcend the transaction</h3><ul><li>Ask what else you can help with. Do they have the right banker, wealth advisor, accountant, attorney or insurance? Only ask if you mean it.</li><li><strong>Use the community.</strong> When a snow-removal client couldn't get road salt, one note to the OneAccord community found a supplier. Needs and help flow both ways.</li><li><strong>Don't fly solo.</strong> Working with others gives you objectivity, and it keeps you from being used by one owner against another.</li><li><strong>Plenty mindset, not scarcity.</strong> If someone else is the best fit, refer them. More will come.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. The discovery interview (30–60 minutes)</h3><p>The prospect should do <strong>at least 70%</strong> of the talking. Cover the playbook's discovery areas: current objectives, challenges, what success looks like, decision drivers, timelines, and their strengths, weaknesses, opportunities, threats and <em>dreams</em>.</p><p>Then go deep on where the need actually sits:</p><table><tr><th>Area</th><th>Go deeper: is it…</th><th>Try asking</th></tr><tr><td>Revenue: sales</td><td>Sales development? A sales playbook? Building a sales org from scratch, including hiring?</td><td>\"Walk me through how a new customer finds you and buys today.\"</td></tr><tr><td>Revenue: marketing</td><td>Branding? Messaging? Website? Content?</td><td>\"How would your best customer describe what makes you different?\"</td></tr><tr><td>Operations</td><td>Technology and systems? Physical operations or logistics?</td><td>\"Where do things get stuck or break as you grow?\"</td></tr><tr><td>Leadership and team</td><td>A missing leader (fractional or interim)? Alignment among owners? Talent?</td><td>\"If you could add one leader tomorrow, what seat would it be?\"</td></tr><tr><td>Finance and exit</td><td>Profitability? Readiness for a sale? Succession?</td><td>\"If you sold in 3–5 years, what would need to be true?\"</td></tr></table>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. The OneAccord community</h3><p>Twenty-five years have built a network of <strong>hundreds of professionals</strong> across disciplines. With the OneAccord brand behind you, you don't need every answer. We have a solution for almost any qualified client.</p><ul><li>Bring 2–3 OneAccord teammates into early conversations when the need is outside your expertise.</li><li>Keeping opportunities outside your expertise to yourself is a trap. Connect the prospect to the right colleague or partner.</li><li>Where OneAccord doesn't serve a need directly (for example, full-time CFO or CHRO placement), we partner with firms that do.</li></ul><p>OneAccord is the opposite of <em>discord</em>. Companies often underperform because owners or leaders aren't aligned. We bring alignment.</p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "In a discovery interview, roughly how much should the prospect be talking?",
+      "options": [
+        "About half",
+        "At least 70%",
+        "About 25%, since you're the expert",
+        "It doesn't matter"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Listen far more than you talk.",
+      "feedbackIncorrect": "Aim for the prospect talking at least 70% of the time."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "An owner says, \"Our sales are flat.\" What's the best next step?",
+      "options": [
+        "Propose a fractional CRO",
+        "Dig deeper: is it the sales process, marketing, operations or capacity?",
+        "Offer a sales training workshop",
+        "Move on to budget"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Exactly. Flat sales can come from sales, marketing or operations. Don't be a hammer looking for a nail.",
+      "feedbackIncorrect": "Dig deeper first. Flat sales might be an operations or marketing problem, not a sales one."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "The need is mostly outside your expertise. What do you do?",
+      "options": [
+        "Stretch to cover it yourself",
+        "Decline the opportunity",
+        "Bring the right OneAccord teammate or partner into the conversation",
+        "Refer them to a competitor"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct. That's what the community is for.",
+      "feedbackIncorrect": "Bring in the right teammate or partner. You don't have to fly solo."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A co-owner asks you to back his side in a disagreement with his partner. What's the biggest risk?",
+      "options": [
+        "Losing the deal",
+        "Being used as one owner's advocate instead of serving the whole business",
+        "The engagement taking too long",
+        "There's no risk"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Stay objective. Bringing in a colleague helps.",
+      "feedbackIncorrect": "The risk is being used by one owner. Our value is alignment, not taking sides."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>In a first meeting, the owner of a $45M distributor says: <em>\"We're growing, but everything feels chaotic, and honestly I'm tired.\"</em></p><p>List the five discovery questions you'd ask next, and say who in the OneAccord community you might involve depending on the answers.</p>",
+      "rubric": [
+        "Questions are open-ended, not yes/no",
+        "Questions probe at least two different areas (for example operations and leadership)",
+        "At least one question uncovers the owner's personal goals or 'dreams'",
+        "Names a sensible way to involve the OneAccord community rather than solving it alone"
+      ],
+      "passThreshold": 3,
+      "coachContext": "Run a deep 30-60 minute discovery interview; the prospect should talk at least 70% of the time. Playbook discovery areas: current objectives, challenges, definitions of success, decision drivers, timelines, plus strengths, weaknesses, opportunities, threats and dreams. Go deep on where the need sits: revenue/sales (sales development, a sales playbook, building a sales org including hiring), marketing (branding, messaging, website, content), operations (technology, physical operations/logistics), leadership and team (missing leader, owner alignment, talent), finance and exit (profitability, readiness for sale, succession). Relationships transcend the transaction: add value beyond the deal (the right banker, wealth advisor, accountant, attorney), and only ask if you mean it. The OneAccord community is hundreds of professionals built over 25 years; bring 2-3 teammates into early conversations when the need is outside your expertise. Hoarding opportunities is a trap. Don't fly solo: others give objectivity and keep you from being used by one owner against another. OneAccord is the opposite of discord; we bring alignment. Plenty mindset, not scarcity: if someone else is the best fit, refer them."
+    },
+    {
+      "type": "deliverable",
+      "id": "gameplan-piece",
+      "title": "My Discovery Guide",
+      "promptHtml": "<p>Build your own discovery guide, in your own words, that you'll actually use in your next discovery meeting.</p>",
+      "fields": [
+        {
+          "id": "questions",
+          "label": "Your 15 discovery questions, across at least 4 areas",
+          "rows": 12
+        },
+        {
+          "id": "community",
+          "label": "3 OneAccord colleagues or community members, and the needs you'd bring each of them into",
+          "rows": 5
+        }
+      ],
+      "criteria": [
+        "Questions cover at least 4 areas (for example sales, marketing, operations, leadership, finance/exit)",
+        "Questions are open-ended and in the learner's own voice",
+        "Includes at least one question about the owner's personal goals",
+        "Community contacts are specific and matched to realistic needs"
+      ],
+      "coachContext": "Run a deep 30-60 minute discovery interview; the prospect should talk at least 70% of the time. Playbook discovery areas: current objectives, challenges, definitions of success, decision drivers, timelines, plus strengths, weaknesses, opportunities, threats and dreams. Go deep on where the need sits: revenue/sales (sales development, a sales playbook, building a sales org including hiring), marketing (branding, messaging, website, content), operations (technology, physical operations/logistics), leadership and team (missing leader, owner alignment, talent), finance and exit (profitability, readiness for sale, succession). Relationships transcend the transaction: add value beyond the deal (the right banker, wealth advisor, accountant, attorney), and only ask if you mean it. The OneAccord community is hundreds of professionals built over 25 years; bring 2-3 teammates into early conversations when the need is outside your expertise. Hoarding opportunities is a trap. Don't fly solo: others give objectivity and keep you from being used by one owner against another. OneAccord is the opposite of discord; we bring alignment. Plenty mindset, not scarcity: if someone else is the best fit, refer them."
+    },
+    {
+      "type": "reflection",
+      "id": "reflection",
+      "prompt": "Which area do you tend to skip in discovery because it's outside your comfort zone?",
+      "coachContext": "Run a deep 30-60 minute discovery interview; the prospect should talk at least 70% of the time. Playbook discovery areas: current objectives, challenges, definitions of success, decision drivers, timelines, plus strengths, weaknesses, opportunities, threats and dreams. Go deep on where the need sits: revenue/sales (sales development, a sales playbook, building a sales org including hiring), marketing (branding, messaging, website, content), operations (technology, physical operations/logistics), leadership and team (missing leader, owner alignment, talent), finance and exit (profitability, readiness for sale, succession). Relationships transcend the transaction: add value beyond the deal (the right banker, wealth advisor, accountant, attorney), and only ask if you mean it. The OneAccord community is hundreds of professionals built over 25 years; bring 2-3 teammates into early conversations when the need is outside your expertise. Hoarding opportunities is a trap. Don't fly solo: others give objectivity and keep you from being used by one owner against another. OneAccord is the opposite of discord; we bring alignment. Plenty mindset, not scarcity: if someone else is the best fit, refer them."
+    },
+    {
+      "type": "links",
+      "html": "<div class='callout'><strong>Keep using this after training:</strong> Ask the OneAccord Sales Coach for qualifying and discovery questions when you prep for a call.</div>",
+      "links": [
+        {
+          "label": "OneAccord Sales Coach & resources",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/SitePages/Home.aspx"
+        },
+        {
+          "label": "OneAccord Sales Playbook",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/OneAccord-Sales-Playbook.pdf"
+        },
+        {
+          "label": "The B.U.Y.E.R.S. Journey",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/SalesandMarketing/Shared%20Documents/05%20OneAccord%20Sales%20Playbook/The%20B.U.Y.E.R.S.%20Journey.pdf"
+        }
+      ]
+    }
+  ]
+}
