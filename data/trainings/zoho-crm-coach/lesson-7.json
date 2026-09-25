@@ -1,0 +1,73 @@
+{
+  "id": "lesson-7",
+  "title": "Lesson 7: Using AI Alongside Zoho",
+  "completionTitle": "You've completed Lesson 7: Using AI Alongside Zoho",
+  "keyConcepts": [
+    "What Zia can help you do inside Zoho",
+    "Asking Zia natural-language questions about your data",
+    "Using Claude to search records and get answers about your pipeline",
+    "Why Claude can't move a Blueprint stage for you — and the link workaround"
+  ],
+  "nextTeaser": "The next lesson covers reports, analytics, and the Zoho CRM mobile app — how to track your performance and stay productive in the field.",
+  "nextLessonId": "lesson-8",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>OneAccord wants you leaning on AI to work faster in Zoho, not fighting the system by hand. This lesson covers two different AI tools you have access to: Zia, Zoho's own built-in assistant, and Claude, which is connected directly to our Zoho environment.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. Zia: Zoho's Built-In AI</h3><p>Zia is Zoho's artificial intelligence, built into the CRM itself. She watches patterns, answers questions, and helps you maintain data integrity — all without leaving Zoho.</p><ul><li><strong>Ask About Your Data:</strong> Type or say a natural-language question like \"Show my Buyer's Journeys closing this month\" or \"What's my revenue this quarter?\" and Zia will pull the answer.</li><li><strong>Data Enrichment:</strong> If you have a company's website, Zia can often \"crawl\" the web to find their address, social media profiles, and description for you.</li><li><strong>Best Time to Contact:</strong> Zia analyzes when a contact usually opens your emails or answers their phone and suggests the \"Best Time to Contact\" right on their profile.</li><li><strong>Reminders:</strong> Zia will alert you if she thinks you've forgotten to follow up on a promising record.</li><li><strong>Tasks &amp; Meetings by Voice or Text:</strong> You can ask Zia to set a reminder, create a task, or schedule a meeting or call, using either voice or typed text.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Look for the Zia icon in the bottom right corner of your screen (or the search bar). Click it and try typing a question like \"Show my Buyer's Journeys closing this month.\"",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Click on the three dots in the top right hand corner of a record and click on the \"Enrich Data\" option.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Claude: Your AI Assistant, Connected to Zoho</h3><p>If you have Claude access at OneAccord, it's connected directly to our Zoho environment — meaning you can talk to it about your actual records, not just ask generic questions.</p><p>Things you can ask Claude to do:</p><ul><li><strong>Search your records:</strong> \"Find all my open Leads from this month\" or \"Pull up the Buyer's Journey for [Company].\"</li><li><strong>Ask questions about your pipeline:</strong> \"Which of my Contacts haven't I talked to in 30 days?\" or \"Summarize where things stand with [Contact].\"</li><li><strong>Update records:</strong> Add or update notes, log a call or meeting, or fill in details on a Lead, Contact, Company, or Buyer's Journey record.</li></ul><p><strong>What Claude can't do:</strong> Move a record to the next Blueprint stage. Stage transitions are gated by Zoho's Blueprint buttons, which require a manual click in the CRM itself — Claude can't push that button for you. The best practice: ask Claude for a direct link to the record, then open it in Zoho and click the transition yourself.</p>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Ask Claude a question about one of your own Leads or Buyer's Journey records — for example, ask it to summarize where things stand, or ask for a direct link to a specific record.",
+      "confirmText": "I've completed this activity — continue"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Which of these is something Zia can help you do?",
+      "options": [
+        "Move a Buyer's Journey record to the next Blueprint stage automatically",
+        "Suggest the best time to contact a Lead based on their email and call patterns",
+        "Sign a contract on your behalf",
+        "Approve a Managing Principal's review"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct — Zia's Best Time to Contact feature analyzes patterns and suggests when to reach out.",
+      "feedbackIncorrect": "Zia can suggest the best time to contact a Lead based on their email and call patterns — she doesn't move stages or sign anything on your behalf."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Why can't you just ask Claude to move a record to the next stage of the Buyer's Journey?",
+      "options": [
+        "Claude doesn't have any access to our Zoho environment",
+        "Stage transitions are gated by Zoho's Blueprint buttons, which require a manual click in the CRM",
+        "Only Managing Principals are allowed to move stages",
+        "Blueprints are being retired soon"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct — Blueprint transitions require a manual click in Zoho itself. Ask Claude for a direct link to the record, then click the button yourself.",
+      "feedbackIncorrect": "It's because stage transitions are gated by Zoho's Blueprint buttons, which require a manual click in the CRM. Ask Claude for a link to the record instead, and make the move yourself."
+    }
+  ]
+}

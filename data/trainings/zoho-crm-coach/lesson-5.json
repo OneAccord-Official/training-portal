@@ -1,0 +1,98 @@
+{
+  "id": "lesson-5",
+  "title": "Lesson 5: Working the Buyer's Journey",
+  "completionTitle": "You've completed Lesson 5: Working the Buyer's Journey",
+  "keyConcepts": [
+    "The B.U.Y.E.R.S. framework and what each stage actually requires",
+    "Using Blueprints (\"Blue Boxes\") to advance a Buyer's Journey record",
+    "Recording calls in Teams and using the transcript as proof, not inference",
+    "Stage Corrections",
+    "The 21-Day Nudge"
+  ],
+  "nextTeaser": "The next lesson covers the daily habits that keep your CRM data alive — logging activities, managing tasks, and using Zia, Zoho's AI assistant.",
+  "nextLessonId": "lesson-6",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Services are bought, not sold.</strong> That's the philosophy behind how we work a deal at OneAccord. Your job isn't to push a prospect through a pipeline — it's to help them move through their own buying journey, at their own pace, by earning each step honestly. That's exactly what the Buyer's Journey module (what you'd call \"Opportunities\" or \"Deals\" in a lot of other CRMs) is built to track.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. What is a Buyer's Journey Record?</h3><p>A Buyer's Journey record represents a potential piece of business.</p><ul><li>It is always linked to a Contact (the person) and a Company.</li><li>It has a specific dollar value and an estimated closing date.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Click on the Buyer's Journey module in your sidebar. Open any existing record to see the layout.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. The B.U.Y.E.R.S. Framework</h3><p>Every stage in the pipeline is named for what the <em>prospect</em> has to do — not what you, the rep, believe or hope is true. Each stage requires both conditions below before you move forward:</p><ul><li><strong>Bothered:</strong> The prospect can identify the problem, <em>and</em> can articulate a real sense of urgency.</li><li><strong>Understand:</strong> The prospect can articulate the scope of the problem and their desired outcome, <em>and</em> they inquire how to achieve those objectives.</li><li><strong>Yearning:</strong> The prospect explicitly states their desire — e.g., \"This is what I need\" — <em>and</em> can describe the approach in their own words.</li><li><strong>Explainable:</strong> The prospect can explain the value in their own words, <em>and</em> can defend the decision to their own stakeholders.</li><li><strong>Ready:</strong> The prospect gives a specific verbal commitment — e.g., \"I'm in!\" — <em>and</em> confirms final approval.</li><li><strong>Started:</strong> The prospect signs the contract, <em>and</em> submits payment, <em>and</em> commits resources.</li><li><strong>Finished:</strong> The deal is Closed Won <em>and</em> the engagement itself has been delivered — this is the true finish line, not just the signature.</li></ul><p>Eight rules underpin all of it: Don't skip steps. No urgency = no opportunity. To yearn, they must understand. Yearning must be verbal and mutual. Buyers must be able to justify their decision. Enthusiasm ≠ commitment. If it isn't paid for, it isn't a deal yet. Celebrate the chance to deliver value.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. Moving Through the Pipeline (The Blue Boxes)</h3><p>At OneAccord, we don't just \"drag and drop\" a record forward. We use Blueprints — the colored transition buttons at the top of a Leads or Buyer's Journey record. They act as a guided path, showing you exactly what the next step is.</p><ul><li><strong>Linear Progress:</strong> You must click these buttons to advance the stage.</li><li><strong>Locked Fields:</strong> You may notice the \"Stage\" field is locked — this is intentional! The Blueprint ensures we follow our standardized process and don't skip a step.</li></ul><figure><img src=\"images/lesson-5/buyers-journey-blueprint-understand.png\" alt=\"Buyer's Journey Blueprint showing Current State: Understand, with transition buttons Yearning, Correction - Bothered, Dormant / On Hold, and Lost\"><figcaption>A Buyer's Journey record's Blueprint, currently at the \"Understand\" stage</figcaption></figure>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Look at the top of a Buyer's Journey record. Find the Blue Buttons. These are your action items to move the record forward through B.U.Y.E.R.S.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>4. Prove It, Don't Assume It</h3><p>Because every stage depends on the prospect's own words, not your read of the room, we need real evidence behind every stage move — not a rep's best guess that \"they seemed pretty into it.\"</p><ul><li><strong>Record your calls in Microsoft Teams.</strong> The transcript lives there afterward, so you can go back and find the prospect's exact words — the actual quote that shows they've reached \"This is what I need\" or \"I'm in,\" not just your paraphrase of it.</li><li><strong>The automated call-notes email.</strong> Once this rolls out, you'll get an automated email after your call with notes and a suggested Buyer's Journey stage, formatted so you can copy the relevant language straight into Zoho. It's a shortcut for documentation — you still have to click the Blueprint button yourself to actually move the stage.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Open your Teams calling settings and confirm recording is available for your calls. If you've had a recorded call recently, find its transcript.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>5. Stage Corrections</h3><p>We are all human! If you accidentally move a record to the wrong stage, look for a transition button labeled \"Correction - [stage name]\" (e.g., \"Correction - Bothered\"). This allows you to fix the error without the record getting stuck.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>6. Automation & Notifications</h3><p>Our pipeline has \"eyes.\" You may see automations in Zoho reminding you to take action on a record — these exist to make sure nothing goes stale. A record's \"Last Update\" timestamp is a quick visual cue too: if it's been a while, that's your signal to go get the next real signal from the prospect, not to just click the button anyway.</p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "According to the B.U.Y.E.R.S. framework, what must happen before you move a record from \"Understand\" to \"Yearning\"?",
+      "options": [
+        "30 days must pass in the current stage",
+        "The prospect must explicitly state their desire in their own words, and be able to describe the approach themselves",
+        "The rep decides the prospect seems interested enough",
+        "A Managing Principal must sign off"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct — the prospect has to explicitly state their desire (\"This is what I need\") and describe the approach in their own words before you move to Yearning.",
+      "feedbackIncorrect": "Not quite — the prospect must explicitly state their desire in their own words and be able to describe the approach themselves. It's their words that move the stage, not your read of the room."
+    },
+    {
+      "type": "question",
+      "format": "true_false",
+      "prompt": "True or False: If a prospect seems excited and enthusiastic about your proposal, that's enough to move the record to \"Ready.\"",
+      "correctIndex": 1,
+      "feedbackCorrect": "Right — enthusiasm isn't commitment. \"Ready\" requires a specific verbal commitment (\"I'm in!\") plus confirmed final approval.",
+      "feedbackIncorrect": "False — enthusiasm isn't commitment. \"Ready\" requires a specific verbal commitment (\"I'm in!\") plus confirmed final approval, not just good vibes on the call."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Where should you find the exact words a prospect used to justify moving a record forward?",
+      "options": [
+        "Your own notes summarizing the gist of the call",
+        "The prospect's LinkedIn profile",
+        "The Teams recording/transcript of your call, or the automated call-notes email once it's live",
+        "Zia's Best Time to Contact suggestion"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct — the Teams transcript (and eventually the automated call-notes email) is where you find the prospect's actual words, not your summary of them.",
+      "feedbackIncorrect": "You'd look at the Teams recording/transcript of your call, or the automated call-notes email once it's live — you need their actual words, not your paraphrase."
+    }
+  ]
+}

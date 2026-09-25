@@ -18,7 +18,7 @@
     },
     {
       "type": "text",
-      "html": "<h3>1. Establishing Your Profile</h3><p>A professional profile is essential for internal collaboration. When a colleague sees you assigned to a deal, your photo and title help them identify you immediately.</p><ul><li><strong>Profile Photo:</strong> Upload a high-resolution professional headshot.</li><li><strong>Personal Details:</strong> Verify your Name, Title, and Phone Number.</li><li><strong>Time Zone:</strong> Ensure your time zone is set correctly to prevent calendar booking errors.</li></ul>"
+      "html": "<h3>1. Establishing Your Profile</h3><p>A professional profile is essential for internal collaboration. When a colleague sees you assigned to a deal, your photo and title help them identify you immediately.</p><ul><li><strong>Profile Photo:</strong> Upload a high-resolution professional headshot.</li><li><strong>Personal Details:</strong> Verify your Name, Title, and Phone Number.</li><li><strong>Time Zone:</strong> Ensure your time zone is set correctly to prevent calendar booking errors.</li></ul><figure><img src=\"images/lesson-2/profile-card.png\" alt=\"Zoho profile card showing name, email, User Id, and organization\"><figcaption>Your profile card in Zoho</figcaption></figure>"
     },
     {
       "type": "activity",
@@ -38,17 +38,21 @@
     },
     {
       "type": "text",
-      "html": "<h3>3. The Power of Email Integration</h3><p>This is the most important technical step in your setup. By linking your Outlook/Exchange account, Zoho will automatically \"listen\" for emails from your contacts and log them in the CRM for you.</p><ul><li><strong>Automatic Tracking:</strong> You don't have to manually BCC or copy-paste emails.</li><li><strong>Transparency:</strong> Your team can see the latest correspondence on a deal without asking you for an update.</li></ul><p><strong>How to link your email:</strong> Click the Gear Icon in the top right corner → Channels → Email → select Office 365 / Exchange → follow the prompts to authorize the connection.</p><p><strong>BCC Feature:</strong> If you ever send an email from a private account and want it in the CRM, you can use your unique \"BCC to CRM\" address found in these settings.</p>"
+      "html": "<h3>3. The Power of Email Integration</h3><p>This is the most important technical step in your setup. By linking your Outlook/Exchange account, Zoho will automatically \"listen\" for emails from your contacts and log them in the CRM for you.</p><ul><li><strong>Automatic Tracking:</strong> You don't have to manually BCC or copy-paste emails.</li><li><strong>Transparency:</strong> Your team can see the latest correspondence on a deal without asking you for an update.</li></ul><p><strong>How to link your email:</strong> Click the Gear Icon in the top right corner → Channels → Email → select Office 365 / Exchange (IMAP Integration) → follow the prompts to authorize the connection.</p><figure><img src=\"images/lesson-2/channels-menu.png\" alt=\"Zoho settings Channels menu showing Email and Telephony\"><figcaption>Channels menu, under Setup</figcaption></figure><p><strong>Email Sharing Settings:</strong> Leave this set to \"Public — Shared with Everyone\" (the default) so your teammates can see correspondence on shared deals.</p><p><strong>BCC Feature:</strong> If you ever send an email from a private account and want it in the CRM, you can use your unique \"BCC to CRM\" address found in these settings.</p>"
     },
     {
       "type": "activity",
       "label": "Find it now",
-      "instructions": "Navigate to Setup (Gear Icon) → Channels → Email. Check your \"Email Configuration\" status to see if your account is already linked.",
+      "instructions": "Navigate to Setup (Gear Icon) → Channels → Email. Check your \"Configuration Status\" and \"Sync Status\" to see if your account is already linked and syncing (they should read \"Working\" and \"Completed\").",
       "confirmText": "I've completed this activity in Zoho — continue"
     },
     {
       "type": "text",
-      "html": "<h3>4. Your Digital Business Card: The Signature</h3><p>Every email you send from within Zoho should look identical to your standard Outlook signature.</p><ul><li><strong>Standardization:</strong> Use the OneAccord brand standards. You may need to remove the picture to make it a small enough file size to save.</li><li><strong>Links:</strong> Include your Zoho Bookings link (set up in Lesson 3) to make scheduling easier.</li></ul>"
+      "html": "<figure><img src=\"images/lesson-2/email-imap-status.png\" alt=\"Zoho IMAP Integration status showing Configuration Status: Working and Sync Status: Completed\"><figcaption>A successfully linked account — Configuration Status “Working,” Sync Status “Completed”</figcaption></figure>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>4. Your Digital Business Card: The Signature</h3><p>Every email you send from within Zoho should look identical to your standard Outlook signature.</p><ul><li><strong>Standardization:</strong> Use the OneAccord brand standards. You may need to remove the picture to make it a small enough file size to save.</li><li><strong>Links:</strong> Include your Zoho Bookings link (set up in Lesson 3) to make scheduling easier.</li></ul><p>Don't have your OneAccord signature yet? Check with Abby — she manages our signature templates and can get you one.</p><figure><img src=\"images/lesson-2/signature-editor.png\" alt=\"Zoho email signature editor showing a OneAccord signature with photo, name, title, and contact info\"><figcaption>The Email Signature tab, with a OneAccord signature in place</figcaption></figure>"
     },
     {
       "type": "activity",

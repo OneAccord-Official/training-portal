@@ -1,0 +1,90 @@
+{
+  "id": "lesson-4",
+  "title": "Lesson 4: Data Hierarchy & The Lead Flow",
+  "completionTitle": "You've completed Lesson 4: Data Hierarchy & The Lead Flow",
+  "keyConcepts": [
+    "The difference between a Contact and a Company",
+    "Tracking where a Lead is with Lead Status",
+    "Maintaining clean, accurate CRM data",
+    "Why mandatory fields matter",
+    "When to convert a Lead into a Contact, Company, and Buyer's Journey record"
+  ],
+  "nextTeaser": "The next lesson moves from managing people to managing money — working a record through OneAccord's Buyer's Journey pipeline.",
+  "nextLessonId": "lesson-5",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>In this lesson, we define the \"Who\" and the \"Where.\" Understanding the difference between a Lead, a Contact, and a Company is the secret to keeping our database clean and accurate.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. The Three Core Pillars of Data</h3><p>To keep our system organized, Zoho separates people from companies and potential money.</p><ul><li><strong>Contact:</strong> This is the individual person. Every person you interact with should be a Contact record.</li><li><strong>Company:</strong> This is the company. Multiple Contacts (employees) can be linked to a single Company (the employer).</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Look at your left-hand menu. Identify the Companies and Contacts modules. Click on Companies to see a list of companies we are currently tracking.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Tracking Where a Lead Is: Lead Status</h3><p>Every Lead carries a Lead Status field so the whole team knows where things stand without having to ask. Just like the Buyer's Journey pipeline you'll see in the next lesson, you don't just type a new status into the field — you move a Lead forward using its own Blueprint, the colored transition buttons at the top of the record.</p><ul><li><strong>Not Contacted:</strong> A new Lead you haven't reached out to yet. From here you'll see buttons like <strong>Responded</strong>, <strong>No Response</strong>, and <strong>Bad Lead</strong>.</li><li>Behind the scenes, the underlying statuses include Attempted to Contact, Contacted, and Pre-Qualified (a real fit, moving toward converting them), plus outcomes like Contact in Future, Junk Lead, Not Qualified, and Lost Lead for a Lead that isn't going to convert.</li></ul><figure><img src=\"images/lesson-4/lead-blueprint-not-contacted.png\" alt=\"Lead Blueprint showing Current State: Not Contacted, with transition buttons Responded, No Response, and Bad lead\"><figcaption>A Lead's Blueprint, currently at \"Not Contacted\"</figcaption></figure>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Open any Lead record and find its Blueprint at the top. Check the Current State and see what transition buttons are available to move it forward.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. Maintaining Data Excellence</h3><p>Our CRM is only as powerful as the data we put into it. As a Principal, you are the steward of your client information.</p><ul><li><strong>Update Early and Often:</strong> As you work through a deal, please update as much information as you can. Capturing details like job titles, industries, and specific roles ensures our reporting remains accurate.</li><li><strong>Watch for Mandatory Fields:</strong> Throughout the CRM, you will encounter fields marked with a red line or asterisk. These are \"Mandatory Fields\" required for our reporting and analytics. You will be prompted to fill these in before you can save a record or move a deal to the next stage.</li><li><strong>Accuracy is Key:</strong> Ensure that phone numbers, email addresses, and company names stay up-to-date as your relationships evolve.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Click into any Contact record. Scroll through the various sections (General Information, Categorization, etc.). Notice the fields available for you to fill in — the more complete this page is, the better we can serve our clients.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>4. Summary: When to Move Data</h3><ul><li><strong>Stay in Lead if:</strong> You are still attempting to reach them for an initial conversation or have not yet verified they are a fit for our services.</li><li><strong>Convert to Contact/Company/Buyer's Journey if:</strong> You have confirmed a pain point, gathered their essential details, and are moving into a formal sales process.</li></ul><p>The Convert button lives right at the top of a Lead record, next to Send Email and Edit.</p><figure><img src=\"images/lesson-4/lead-convert-buttons.png\" alt=\"Lead record action buttons: Send Email, Convert, Edit, and more, with a Last Update timestamp\"><figcaption>The Convert button on a Lead record</figcaption></figure>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What happens to the Lead record when I click \"Convert\"?",
+      "options": [
+        "It gets deleted permanently",
+        "It disappears and becomes a Contact, a Company, and a Buyer's Journey record",
+        "It moves to the Companies module only, unchanged",
+        "It stays as a Lead but changes status to \"Converted\""
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct — converting a Lead turns it into a Contact, a Company, and a Buyer's Journey record all at once.",
+      "feedbackIncorrect": "Not quite — when you click Convert, the Lead disappears and becomes a Contact, a Company, and a Buyer's Journey record."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What should you do when you encounter a field marked as mandatory?",
+      "options": [
+        "Skip it and come back to it later",
+        "Leave it blank if you don't have the information yet",
+        "Ensure the information is accurate and filled out before attempting to save or transition the record",
+        "Ask your Managing Principal to fill it in for you"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct — mandatory fields need accurate information filled in before you can save or move the record forward.",
+      "feedbackIncorrect": "You need to ensure the information is accurate and filled out before attempting to save or transition the record — mandatory fields will block you otherwise."
+    },
+    {
+      "type": "question",
+      "format": "true_false",
+      "prompt": "True or False: It is okay to leave a Contact record mostly empty as long as I have their email address.",
+      "correctIndex": 1,
+      "feedbackCorrect": "Right — providing as much detail as possible is essential for our reporting and automation.",
+      "feedbackIncorrect": "False — providing as much detail as possible is essential for our reporting and automation, not just an email address."
+    }
+  ]
+}

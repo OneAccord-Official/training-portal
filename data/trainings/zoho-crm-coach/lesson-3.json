@@ -1,0 +1,70 @@
+{
+  "id": "lesson-3",
+  "title": "Lesson 3: Your Personal Bookings Page",
+  "completionTitle": "You've completed Lesson 3: Your Personal Bookings Page",
+  "keyConcepts": [
+    "Personalizing your consultant profile",
+    "Syncing your Outlook calendar and Teams",
+    "Setting working hours and breaks",
+    "Understanding your service templates and buffers",
+    "Testing your live booking link"
+  ],
+  "nextTeaser": "The next lesson covers the CRM's data hierarchy — the difference between Leads, Contacts, and Companies, and when to move data from one to the other.",
+  "nextLessonId": "lesson-4",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>In our commitment to providing a seamless experience for both our consultants and our clients, we are transitioning to Zoho Bookings as our primary scheduling tool. This transition isn't just about moving to a new software; it's about empowering you to own your schedule while maintaining the professional, high-touch brand standards of OneAccord. By centralizing our bookings, we eliminate the back-and-forth of \"calendar tag,\" ensuring that your first touchpoint with a potential client is effortless, organized, and professional.</p><p>This training is designed to give you full control over your personal availability. You will learn how to sync your Outlook calendar to prevent double-bookings, integrate Microsoft Teams for automatic meeting links, and customize your own \"breathing room\" through buffer times and specific working hours. Ultimately, these tools are here to protect your time and allow you to focus on delivering high-value insights to your clients rather than managing administrative logistics.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. Personalizing Your Consultant Profile</h3><p><strong>Goal:</strong> Ensure your booking page looks professional and reflects your individual brand.</p><ul><li>Log in to Zoho Bookings.</li><li>Click on Consultants in the left-hand menu.</li><li>Find your name and open your profile. You'll see tabs across the top: Profile, Availability, Assigned Consultations, and Integrations.</li><li><strong>Upload your Profile Picture.</strong> Use a professional headshot — this is the first thing clients see.</li><li><strong>Write your Bio.</strong> Briefly explain your expertise (1–2 sentences). This builds trust before the client even clicks a time slot.</li><li><strong>Verify your Booking URL.</strong> It should follow the format bookings.oneaccord.co/&lt;yourname&gt;.</li></ul><figure><img src=\"images/lesson-3/bookings-left-nav.png\" alt=\"Zoho Bookings left-hand menu showing Appointments, Consultations, Schedules, Workflows, Consultants, and Booking Pages\"><figcaption>The Bookings left-hand menu</figcaption></figure><figure><img src=\"images/lesson-3/profile-tabs-card.png\" alt=\"Consultant profile view with Profile, Availability, Assigned Consultations, and Integrations tabs\"><figcaption>Your consultant profile</figcaption></figure>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Log in to Zoho Bookings and open Consultants in the left-hand menu. Find your profile and take a moment to verify your profile picture, bio, and booking URL.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Syncing Your Outlook Calendar & Teams</h3><p><strong>Goal:</strong> Prevent double-bookings and automate your meeting links.</p><ul><li>In your profile, click on the Integrations tab.</li><li>Find Office 365 / Outlook Calendar and click Configure. Follow the prompts to sign in.</li><li>Ensure \"Check for Conflicts\" is turned ON for your primary work calendar.</li><li>Find Microsoft Teams in the Video Conferencing section and click Authorize. This ensures every booking automatically generates a Teams link.</li><li>If you have other calendars that need to be checked for conflicts, link them here too — this is also where you can double-check that everything is syncing accurately.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "In your profile, open the Integrations tab. Confirm Office 365 / Outlook Calendar is connected with \"Check for Conflicts\" turned on, and that Microsoft Teams is authorized under Video Conferencing.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. Setting Your Working Hours & Breaks</h3><p><strong>Goal:</strong> Control exactly when you are available for meetings.</p><ul><li>In your profile, go to the Availability tab.</li><li>Select \"Customize working hours for this staff.\"</li><li>Set your start and end times for each day.</li><li><strong>Add Breaks.</strong> If you want a daily lunch hour or a \"no-meeting\" block, add it here.</li><li><strong>Time Zone Check.</strong> Ensure your time zone is set correctly to avoid confusion with remote clients.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Go to your profile → Availability tab. Customize your hours for each day, add any breaks you need, and double-check your time zone.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>4. Understanding Your Service Templates</h3><p><strong>Goal:</strong> Review your assigned meeting types and the built-in buffer.</p><ul><li>You are currently assigned to two standard templates: the 30-minute and 60-minute appointment. These are the two OneAccord offers by default — other durations exist in the system for exceptions but aren't meant to be offered on your booking page day-to-day.</li><li><strong>The 15-Minute Buffer:</strong> To ensure you have time for note-taking or preparation, both meeting types include a 15-minute buffer added to the end of the appointment.</li><li>Review your services list in your profile to ensure both options are active. If you notice a template is missing, please contact the Admin.</li><li>Note: you do not need to set the buffer manually — the system automatically protects this time on your calendar.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Review your services list in your Bookings profile. Confirm both the 30-minute and 60-minute appointment templates are active.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>5. Final Review & Live Link Test</h3><p><strong>Goal:</strong> Ensure the client experience is perfect.</p><ul><li>Copy your Individual Booking URL from your profile (bookings.oneaccord.co/&lt;yourname&gt;).</li><li>Open the link in an \"Incognito\" or \"Private\" browser window to see what the client sees.</li><li><strong>The Audit Checklist:</strong> Is your photo visible? Are the 30 and 60-minute options appearing? Does the availability match your Outlook \"Free\" time?</li><li>Once confirmed, add this link to your Outlook Email Signature.</li></ul><p><strong>The Share button</strong> on your profile gives you a few handy extras beyond the plain link: a QR code you can share so someone can open your booking page instantly on their phone, a shortened URL, a one-time-use link, and an option to embed your booking page as a widget elsewhere. Worth exploring if you're handing out your booking link in person or embedding it somewhere other than your email signature.</p><figure><img src=\"images/lesson-3/share-modal-qr.png\" alt=\"Zoho Bookings Share modal showing a QR code, the booking URL, and Shorten Link / One time Link / Embed as Widget options\"><figcaption>The Share modal — QR code, shortened link, and embed options</figcaption></figure>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Copy your Individual Booking URL and open it in a private browser window. Run through the Audit Checklist, then add the link to your Outlook email signature. While you're there, click Share and take a look at the QR code option.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    }
+  ]
+}

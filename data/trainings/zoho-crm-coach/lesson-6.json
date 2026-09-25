@@ -1,0 +1,78 @@
+{
+  "id": "lesson-6",
+  "title": "Lesson 6: Activity Management",
+  "completionTitle": "You've completed Lesson 6: Activity Management",
+  "keyConcepts": [
+    "The Golden Rule: log everything",
+    "Managing automated and self-created tasks",
+    "Email Signals and staying on top of automated reminders"
+  ],
+  "nextTeaser": "Next up: using AI alongside Zoho — Zia's built-in assistant and Claude, connected directly to our CRM.",
+  "nextLessonId": "lesson-7",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>In this lesson, we cover the daily habits that keep our \"Source of Truth\" alive: the correct way to log your interactions and manage your tasks.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. The Golden Rule: Log Everything</h3><p>At OneAccord, we have a simple rule of thumb: \"If it isn't in Zoho, it didn't happen.\" Our system relies on accurate history to ensure that if a Principal is away, another can step in seamlessly. You are expected to log:</p><ul><li><strong>Meetings:</strong> Summary of what was discussed and next steps.</li><li><strong>Calls:</strong> Brief notes on the outcome of the conversation.</li><li><strong>Notes:</strong> General observations or important context about a Contact or Company.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Open any Contact record. Look at the left-hand menu for Notes, Activities, and Closed Activities. This is where the entire history of that relationship lives.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Managing Your Tasks</h3><p>Automations will frequently create tasks for you to keep records from going stale, but the most successful Principals also drive their own schedule.</p><ul><li><strong>Automated Tasks:</strong> These are system-generated \"To-Do\" items to ensure we don't drop the ball on process.</li><li><strong>Self-Created Follow-ups:</strong> You are expected to create manual follow-up tasks for yourself for anything you want to track within an account. If you tell a client \"I'll check back in three weeks,\" create that task immediately so it doesn't live in your head.</li><li><strong>Closing Tasks:</strong> Once you complete an action, you must mark the task as \"Closed.\" This stops the automation from nudging you further and keeps your dashboard clean.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Click on the Tasks module in your sidebar. Switch the view to \"My Open Tasks.\" Try creating a \"Test Follow-up\" task for yourself now using the plus (+) button.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. Automation & Notifications</h3><p>Because we have built-in workflows, you don't always have to remember the next step — Zoho will remind you.</p><ul><li><strong>Email Signals:</strong> When a client opens an email you sent from Zoho, you'll see a \"Signal\" (the bell icon) pop up in real-time.</li><li><strong>Stale-record reminders:</strong> If a record sits untouched for too long, you may get an automated email reminder to check in and update it.</li></ul>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Where should you look to see the full history of interactions with a client?",
+      "options": [
+        "Your personal email inbox",
+        "The Reports module",
+        "The Timeline and Activities sections within their Contact or Company record",
+        "The Social tab"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct — the Timeline and Activities sections within their Contact or Company record hold the full interaction history.",
+      "feedbackIncorrect": "It's the Timeline and Activities sections within their Contact or Company record — that's where the entire relationship history lives."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Besides automated nudges, how should you ensure you don't forget to follow up on a specific account detail?",
+      "options": [
+        "Set a reminder on your phone instead",
+        "Wait for an automated nudge to fire",
+        "Ask Zia to remember it for you",
+        "Manually create a follow-up task for yourself in the Company or Contact record"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Correct — create a manual follow-up task for yourself so it doesn't just live in your head.",
+      "feedbackIncorrect": "You should manually create a follow-up task for yourself in the Company or Contact record, rather than relying on memory or automation alone."
+    },
+    {
+      "type": "question",
+      "format": "true_false",
+      "prompt": "True or False: Marking a task as \"Closed\" is necessary to stop automated nudges.",
+      "correctIndex": 0,
+      "feedbackCorrect": "Right — closing a task stops the automation from continuing to nudge you and keeps your dashboard clean.",
+      "feedbackIncorrect": "Actually, this is True — marking a task \"Closed\" stops the automated nudges and keeps your dashboard clean."
+    }
+  ]
+}

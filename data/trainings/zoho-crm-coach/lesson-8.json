@@ -1,0 +1,88 @@
+{
+  "id": "lesson-8",
+  "title": "Lesson 8: Reports, Analytics & Mobile",
+  "completionTitle": "You're complete! Thanks for finishing the Zoho CRM Training Coach curriculum",
+  "keyConcepts": [
+    "Finding your performance dashboards and standard reports",
+    "Scheduling recurring reports",
+    "Using the Zoho CRM mobile app in the field",
+    "The OneAccord Standard recap"
+  ],
+  "nextTeaser": "That's the full Zoho CRM Training Coach curriculum — feel free to revisit any lesson any time from the nav on the left.",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>In this lesson, we look at how to measure your success and stay productive while in the field. You will learn how to access your performance metrics and how to use the mobile app to keep your records current.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. Finding Your Performance Data</h3><p>Data is only useful if it's visible. Your OneAccord Home page and the Analytics module both give you real-time visibility into where things stand.</p><ul><li><strong>Home Page Tiles:</strong> Your Home page shows quick-glance tiles like My Open Buyer's Journeys, My Untouched Buyer's Journeys, My Calls Today, and My Leads.</li><li><strong>Analytics Dashboards:</strong> The Analytics module has fuller dashboards — like Org Overview — showing figures such as Leads This Month, Revenue This Month, Buyer's Journeys in Pipeline, and Companies This Month, plus charts like Leads by Source and Projected Revenue.</li><li><strong>Standard Reports:</strong> Pre-built lists that show things like \"Buyer's Journeys Closing This Month\" or \"Companies by Industry.\"</li></ul><figure><img src=\"images/lesson-8/home-tiles.png\" alt=\"OneAccord Home page tiles: My Open BUYERS Journeys, My Untouched BUYERS Journeys, My Calls Today, My Leads\"><figcaption>Your Home page tiles</figcaption></figure><figure><img src=\"images/lesson-8/org-overview-dashboard.png\" alt=\"Analytics Org Overview dashboard showing Leads This Month, Revenue This Month, Buyers Journeys in Pipeline, Companies This Month, Leads by Source, and Projected Revenue\"><figcaption>The Analytics module's Org Overview dashboard</figcaption></figure>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "From the top navigation bar, click Analytics. Open the Org Overview dashboard (or whichever one applies to you) to see the current company snapshot.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Scheduling Reports</h3><p>You don't always have to log in to see your numbers. You can schedule Zoho to email you a PDF or Excel version of any report on a recurring basis (e.g., every Monday morning).</p><ul><li><strong>Permissions:</strong> If you find you cannot see a specific report, check with the Administrator to make sure your Profile and Role are set correctly.</li></ul><figure><img src=\"images/lesson-8/report-scheduler.png\" alt=\"Report Scheduler screen with a New Report Scheduler button and Scheduler Next Run On column\"><figcaption>The Report Scheduler</figcaption></figure>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "Go to the Reports module. Find a report you'd like to receive on a recurring basis and click New Report Scheduler to set it up.",
+      "confirmText": "I've completed this activity in Zoho — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. The Zoho CRM Mobile App</h3><p>As a Principal, much of your work happens away from your desk. The mobile app ensures you can fulfill the \"Golden Rule\" (Log Everything) the moment a meeting or phone call ends.</p><ul><li><strong>Calls:</strong> Make calls directly from the app. Log calls that come in to your cell phone immediately after the calls.</li><li><strong>Check-in:</strong> When you arrive at a client's office, use the \"Check-in\" button. This logs your location and time, proving the activity took place.</li><li><strong>Voice-to-Text:</strong> Don't wait until you get home to type notes. Use your phone's microphone to dictate meeting outcomes directly into the \"Notes\" section of the record.</li><li><strong>Map View:</strong> Use the \"Near Me\" feature to see a map of all your Companies and Contacts in your current vicinity — perfect for \"drop-in\" visits when a meeting ends early.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "Action Item",
+      "instructions": "If you haven't already, open the Zoho CRM app on your phone and find your Agenda for the day.",
+      "confirmText": "I've completed this — continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>4. Final Review: The OneAccord Standard</h3><p>You have now completed the core training for our CRM. To be successful, remember:</p><ul><li>one.zoho.com is your home base for follow-along work.</li><li>Blueprints (The Blue Boxes) drive every stage of the B.U.Y.E.R.S. pipeline.</li><li>Every stage move needs proof in the prospect's own words — record your calls in Teams.</li><li>If it isn't in Zoho, it didn't happen.</li></ul>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Where can you find a visual summary of your sales pipeline?",
+      "options": [
+        "The Tasks module",
+        "The Analytics or Dashboards module",
+        "The Social tab",
+        "Your email inbox"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct — the Analytics (Dashboards) module gives you a visual summary of your pipeline.",
+      "feedbackIncorrect": "You'll find it in the Analytics or Dashboards module — that's where your dashboards, like Org Overview, live."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What is a major benefit of using the \"Check-in\" feature on the mobile app?",
+      "options": [
+        "It automatically schedules your next appointment",
+        "It sends a satisfaction survey to the client",
+        "It automatically logs the time and location of your client meeting for reporting",
+        "It updates the Buyer's Journey stage automatically"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct — Check-in logs your location and time at a client site so your activity reporting stays accurate.",
+      "feedbackIncorrect": "Check-in automatically logs the time and location of your client meeting for accurate activity reporting."
+    },
+    {
+      "type": "question",
+      "format": "true_false",
+      "prompt": "True or False: You can schedule Zoho to automatically email you a specific report every week.",
+      "correctIndex": 0,
+      "feedbackCorrect": "Right — you can schedule any report as a recurring PDF or Excel email, e.g., every Monday morning.",
+      "feedbackIncorrect": "Actually, this is True — you can schedule Zoho to email you a PDF or Excel version of any report on a recurring basis."
+    }
+  ]
+}

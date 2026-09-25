@@ -22,7 +22,7 @@
     },
     {
       "type": "text",
-      "html": "<h3>Navigation Mastery: Suite vs. Workspace</h3><p><strong>Zoho One (one.zoho.com) — The Suite:</strong> Think of this as your Dashboard. It is the unified interface that gives you access to every Zoho app we use (CRM, Campaigns, Bookings, etc.) in one browser tab. This is the view we will be using throughout this training.</p><p><strong>Zoho CRM (crm.zoho.com) — The Workspace:</strong> This is your Engine Room. It focuses exclusively on the sales pipeline, contacts, and accounts.</p>"
+      "html": "<h3>Navigation Mastery: Suite vs. Workspace</h3><p><strong>Zoho One (one.zoho.com) — The Suite:</strong> Think of this as your Dashboard. It is the unified interface that gives you access to every Zoho app we use (CRM, Campaigns, Bookings, etc.) in one browser tab. This is the view we will be using throughout this training.</p><p><strong>Zoho CRM (crm.zoho.com) — The Workspace:</strong> This is your Engine Room. It focuses exclusively on the sales pipeline, contacts, and companies.</p><figure><img src=\"images/lesson-1/zoho-one-sidebar-crm.png\" alt=\"Zoho One sidebar with the CRM app pinned\"><figcaption>The CRM icon under Pinned Apps in your Zoho One sidebar</figcaption></figure>"
     },
     {
       "type": "activity",
@@ -32,7 +32,7 @@
     },
     {
       "type": "text",
-      "html": "<h3>The Top Bar: Your Universal Tools</h3><p>The icons at the top of your screen are your \"Quick Access\" tools available from any page.</p><ul><li><strong>Global Search:</strong> Type a name, phone number, or company. Zoho searches across all modules.</li><li><strong>The Plus (+) Icon:</strong> Your \"Quick Create.\" Use this to add a new Task, Meeting, or Inquiry without leaving your current page.</li><li><strong>The Bell (Notifications):</strong> Your command center for alerts, mentions from colleagues, or task reminders.</li><li><strong>Zia (The AI Assistant):</strong> Ask Zia questions like \"What is my revenue for this month?\"</li></ul>"
+      "html": "<h3>The Top Bar: Your Universal Tools</h3><p>The icons at the top of your screen are your \"Quick Access\" tools available from any page.</p><ul><li><strong>Global Search:</strong> Type a name, phone number, or company. Zoho searches across all modules.</li><li><strong>The Plus (+) Icon:</strong> Your \"Quick Create.\" Use this to add a new Task, Meeting, or Lead without leaving your current page.</li><li><strong>The Bell (Notifications):</strong> Your command center for alerts, mentions from colleagues, or task reminders.</li><li><strong>Zia (The AI Assistant):</strong> Ask Zia questions like \"What is my revenue for this month?\"</li></ul><figure><img src=\"images/lesson-1/top-bar-icons.png\" alt=\"Zoho CRM top bar icons\"><figcaption>The top bar: search, Zia, quick create, and more</figcaption></figure>"
     },
     {
       "type": "activity",
@@ -42,16 +42,16 @@
     },
     {
       "type": "text",
-      "html": "<h3>The Bottom Bar: Real-Time Communication</h3><p>The bottom of your screen stays pinned as you navigate:</p><ul><li><strong>Cliq (Chats & Channels):</strong> An internal communication tool.</li><li><strong>Recent Items:</strong> Click the clock icon to see the last five records you visited.</li><li><strong>Reminders:</strong> The alarm clock icon shows activities due right now.</li></ul>"
+      "html": "<h3>The Bottom Bar: Real-Time Communication</h3><p>The bottom of your screen stays pinned as you navigate:</p><ul><li><strong>Cliq (Chats & Channels):</strong> An internal communication tool.</li><li><strong>Recent Items:</strong> Click the clock icon to see the last five records you visited.</li><li><strong>Reminders:</strong> The alarm clock icon shows activities due right now.</li></ul><figure><img src=\"images/lesson-1/bottom-bar-icons.png\" alt=\"Zoho CRM bottom bar icons\"><figcaption>The bottom bar: reminders, recent items, and support tools</figcaption></figure>"
     },
     {
       "type": "text",
-      "html": "<h3>The Menu: The CRM Modules</h3><p>The sidebar (or top menu depending on your view) organizes our data. We primarily use:</p><ul><li><strong>Contact:</strong> Individual people.</li><li><strong>Account:</strong> The companies those people work for.</li><li><strong>Referral Partners:</strong> A list of people or companies who refer business to us.</li><li><strong>Tasks, Meetings, & Calls:</strong> Your daily activity logs.</li></ul>"
+      "html": "<h3>The Menu: The CRM Modules</h3><p>The sidebar (or top menu depending on your view) organizes our data. Here's what you'll see today:</p><ul><li><strong>Contacts:</strong> Individual people.</li><li><strong>Companies:</strong> The companies those people work for. (You may still hear people call this \"Accounts\" — same module, new name.)</li><li><strong>Leads:</strong> Incoming prospects you're still qualifying, before you've confirmed they're a fit. This is what used to be called \"Inquiries.\"</li><li><strong>Buyer's Journey:</strong> Your sales pipeline once a Lead becomes a real opportunity. We'll cover this in depth in a later lesson.</li><li><strong>Referral Partners:</strong> Its own module for tracking who refers business to us — you'll also see it as a lookup field on Leads and Buyer's Journey records, so we always know who to credit for a deal.</li><li><strong>Tasks, Meetings, & Calls:</strong> Your daily activity logs.</li></ul><p>You'll notice a few other items in the menu too, like NAICS Codes — that's a lookup field used to segment Companies and Leads by industry, rather than a place you'll spend much day-to-day time.</p><figure><img src=\"images/lesson-1/crm-left-nav-menu.png\" alt=\"Zoho CRM left-hand navigation menu showing Leads, Buyer's Journey, Contacts, Companies, Referral Partners, and Activities\"><figcaption>Your CRM left-hand menu</figcaption></figure>"
     },
     {
       "type": "activity",
       "label": "Find it now",
-      "instructions": "Find the Inquiries module in your menu. Click it to see the list of incoming prospects.",
+      "instructions": "Find the Leads module in your menu. Click it to see the list of incoming prospects.",
       "confirmText": "I've completed this activity in Zoho — continue"
     },
     {
