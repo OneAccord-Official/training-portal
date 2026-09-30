@@ -331,6 +331,33 @@ body {
 .gameplan p { margin-top: 0; line-height: 1.5; }
 .muted { color: var(--oa-gray-600); }
 
+/* ---------- Email gate (identifies the learner for completion tracking) ---------- */
+.email-gate {
+  max-width: 420px;
+  background: #fff;
+  border: 1px solid var(--oa-gray-300);
+  border-radius: var(--oa-radius);
+  padding: 24px;
+}
+
+.email-gate h2 { margin-top: 0; font-size: 1.15rem; }
+.email-gate p { color: var(--oa-gray-600); font-size: 0.9rem; }
+
+.email-gate input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--oa-gray-300);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.email-gate .error {
+  color: var(--oa-red);
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 760px) {
   .portal { flex-direction: column; }
   .portal-nav { width: 100%; }
