@@ -1,0 +1,101 @@
+{
+  "id": "lesson-1",
+  "title": "Lesson 1: The OneAccord Digital Standard",
+  "completionTitle": "You've completed Lesson 1: The OneAccord Digital Standard",
+  "keyConcepts": [
+    "Why we standardize: less noise, searchable history, room to grow",
+    "Every tool has an intended use",
+    "The five places work lives: Outlook, channel posts, private chat, Ninety.io Headlines, and the SharePoint Hub",
+    "The quick test: does this need a record, a response, or a meeting?"
+  ],
+  "nextTeaser": "Next, Lesson 2 zooms in on Outlook: external contacts, formal records, and what to do with internal email chains.",
+  "nextLessonId": "lesson-2",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Welcome to OneAccord.</strong> This training shows you how we use Outlook, Teams, OneDrive, SharePoint and Ninety.io. Whether you've used these tools for years or never, the goal is the same: everyone uses them the same way.</p><p>There are seven short lessons. Each one has a few teaching sections, a knowledge check, and in some lessons a scenario that your coach grades (3 of 4 points passes).</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Why we standardize</h3><ul><li><strong>Less noise.</strong> Internal email chains bury the work that matters. Sorting conversations into the right place keeps your attention on clients and projects.</li><li><strong>Searchable history.</strong> Decisions, discussions and files live in one logical place, so you, your team and future colleagues can find what happened and why.</li><li><strong>Room to grow.</strong> A consistent approach keeps collaboration reliable as we add people, teams and projects.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Intended use</h3><p>Every tool has a best purpose. Your first job as a new team member is to use each tool for that purpose, even if you did it differently at your last company. That's how you help the whole firm run more smoothly from day one.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Where does my message go?</h3><table><tr><th>Channel</th><th>Use it for</th><th>Don't use it for</th></tr><tr><td><strong>Outlook email</strong></td><td>External parties (clients, vendors, partners); anything that needs a formal record or paper trail; formal decisions; firm-wide announcements that need acknowledgment</td><td>Internal project coordination, quick internal questions</td></tr><tr><td><strong>Teams channel post</strong></td><td>Internal group work, project discussion, day-to-day decisions, sharing files and links</td><td>Client communication, firm-wide announcements</td></tr><tr><td><strong>Teams private chat</strong></td><td>Fast, informal questions to one or two people</td><td>Project collaboration and decisions</td></tr><tr><td><strong>Ninety.io Headline</strong></td><td>Anything the whole team should see or align on at the next all-team meeting: wins, issues, firm-level updates</td><td>Urgent same-day items, one-on-one conversations</td></tr><tr><td><strong>SharePoint (the OneAccord Hub)</strong></td><td>Official reference material you read: policies, resources, training</td><td>Anything that needs a response or decision</td></tr></table><div class='callout'><strong>Quick test.</strong> Ask: <em>Does this need a record, a response, or a meeting?</em><br>A record, or it goes outside the firm: <strong>Email</strong>. A quick internal response: <strong>Teams</strong>. The team's attention at the meeting: <strong>Ninety.io Headline</strong>. Just reference material: <strong>SharePoint</strong>.</div>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You need to send a client your revised proposal. Where does it go?",
+      "options": [
+        "A Teams channel post",
+        "Outlook email, because the client is outside OneAccord",
+        "A Teams private chat",
+        "A Ninety.io Headline"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. External parties always get email.",
+      "feedbackIncorrect": "Clients are outside OneAccord, so this goes by Outlook email."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You want a teammate's quick opinion on a one-line subject line. What's the best fit?",
+      "options": [
+        "A Teams private chat, because it's quick, informal and involves one or two people",
+        "A formal email to the whole team",
+        "A new channel post with a long subject line",
+        "A Ninety.io Headline"
+      ],
+      "correctIndex": 0,
+      "feedbackCorrect": "Exactly. Private chat is for fast, informal questions.",
+      "feedbackIncorrect": "A quick question to one or two people belongs in a private chat."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A project team of five is deciding next week's task split. Where should that discussion happen?",
+      "options": [
+        "In a private chat between two of them",
+        "In a long reply-all email chain",
+        "In a post in the project's Teams channel",
+        "In a Ninety.io Headline"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct. Channel posts make a permanent, searchable record the whole team can see.",
+      "feedbackIncorrect": "Internal group work belongs in a channel post, where the whole team and future teammates can find it."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You closed a great deal and want the team to recognize it. What's the best channel?",
+      "options": [
+        "An email to the whole firm",
+        "A private chat with your manager",
+        "The OneAccord Hub",
+        "A Ninety.io Headline, so it comes up at the all-team meeting"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Yes. Wins go in a Ninety.io Headline for the all-team meeting.",
+      "feedbackIncorrect": "Wins are shared as a Ninety.io Headline so the whole team sees them at the all-team meeting."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You need the latest approved travel policy. Where do you look?",
+      "options": [
+        "Ask in a private chat",
+        "Search your old emails",
+        "The OneAccord Hub on SharePoint",
+        "Your local Documents folder"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. The Hub is the read-only home for official policies.",
+      "feedbackIncorrect": "The OneAccord Hub is the single source of truth for approved policies."
+    }
+  ]
+}

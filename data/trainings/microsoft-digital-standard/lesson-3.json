@@ -1,0 +1,131 @@
+{
+  "id": "lesson-3",
+  "title": "Lesson 3: Teams: Structure, Posts and Etiquette",
+  "completionTitle": "You've completed Lesson 3: Teams",
+  "keyConcepts": [
+    "Teams hold a group; channels hold topics",
+    "Keep Teams open while you work",
+    "Channel posts are the default; private chat is for quick questions",
+    "The 3-reply rule",
+    "Thread replies, mention with purpose, and react instead of replying 'OK'",
+    "Schedule internal meetings from the channel"
+  ],
+  "nextTeaser": "Next, Lesson 4 covers files: OneDrive, the hand-off, and where client files live.",
+  "nextLessonId": "lesson-4",
+  "coachPersona": "You are an experienced OneAccord team member coaching a new colleague through the OneAccord Digital Standard training on how we use Outlook, Teams, OneDrive, SharePoint and Ninety.io. The firm's standard: Outlook email is for external parties and anything needing a formal record (formal decisions, firm-wide announcements needing acknowledgment); Teams channel posts are the default for internal group work and day-to-day decisions; Teams private chat is for quick questions to one or two people (move to a channel post or a call after 3 replies); Ninety.io Headlines are for items the whole team should see or align on at the monthly all-team meeting (wins, issues, firm updates); the SharePoint Hub is a read-only reference library; OneDrive is for solo drafts and never the local hard drive; files are MOVED to the Teams channel Files tab when collaboration begins, and finalized client files live there. Every firm communication is labeled Action Needed or Informed. Use plain, warm, specific language.",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Lesson 3 of 7.</strong> Teams is our primary internal hub for communication, meetings and project work. This lesson covers how it's organized and the habits that keep it useful.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Teams and channels</h3><ul><li>A <strong>Team</strong> is the container for a specific, lasting group: a department, a long-term initiative, or a client project.</li><li>A <strong>Channel</strong> lives inside a Team and organizes work by topic or deliverable, for example \"Budget\" or \"Client Feedback\".</li></ul><p>Always post in the most relevant channel so conversations stay separated and easy to find later.</p><div class='callout'><strong>Keep Teams open.</strong> Keep the Teams desktop app or web version open and monitored while you work, the same way you keep Outlook open for external messages.</div>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Posts vs. chats</h3><table><tr><th>Use</th><th>Tool</th><th>Principle</th></tr><tr><td>Group collaboration, status updates, day-to-day decisions, formal requests</td><td><strong>Channel post</strong></td><td>The default. Posts create a permanent, searchable record.</td></tr><tr><td>Quick questions and urgent pings to one or two people</td><td><strong>Private chat</strong></td><td>Not for project collaboration.</td></tr></table><p><strong>The 3-reply rule.</strong> If a private chat goes past three back-and-forth replies and you're solving a problem or making a decision, stop. Move it to a channel post, or schedule a quick call.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Etiquette that keeps channels useful</h3><ol><li><strong>Thread your replies.</strong> Starting a new topic? Click <strong>New post</strong> and write a clear, specific subject line (for example, \"Q4 Client Onboarding Budget\"). Continuing a topic? Always click <strong>Reply</strong> under the original post, even if it's far up the feed.</li><li><strong>Mention with purpose.</strong> Use @Name only when you need that person to act, decide or respond. For general information, skip the mention.</li><li><strong>React instead of replying.</strong> A 👍 confirms you've read, agree or received something. It replaces dozens of \"Okay\" and \"Thanks\" replies.</li><li><strong>Schedule meetings from the channel.</strong> For internal project and team meetings, use <strong>Meet</strong> or <strong>Schedule a meeting</strong> in the channel's top right. The meeting chat, notes and recording link then save in that channel's Posts, tied to the project.</li></ol>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You want to ask a teammate, \"Where's the Q3 template?\" Where does it go?",
+      "options": [
+        "A new channel post with a subject line",
+        "A formal email",
+        "A private chat",
+        "A Ninety.io Headline"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. Quick questions go to a private chat.",
+      "feedbackIncorrect": "A quick question to one person is a private chat."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A private chat is on its fifth reply and you're deciding scope. What now?",
+      "options": [
+        "Keep going, it's almost done",
+        "Switch to email",
+        "Move it to a channel post or schedule a call",
+        "Add more people to the chat"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct. That's the 3-reply rule.",
+      "feedbackIncorrect": "After three replies on a decision, move to a channel post or a call."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You're answering a question that was posted two days ago and is now far up the feed. What do you do?",
+      "options": [
+        "Click Reply under the original post",
+        "Start a new post so people notice it",
+        "Send a private chat to the person",
+        "Email the answer"
+      ],
+      "correctIndex": 0,
+      "feedbackCorrect": "Yes. Replying keeps the whole conversation in one thread.",
+      "feedbackIncorrect": "Always reply under the original post to keep the thread intact."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A teammate shares the agenda and you just want to confirm you've read it. What's best?",
+      "options": [
+        "Reply \"Got it, thanks!\"",
+        "@mention the whole team with a thank-you",
+        "Send a private chat saying okay",
+        "Add a 👍 reaction"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Right. Reactions confirm receipt without adding clutter.",
+      "feedbackIncorrect": "A reaction confirms you've read it without cluttering the thread."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You're posting a general update that needs no action from anyone. How should you handle @mentions?",
+      "options": [
+        "Skip them, and mention someone only when they must act or respond",
+        "@mention the whole team so nobody misses it",
+        "@mention your manager to be safe",
+        "@mention everyone who might be interested"
+      ],
+      "correctIndex": 0,
+      "feedbackCorrect": "Correct. Smart mentions reduce unnecessary notifications.",
+      "feedbackIncorrect": "Use @mentions only when a specific person needs to act or respond."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You're scheduling the weekly project meeting. Where do you schedule it?",
+      "options": [
+        "From your personal calendar only",
+        "By emailing an invite to the team",
+        "From the project's channel, so notes and the recording land there",
+        "In a private chat group"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. Meetings scheduled from the channel are archived with the project.",
+      "feedbackIncorrect": "Schedule it from the channel so the chat, notes and recording save with the project."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>A colleague messages you privately asking how to word a status update for a client deliverable. By the fourth reply, you and two other colleagues have joined, and you're now deciding which of two approaches to recommend.</p><p>What should you do, and how would you post it?</p>",
+      "rubric": [
+        "Recognizes the 3-reply rule and stops the private chat",
+        "Moves the discussion to the relevant project channel as a new post with a clear, specific subject line",
+        "Uses threaded replies and @mentions only for people who need to act",
+        "Names the benefit: a permanent, searchable decision record the whole team can see"
+      ],
+      "passThreshold": 3,
+      "coachContext": "The 3-reply rule: a private chat that passes three back-and-forth replies while solving a problem or making a decision should move to a channel post or a call. In the channel, start a New post with a specific subject line, use Reply to keep everything in one thread, and @mention only people who must act. Channel posts create a permanent, searchable record."
+    }
+  ]
+}

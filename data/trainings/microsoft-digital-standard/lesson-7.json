@@ -1,0 +1,155 @@
+{
+  "id": "lesson-7",
+  "title": "Lesson 7: Final Check and Readiness Checklist",
+  "completionTitle": "You've completed the OneAccord Digital Standard",
+  "keyConcepts": [
+    "Use the right tool for the right job",
+    "Outlook for external and formal-record email; Teams channel posts for internal work",
+    "OneDrive for solo drafts; MOVE files to the channel to collaborate",
+    "The Hub for reference; Ninety.io for team alignment; label everything"
+  ],
+  "nextTeaser": "Welcome to the team. Questions about Ninety.io or the Hub? Ask Abby or Jesse.",
+  "resources": [
+    {
+      "label": "The OneAccord Hub",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Lesson 7 of 7.</strong> You've learned the standard. Now let's check that you can apply it, then confirm your setup.</p><h3>Core standards review</h3><table><tr><th>When you...</th><th>Use...</th></tr><tr><td>Talk to a client, vendor or partner, or need a formal record</td><td>Outlook email</td></tr><tr><td>Discuss or decide something with your internal team</td><td>Teams channel post (always thread replies)</td></tr><tr><td>Ask a quick internal question</td><td>Teams private chat (move to a channel after 3 replies)</td></tr><tr><td>Need the whole team's attention at the all-team meeting</td><td>Ninety.io Headline</td></tr><tr><td>Draft alone</td><td>OneDrive (never your local hard drive)</td></tr><tr><td>Collaborate on or finalize team and client files</td><td>Teams channel Files tab (MOVE the file from OneDrive)</td></tr><tr><td>Look up official policies, forms and standards</td><td>SharePoint Hub (read-only)</td></tr><tr><td>Celebrate, share lessons or find events across the company</td><td>OneAccord Wins, Lessons, Resources team</td></tr><tr><td>Announce anything</td><td>Label it Action Needed or Informed first</td></tr></table><p><strong>The one rule behind all of it: use the right tool for the right job.</strong></p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A client emails you a question about project scope. Where do you reply?",
+      "options": [
+        "In a Teams private chat",
+        "In Outlook",
+        "In a channel post",
+        "In a Ninety.io Headline"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Clients get email.",
+      "feedbackIncorrect": "Clients are external, so you reply in Outlook."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Four colleagues are going back and forth by email on an internal project issue. What should you do?",
+      "options": [
+        "Keep the email chain going",
+        "Move it to a post in the project's Teams channel",
+        "Start a private chat with one of them",
+        "Forward it to your manager"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct. More than two people means a channel post.",
+      "feedbackIncorrect": "An internal chain with more than two people moves to a channel post."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A private chat reaches its fourth reply and you're making a decision. What do you do?",
+      "options": [
+        "Keep chatting until it's resolved",
+        "Move it to email",
+        "Post it on the Hub",
+        "Stop and move to a channel post or schedule a call"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Right. That's the 3-reply rule.",
+      "feedbackIncorrect": "After three replies on a decision, move to a channel post or a call."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Your draft is ready for the team to edit. What's the correct hand-off?",
+      "options": [
+        "Email it to the team",
+        "Move the file from your OneDrive to the Teams channel's Files tab",
+        "Share a OneDrive link",
+        "Copy and paste it into a new file in the channel"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Yes. The hand-off is complete when the file is moved.",
+      "feedbackIncorrect": "Use Move to so the file is moved, not copied or linked."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You need the approved brand standards. Where do you look?",
+      "options": [
+        "Your OneDrive",
+        "The #Resources channel",
+        "An old email attachment",
+        "The OneAccord Hub"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Right. The Hub holds official standards.",
+      "feedbackIncorrect": "Approved standards live on the OneAccord Hub."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Leadership needs a formal, written record of an approval. Where does it go?",
+      "options": [
+        "A private chat",
+        "A Ninety.io Headline",
+        "Outlook email",
+        "A channel reaction"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct. A formal record calls for email.",
+      "feedbackIncorrect": "Formal records go by email."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You closed a big win. Where do you share it so the whole team recognizes it?",
+      "options": [
+        "A private chat with your manager",
+        "An email to the whole firm",
+        "A Ninety.io Headline for the all-team meeting",
+        "The Hub"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. Wins go in a Ninety.io Headline. You can also celebrate in #Wins.",
+      "feedbackIncorrect": "Wins go in a Ninety.io Headline for the all-team meeting."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You're asking the team to start a new process. What must you do before sending it?",
+      "options": [
+        "Nothing; it's informal",
+        "Label it Informed, to soften it",
+        "Send it as a private chat to each person",
+        "Label it Action Needed, and choose the channel that fits"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Correct. Every communication is labeled, and a new process is Action Needed.",
+      "feedbackIncorrect": "A request to adopt a new process is Action Needed, and it needs a label and the right channel."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>Your manager asks you to prepare a client-ready proposal with two teammates, circulate it internally for feedback, send it to the client, and let the whole firm know when the client signs.</p><p>Walk through which tools you use at each stage: drafting, team input, sending to the client, storing the final, and sharing the win.</p>",
+      "rubric": [
+        "Starts the draft in OneDrive, not on a local drive",
+        "Moves the file to the project channel's Files tab for team input, and discusses in channel posts",
+        "Sends the proposal to the client by Outlook email and keeps the final version in the channel",
+        "Shares the win through a Ninety.io Headline, labeled appropriately"
+      ],
+      "passThreshold": 3,
+      "coachContext": "End-to-end workflow: draft alone in OneDrive, never on the local hard drive; when teammates need to collaborate, MOVE the file to the project Teams channel's Files tab and discuss in channel posts (threaded replies); send the proposal to the client by Outlook email; the finalized client file is stored in the channel; a win is shared as a Ninety.io Headline for the monthly all-team meeting, labeled Informed (or Action Needed if asking for something)."
+    },
+    {
+      "type": "activity",
+      "label": "Readiness checklist",
+      "instructions": "<p>Confirm each item before you finish:</p><ul><li><strong>Teams is open</strong> and monitored throughout your workday.</li><li><strong>OneDrive is syncing</strong>, and all OneAccord files are saved there, not on your local desktop.</li><li><strong>MFA is enabled</strong> on your OneAccord account.</li><li><strong>You've explored the OneAccord Hub</strong> (<a href='https://oneaccord.sharepoint.com/sites/WelcomeOneAccord' target='_blank' rel='noopener'>open it here</a>).</li><li><strong>You know where Ninety.io is</strong>, and that Abby is your contact for questions.</li></ul>",
+      "confirmText": "I've completed my readiness checklist - continue"
+    }
+  ]
+}

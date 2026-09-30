@@ -1,0 +1,147 @@
+{
+  "id": "lesson-6",
+  "title": "Lesson 6: Announcements and Team Alignment",
+  "completionTitle": "You've completed Lesson 6: Announcements and Team Alignment",
+  "keyConcepts": [
+    "Every communication is labeled Action Needed or Informed",
+    "Ask: does this need a record, a response, or a meeting?",
+    "Ninety.io Headlines go to the monthly all-team meeting",
+    "Post events in the #Events channel"
+  ],
+  "nextTeaser": "Last up, Lesson 7 is your final check and readiness checklist.",
+  "nextLessonId": "lesson-7",
+  "coachPersona": "You are an experienced OneAccord team member coaching a new colleague through the OneAccord Digital Standard training on how we use Outlook, Teams, OneDrive, SharePoint and Ninety.io. The firm's standard: Outlook email is for external parties and anything needing a formal record (formal decisions, firm-wide announcements needing acknowledgment); Teams channel posts are the default for internal group work and day-to-day decisions; Teams private chat is for quick questions to one or two people (move to a channel post or a call after 3 replies); Ninety.io Headlines are for items the whole team should see or align on at the monthly all-team meeting (wins, issues, firm updates); the SharePoint Hub is a read-only reference library; OneDrive is for solo drafts and never the local hard drive; files are MOVED to the Teams channel Files tab when collaboration begins, and finalized client files live there. Every firm communication is labeled Action Needed or Informed. Use plain, warm, specific language.",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Lesson 6 of 7.</strong> Some messages are for one project team. Others need the whole firm's attention. This lesson gives you a simple way to label and route them.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Step 1: Action Needed or Informed?</h3><ul><li><strong>Action Needed.</strong> Someone has to <em>do</em> something: complete a task, change a habit, update a system, or adopt a new behavior. This is a baseline expectation, not optional.</li><li><strong>Informed.</strong> No immediate action. It's awareness: policy background, context, or where the firm is headed.</li></ul><div class='callout'><strong>Every communication is labeled Action Needed or Informed.</strong> Put the tag at the start of your subject line or post: <strong>[ACTION NEEDED]</strong> or <strong>[INFORMED]</strong>. If a message isn't labeled, ask the sender.</div>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Step 2: Choose the channel</h3><p>Ask: <em>Does this need a record, a response, or a meeting?</em></p><table><tr><th>Channel</th><th>Use it for</th><th>Don't use it for</th></tr><tr><td><strong>Outlook email</strong></td><td>External parties (clients, vendors, partners); anything that needs a formal record or paper trail; formal decisions; firm-wide announcements that need acknowledgment</td><td>Internal project coordination, quick internal questions</td></tr><tr><td><strong>Teams channel post</strong></td><td>Internal group work, project discussion, day-to-day decisions, sharing files and links</td><td>Client communication, firm-wide announcements</td></tr><tr><td><strong>Teams private chat</strong></td><td>Fast, informal questions to one or two people</td><td>Project collaboration and decisions</td></tr><tr><td><strong>Ninety.io Headline</strong></td><td>Anything the whole team should see or align on at the next all-team meeting: wins, issues, firm-level updates</td><td>Urgent same-day items, one-on-one conversations</td></tr><tr><td><strong>SharePoint (the OneAccord Hub)</strong></td><td>Official reference material you read: policies, resources, training</td><td>Anything that needs a response or decision</td></tr></table><p>A rollout can use more than one channel, for example a Ninety.io Headline to raise it at the meeting and a reference document on the Hub afterward.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Posting a Ninety.io Headline</h3><p>Headlines go to the monthly all-team meeting. Keep them short: a headline is a prompt for discussion, not the full explanation.</p><ol><li>Go to the relevant meeting agenda in Ninety.io.</li><li>Find the <strong>Headlines</strong> section for that meeting.</li><li>Click <strong>+ Add Headline</strong> (or the \"+\" next to Headlines).</li><li>Paste in your headline, with the Action Needed or Informed tag at the start.</li><li>Save. It will appear in the meeting agenda for the next meeting.</li></ol><p><strong>Example:</strong> <em>INFORMED: Closed the Nelson engagement two weeks early, and the client asked about a follow-on scope.</em> A minute at the all-team meeting is plenty.</p><p>Questions about Ninety.io? Ask Abby.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Events</h3><p>Post upcoming events in the <strong>#Events</strong> channel in Teams. If you also want to alert the team, announce it in whichever channel fits: a Ninety.io Headline for team alignment, or a Teams post for a reminder.</p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "\"Starting Monday, all timesheets must be submitted by 5 PM Friday.\" How do you label this?",
+      "options": [
+        "Informed",
+        "Action Needed",
+        "Neither; it doesn't need a label",
+        "Either one works"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. People must do something, so it's Action Needed.",
+      "feedbackIncorrect": "Someone has to act, so it's Action Needed."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "\"Here's the background on why we moved to a new CRM.\" How do you label it?",
+      "options": [
+        "Action Needed",
+        "Neither",
+        "Action Needed, to be safe",
+        "Informed"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Correct. It's context with no action required.",
+      "feedbackIncorrect": "It's background only, with no action, so it's Informed."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Where does a win you want recognized at the all-team meeting go?",
+      "options": [
+        "A firm-wide email",
+        "A private chat with your manager",
+        "A Ninety.io Headline",
+        "The Hub"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Yes. Wins go in a Ninety.io Headline.",
+      "feedbackIncorrect": "Wins are shared as a Ninety.io Headline for the all-team meeting."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A policy change needs everyone to formally acknowledge it. Which channel fits best?",
+      "options": [
+        "A Teams private chat",
+        "A reaction on a channel post",
+        "Outlook email, labeled Action Needed",
+        "A Ninety.io Headline only"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. Firm-wide messages needing acknowledgment go by email.",
+      "feedbackIncorrect": "A formal record of acknowledgment calls for email, labeled Action Needed."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You want to announce an upcoming internal training session. Where do you post it?",
+      "options": [
+        "In #Wins",
+        "In the #Events channel",
+        "In a private chat",
+        "On the Hub"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct. Events are posted in #Events.",
+      "feedbackIncorrect": "Upcoming events are posted in the #Events channel."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Which best describes a good Ninety.io Headline?",
+      "options": [
+        "A long, detailed explanation with attachments",
+        "Short, tagged Action Needed or Informed, and a prompt for discussion at the meeting",
+        "A private note to one person",
+        "An urgent same-day request"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Headlines are short prompts for team discussion.",
+      "feedbackIncorrect": "Headlines are short, tagged, and meant to prompt discussion at the meeting."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A message arrives asking you to do something, but it isn't labeled. What do you do?",
+      "options": [
+        "Assume it's Informed and ignore it",
+        "Assume it's Action Needed and start immediately",
+        "Reply all with questions",
+        "Ask the sender whether it's Action Needed or Informed"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Yes. If it isn't labeled, ask.",
+      "feedbackIncorrect": "Unlabeled messages should be clarified: ask the sender."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>You found a client-onboarding shortcut that cut setup time in half. You want the whole team to know about it and start using it.</p><p>Decide how you'd share it, how you'd label it, and draft the short Headline text.</p>",
+      "rubric": [
+        "Labels the message correctly: Action Needed if people are expected to adopt it, or Informed with a reason if it's only awareness",
+        "Chooses a Ninety.io Headline to raise it at the all-team meeting",
+        "Drafts a Headline that is short, starts with the tag, and prompts discussion",
+        "Names a fitting follow-up channel, such as a #Lessons post with details"
+      ],
+      "passThreshold": 3,
+      "coachContext": "Every communication is labeled Action Needed (someone must do something) or Informed (awareness only). A Ninety.io Headline is for items the whole team should see or align on at the monthly all-team meeting; it should be short, start with the tag, and prompt discussion. Details or a write-up can follow in #Lessons (or as reference material on the Hub via Jesse or Abby)."
+    }
+  ]
+}

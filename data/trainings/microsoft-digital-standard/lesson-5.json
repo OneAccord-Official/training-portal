@@ -1,0 +1,127 @@
+{
+  "id": "lesson-5",
+  "title": "Lesson 5: SharePoint: The Hub and the Company-Wide Team",
+  "completionTitle": "You've completed Lesson 5: The Hub and the Company-Wide Team",
+  "keyConcepts": [
+    "The OneAccord Hub is our read-only reference library",
+    "Hub additions go through Jesse or Abby",
+    "SharePoint Hub vs. Teams channel files",
+    "#Wins, #Lessons, #Resources and #Events each have a job"
+  ],
+  "nextTeaser": "Next, Lesson 6 shows you how to label announcements and post a Ninety.io Headline for the all-team meeting.",
+  "nextLessonId": "lesson-6",
+  "resources": [
+    {
+      "label": "The OneAccord Hub",
+      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Lesson 5 of 7.</strong> \"SharePoint\" shows up in two ways at OneAccord. Behind your Teams channel files, it's the collaborative space you worked in during Lesson 4. The other is the dedicated SharePoint site called the <strong>OneAccord Hub</strong>, and that's what this lesson is about.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>The OneAccord Hub: your read-only reference library</h3><p>The Hub holds information that is finished, rarely updated and useful across a department or the whole company: <a href='https://oneaccord.sharepoint.com/sites/WelcomeOneAccord' target='_blank' rel='noopener'>oneaccord.sharepoint.com/sites/WelcomeOneAccord</a></p><p>It's the single source of truth for:</p><ul><li><strong>Official policies and procedures</strong>, including compliance documents and operational procedures.</li><li><strong>Standards and reference guides</strong>, such as branding standards, report templates and technical specifications.</li><li><strong>Sales and marketing resources</strong>: final, approved, public-facing documents.</li><li><strong>Archival information</strong>: historical, non-client documents that are kept but no longer edited.</li></ul><p><strong>Your role on the Hub is to read, search and reference.</strong> You won't post or edit there. If you think something should be added or corrected, contact Jesse or Abby.</p>"
+    },
+    {
+      "type": "activity",
+      "label": "Find it now",
+      "instructions": "<p>Open the <a href='https://oneaccord.sharepoint.com/sites/WelcomeOneAccord' target='_blank' rel='noopener'>OneAccord Hub</a> and take a few minutes to explore. Find where the company policies and the sales and marketing resources live.</p>",
+      "confirmText": "I've explored the Hub - continue"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Hub vs. Teams channel files</h3><table><tr><th>Purpose</th><th>Where</th><th>Key difference</th></tr><tr><td>Looking up final, approved information</td><td><strong>SharePoint Hub</strong></td><td>Read-only; managed by administrators</td></tr><tr><td>Actively editing or drafting</td><td><strong>Teams channel Files</strong></td><td>Your team works on it together</td></tr></table><p>Using the Hub strictly for official reference means everyone is reading the most current approved version.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>The OneAccord Wins, Lessons, Resources team</h3><p>This is our company-wide team for culture, knowledge sharing and questions that cross departments. The channels are open but lightly used, so your participation helps make them valuable.</p><table><tr><th>Channel</th><th>Use it for</th><th>How to contribute</th></tr><tr><td><strong>#Wins</strong></td><td>A light space to celebrate</td><td>Add reactions (🎉, ❤️) and short replies. For a win you want recognized at the all-team meeting, also post a Ninety.io Headline (Lesson 6).</td></tr><tr><td><strong>#Lessons</strong></td><td>What you learned from a finished project: best practices, things to avoid</td><td>New post with a subject line. Invite discussion in replies.</td></tr><tr><td><strong>#Resources</strong></td><td>Notes from events, articles and resources that could help the wider team</td><td>New post with a clear subject. Use replies for discussion.</td></tr><tr><td><strong>#Events</strong></td><td>Upcoming events: training, gatherings, internal deadlines</td><td>Post events here. Check it regularly and react to confirm you saw it or will attend.</td></tr></table><p>The etiquette from Lesson 3 matters even more in a company-wide space. Always reply in the thread, and use @Team only for messages that are truly relevant to every person in the company.</p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Where do you look for the approved, final version of a company policy?",
+      "options": [
+        "Your OneDrive",
+        "The OneAccord Hub",
+        "A private chat with a colleague",
+        "Your email archive"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. The Hub is the home for official, approved documents.",
+      "feedbackIncorrect": "The Hub is the single source of truth for approved policies."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You spot an outdated document on the Hub. What do you do?",
+      "options": [
+        "Contact Jesse or Abby so it can be updated",
+        "Edit it yourself",
+        "Post the corrected version in #Resources",
+        "Ignore it"
+      ],
+      "correctIndex": 0,
+      "feedbackCorrect": "Correct. The Hub is read-only for staff, so changes go through Jesse or Abby.",
+      "feedbackIncorrect": "You can't edit the Hub. Contact Jesse or Abby."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Your team is actively revising a document together. Where should it live?",
+      "options": [
+        "On the Hub",
+        "In one person's OneDrive",
+        "As an email attachment",
+        "In the Teams channel's Files tab"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Yes. Active editing happens in the channel.",
+      "feedbackIncorrect": "Documents being actively edited live in the Teams channel Files tab, not the Hub."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You want to share an article that could help the wider team. Where does it go?",
+      "options": [
+        "A new post in #Resources with a clear subject line",
+        "A reply in #Wins",
+        "A private chat to everyone",
+        "The Hub"
+      ],
+      "correctIndex": 0,
+      "feedbackCorrect": "Right. #Resources is for sharing articles and knowledge.",
+      "feedbackIncorrect": "Articles and resources go in #Resources with a clear subject line."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A project finished and you learned what to do differently next time. Where do you share it?",
+      "options": [
+        "A private chat with your manager",
+        "A detailed post in #Lessons",
+        "#Events",
+        "An email to the whole firm"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct. #Lessons is for knowledge transfer after a project.",
+      "feedbackIncorrect": "What you learned from a finished project goes in #Lessons."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "An internal training session is coming up. Where do you post it?",
+      "options": [
+        "In #Wins",
+        "On the Hub",
+        "In the #Events channel",
+        "In a private chat"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. Events are posted in #Events.",
+      "feedbackIncorrect": "Upcoming events are posted in the #Events channel."
+    }
+  ]
+}

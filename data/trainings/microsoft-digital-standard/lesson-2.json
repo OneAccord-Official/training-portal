@@ -1,0 +1,97 @@
+{
+  "id": "lesson-2",
+  "title": "Lesson 2: Outlook: External Contact and the Formal Record",
+  "completionTitle": "You've completed Lesson 2: Outlook",
+  "keyConcepts": [
+    "Outlook is for external parties and anything needing a formal record",
+    "Internal chains with more than two people move to a channel post",
+    "Quick internal questions move to a private chat",
+    "A formal decision or acknowledgment stays in email"
+  ],
+  "nextTeaser": "Next, Lesson 3 covers Teams: how it's organized, posts versus chats, and the etiquette that keeps channels useful.",
+  "nextLessonId": "lesson-3",
+  "coachPersona": "You are an experienced OneAccord team member coaching a new colleague through the OneAccord Digital Standard training on how we use Outlook, Teams, OneDrive, SharePoint and Ninety.io. The firm's standard: Outlook email is for external parties and anything needing a formal record (formal decisions, firm-wide announcements needing acknowledgment); Teams channel posts are the default for internal group work and day-to-day decisions; Teams private chat is for quick questions to one or two people (move to a channel post or a call after 3 replies); Ninety.io Headlines are for items the whole team should see or align on at the monthly all-team meeting (wins, issues, firm updates); the SharePoint Hub is a read-only reference library; OneDrive is for solo drafts and never the local hard drive; files are MOVED to the Teams channel Files tab when collaboration begins, and finalized client files live there. Every firm communication is labeled Action Needed or Informed. Use plain, warm, specific language.",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Lesson 2 of 7.</strong> Outlook has a focused job at OneAccord. That keeps your inbox free for messages that genuinely need your attention.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>When Outlook is the right place</h3><ul><li><strong>External parties.</strong> Clients, vendors, partners, and anyone outside OneAccord.</li><li><strong>Anything that needs a formal record.</strong> Formal decisions that need a paper trail, external deliverable sharing, and firm-wide announcements that require acknowledgment, including HR alerts and executive communications.</li></ul><h3>When it isn't</h3><ul><li>Quick internal questions.</li><li>Project coordination between OneAccord colleagues.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>The hard line for internal conversations</h3><p>If a conversation only involves OneAccord employees and doesn't need a formal record, it belongs in Teams. When you see an internal email chain, here's what to do:</p><table><tr><th>If the internal chain...</th><th>Do this</th></tr><tr><td>Involves more than two people</td><td>Stop the thread, copy the content, and start a new post in the relevant project channel</td></tr><tr><td>Is a quick internal question</td><td>Stop the thread and move it to a private chat</td></tr><tr><td>Needs a formal record (a decision needing a paper trail, or an acknowledgment)</td><td>Keep it in email</td></tr></table><p><strong>Why it matters.</strong> When a project conversation lives in a channel, the whole team has the history. When it lives in personal inboxes, it disappears when someone changes roles or leaves.</p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A vendor emails you a question about an invoice. Where do you reply?",
+      "options": [
+        "In a Teams private chat with the vendor",
+        "In a new Teams channel post",
+        "In a Ninety.io Headline",
+        "In Outlook, because the vendor is outside OneAccord"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Right. External parties get email.",
+      "feedbackIncorrect": "The vendor is external, so you reply in Outlook."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Three colleagues are reply-all-ing about scheduling a team workshop. What should you do?",
+      "options": [
+        "Keep replying all so everyone stays informed",
+        "Start a private chat with one of them",
+        "Forward it to your manager",
+        "Move it to a post in the project's Teams channel"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Correct. More than two people means a channel post.",
+      "feedbackIncorrect": "More than two people on an internal chain belongs in a channel post."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You need a one-line answer from a colleague about a file name. What's the best fit?",
+      "options": [
+        "A formal email with a clear subject line",
+        "A Ninety.io Headline",
+        "A new channel post",
+        "A private chat"
+      ],
+      "correctIndex": 3,
+      "feedbackCorrect": "Yes. Quick questions go to a private chat.",
+      "feedbackIncorrect": "A quick internal question is a private chat."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Leadership must formally approve a budget change, and a written record is required. Where does it go?",
+      "options": [
+        "A private chat, so it stays quick",
+        "Email, because it needs a formal record",
+        "A Teams channel post only",
+        "A Ninety.io Headline only"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Formal decisions that need a paper trail stay in email.",
+      "feedbackIncorrect": "When a formal record is needed, email is the right home."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>You're on a five-person project team. A colleague emails all four of you asking for input on a client workshop agenda, and two people have already replied-all. Tomorrow the client wants a confirmation of the final agenda.</p><p>What do you do with the internal thread, and what happens when the agenda is final?</p>",
+      "rubric": [
+        "Stops the internal email chain and moves the conversation to a channel post, because more than two people are involved",
+        "Uses the correct project channel and keeps the discussion threaded there",
+        "Uses Outlook for the client-facing confirmation, because the client is an external party",
+        "Explains why (searchable history, nothing buried in personal inboxes)"
+      ],
+      "passThreshold": 3,
+      "coachContext": "Outlook is for external parties and formal records. Internal chains with more than two people move to a Teams channel post in the project channel, with replies threaded. The final agenda confirmation to the client goes by Outlook email because the client is external. The reason for the standard is a searchable project history that doesn't live in personal inboxes."
+    }
+  ]
+}
