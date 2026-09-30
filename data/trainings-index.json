@@ -87,6 +87,47 @@
           "status": "ready"
         }
       ]
+    },
+    {
+      "id": "microsoft-digital-standard",
+      "title": "OneAccord Digital Standard",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "1. The OneAccord Digital Standard",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-2",
+          "title": "2. Outlook: External Contact and the Formal Record",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-3",
+          "title": "3. Teams: Structure, Posts and Etiquette",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-4",
+          "title": "4. Files: OneDrive, the Hand-Off and Client Files",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-5",
+          "title": "5. SharePoint: The Hub and the Company-Wide Team",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-6",
+          "title": "6. Announcements and Team Alignment",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-7",
+          "title": "7. Final Check and Readiness Checklist",
+          "status": "ready"
+        }
+      ]
     }
   ]
 }
