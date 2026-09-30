@@ -27,3 +27,14 @@
     }
   ]
 }
+{
+  "id": "ai-native",
+  "title": "AI-Native Ways of Working",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "1. Getting Started with Claude",
+      "status": "ready"
+    }
+  ]
+}
