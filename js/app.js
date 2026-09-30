@@ -5,18 +5,22 @@
  * training's content blocks one at a time, gating progress on hands-on
  * confirmations and answered questions.
  *
- * DATA SOURCE (current): static JSON files under /data — this is a stand-in
- * for the SharePoint index list + per-training content packages described
- * in the project plan. Swapping /data/trainings-index.json for a call to
- * the SharePoint "Trainings" list (via Microsoft Graph) is the only change
- * needed later; the rendering code below does not care where the JSON came
- * from.
+ * DATA SOURCE: the SharePoint "Trainings" list, read via the
+ * /.netlify/functions/get-trainings function (Microsoft Graph, app-only
+ * auth). Falls back to the static /data/trainings-index.json file if that
+ * call fails, so the portal still works if SharePoint/Graph is unreachable.
  *
- * COMPLETION TRACKING (current): localStorage, per browser, as a placeholder
- * only. Phase 3 of the plan replaces this with a call to a Netlify Function
- * that writes a row to the SharePoint "Completions" list — see the
- * `recordCompletion()` function below, which is the single place that will
- * change.
+ * LEARNER IDENTITY: a lightweight "email gate" (see showEmailGate()) asks
+ * the learner for their work email once, stores it in localStorage, and
+ * sends it with every completion read/write so progress can be tied to a
+ * person in the SharePoint "Training Completions" list without a full
+ * sign-in flow.
+ *
+ * COMPLETION TRACKING: writes go to /.netlify/functions/record-completion
+ * (one row per training+lesson+email in the SharePoint "Training
+ * Completions" list); reads come from /.netlify/functions/get-completions,
+ * filtered by the learner's email, and are cached in `state.completions`
+ * for the session.
  *
  * BLOCK TYPES SUPPORTED (the four the first pilot needs — see README):
  *   text      — static explanatory copy
@@ -40,6 +44,8 @@ const state = {
   lessonBlocks: [],
   blockCursor: 0,
   expandedTrainings: new Set(), // training ids whose lesson list is open in the nav
+  completions: new Set(), // `${trainingId}:${lessonId}` keys the current learner has completed
+  personEmail: null,
 };
 
 const navEl = document.getElementById("training-list");
@@ -49,16 +55,111 @@ init();
 
 async function init() {
   try {
-    const res = await fetch("data/trainings-index.json");
-    state.index = await res.json();
+    let index = null;
+    try {
+      const res = await fetch("/.netlify/functions/get-trainings");
+      if (!res.ok) throw new Error(`get-trainings returned ${res.status}`);
+      index = await res.json();
+    } catch (err) {
+      console.warn("Falling back to static trainings index", err);
+      const res = await fetch("data/trainings-index.json");
+      index = await res.json();
+    }
+    state.index = index;
     // Default to the first training open so the nav isn't empty on first load.
     if (state.index.trainings.length) {
       state.expandedTrainings.add(state.index.trainings[0].id);
     }
+
+    state.personEmail = getStoredEmail();
+    if (state.personEmail) {
+      await loadCompletions();
+    }
+
     renderNav();
+
+    if (!state.personEmail) {
+      showEmailGate();
+    }
   } catch (err) {
     navEl.innerHTML = `<div style="padding:0 20px;color:#f5b7b1;">Couldn't load the training list.</div>`;
     console.error(err);
+  }
+}
+
+/* ---------------- Learner identity (email gate) ----------------
+ * We ask for a work email once (no password — this isn't meant to be a
+ * security boundary, just a way to attribute completions to a person in
+ * the SharePoint list). The email is stored in localStorage so returning
+ * learners aren't asked again on this device/browser.
+ */
+
+const EMAIL_STORAGE_KEY = "oa-training-email";
+
+function getStoredEmail() {
+  try {
+    return localStorage.getItem(EMAIL_STORAGE_KEY) || null;
+  } catch (err) {
+    return null;
+  }
+}
+
+function storeEmail(email) {
+  try {
+    localStorage.setItem(EMAIL_STORAGE_KEY, email);
+  } catch (err) {
+    console.warn("Could not store email locally", err);
+  }
+}
+
+function showEmailGate() {
+  mainEl.innerHTML = `<div class="email-gate">
+      <h2>Before you start</h2>
+      <p>Enter your work email so we can track your training progress.</p>
+      <div class="error" style="display:none;"></div>
+      <input type="email" placeholder="you@oneaccord.co" autocomplete="email" />
+      <button type="button" class="primary-btn">Continue</button>
+    </div>`;
+
+  const wrap = mainEl.querySelector(".email-gate");
+  const input = wrap.querySelector("input");
+  const errorEl = wrap.querySelector(".error");
+  const submit = wrap.querySelector("button");
+
+  const submitEmail = async () => {
+    const email = input.value.trim().toLowerCase();
+    if (!email || !email.includes("@") || !email.includes(".")) {
+      errorEl.textContent = "Please enter a valid email address.";
+      errorEl.style.display = "block";
+      return;
+    }
+    submit.disabled = true;
+    submit.textContent = "Loading…";
+    state.personEmail = email;
+    storeEmail(email);
+    await loadCompletions();
+    renderNav();
+    mainEl.innerHTML = `<div class="portal-welcome"><h1>Welcome!</h1><p>Pick a lesson from the menu on the left to get started.</p></div>`;
+  };
+
+  submit.addEventListener("click", submitEmail);
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") submitEmail();
+  });
+  input.focus();
+}
+
+async function loadCompletions() {
+  if (!state.personEmail) return;
+  try {
+    const res = await fetch(`/.netlify/functions/get-completions?personEmail=${encodeURIComponent(state.personEmail)}`);
+    if (!res.ok) throw new Error(`get-completions returned ${res.status}`);
+    const data = await res.json();
+    state.completions = new Set(
+      (data.completions || []).map((c) => `${c.trainingId}:${c.lessonId}`)
+    );
+  } catch (err) {
+    console.warn("Could not load completions", err);
   }
 }
 
@@ -99,7 +200,13 @@ function renderNav() {
       item.className = "nav-lesson" + (isPending ? " is-pending" : "") + (isActive ? " is-active" : "");
       item.innerHTML = `<span class="nav-lesson__check">${isDone ? "✅" : "⬜"}</span><span>${lesson.title}</span>`;
       if (!isPending) {
-        item.addEventListener("click", () => loadLesson(training, lesson));
+        item.addEventListener("click", () => {
+          if (!state.personEmail) {
+            showEmailGate();
+            return;
+          }
+          loadLesson(training, lesson);
+        });
       } else {
         item.title = "Content coming soon";
       }
@@ -124,7 +231,8 @@ async function loadLesson(training, lesson) {
     </div>
     <div id="block-stream"></div>`;
 
-  const res = await fetch(`data/trainings/${training.id}/${lesson.id}.json`);
+  const contentUrl = lesson.contentUrl || `data/trainings/${training.id}/${lesson.id}.json`;
+  const res = await fetch(contentUrl);
   const lessonDef = await res.json();
   state.lessonBlocks = lessonDef.blocks;
   state.lessonMeta = lessonDef;
@@ -680,28 +788,39 @@ function renderLessonComplete() {
   renderNav();
 }
 
-/* ---------------- Completion tracking (placeholder) ----------------
- * TODO(phase 3): replace this pair of functions with calls to the Netlify
- * Function that writes/reads the SharePoint "Completions" list, per the
- * project plan. Everything else in this file stays the same.
+/* ---------------- Completion tracking ----------------
+ * Writes go to the SharePoint "Training Completions" list via the
+ * record-completion Netlify Function; state.completions (loaded from
+ * get-completions in loadCompletions()) is the in-session cache that
+ * isLessonComplete() reads for the nav checkmarks.
  */
 
 function completionKey(trainingId, lessonId) {
-  return `oa-training-complete:${trainingId}:${lessonId}`;
+  return `${trainingId}:${lessonId}`;
 }
 
-function recordCompletion(trainingId, lessonId) {
+async function recordCompletion(trainingId, lessonId, score) {
+  state.completions.add(completionKey(trainingId, lessonId));
+  renderNav();
+
+  if (!state.personEmail) return;
   try {
-    localStorage.setItem(completionKey(trainingId, lessonId), new Date().toISOString());
+    const res = await fetch("/.netlify/functions/record-completion", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        trainingId,
+        lessonId,
+        personEmail: state.personEmail,
+        score: typeof score === "number" ? score : undefined,
+      }),
+    });
+    if (!res.ok) throw new Error(`record-completion returned ${res.status}`);
   } catch (err) {
-    console.warn("Could not record completion locally", err);
+    console.warn("Could not record completion to SharePoint", err);
   }
 }
 
 function isLessonComplete(trainingId, lessonId) {
-  try {
-    return !!localStorage.getItem(completionKey(trainingId, lessonId));
-  } catch (err) {
-    return false;
-  }
+  return state.completions.has(completionKey(trainingId, lessonId));
 }
