@@ -1,0 +1,211 @@
+{
+  "id": "lesson-1",
+  "title": "1. Getting Started with Claude",
+  "completionTitle": "You've completed Getting Started with Claude",
+  "keyConcepts": [
+    "What AI-native means at OneAccord",
+    "Prompting fundamentals: goal, context, and letting Claude ask questions",
+    "Projects for context, skills for repeatable processes",
+    "Connectors and Claude inside Microsoft 365",
+    "Protecting client data and verifying every deliverable"
+  ],
+  "nextTeaser": "Your challenge this week: pick one task from your own work, hand the repetitive part to Claude, and check the result yourself. Bring your best skill ideas to Jesse.",
+  "resources": [
+    {
+      "label": "Recording in SharePoint",
+      "url": "https://oneaccord.sharepoint.com/sites/OneAccordPrincipals/Shared%20Documents/%F0%9F%97%93%EF%B8%8F%20Events/Recordings/Building%20AI-Native%20Ways%20of%20Working%20Getting%20Started%20with%20Claude-20260806_155719UTC-Meeting%20Recording.mp4?web=1"
+    },
+    {
+      "label": "Claude: Skills explained",
+      "url": "https://claude.com/blog/skills-explained"
+    },
+    {
+      "label": "Claude for Microsoft 365",
+      "url": "https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Getting Started with Claude.</strong> This is Claude 101, built from a live OneAccord session, <em>Building AI-Native Ways of Working</em>. Watch the recording, read the short teaching sections (they confirm the key ideas and correct or update a few things said on the call), answer a knowledge check, then respond to a scenario. Your coach grades it, and 3 of 4 points passes.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/OneAccordPrincipals/_layouts/15/embed.aspx?UniqueId=b3c50e5a-e822-4f4b-95ff-5514cb356a7e&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "Building AI-Native Ways of Working: Getting Started with Claude",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/OneAccordPrincipals/Shared%20Documents/%F0%9F%97%93%EF%B8%8F%20Events/Recordings/Building%20AI-Native%20Ways%20of%20Working%20Getting%20Started%20with%20Claude-20260806_155719UTC-Meeting%20Recording.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video — continue",
+      "note": "<strong>Heads up:</strong> the recording was made in August 2026 and the automatic transcript garbles some words. Where you see or hear \"Clark\" or \"cloud\", it means <strong>Claude</strong>, and \"Oasis\" means <strong>OASYS</strong>. A few points on the call are also refined in the sections below, so treat this text as the current version."
+    },
+    {
+      "type": "text",
+      "html": "<h3>1. What \"AI-native\" means</h3><p>An AI-native organization hands the mundane, repetitive work to AI so people can do what only people can do: <strong>judgment, creativity, expertise and client relationships</strong>. The payoff is more time, more energy and better <strong>margin</strong>, for OneAccord and for your own consulting practice.</p><p>AI-native does <em>not</em> mean replacing people. You stay accountable for everything that goes to a client.</p><p>Three quick wins most people start with: <strong>drafting emails</strong>, <strong>meeting summaries</strong> (record your Teams calls and let AI capture the notes so you can focus on the client), and <strong>restructuring docs and decks</strong>.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>2. Prompting fundamentals</h3><ul><li><strong>Goal:</strong> say exactly what you want from Claude and in what form (\"give me 10 LinkedIn post ideas\", \"help me think this through\").</li><li><strong>Context:</strong> give everything you know: the client, the tool, what's been tried, your hunch. <em>Speak it</em> with the microphone; you'll get your full train of thought in quickly, and Claude works out mis-transcribed words from context.</li><li><strong>Let Claude ask questions:</strong> Claude often asks 3 to 5 clarifying questions on its own. If a tool jumps straight to answers, tell it: \"Ask me questions first.\"</li></ul><p>A useful shortcut is the <strong>WE framework</strong>: <em>Who are we?</em> (who you are and the role Claude should play, such as a seasoned editor) and <em>How do we get what we want?</em> (the specific task plus the victory outcome, so the work aims at a bullseye and not just an activity).</p><p>If an answer misses, don't give up on AI. Correct it: \"that's not what I asked for\", \"that's wrong because…\", or add more information. Sharing an example of a past workflow also cuts the number of rounds a lot.</p><p><strong>Tip:</strong> when you're still working out requirements, say <em>\"Don't build anything yet\"</em>. Otherwise Claude may start producing a deliverable you'll change in the next message, which wastes credits.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>3. Projects vs. skills</h3><p>This was the most-asked question on the call, so here is the clean version.</p><table><tr><th></th><th>Project</th><th>Skill</th></tr><tr><td>What it is</td><td>A workspace for <em>one</em> client, offering or initiative</td><td>A repeatable process or framework Claude follows the same way every time</td></tr><tr><td>Holds</td><td>Knowledge files, instructions, chat history, memory</td><td>Step-by-step instructions, templates and reference files</td></tr><tr><td>When Claude uses it</td><td>Always, for every chat in that project</td><td>On demand, in any chat or project, when it's relevant or you call it</td></tr><tr><td>Examples</td><td>A client engagement; building the OASYS offering</td><td>OA brand kit, OA documents, CSP process, SOP builder, a RACI framework, the sales coach</td></tr></table><p><strong>Rule of thumb:</strong> if it's <em>context about one thing</em>, use a project. If it's <em>a process you'll reuse on many things</em>, make it a skill. They work best together: a client project supplies the context, and skills supply the how (\"use the CSP skill on this client\", \"brand this with the OA brand kit\").</p><p>Practical notes:</p><ul><li>Start a new project by asking Claude to help you write the project instructions.</li><li>A document created inside a project is <strong>not</strong> saved to its knowledge base automatically. Add final versions deliberately, and leave drafts out.</li><li>Skills are editable. After using one, ask Claude to review how the work went and suggest updates. To build one, just say \"I need to create a Claude skill for…\" and the built-in skill creator takes over.</li><li>Skills shared across the company keep everyone on one version. Sending copies around creates version-control problems, so ask before circulating files.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>4. Connectors and Claude inside Microsoft 365</h3><p>A <strong>connector</strong> gives Claude permission to read, and sometimes update, the tools you already use: Outlook email, SharePoint, Notion, Slack, Granola call transcripts and hundreds more. Instead of copying and pasting between tools, you say \"pull the transcript from my call with…and add the to-dos to Notion.\"</p><p>Two clarifications on what was said in the session:</p><ul><li>Claude is also available <strong>inside Excel, Word, PowerPoint and Outlook</strong> as add-ins (installed from the Microsoft Marketplace) on a paid Claude plan. On Team and Enterprise plans an organization owner must switch on cross-app use first.</li><li><strong>Claude in Chrome</strong> is a browser extension, not a connector in the strict sense. It can research a site and fill in forms for you while you watch. It will pause when you need to step in, for example to pay.</li></ul><p>Not sure whether something connects? <strong>Ask Claude.</strong> \"Do you have a connector for this tool?\" is a perfectly good question.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>5. Protect client data and verify everything</h3><p>The call said \"the paid account is the secure account.\" That's a good instinct but too simple. The accurate version:</p><ul><li>Use OneAccord's <strong>company Claude account</strong> for client work and follow the <strong>OneAccord AI use policy</strong>.</li><li>Personal Free, Pro and Max accounts have a setting that lets your chats be used to improve the model, and it's up to each user. So a paid personal plan is <em>not</em> automatically safe for client data. Business plans (Team and Enterprise) are governed by commercial terms and are handled separately.</li><li>On any other AI tool, especially a free one, don't paste client information until you've confirmed its data-training settings. If in doubt, ask before you share.</li><li>Keep work and personal chats separate. Claude builds memory from your conversations, so keeping the work account for work keeps its context clean and relevant.</li></ul><p><strong>Recording calls:</strong> recording every client and sales call is the OneAccord standard, and Teams shows a recording notice to participants. Make sure clients know they're being recorded, and check the AI use policy if you're unsure.</p><p><strong>Never send anything you haven't read.</strong> You still verify accuracy before it goes to a client. The goal is for the human to do only what a human should do, not to skip the human.</p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "In your own words, which best describes an AI-native organization?",
+      "options": [
+        "One that replaces consultants with AI agents wherever possible",
+        "One that hands repetitive, mundane work to AI so people focus on judgment, creativity, expertise and client relationships",
+        "One that uses AI only for drafting emails",
+        "One that lets each person use any AI tool with any client data"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. AI takes the mundane work; people bring judgment and expertise, and that builds margin.",
+      "feedbackIncorrect": "Not quite. AI-native means AI handles the mundane work so people can focus on what only humans can do."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You're about to ask Claude for help with a tricky client problem. Which prompt approach works best?",
+      "options": [
+        "A one-line question, then judge the answer",
+        "State the goal, then give full context by speaking it, and let Claude ask clarifying questions",
+        "Ask for the final deliverable right away and edit it afterward",
+        "Copy your last prompt from a different task"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Exactly. Goal plus rich context plus letting Claude ask questions gets much better results.",
+      "feedbackIncorrect": "Better: state the goal, give full context (speaking it is fastest), and let Claude ask clarifying questions."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You're gathering requirements for a new deliverable and Claude keeps starting to build it. What should you say?",
+      "options": [
+        "Nothing, just let it finish and redo it later",
+        "\"Don't build anything yet. Ask me questions first until we have the full picture.\"",
+        "Start a brand-new account",
+        "Switch to a shorter prompt"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Holding off the build until requirements are clear saves time and credits.",
+      "feedbackIncorrect": "Tell Claude not to build yet and to ask questions first. Otherwise it rebuilds every time you add instructions."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You have a OneAccord brand kit you want to use on every client deliverable, in any project. Where should it live?",
+      "options": [
+        "A project, because it's about OneAccord",
+        "A skill, because it's a reusable process Claude can use anywhere",
+        "A SharePoint template library nobody opens",
+        "It doesn't need to be saved"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct. Reusable across many things means a skill.",
+      "feedbackIncorrect": "It should be a skill. Skills are reusable across projects and chats; projects hold context about one thing."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You're working with one specific client and want Claude to remember their documents, history and instructions for every chat about them. What fits best?",
+      "options": [
+        "A project for that client",
+        "A skill for that client",
+        "Only a saved email",
+        "A free personal account"
+      ],
+      "correctIndex": 0,
+      "feedbackCorrect": "Right. A project keeps one client's context together and always available.",
+      "feedbackIncorrect": "That's a project: a workspace of context for one client, always loaded for chats inside it."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "You created a final proposal inside a client project. What's true about the project's knowledge base?",
+      "options": [
+        "It's saved there automatically",
+        "It's saved only if you deliberately add it",
+        "Claude deletes it after a week",
+        "Only drafts are saved"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct. Add finished documents to the knowledge base on purpose, and leave drafts out.",
+      "feedbackIncorrect": "Documents created in a project aren't added to the knowledge base automatically. Add final versions deliberately."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Which statement about protecting client data is the most accurate?",
+      "options": [
+        "Any paid AI account is safe for client data",
+        "Use the OneAccord company account, follow the AI use policy, and check data-training settings before putting client information into any other tool",
+        "Free accounts are fine if you delete the chat afterward",
+        "Client data is safe in any tool as long as it's for work"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. The company account and the AI use policy come first, and other tools need a check.",
+      "feedbackIncorrect": "Paid doesn't automatically mean safe. Use the company account, follow the AI use policy, and check settings before sharing client data elsewhere."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Claude drafted a client-ready deck for you and it looks great. What now?",
+      "options": [
+        "Send it: Claude is accurate",
+        "Read it through and verify it before it goes to the client",
+        "Ask a colleague to send it",
+        "Ask Claude to send it without review"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Exactly. You stay accountable, so read it and verify it first.",
+      "feedbackIncorrect": "Always review and verify. AI does the busy work; you are still responsible for the result."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>A client tells you: <em>\"I tried AI and I don't like it. It never gives me good answers.\"</em> They also mention they paste a few client spreadsheets into a free AI tool on their phone.</p><p>Write how you'd respond. Explain what you'd suggest they change and how you'd handle the data concern.</p>",
+      "rubric": [
+        "Suggests better prompting: a clear goal and lots of context (ideally spoken), and inviting the AI to ask clarifying questions",
+        "Says to correct or refine weak answers by adding information instead of giving up, or mentions giving examples",
+        "Raises the data concern: don't put client data in a free or unvetted tool; use a business account and check data-training settings and policy",
+        "Reinforces that a person still reviews and verifies AI output before relying on it or sending it"
+      ],
+      "passThreshold": 3,
+      "coachContext": "OneAccord is becoming an AI-native organization: AI takes over mundane, repetitive work (drafting emails, meeting summaries, restructuring docs and decks, building branded deliverables) so consultants spend time on judgment, creativity, expertise and client relationships, which builds margin. Prompting fundamentals: state the goal (what you want from Claude and the format), give rich context (speak into the mic for a few minutes; Claude can infer mis-transcribed words), and let Claude ask 3-5 clarifying questions (if it doesn't, tell it to). J.R. Covey's WE framework: 'Who are we?' (define who you are and the role Claude plays) and 'How do we get what we want?' (specific task plus the victory outcome). If output is poor, correct it, re-explain or add information; keep practicing. Tell Claude 'do not build yet' while still gathering requirements, to avoid wasting credits. Giving Claude an example of a past workflow cuts iterations. Projects = a dedicated workspace for ONE client, offering or initiative, with knowledge files, instructions and chat history that are always loaded for chats in that project. Project memory builds from chats. Documents made in a project are not automatically saved to its knowledge base; ask to save final versions only. Ask Claude to help write the project instructions first. Skills = repeatable, reusable procedures or frameworks (OA brand kit, OA documents, CSP process, SOP creator, process mapping, a RACI framework, sales coach) that Claude can use from any chat or project and loads only when needed. Rule of thumb: project for context about one thing, skill for a process reused across many things. Skills are editable and can be improved after use by asking Claude to review how it went. Org-wide skills can be shared with everyone. Use the built-in skill creator. Connectors give Claude permission to read and act in tools you already use (Microsoft 365 email, SharePoint, Excel, PowerPoint; Notion; Slack; Granola for call transcripts). Claude also works inside Excel, Word, PowerPoint and Outlook via add-ins on a paid plan (on Team/Enterprise an admin must enable cross-app use). Claude in Chrome is a browser extension that can navigate sites and fill forms. If unsure whether a connector exists, ask Claude. Safety: never present anything to a client you haven't read and verified; human stays accountable. Use the OneAccord company Claude account and follow the OneAccord AI use policy; do not put client data into free or personal AI accounts, and check the tool's data-training settings. Consumer plans (Free, Pro, Max) can be used for model improvement if the user opts in, so a paid personal plan is not automatically 'secure'. Keep work and personal chats separate."
+    },
+    {
+      "type": "reflection",
+      "id": "reflection",
+      "prompt": "This week's challenge: pick one task from your own work that AI could take over or speed up. Which task is it, and what will you hand to Claude versus keep for yourself?",
+      "coachContext": "OneAccord is becoming an AI-native organization: AI takes over mundane, repetitive work (drafting emails, meeting summaries, restructuring docs and decks, building branded deliverables) so consultants spend time on judgment, creativity, expertise and client relationships, which builds margin. Prompting fundamentals: state the goal (what you want from Claude and the format), give rich context (speak into the mic for a few minutes; Claude can infer mis-transcribed words), and let Claude ask 3-5 clarifying questions (if it doesn't, tell it to). J.R. Covey's WE framework: 'Who are we?' (define who you are and the role Claude plays) and 'How do we get what we want?' (specific task plus the victory outcome). If output is poor, correct it, re-explain or add information; keep practicing. Tell Claude 'do not build yet' while still gathering requirements, to avoid wasting credits. Giving Claude an example of a past workflow cuts iterations. Projects = a dedicated workspace for ONE client, offering or initiative, with knowledge files, instructions and chat history that are always loaded for chats in that project. Project memory builds from chats. Documents made in a project are not automatically saved to its knowledge base; ask to save final versions only. Ask Claude to help write the project instructions first. Skills = repeatable, reusable procedures or frameworks (OA brand kit, OA documents, CSP process, SOP creator, process mapping, a RACI framework, sales coach) that Claude can use from any chat or project and loads only when needed. Rule of thumb: project for context about one thing, skill for a process reused across many things. Skills are editable and can be improved after use by asking Claude to review how it went. Org-wide skills can be shared with everyone. Use the built-in skill creator. Connectors give Claude permission to read and act in tools you already use (Microsoft 365 email, SharePoint, Excel, PowerPoint; Notion; Slack; Granola for call transcripts). Claude also works inside Excel, Word, PowerPoint and Outlook via add-ins on a paid plan (on Team/Enterprise an admin must enable cross-app use). Claude in Chrome is a browser extension that can navigate sites and fill forms. If unsure whether a connector exists, ask Claude. Safety: never present anything to a client you haven't read and verified; human stays accountable. Use the OneAccord company Claude account and follow the OneAccord AI use policy; do not put client data into free or personal AI accounts, and check the tool's data-training settings. Consumer plans (Free, Pro, Max) can be used for model improvement if the user opts in, so a paid personal plan is not automatically 'secure'. Keep work and personal chats separate."
+    },
+    {
+      "type": "links",
+      "html": "<div class='callout'><strong>Have a skill idea?</strong> If a skill would help the whole company, build a draft or bring the idea to Jesse and we'll roll it out.</div>",
+      "links": [
+        {
+          "label": "Claude: Skills explained",
+          "url": "https://claude.com/blog/skills-explained"
+        },
+        {
+          "label": "Claude for Microsoft 365",
+          "url": "https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps"
+        }
+      ]
+    }
+  ]
+}
