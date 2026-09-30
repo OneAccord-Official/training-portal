@@ -110,6 +110,21 @@ the Claude API.
 - **Until the key is set:** the training still works. Scenarios fall back to a self-check against
   the rubric, and Game Plan sections save without review.
 
+## OneAccord Digital Standard (7 lessons)
+
+Lives in `data/trainings/microsoft-digital-standard/lesson-1.json` ... `lesson-7.json`. Text-only
+lessons on how OneAccord uses Outlook, Teams, OneDrive, SharePoint (the Hub) and Ninety.io, plus
+the Action Needed / Informed labels. Each lesson is teaching sections, a multiple-choice knowledge
+check, and (lessons 2, 3, 4, 6 and 7) an AI-graded scenario (4 rubric points, 3 to pass).
+
+- The lesson JSON can carry a top-level `coachPersona` string. `coach.js` uses it instead of the
+  default Sales Training persona, so this training is coached in its own voice. Sales Training
+  lessons omit it and are unchanged.
+- Multiple-choice questions are not scored or gated by the portal (same as every other training);
+  the scenarios are the gated checks.
+- Source of the content: the OneAccord "How We Work" communication standards (June 2026), which
+  win over the older Kajabi course where they differ.
+
 ### Editing content
 
 To change a rubric, question, or text, edit the module JSON and push; Netlify redeploys. Keep
