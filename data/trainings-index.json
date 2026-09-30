@@ -4,37 +4,89 @@
       "id": "zoho-crm-coach",
       "title": "Zoho CRM Training Coach",
       "lessons": [
-        { "id": "lesson-1", "title": "1. The Big Picture (Zoho One vs. CRM)", "status": "ready" },
-        { "id": "lesson-2", "title": "2. Your Professional Setup", "status": "ready" },
-        { "id": "lesson-3", "title": "3. Your Personal Bookings Page", "status": "ready" },
-        { "id": "lesson-4", "title": "4. Data Hierarchy & The Lead Flow", "status": "ready" },
-        { "id": "lesson-5", "title": "5. Working the Buyer's Journey", "status": "ready" },
-        { "id": "lesson-6", "title": "6. Activity Management", "status": "ready" },
-        { "id": "lesson-7", "title": "7. Using AI Alongside Zoho", "status": "ready" },
-        { "id": "lesson-8", "title": "8. Reports, Analytics & Mobile", "status": "ready" }
+        {
+          "id": "lesson-1",
+          "title": "1. The Big Picture (Zoho One vs. CRM)",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-2",
+          "title": "2. Your Professional Setup",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-3",
+          "title": "3. Your Personal Bookings Page",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-4",
+          "title": "4. Data Hierarchy & The Lead Flow",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-5",
+          "title": "5. Working the Buyer's Journey",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-6",
+          "title": "6. Activity Management",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-7",
+          "title": "7. Using AI Alongside Zoho",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-8",
+          "title": "8. Reports, Analytics & Mobile",
+          "status": "ready"
+        }
       ]
     },
     {
       "id": "sales-training",
       "title": "OneAccord Sales Training",
       "lessons": [
-        { "id": "module-1", "title": "1. Engaging with Referral Partners", "status": "ready" },
-        { "id": "module-2", "title": "2. Qualifying Clients", "status": "ready" },
-        { "id": "module-3", "title": "3. Leveraging Community to Serve", "status": "ready" },
-        { "id": "module-4", "title": "4. Gracefully Declining an Engagement", "status": "ready" },
-        { "id": "module-5", "title": "5. Closing Deals: Trust & Credibility", "status": "ready" }
+        {
+          "id": "module-1",
+          "title": "1. Engaging with Referral Partners",
+          "status": "ready"
+        },
+        {
+          "id": "module-2",
+          "title": "2. Qualifying Clients",
+          "status": "ready"
+        },
+        {
+          "id": "module-3",
+          "title": "3. Leveraging Community to Serve",
+          "status": "ready"
+        },
+        {
+          "id": "module-4",
+          "title": "4. Gracefully Declining an Engagement",
+          "status": "ready"
+        },
+        {
+          "id": "module-5",
+          "title": "5. Closing Deals: Trust & Credibility",
+          "status": "ready"
+        }
       ]
-    }
-  ]
-}
-{
-  "id": "ai-native",
-  "title": "AI-Native Ways of Working",
-  "lessons": [
+    },
     {
-      "id": "lesson-1",
-      "title": "1. Getting Started with Claude",
-      "status": "ready"
+      "id": "ai-native",
+      "title": "AI-Native Ways of Working",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "1. Getting Started with Claude",
+          "status": "ready"
+        }
+      ]
     }
   ]
 }
