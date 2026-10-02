@@ -533,7 +533,7 @@ function renderScenarioBlock(el, block) {
 }
 
 function renderDeliverableBlock(el, block) {
-  aiShell(el, `🗂️ Game Plan: ${escapeHtml(block.title)}`, block.promptHtml);
+  aiShell(el, `🗂️ ${escapeHtml(block.label || "Game Plan")}: ${escapeHtml(block.title)}`, block.promptHtml);
   const saved = loadLocal(gamePlanKey(state.currentTrainingId, state.currentLessonId, block.id));
 
   const inputs = {};
@@ -707,7 +707,7 @@ function renderGamePlanBlock(el, block) {
 
   const docHtml = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${escapeHtml(block.title || "My Sales Game Plan")}</title>
     <style>body{font-family:Calibri,Arial,sans-serif;color:#1a1f27;max-width:760px;margin:32px auto;line-height:1.5}h1{color:#12233b}h3{color:#1f5fae;border-bottom:1px solid #dfe3e8;padding-bottom:4px;margin-top:28px}h4{margin:14px 0 4px}</style></head>
-    <body><h1>${escapeHtml(block.title || "My Sales Game Plan")}</h1><p>OneAccord Sales Training · ${new Date().toLocaleDateString()}</p>${sectionHtml}</body></html>`;
+    <body><h1>${escapeHtml(block.title || "My Sales Game Plan")}</h1><p>${escapeHtml(block.docSubtitle || "OneAccord Sales Training")} · ${new Date().toLocaleDateString()}</p>${sectionHtml}</body></html>`;
 
   const actions = document.createElement("div");
   actions.className = "lesson-nav-actions";
@@ -719,7 +719,7 @@ function renderGamePlanBlock(el, block) {
     const blob = new Blob([docHtml], { type: "application/msword" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = "My-Sales-Game-Plan.doc";
+    a.download = block.fileName || "My-Sales-Game-Plan.doc";
     document.body.appendChild(a);
     a.click();
     a.remove();

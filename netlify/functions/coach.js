@@ -108,7 +108,7 @@ exports.handler = async (event) => {
     system =
       coachPersona +
       context +
-      `\n\nReview this section of the learner's personal Sales Game Plan against the review criteria. ` +
+      `\n\nReview this section of the learner's personal ${block.planName || "Sales Game Plan"} against the review criteria. ` +
       `Approve it when it substantially meets the criteria and is specific to their real situation; don't demand perfection. ` +
       `Mark it needs_revision if it's vague, generic, placeholder text, or misses a criterion. ` +
       `Respond with ONLY a JSON object, no other text: ` +
