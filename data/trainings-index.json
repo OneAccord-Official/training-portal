@@ -128,6 +128,32 @@
           "status": "ready"
         }
       ]
+    },
+    {
+      "id": "oasys-overview",
+      "title": "OASYS Strategic Planning: Overview",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "1. The OASYS Strategic Planning Practice",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-2",
+          "title": "2. Strategic Planning Foundations",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-3",
+          "title": "3. What Is a Business Operating System?",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-4",
+          "title": "4. The OASYS Process",
+          "status": "ready"
+        }
+      ]
     }
   ]
 }
