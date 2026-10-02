@@ -154,6 +154,42 @@
           "status": "ready"
         }
       ]
+    },
+    {
+      "id": "mastering-oasys",
+      "title": "Mastering OASYS: Certified Implementer",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "1. Foundations of OASYS",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-2",
+          "title": "2. The Client Engagement Lifecycle",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-3",
+          "title": "3. Facilitating the Implementation Workshops",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-4",
+          "title": "4. The Meeting Cadence",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-5",
+          "title": "5. Ninety.io and Your Role as a BOS Coach",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-6",
+          "title": "6. Putting Your Certification to Work",
+          "status": "ready"
+        }
+      ]
     }
   ]
 }
