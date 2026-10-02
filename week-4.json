@@ -1,0 +1,188 @@
+{
+  "id": "week-4",
+  "title": "Week 4: Brand, Team and Relationships",
+  "coachPersona": "You are an experienced OneAccord Managing Principal coaching a new principal through 'Building a Consulting Practice in OneAccord', the 12-week onboarding that follows Discovery Day. OneAccord's brand promise is 'We make companies more valuable' and its values are Service, Compassion and Truth. You are a mentor and sounding board, not a judge. Use plain, warm, specific language.",
+  "completionTitle": "You've completed Week 4",
+  "keyConcepts": [
+    "A strong brand and team extend what you can do alone",
+    "Focus on your strengths; lean on the team for the rest",
+    "How you show up in relationships matters, at work and beyond"
+  ],
+  "nextTeaser": "Next, Week 5 starts Prospect Discovery: defining your ideal client.",
+  "nextLessonId": "week-5",
+  "resources": [
+    {
+      "label": "OA Principal Evaluation Form (Word)",
+      "url": "https://oneaccord.sharepoint.com/sites/HowtoOneAccord/Shared%20Documents/General/1.%20Building%20a%20Consulting%20Practice%20at%20OneAccord%20(How%20To%20OneAccord)/Weekly%20Attachments/OA%20Principal%20Evaluation%20Form.docx?web=1"
+    },
+    {
+      "label": "Growing Relationships worksheet (fillable)",
+      "url": "https://oneaccord.sharepoint.com/sites/HowtoOneAccord/Shared%20Documents/General/1.%20Building%20a%20Consulting%20Practice%20at%20OneAccord%20(How%20To%20OneAccord)/Weekly%20Attachments/Week_4_Growing_Relationships_worksheet_Form%20Fillable.pdf"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Week 4.</strong> Two themes: the advantage of a strong brand and team, and being intentional about the relationships that matter most. This week also closes the first round of referral conversations.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=7f13060a-f80e-40e0-a73c-7d9a461e0704&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "Aligning with a Strong Brand and Team (2:11)",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/BCP%2005%20-%20The%20Collective%20Power.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>As you watch:</strong> former Principals Scott, Craig, Glenn and Rich describe how OneAccord's brand and team let them go beyond their individual limits. Listen for specific examples, and think about which of your strengths the team could amplify."
+    },
+    {
+      "type": "text",
+      "html": "<h3>The collective power</h3><ul><li><strong>Brand:</strong> OneAccord's reputation gives your practice visibility and credibility from day one.</li><li><strong>Team:</strong> you focus on what you do best, and bring in colleagues for the rest so clients get the best possible service.</li><li><strong>Peers:</strong> fellow Principals offer fresh perspectives and ideas on tough challenges, and that's how you grow.</li></ul><p>Start a simple collaboration strategy: how you'll use the brand and team, the strengths you'll lead with, and which colleagues could cover areas outside your expertise.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=5472920b-3b95-4570-af7b-f29dfe816f3d&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "Nick on Intentional Relationships (2:30)",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/BCP%2006%20-%20Nick%20on%20Intentional%20Relationships.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>As you watch:</strong> Nick's theme is that how you show up matters. Who are the people you most want to invest in?"
+    },
+    {
+      "type": "activity",
+      "label": "Growing Relationships worksheet",
+      "instructions": "<p>Using the <a href='https://oneaccord.sharepoint.com/sites/HowtoOneAccord/Shared%20Documents/General/1.%20Building%20a%20Consulting%20Practice%20at%20OneAccord%20(How%20To%20OneAccord)/Weekly%20Attachments/Week_4_Growing_Relationships_worksheet_Form%20Fillable.pdf' target='_blank' rel='noopener'>Growing Relationships worksheet</a>:</p><ol><li>List the four most important areas of your life (work, family, community, hobbies...).</li><li>For each, name three people you want to build or deepen a relationship with.</li><li>Pick one person per area: how you'll help or appreciate them, what you want to learn from them, and how you want to show up (confident, curious, helpful...).</li></ol><p>OneAccord develops the whole person. Strong relationships beyond work contribute to your success at work.</p>",
+      "confirmText": "I've completed the worksheet"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "According to this week's lessons, what's the best way to serve a client need that's outside your expertise?",
+      "options": [
+        "Learn it quickly so you can deliver it yourself",
+        "Decline that part of the work",
+        "Bring in a fellow Principal whose strengths fit",
+        "Refer the client to a competitor"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. Focus on your strengths and lean on the team.",
+      "feedbackIncorrect": "Lean on the team: bring in a Principal whose strengths fit, so the client gets the best possible service."
+    },
+    {
+      "type": "activity",
+      "label": "Field assignment: Referral conversation 4 of 4 (Weeks 1-4)",
+      "instructions": "<p><strong>Observer this week:</strong> someone from your Discovery Day group. Give them the OA Principal Evaluation Form before the meeting and go over it together afterward.</p><ul><li><strong>Who:</strong> a <em>new</em> referral partner. Most partnerships feel one-sided at first, so keep opening new ones to build a steady flow.</li><li><strong>Goal:</strong> start the relationship and agree on a rhythm of regular meetings to exchange opportunities. The value of these relationships compounds over time.</li></ul>",
+      "confirmText": "I've scheduled (or held) this week's referral conversation"
+    },
+    {
+      "type": "activity",
+      "label": "Field assignment: Team Integration (4 of 5)",
+      "instructions": "<p>Meet a new OneAccord Principal this week, in person if local or over a virtual coffee. Ask your coach for suggestions. Besides getting to know each other, learn:</p><ul><li>Their main industry experience</li><li>Where most of their industry contacts are</li><li>Their core strengths and expertise</li><li>When you'd bring them into a conversation</li></ul><p>Jot notes afterward so you can introduce them well, and so you remember which of their connections could help you.</p>",
+      "confirmText": "I've scheduled (or met) a Principal this week"
+    },
+    {
+      "type": "deliverable",
+      "id": "journal",
+      "title": "Week 4 Check-in",
+      "label": "Coaching Journal",
+      "planName": "Coaching Journal",
+      "promptHtml": "<p>Capture your Week 4 check-in. It saves to your Coaching Journal, which you'll download before your coaching call. Your AI coach gives quick feedback; your real coach reads it with you.</p>",
+      "fields": [
+        {
+          "id": "referral",
+          "label": "Referral conversation: who did you meet, who observed, and one piece of feedback you received?",
+          "rows": 3,
+          "placeholder": "Partner, observer, and the most useful feedback"
+        },
+        {
+          "id": "round1",
+          "label": "After four referral conversations: what have you noticed, what are your takeaways, and what would you do better?",
+          "rows": 4,
+          "placeholder": ""
+        },
+        {
+          "id": "team",
+          "label": "Team Integration: which Principal did you meet, and when would you bring them into a conversation?",
+          "rows": 3,
+          "placeholder": "Name, their strengths and contacts, where they'd add value"
+        },
+        {
+          "id": "stood-out",
+          "label": "What stood out to you in your meetings or lessons this week?",
+          "rows": 3,
+          "placeholder": "One or two things that stuck with you"
+        },
+        {
+          "id": "opps",
+          "label": "What opportunities or challenges came up in your practice?",
+          "rows": 3,
+          "placeholder": "Prospects, referral conversations, obstacles, wins"
+        },
+        {
+          "id": "coach-topic",
+          "label": "What would be most helpful to talk through with your coach?",
+          "rows": 3,
+          "placeholder": "The one or two things you want from this week's coaching call"
+        }
+      ],
+      "criteria": [
+        "Answers are specific to the learner's real week (names, meetings, examples), not generic statements",
+        "Field-assignment answers say who they met and capture at least one concrete piece of feedback or takeaway",
+        "The coach check-in identifies at least one concrete topic, challenge or question to talk through"
+      ],
+      "coachContext": "Course structure: an Introduction plus Weeks 1-12. Each week has short lessons with a video, field assignments, a weekly check-in the learner writes into their Coaching Journal, and a 30-minute weekly call with their coach (an assigned Managing Principal). Ongoing field assignments: Team Integration (weeks 1-5: meet a new OneAccord Principal each week and learn their industry experience, where their contacts are, core strengths, and why you'd bring them into a conversation); Developing Your Referral Network (weeks 1-4 and 9-12: four referral-partner conversations per round, each observed by someone who completes the OA Principal Evaluation Form; meeting 1 explores a new partner's needs and goals, meeting 2 deepens the relationship and shares what you do, meeting 3 clarifies when and how they'd refer (referral criteria, a smooth process, your 'work product'), meeting 4 opens a new partner and sets up regular interaction); Prospect Discovery (weeks 5-8: practice discovery conversations with a CEO connection who names one need in advance; the aim is to investigate, not sell, focusing on the questions you ask and relating as an advisor/mentor; the next step is a Client Success Plan or a brief revenue review; if no CEO is available, role-play a case study). Goal: at least eight referral-partner appointments over the course. Referral partners include CPAs, wealth advisors, M&A advisors, bankers, attorneys and others who see owners at every stage (starting, scaling, exiting). Referral network development is the engine of a principal's practice: the source of stability and control, and a revenue stream itself through lead fees. Key ideas: owner dependency is usually the top risk discounting a private company's value (often 10-30%); in the 'Value of Your Business' example a company with $1M sustainable EBITDA at a 5x multiple is worth a potential $5M, a 20% owner-dependency discount takes it to $4M, and other risks (customer concentration, weak pipeline, poor financials, thin management) plus an earn-out can leave about $3M at closing; earn-outs are contingent payments the seller no longer controls. Team: Principals each run a self-sufficient practice but bring in fellow Principals with complementary strengths (1+1=3), pass leads that don't fit (lead fees), and lean on OneAccord's brand, IP and resources. OneAccord serves both sellers (increase value before a sale) and buyers (evaluate and improve an acquisition). Eight components of a practice: client-specific (referral network development, prospect discovery, structuring engagements, client delivery and communication) and practice-specific (practice balance, team involvement, regional goals, corporate standards and best practices). Case studies: Redden Marine (stuck sales, chaos, low morale; working contract for the leadership team, SOPs, hiring and onboarding, one-on-ones, monthly all-hands; revenue about $21M to just under $27M, net income +61%, morale from below 1 to over 4 on a 5-point scale); EZ Lube (turnaround after Chapter 11; trained the district managers rather than technicians; 18-month sales goals met in five months; sold to Valvoline, which rehired every DM); Redfern Concrete (family succession; separate then shared objectives; brought in CPA, attorney and wealth advisor; sale price up 70%, lower taxes, manageable payments for the son); Critical Power (founder bought assets of a business losing $1M a year; OneAccord as fractional COO; culture, training, one-page plan; revenue +$5M and profits tripled in year two); Breakwater Security (revenue realignment: roles, metrics, compensation, sales strategy, inside sales and channels; led to the desired valuation and acquisition)."
+    },
+    {
+      "type": "gameplan",
+      "title": "My Coaching Journal",
+      "docSubtitle": "Building a Consulting Practice in OneAccord",
+      "fileName": "My-Coaching-Journal.doc",
+      "introHtml": "<p>Here's your Coaching Journal so far. <strong>Download it and send it to your coach before your weekly call</strong> (or have it open during the call). Each week adds a new entry.</p>",
+      "sections": [
+        {
+          "title": "Introduction: Getting Started",
+          "from": "the Introduction",
+          "lessonId": "intro",
+          "blockId": "journal"
+        },
+        {
+          "title": "Week 1 Check-in",
+          "from": "Week 1",
+          "lessonId": "week-1",
+          "blockId": "journal"
+        },
+        {
+          "title": "Week 2 Check-in",
+          "from": "Week 2",
+          "lessonId": "week-2",
+          "blockId": "journal"
+        },
+        {
+          "title": "Week 3 Check-in",
+          "from": "Week 3",
+          "lessonId": "week-3",
+          "blockId": "journal"
+        },
+        {
+          "title": "My Leadership Philosophy",
+          "from": "Week 3",
+          "lessonId": "week-3",
+          "blockId": "leadership-philosophy"
+        },
+        {
+          "title": "Week 4 Check-in",
+          "from": "Week 4",
+          "lessonId": "week-4",
+          "blockId": "journal"
+        }
+      ]
+    }
+  ]
+}

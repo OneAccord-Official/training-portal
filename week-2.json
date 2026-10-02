@@ -1,0 +1,170 @@
+{
+  "id": "week-2",
+  "title": "Week 2: Entrepreneurial Seasons",
+  "coachPersona": "You are an experienced OneAccord Managing Principal coaching a new principal through 'Building a Consulting Practice in OneAccord', the 12-week onboarding that follows Discovery Day. OneAccord's brand promise is 'We make companies more valuable' and its values are Service, Compassion and Truth. You are a mentor and sounding board, not a judge. Use plain, warm, specific language.",
+  "completionTitle": "You've completed Week 2",
+  "keyConcepts": [
+    "Owners need different help as they start, scale and exit",
+    "Different referral partners see owners at each stage",
+    "Tailor your value proposition to the owner's stage and to the partner"
+  ],
+  "nextTeaser": "Next, Week 3 turns inward: values-based leadership, with a story from Nick Anderson.",
+  "nextLessonId": "week-3",
+  "resources": [
+    {
+      "label": "OA Principal Evaluation Form (Word)",
+      "url": "https://oneaccord.sharepoint.com/sites/HowtoOneAccord/Shared%20Documents/General/1.%20Building%20a%20Consulting%20Practice%20at%20OneAccord%20(How%20To%20OneAccord)/Weekly%20Attachments/OA%20Principal%20Evaluation%20Form.docx?web=1"
+    },
+    {
+      "label": "Week 2 Worksheet",
+      "url": "https://oneaccord.sharepoint.com/sites/HowtoOneAccord/Shared%20Documents/General/1.%20Building%20a%20Consulting%20Practice%20at%20OneAccord%20(How%20To%20OneAccord)/Weekly%20Attachments/Week%202%20-%20Worksheet.pdf"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Week 2.</strong> This week we look at the seasons of an entrepreneur's journey, and who can introduce you to owners at each one.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=d4a1e3cd-4ebe-466f-a86e-4fad27af2bb7&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "Ted Marquis, Marq Enterprises (1:03)",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/BCP%2003%20-%20Ted%20Marquis.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>As you watch:</strong> note Ted's milestones, the challenges at each stage, and where outside guidance made a difference."
+    },
+    {
+      "type": "text",
+      "html": "<h3>Seasons of a business</h3><table><thead><tr><th>Stage</th><th>What owners wrestle with</th><th>Who sees them first</th></tr></thead><tbody><tr><td><strong>Starting out</strong></td><td>Focus, cash, first hires, building a repeatable offer</td><td>Bankers, CPAs, attorneys, insurance agents</td></tr><tr><td><strong>Scaling up</strong></td><td>Leadership team, systems, sales engine, the owner as bottleneck</td><td>CPAs, bankers, peer groups, wealth advisors</td></tr><tr><td><strong>Planning an exit</strong></td><td>Value, owner dependency, succession, taxes, deal structure</td><td>Wealth advisors, M&A advisors, estate attorneys, CPAs</td></tr></tbody></table><p>Adaptability and strategic planning matter at every stage, and outside guidance is most valuable at the transitions. Your job is to know which partners see owners at each stage, and to offer those partners something valuable too.</p>"
+    },
+    {
+      "type": "activity",
+      "label": "Map your partners and value propositions",
+      "instructions": "<p>Use the <a href='https://oneaccord.sharepoint.com/sites/HowtoOneAccord/Shared%20Documents/General/1.%20Building%20a%20Consulting%20Practice%20at%20OneAccord%20(How%20To%20OneAccord)/Weekly%20Attachments/Week%202%20-%20Worksheet.pdf' target='_blank' rel='noopener'>Week 2 Worksheet</a>, or a blank page:</p><ul><li>List potential referral partners (CPAs, wealth advisors, M&A advisors and others) who already have the trust of owners.</li><li>For early-stage, growing and exiting owners, note the specific services and expertise you'd bring.</li><li>For each partner type, write how you'd explain the value to them and to their clients.</li></ul>",
+      "confirmText": "I've mapped my partners and value propositions"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A wealth advisor's clients are mostly owners in their 60s thinking about retirement. Which message is most likely to resonate with the advisor?",
+      "options": [
+        "We can help their clients' businesses grow faster next year",
+        "We can help increase what the business is worth, and what the owner actually receives, before a sale",
+        "We can lower their clients' tax bill this year",
+        "We offer a discount for referrals"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. For owners nearing an exit, value and owner dependency are the issue, and that matters to their advisor too.",
+      "feedbackIncorrect": "For exiting owners, the message is value: reducing owner dependency and preparing the business before a sale."
+    },
+    {
+      "type": "activity",
+      "label": "Field assignment: Referral conversation 2 of 4 (Weeks 1-4)",
+      "instructions": "<p><strong>Observer this week:</strong> the referral partner themselves (a friend or potential partner). Give them the OA Principal Evaluation Form before the meeting and go over it together afterward.</p><ul><li><strong>Who:</strong> a potential partner you've already met once.</li><li><strong>Goal:</strong> deepen the connection. Move from exploring to a balanced exchange where you also explain your role and what OneAccord brings to clients and partners.</li><li><strong>Feedback:</strong> this time the partner fills out the evaluation form. Follow up afterward to talk through their feedback; it shows you're serious about getting better and strengthens the relationship.</li></ul>",
+      "confirmText": "I've scheduled (or held) this week's referral conversation"
+    },
+    {
+      "type": "activity",
+      "label": "Field assignment: Team Integration (2 of 5)",
+      "instructions": "<p>Meet a new OneAccord Principal this week, in person if local or over a virtual coffee. Ask your coach for suggestions. Besides getting to know each other, learn:</p><ul><li>Their main industry experience</li><li>Where most of their industry contacts are</li><li>Their core strengths and expertise</li><li>When you'd bring them into a conversation</li></ul><p>Jot notes afterward so you can introduce them well, and so you remember which of their connections could help you.</p>",
+      "confirmText": "I've scheduled (or met) a Principal this week"
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>You're meeting an M&A advisor for the first time. He says: <em>\"Half the owners who call me aren't ready to sell. Their companies would get crushed in diligence. I usually tell them to come back in two years.\"</em></p><p>How do you respond, and what would you propose?</p>",
+      "rubric": [
+        "Asks questions to understand what makes those owners 'not ready' (owner dependency, financials, management depth, etc.)",
+        "Connects OneAccord's work to his problem: preparing companies so they're worth more and sell more cleanly",
+        "Shows value for him as well as the owner (better deals, clients come back ready, he stays the trusted advisor)",
+        "Suggests a concrete way to work together, such as a referral process or a joint conversation with one of those owners"
+      ],
+      "passThreshold": 3,
+      "coachContext": "Course structure: an Introduction plus Weeks 1-12. Each week has short lessons with a video, field assignments, a weekly check-in the learner writes into their Coaching Journal, and a 30-minute weekly call with their coach (an assigned Managing Principal). Ongoing field assignments: Team Integration (weeks 1-5: meet a new OneAccord Principal each week and learn their industry experience, where their contacts are, core strengths, and why you'd bring them into a conversation); Developing Your Referral Network (weeks 1-4 and 9-12: four referral-partner conversations per round, each observed by someone who completes the OA Principal Evaluation Form; meeting 1 explores a new partner's needs and goals, meeting 2 deepens the relationship and shares what you do, meeting 3 clarifies when and how they'd refer (referral criteria, a smooth process, your 'work product'), meeting 4 opens a new partner and sets up regular interaction); Prospect Discovery (weeks 5-8: practice discovery conversations with a CEO connection who names one need in advance; the aim is to investigate, not sell, focusing on the questions you ask and relating as an advisor/mentor; the next step is a Client Success Plan or a brief revenue review; if no CEO is available, role-play a case study). Goal: at least eight referral-partner appointments over the course. Referral partners include CPAs, wealth advisors, M&A advisors, bankers, attorneys and others who see owners at every stage (starting, scaling, exiting). Referral network development is the engine of a principal's practice: the source of stability and control, and a revenue stream itself through lead fees. Key ideas: owner dependency is usually the top risk discounting a private company's value (often 10-30%); in the 'Value of Your Business' example a company with $1M sustainable EBITDA at a 5x multiple is worth a potential $5M, a 20% owner-dependency discount takes it to $4M, and other risks (customer concentration, weak pipeline, poor financials, thin management) plus an earn-out can leave about $3M at closing; earn-outs are contingent payments the seller no longer controls. Team: Principals each run a self-sufficient practice but bring in fellow Principals with complementary strengths (1+1=3), pass leads that don't fit (lead fees), and lean on OneAccord's brand, IP and resources. OneAccord serves both sellers (increase value before a sale) and buyers (evaluate and improve an acquisition). Eight components of a practice: client-specific (referral network development, prospect discovery, structuring engagements, client delivery and communication) and practice-specific (practice balance, team involvement, regional goals, corporate standards and best practices). Case studies: Redden Marine (stuck sales, chaos, low morale; working contract for the leadership team, SOPs, hiring and onboarding, one-on-ones, monthly all-hands; revenue about $21M to just under $27M, net income +61%, morale from below 1 to over 4 on a 5-point scale); EZ Lube (turnaround after Chapter 11; trained the district managers rather than technicians; 18-month sales goals met in five months; sold to Valvoline, which rehired every DM); Redfern Concrete (family succession; separate then shared objectives; brought in CPA, attorney and wealth advisor; sale price up 70%, lower taxes, manageable payments for the son); Critical Power (founder bought assets of a business losing $1M a year; OneAccord as fractional COO; culture, training, one-page plan; revenue +$5M and profits tripled in year two); Breakwater Security (revenue realignment: roles, metrics, compensation, sales strategy, inside sales and channels; led to the desired valuation and acquisition)."
+    },
+    {
+      "type": "deliverable",
+      "id": "journal",
+      "title": "Week 2 Check-in",
+      "label": "Coaching Journal",
+      "planName": "Coaching Journal",
+      "promptHtml": "<p>Capture your Week 2 check-in. It saves to your Coaching Journal, which you'll download before your coaching call. Your AI coach gives quick feedback; your real coach reads it with you.</p>",
+      "fields": [
+        {
+          "id": "vps",
+          "label": "Your value propositions: for early-stage, growing and exiting owners, and for the partners who can connect you (a few bullets)",
+          "rows": 5,
+          "placeholder": "Stage or partner: what you'd offer and how you'd say it"
+        },
+        {
+          "id": "referral",
+          "label": "Referral conversation: who did you meet, who observed, and one piece of feedback you received?",
+          "rows": 3,
+          "placeholder": "Partner, observer, and the most useful feedback"
+        },
+        {
+          "id": "team",
+          "label": "Team Integration: which Principal did you meet, and when would you bring them into a conversation?",
+          "rows": 3,
+          "placeholder": "Name, their strengths and contacts, where they'd add value"
+        },
+        {
+          "id": "stood-out",
+          "label": "What stood out to you in your meetings or lessons this week?",
+          "rows": 3,
+          "placeholder": "One or two things that stuck with you"
+        },
+        {
+          "id": "opps",
+          "label": "What opportunities or challenges came up in your practice?",
+          "rows": 3,
+          "placeholder": "Prospects, referral conversations, obstacles, wins"
+        },
+        {
+          "id": "coach-topic",
+          "label": "What would be most helpful to talk through with your coach?",
+          "rows": 3,
+          "placeholder": "The one or two things you want from this week's coaching call"
+        }
+      ],
+      "criteria": [
+        "Answers are specific to the learner's real week (names, meetings, examples), not generic statements",
+        "Field-assignment answers say who they met and capture at least one concrete piece of feedback or takeaway",
+        "The coach check-in identifies at least one concrete topic, challenge or question to talk through"
+      ],
+      "coachContext": "Course structure: an Introduction plus Weeks 1-12. Each week has short lessons with a video, field assignments, a weekly check-in the learner writes into their Coaching Journal, and a 30-minute weekly call with their coach (an assigned Managing Principal). Ongoing field assignments: Team Integration (weeks 1-5: meet a new OneAccord Principal each week and learn their industry experience, where their contacts are, core strengths, and why you'd bring them into a conversation); Developing Your Referral Network (weeks 1-4 and 9-12: four referral-partner conversations per round, each observed by someone who completes the OA Principal Evaluation Form; meeting 1 explores a new partner's needs and goals, meeting 2 deepens the relationship and shares what you do, meeting 3 clarifies when and how they'd refer (referral criteria, a smooth process, your 'work product'), meeting 4 opens a new partner and sets up regular interaction); Prospect Discovery (weeks 5-8: practice discovery conversations with a CEO connection who names one need in advance; the aim is to investigate, not sell, focusing on the questions you ask and relating as an advisor/mentor; the next step is a Client Success Plan or a brief revenue review; if no CEO is available, role-play a case study). Goal: at least eight referral-partner appointments over the course. Referral partners include CPAs, wealth advisors, M&A advisors, bankers, attorneys and others who see owners at every stage (starting, scaling, exiting). Referral network development is the engine of a principal's practice: the source of stability and control, and a revenue stream itself through lead fees. Key ideas: owner dependency is usually the top risk discounting a private company's value (often 10-30%); in the 'Value of Your Business' example a company with $1M sustainable EBITDA at a 5x multiple is worth a potential $5M, a 20% owner-dependency discount takes it to $4M, and other risks (customer concentration, weak pipeline, poor financials, thin management) plus an earn-out can leave about $3M at closing; earn-outs are contingent payments the seller no longer controls. Team: Principals each run a self-sufficient practice but bring in fellow Principals with complementary strengths (1+1=3), pass leads that don't fit (lead fees), and lean on OneAccord's brand, IP and resources. OneAccord serves both sellers (increase value before a sale) and buyers (evaluate and improve an acquisition). Eight components of a practice: client-specific (referral network development, prospect discovery, structuring engagements, client delivery and communication) and practice-specific (practice balance, team involvement, regional goals, corporate standards and best practices). Case studies: Redden Marine (stuck sales, chaos, low morale; working contract for the leadership team, SOPs, hiring and onboarding, one-on-ones, monthly all-hands; revenue about $21M to just under $27M, net income +61%, morale from below 1 to over 4 on a 5-point scale); EZ Lube (turnaround after Chapter 11; trained the district managers rather than technicians; 18-month sales goals met in five months; sold to Valvoline, which rehired every DM); Redfern Concrete (family succession; separate then shared objectives; brought in CPA, attorney and wealth advisor; sale price up 70%, lower taxes, manageable payments for the son); Critical Power (founder bought assets of a business losing $1M a year; OneAccord as fractional COO; culture, training, one-page plan; revenue +$5M and profits tripled in year two); Breakwater Security (revenue realignment: roles, metrics, compensation, sales strategy, inside sales and channels; led to the desired valuation and acquisition)."
+    },
+    {
+      "type": "gameplan",
+      "title": "My Coaching Journal",
+      "docSubtitle": "Building a Consulting Practice in OneAccord",
+      "fileName": "My-Coaching-Journal.doc",
+      "introHtml": "<p>Here's your Coaching Journal so far. <strong>Download it and send it to your coach before your weekly call</strong> (or have it open during the call). Each week adds a new entry.</p>",
+      "sections": [
+        {
+          "title": "Introduction: Getting Started",
+          "from": "the Introduction",
+          "lessonId": "intro",
+          "blockId": "journal"
+        },
+        {
+          "title": "Week 1 Check-in",
+          "from": "Week 1",
+          "lessonId": "week-1",
+          "blockId": "journal"
+        },
+        {
+          "title": "Week 2 Check-in",
+          "from": "Week 2",
+          "lessonId": "week-2",
+          "blockId": "journal"
+        }
+      ]
+    }
+  ]
+}

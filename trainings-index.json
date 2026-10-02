@@ -1,0 +1,266 @@
+{
+  "trainings": [
+    {
+      "id": "zoho-crm-coach",
+      "title": "Zoho CRM Training Coach",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "1. The Big Picture (Zoho One vs. CRM)",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-2",
+          "title": "2. Your Professional Setup",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-3",
+          "title": "3. Your Personal Bookings Page",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-4",
+          "title": "4. Data Hierarchy & The Lead Flow",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-5",
+          "title": "5. Working the Buyer's Journey",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-6",
+          "title": "6. Activity Management",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-7",
+          "title": "7. Using AI Alongside Zoho",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-8",
+          "title": "8. Reports, Analytics & Mobile",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "id": "sales-training",
+      "title": "OneAccord Sales Training",
+      "lessons": [
+        {
+          "id": "module-1",
+          "title": "1. Engaging with Referral Partners",
+          "status": "ready"
+        },
+        {
+          "id": "module-2",
+          "title": "2. Qualifying Clients",
+          "status": "ready"
+        },
+        {
+          "id": "module-3",
+          "title": "3. Leveraging Community to Serve",
+          "status": "ready"
+        },
+        {
+          "id": "module-4",
+          "title": "4. Gracefully Declining an Engagement",
+          "status": "ready"
+        },
+        {
+          "id": "module-5",
+          "title": "5. Closing Deals: Trust & Credibility",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "id": "ai-native",
+      "title": "AI-Native Ways of Working",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "1. Getting Started with Claude",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-digital-standard",
+      "title": "OneAccord Digital Standard",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "1. The OneAccord Digital Standard",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-2",
+          "title": "2. Outlook: External Contact and the Formal Record",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-3",
+          "title": "3. Teams: Structure, Posts and Etiquette",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-4",
+          "title": "4. Files: OneDrive, the Hand-Off and Client Files",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-5",
+          "title": "5. SharePoint: The Hub and the Company-Wide Team",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-6",
+          "title": "6. Announcements and Team Alignment",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-7",
+          "title": "7. Final Check and Readiness Checklist",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "id": "oasys-overview",
+      "title": "OASYS Strategic Planning: Overview",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "1. The OASYS Strategic Planning Practice",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-2",
+          "title": "2. Strategic Planning Foundations",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-3",
+          "title": "3. What Is a Business Operating System?",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-4",
+          "title": "4. The OASYS Process",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "id": "mastering-oasys",
+      "title": "Mastering OASYS: Certified Implementer",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "1. Foundations of OASYS",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-2",
+          "title": "2. The Client Engagement Lifecycle",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-3",
+          "title": "3. Facilitating the Implementation Workshops",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-4",
+          "title": "4. The Meeting Cadence",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-5",
+          "title": "5. Ninety.io and Your Role as a BOS Coach",
+          "status": "ready"
+        },
+        {
+          "id": "lesson-6",
+          "title": "6. Putting Your Certification to Work",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "id": "building-consulting-practice",
+      "title": "Building a Consulting Practice in OneAccord",
+      "lessons": [
+        {
+          "id": "intro",
+          "title": "Introduction: Let's Go!",
+          "status": "ready"
+        },
+        {
+          "id": "week-1",
+          "title": "Week 1: Teamwork and the Value of a Business",
+          "status": "ready"
+        },
+        {
+          "id": "week-2",
+          "title": "Week 2: Entrepreneurial Seasons",
+          "status": "ready"
+        },
+        {
+          "id": "week-3",
+          "title": "Week 3: Values-Based Leadership",
+          "status": "ready"
+        },
+        {
+          "id": "week-4",
+          "title": "Week 4: Brand, Team and Relationships",
+          "status": "ready"
+        },
+        {
+          "id": "week-5",
+          "title": "Week 5: Your Ideal Client",
+          "status": "ready"
+        },
+        {
+          "id": "week-6",
+          "title": "Week 6: Telling the OneAccord Story",
+          "status": "ready"
+        },
+        {
+          "id": "week-7",
+          "title": "Week 7: OneAccord in M&A",
+          "status": "ready"
+        },
+        {
+          "id": "week-8",
+          "title": "Week 8: Excellence in Delivery",
+          "status": "ready"
+        },
+        {
+          "id": "week-9",
+          "title": "Week 9: Strategic Networking",
+          "status": "ready"
+        },
+        {
+          "id": "week-10",
+          "title": "Week 10: The Referral Engine",
+          "status": "ready"
+        },
+        {
+          "id": "week-11",
+          "title": "Week 11: Collaboration (1 + 1 = 3)",
+          "status": "ready"
+        },
+        {
+          "id": "week-12",
+          "title": "Week 12: Reflections and the Road Ahead",
+          "status": "ready"
+        }
+      ]
+    }
+  ]
+}

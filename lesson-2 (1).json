@@ -1,0 +1,152 @@
+{
+  "id": "lesson-2",
+  "title": "Lesson 2: Strategic Planning Foundations",
+  "completionTitle": "You've completed Lesson 2: Strategic Planning Foundations",
+  "keyConcepts": [
+    "The three owner objectives: purpose and goals, time freedom, enterprise value",
+    "Why plans fail: unclear direction, misalignment, and the execution gap",
+    "How the practice is structured: CEO-level, horizontal, recurring 90-day cadence",
+    "The building blocks of an effective strategic plan"
+  ],
+  "nextTeaser": "Next, Lesson 3 explains what a Business Operating System is, and why every company already has one.",
+  "nextLessonId": "lesson-3",
+  "resources": [
+    {
+      "label": "OASYS Strategic Planning on oneaccord.co",
+      "url": "https://oneaccord.co/strategic-planning-service/"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Lesson 2 of 4.</strong> Before we get into how OASYS brings plans to life, you need the <em>what</em> and <em>why</em> of strategy: what owners want, why they struggle, and what a good plan contains.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=a35437db-c831-4e56-9e7d-4651caeca620&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "Business Owner Objectives",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2002%20-%20Business%20Owner%20Objectives.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>Listen for:</strong> the three objectives Doug says every business owner has, and how the second one feeds the third."
+    },
+    {
+      "type": "text",
+      "html": "<h3>The three owner objectives</h3><ol><li><strong>Achieve the business purpose and goals.</strong> Mission, vision, values, goals, and often a legacy the owner wants to leave. Even established companies are usually not well aligned on these, and that's typical of our best clients.</li><li><strong>Increase time freedom.</strong> Owners don't want the business to take more and more of their time. Strengthen the leadership team enough and the company can become <em>self-managing</em>, so the owner can step up, step back, or step away.</li><li><strong>Optimize enterprise value.</strong> The number one lever is reducing owner dependence (objective 2 feeds objective 3), alongside better financial performance. A more valuable company gives the owner more options: a financial exit, or an <em>operating</em> exit such as becoming CEO emeritus.</li></ol><p>This is where OASYS connects directly to OneAccord's core message: our work builds enterprise value.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Why strategic planning goes wrong</h3><ul><li><strong>No clear direction:</strong> companies react to whatever comes up instead of tying decisions to long-term goals.</li><li><strong>Misalignment and poor follow-through:</strong> departments pursue their own priorities, and plans become <em>shelfware</em> that collects dust. This is the <strong>execution gap</strong>.</li><li><strong>Too busy and too close:</strong> leaders are buried in firefighting, carry internal biases, and often lack the tools or a skilled facilitator to step back and plan.</li></ul><p>Recognizing these struggles helps you connect with what a prospect is living through.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=b74f60d8-517d-40da-8f26-ced655fcac32&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "Strategic Planning Defined",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2003%20-%20Strategic%20Planning%20Defined%20%28The%20Strategic%20Planning%20Service%29.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>Listen for:</strong> who we work with, what \"horizontal\" means, and how an engagement runs over a year. Doug mentions how fees are structured. Don't quote prices; a managing principal guides pricing. A few colleagues he names may no longer be with OneAccord."
+    },
+    {
+      "type": "text",
+      "html": "<h3>How the practice works</h3><ul><li><strong>CEO-level:</strong> we're hired by the CEO and work with the leadership team, the people who report to the CEO at a strategic level.</li><li><strong>Horizontal, not vertical:</strong> no industry expertise is needed to deliver it. Industry experience can help build trust with a prospect, but we aren't selling industry consulting here.</li><li><strong>A recurring cadence:</strong> onboarding and initial implementation, then a strategic plan refresh every 90 days, anchored by an annual two-day off-site retreat. It works best as an annual plan of work.</li><li><strong>Top down, with cross-sell both ways:</strong> upgrading the BOS often reveals needs in marketing, sales, operations or leadership that other OneAccord services can meet, and those engagements can lead back to OASYS.</li><li><strong>The goal is self-sufficiency:</strong> clients become educated, disciplined and skilled, then carry those disciplines on with or without us.</li></ul>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>What a strategic plan is</h3><p>Strategic planning answers three questions: <em>Where are we now? Where do we want to be? What's the best way to get there?</em> An effective plan is built from connected parts:</p><ul><li><strong>Vision:</strong> what the organization wants to become.</li><li><strong>Mission:</strong> what we offer, to whom, and the unique value we bring.</li><li><strong>Core values:</strong> the timeless principles that shape behavior and culture.</li><li><strong>SWOT:</strong> internal strengths and weaknesses, external opportunities and threats.</li><li><strong>Long-term objectives:</strong> the big measurable goals for the next few years.</li><li><strong>90-day priorities (\"Rocks\"):</strong> the most critical things that must get done this quarter.</li><li><strong>KPIs:</strong> the numbers that show whether we're on track.</li><li><strong>Action plans:</strong> the projects that achieve the goals.</li><li><strong>Accountability:</strong> who owns what, and how we'll know it's done.</li></ul><p>A great plan is still just an idea without a way to execute it. That's the job of the Business Operating System, which is next.</p>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Which are Doug's three owner objectives?",
+      "options": [
+        "Revenue, profit, and cash flow",
+        "Achieve the business purpose and goals, increase time freedom, optimize enterprise value",
+        "Hire, train, and retain",
+        "Sell the company, retire, and travel"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Purpose and goals, time freedom, enterprise value.",
+      "feedbackIncorrect": "The three are: achieve the business purpose and goals, increase the owner's time freedom, and optimize enterprise value."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "According to Doug, what is the number one way OASYS helps increase enterprise value?",
+      "options": [
+        "Cutting staff",
+        "Raising prices",
+        "Reducing owner dependence by building a self-managing leadership team",
+        "Buying a competitor"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Exactly. Objective 2 (a self-managing company) feeds objective 3 (enterprise value).",
+      "feedbackIncorrect": "The main lever is reducing owner dependence, which comes from a stronger, self-managing leadership team."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What does it mean that this is a \"horizontal\" practice?",
+      "options": [
+        "It only serves flat organizations",
+        "It requires deep industry expertise in the client's field",
+        "It works across industries: no industry expertise is needed to deliver it",
+        "It's delivered only to front-line staff"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. It's about leadership and management, not industry know-how.",
+      "feedbackIncorrect": "Horizontal means it works across industries. Industry experience can build trust, but it isn't needed to deliver the work."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What does the ongoing engagement rhythm look like?",
+      "options": [
+        "A one-time planning workshop",
+        "Monthly board meetings only",
+        "Initial implementation, then a strategic plan refresh every 90 days, anchored by an annual two-day retreat",
+        "Weekly on-site consulting indefinitely"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Correct. Quarterly refreshes, anchored by an annual retreat.",
+      "feedbackIncorrect": "After initial implementation, it's a 90-day refresh cycle anchored by an annual two-day off-site retreat."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "A client has a beautiful strategic plan in a binder that nobody has looked at since January. What is this an example of?",
+      "options": [
+        "A SWOT analysis",
+        "The execution gap, also called shelfware",
+        "A self-managing company",
+        "A KPI scorecard"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Exactly. The plan exists; the system to execute it doesn't.",
+      "feedbackIncorrect": "That's the execution gap: a plan with no operating system to carry it out."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>You're meeting the CEO of a 60-person distribution company. She says: <em>\"Honestly, we already do strategic planning. We go off-site every January and come back with a plan. I'm not sure what you'd add.\"</em></p><p>Write how you'd respond.</p>",
+      "rubric": [
+        "Asks or explores what happens to the plan after January (follow-through, alignment, whether it gets executed) instead of dismissing her process",
+        "Names the execution gap: an annual plan without a system to carry it out often becomes shelfware",
+        "Explains the 90-day cadence: quarterly refreshes with priorities, KPIs and accountability, anchored by the annual retreat",
+        "Connects the value to at least one owner objective (purpose and goals, time freedom, or enterprise value)",
+        "Stays consultative and suggests a sensible next step without quoting prices"
+      ],
+      "passThreshold": 4,
+      "coachContext": "OneAccord's OASYS Strategic Planning practice (older materials and videos call it SPE, Strategic Planning and Execution; Doug sometimes says 'Oasis') helps clients build a strategic plan AND upgrade their Business Operating System (BOS) so the plan actually gets executed. OASYS is OneAccord's branded BOS, built on the Ninety OS model and run on the ninety.io software platform. Doug Hall presents the training videos and helped launch the practice; he has coached business operating systems since 2016 (first EOS-certified implementer in Washington State in 2017, later Pinnacle Business Guides and Scaling Up), and takes an independent, best-of-breed approach. The practice currently has no dedicated lead; Nick Anderson is the contact for questions about it. Three owner objectives: (1) achieve the business purpose and goals (mission, vision, values, legacy, aligned team); (2) increase the owner's time freedom by building a self-managing company with a strong leadership team; (3) optimize enterprise value, mainly by reducing owner dependence and improving financial performance, which opens exit options including a financial exit or an operating exit (e.g. CEO emeritus). If an owner is comfortable on all three, they won't buy; there must be pain in at least one, or a vague dissatisfaction, a desire to be a 'category of one', or a sense the owner can't take the company to the next level alone (humility and hunger). Common strategic planning failures: no clear direction, misaligned teams, poor follow-through, 'shelfware' plans that never get executed (the execution gap), firefighting, bias, complexity. Strategic planning answers: where are we now, where do we want to be, how do we get there. Building blocks: vision, mission, core values, SWOT, long-term objectives, 90-day priorities ('Rocks'), KPIs, action plans, accountability structure. The practice is horizontal (no industry expertise needed), hired by the CEO, and works with the leadership team (the CEO's strategic direct reports). Engagement: onboarding and initial implementation, then a strategic plan refresh every 90 days anchored by an annual 2-day off-site retreat, typically as an annual plan of work billed as a monthly retainer. Do not quote prices; a managing principal guides pricing. It is a top-down upgrade that can cross-sell into functional work (marketing, sales, operations, interim/fractional leaders) and vice versa; OneAccord refers out legal and some CFO work. Every company that makes payroll already has a BOS: its current way of leading and managing (often informal, like a fish not knowing it's in water), shaped by the founder, shiny objects the CEO brings back from peer groups, and new managers' habits. Typical informal BOS tools: occasional off-site planning, a maybe-written strategic plan, a budget, monthly financials, weekly staff meetings, one-on-ones, all-hands, annual performance reviews. Upgrading means getting uncomfortable before getting comfortable again, so change management matters. Costs of an informal BOS: chaos, wasted time, inconsistent results, stalled growth, over-reliance on individuals, reduced company value. Deming: every system is perfectly designed to get the results it gets. Owners can upgrade functions (marketing, sales, ops, finance) or upgrade the BOS and leadership team; prospects for OASYS usually find the leadership team has become the limiting factor. BOS lineage: Gerber (E-Myth), Jack Stack (Great Game of Business), Andy Grove and John Doerr (OKRs), Verne Harnish (Rockefeller Habits, Scaling Up), Gino Wickman (EOS/Traction), Franklin Covey (4 Disciplines of Execution), plus Lencioni and Collins; Ninety OS is the first software-based BOS and covers the best of EOS, 4DX, OKRs and parts of Scaling Up. Foundational tools: one-page strategic plan (core values, purpose, 10-year, 3-year, 1-year goals, 90-day Rocks), org chart with functional accountability, KPI scorecards with lead and lag measures, weekly team meetings with a set agenda, quarterly planning cadence. Ninety OS has 9 core competencies (vision, customer, goals, people, structure, data, meetings, process, enterprise value), continuously improved by working the system. ninety.io holds vision and planning, scorecard, Rocks, issues, meeting rhythms, people tools, processes, to-dos. Client options: do-it-yourself alone (read Traction), DIY with group coaching, or done-for-you implementer coaching (OneAccord's recommended full engagement). The coach is like a sports coach on the sidelines: not better at the game, better at watching and coaching. OneAccord always recommends the full coached engagement but can help budget-limited clients self-implement on ninety.io and stay their go-to resource. Success = steady improvement on ten factors (solid strategy, shared vision, right people in right seats, teamwork, right numbers/KPIs, consistent execution, solving issues / self-managing team, getting the right stuff done in 90-day focus, financial performance, enterprise value), not a single end goal. Process: baseline benchmarks (OneAccord business assessment, enterprise value appraisal, behavioral assessments such as DISC or Predictive Index, team tools such as Working Genius and Five Dysfunctions trust-building) -> situation analysis and proposal -> agreement with owner/CEO -> implementation workshops (foundations, goals, vision; full days or several half days, virtual or in person) -> coach the weekly team meetings and roll the agenda down -> schedule quarterly planning dates for a rolling 12 months -> facilitate 90-day off-sites (ideally in person) -> first annual 2-day retreat about a year in -> 'graduate' the client when they can sustain the cadence themselves."
+    }
+  ],
+  "coachPersona": "You are an experienced OneAccord principal coaching a colleague through 'OASYS Strategic Planning: Overview', OneAccord's introduction to its OASYS business operating system for owner-led companies. OneAccord's values are Service, Compassion and Truth. Use plain, warm, specific language."
+}

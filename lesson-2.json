@@ -1,0 +1,197 @@
+{
+  "id": "lesson-2",
+  "title": "Lesson 2: The Client Engagement Lifecycle",
+  "completionTitle": "You've completed Lesson 2: The Client Engagement Lifecycle",
+  "keyConcepts": [
+    "The roadmap: assessment, proposal, agreement, workshops, quarterly cycle, graduation",
+    "The six kickoff steps, including assigning a client BOS Champion",
+    "\"Teach one, coach one\" for weekly meetings",
+    "Ten success indicators and the 9 core competencies",
+    "Timely vs. premature graduation, and how to protect the client"
+  ],
+  "nextTeaser": "Next, Lesson 3 covers how to facilitate the three implementation workshops.",
+  "nextLessonId": "lesson-3",
+  "resources": [
+    {
+      "label": "SOP: Onboarding a Client to Ninety.io",
+      "url": "https://oneaccord.sharepoint.com/sites/Ops/Internal%20SOPs/NIN1.SOP.docx?web=1"
+    },
+    {
+      "label": "Ninety: 9 Core Competencies brief",
+      "url": "https://www.ninety.io/library/9-core-competencies-brief"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Lesson 2 of 6.</strong> We move from the <em>what</em> to the <em>how</em>: the full client journey, from first conversation to graduation.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=417b0e9a-4c98-4152-9f36-d1e509abda52&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "How We Implement OASYS",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-MI%2003%20-%20How%20We%20Implement%20OASYS%20%28Roadmap%20Overview%29.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>Listen for:</strong> the baseline assessments, the order of the steps, and Doug's advice on how many weekly meetings to run yourself."
+    },
+    {
+      "type": "text",
+      "html": "<h3>The OASYS roadmap</h3><ol><li><strong>Assess and propose:</strong> conversations and assessments, a situation analysis and proposal, then an agreement with the owner or CEO.</li><li><strong>Set the baseline:</strong> a OneAccord ninety.io company account, a lightweight business assessment, an enterprise value appraisal, and behavioral and work-style assessments (for example DISC, Predictive Index, Working Genius or Kolbe).</li><li><strong>Implementation workshops:</strong> Foundation, Vision and Goal Setting (Lesson 3).</li><li><strong>Weekly meetings:</strong> <em>teach one, coach one.</em> Run one to show how it's done, then observe and coach the next. Run more than two and the team starts depending on you.</li><li><strong>Quarterly cadence:</strong> set planning dates for a rolling 12 months, and extend the calendar at each quarterly.</li><li><strong>First annual retreat:</strong> about a year after implementation, a two-day off-site.</li><li><strong>Cycle until graduation:</strong> quarterlies and annuals continue until the client is ready to run it themselves.</li></ol>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>The kickoff: six steps</h3><ol><li><strong>Finalize the SOW.</strong> The Client Success Manager prepares it; the office sends it via DocuSign and issues the first invoice.</li><li><strong>Schedule the kickoff.</strong> As soon as it's signed, book a 60 to 90 minute kickoff with the key leaders while enthusiasm is high.</li><li><strong>Set up ninety.io.</strong> Work with Abby to create the client's account, following the SOP.</li><li><strong>Send a welcome packet:</strong> an OASYS overview, a ninety.io intro, roles and expectations for their team and for you, and simple pre-work.</li><li><strong>Run the kickoff call:</strong> revisit why they're upgrading, walk the timeline and milestones, orient them to ninety.io (not training yet), and <strong>assign a client BOS Champion</strong>, your main contact and the internal owner of the system.</li><li><strong>Lock the dates.</strong> Before you hang up, schedule every implementation meeting and the first quarterly, and send the invites.</li></ol>"
+    },
+    {
+      "type": "links",
+      "html": "<p>Open the SOP you'll follow when setting up a new client in ninety.io.</p>",
+      "links": [
+        {
+          "label": "SOP: Onboarding a Client to Ninety.io",
+          "url": "https://oneaccord.sharepoint.com/sites/Ops/Internal%20SOPs/NIN1.SOP.docx?web=1"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=048573fe-f605-473c-871e-9e05a8d3ef97&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "BOS Upgrade Objectives and Success Indicators",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-MI%2004%20-%20BOS%20Upgrade%20Objectives%20and%20Initial%20Setup.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>Listen for:</strong> Doug's six upgrade strategies, his \"secret sauce,\" and the ten indicators he reviews with clients every quarter."
+    },
+    {
+      "type": "text",
+      "html": "<h3>How you'll know it's working</h3><p>Six upgrade strategies: equip the leadership team with tools and methods, get the right people and culture, align on a vision, set the right goals, track the right KPIs, and build execution accountability. The secret sauce is two words: <strong>strategy execution</strong>, connecting the plan to the daily work.</p><p>Review these <strong>ten success indicators</strong> with your clients every quarter:</p><ol><li>A solid strategy (winning the business we should win)</li><li>A shared vision, down to the front line</li><li>Right people in the right seats</li><li>Great teamwork</li><li>Hitting the right numbers</li><li>Consistent execution through good process</li><li>Solving issues maturely, not politically</li><li>Getting the right stuff done in a 90-day cadence</li><li>Financial performance</li><li>Enterprise value</li></ol><p>Financial performance and enterprise value are indicators along the way, not the finish line.</p>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=eeffd93f-44fe-4312-87d8-ad4a8d26f28d&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "The 9 Core Competencies of OASYS",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-MI%2005%20-%20The%209%20Core%20Competencies%20of%20OASYS.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>Listen for:</strong> where the nine competencies come from and how they're improved over time."
+    },
+    {
+      "type": "text",
+      "html": "<h3>The 9 core competencies</h3><p>These are the backbone of OASYS, from Ninety OS. You'll teach them and help clients strengthen each one:</p><ol><li><strong>Vision:</strong> a clear, shared, compelling future that guides decisions.</li><li><strong>Customer:</strong> knowing the ideal customer and serving them consistently.</li><li><strong>Goals:</strong> measurable objectives at every level.</li><li><strong>People:</strong> the right people in the right roles, aligned with the values.</li><li><strong>Structure:</strong> clear org chart, roles and accountability. (Some Ninety materials list <em>Culture</em> here.)</li><li><strong>Data:</strong> the key metrics that drive objective decisions.</li><li><strong>Meetings:</strong> a disciplined rhythm and clear agendas.</li><li><strong>Process:</strong> documented workflows for consistent execution.</li><li><strong>Enterprise value:</strong> building the long-term, transferable worth of the business.</li></ol>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=95e76df0-dbe1-4fa5-85a0-0f412ea04b5b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "Client Mastery and Graduation",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-MI%2006%20-%20Client%20Mastery%20and%20Graduation.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>Listen for:</strong> what graduation means, what makes it premature, and what clients lose when they go it alone."
+    },
+    {
+      "type": "text",
+      "html": "<h3>Graduation</h3><p>Graduation is when the client moves into <strong>self-management</strong> of their operating system. Either you or the client can decide it's time, and it can be <em>timely</em> or <em>premature</em>.</p><ul><li><strong>Premature</strong> means the client isn't yet about <strong>80% strong across the 9 core competencies</strong>.</li><li><strong>Common causes:</strong> a budget crunch, a chemistry mismatch with the coach, or leadership-team dysfunction that can't be resolved (for example, a COO who wants to prove they can run it without you).</li><li><strong>What clients risk:</strong> quarterly rigor slides and dates stretch out; sessions get self-facilitated and go poorly (<em>you can't read the label from inside the jar</em>); the CEO loses an outside advisor; the leadership team loses its coach.</li><li><strong>Your job:</strong> protect those things. If they can't keep you, help them keep a third-party facilitator for quarterlies and annuals, consider a lighter option, or connect the CEO with a peer group or advisor.</li></ul>"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Who sends the SOW for signature and issues the first invoice?",
+      "options": [
+        "The OASYS coach",
+        "The client's BOS Champion",
+        "The OneAccord office, after the CSM finalizes the SOW",
+        "Ninety.io"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. The CSM prepares it; the office handles DocuSign and the first invoice.",
+      "feedbackIncorrect": "The Client Success Manager finalizes the SOW, then the office sends it via DocuSign and issues the first invoice."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What is the client BOS Champion?",
+      "options": [
+        "A ninety.io support rep",
+        "Your main contact on the client team and the internal owner of the system's adoption",
+        "The CEO, automatically",
+        "An outside facilitator for quarterlies"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Exactly. They're your partner inside the company.",
+      "feedbackIncorrect": "The BOS Champion is a client team member assigned at kickoff to be your main contact and the internal advocate for the system."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Why does Doug recommend \"teach one, coach one\" for weekly meetings?",
+      "options": [
+        "Weekly meetings aren't important",
+        "Running more than a couple makes the team dependent on you",
+        "Clients won't pay for more",
+        "Ninety.io runs them automatically"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. Model it, then coach it, so they own it.",
+      "feedbackIncorrect": "If you run more than about two, the team starts depending on you. Teach one, then coach one."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "When is a graduation \"premature\"?",
+      "options": [
+        "Any time before 24 months",
+        "When the client isn't yet about 80% strong across the 9 core competencies",
+        "When the client has used ninety.io for a year",
+        "Only when the coach decides to leave"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct. Strength across the competencies, not the calendar, is the test.",
+      "feedbackIncorrect": "Premature graduation means the client isn't yet about 80% strong across the 9 core competencies."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "Why is self-facilitating quarterly sessions a bad idea?",
+      "options": [
+        "It costs more",
+        "Ninety.io doesn't support it",
+        "You can't read the label from inside the jar: leaders can't facilitate and fully participate",
+        "Quarterlies must be run by a CPA"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Exactly. That's why a third-party facilitator matters even after graduation.",
+      "feedbackIncorrect": "Leaders can't facilitate and participate at the same time. You can't read the label from inside the jar."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>Seven months into an engagement, the CEO calls you: <em>\"Business has slowed and I need to cut costs. I think we've got the hang of this. My COO says he can run our quarterly meetings himself, so let's wrap up after this quarter.\"</em></p><p>From your notes, the team is solid on meetings and Rocks but still weak on scorecard targets and on having the right people in a couple of seats.</p><p>Write how you'd respond to the CEO.</p>",
+      "rubric": [
+        "Acknowledges the budget pressure respectfully and doesn't get defensive",
+        "Names the risk honestly: they aren't yet strong across the core competencies (scorecard and people gaps), so this would be a premature graduation",
+        "Explains the specific risk of self-facilitating quarterlies (the COO can't facilitate and participate; can't read the label from inside the jar) and of losing an outside coach and advisor",
+        "Offers practical options, such as a lighter or lower-cost arrangement, keeping a third-party facilitator for quarterlies and the annual, or a clear plan to close the gaps before graduating",
+        "Respects that it's the client's decision and leaves the relationship in a good place"
+      ],
+      "passThreshold": 4,
+      "coachContext": "This is OneAccord's 'Mastering OASYS: Becoming a Certified Implementer' course for principals who will coach clients through OASYS. OASYS is OneAccord's Business Operating System (BOS), built on the Ninety OS model and run on ninety.io; older materials say 'SPE' (Strategic Planning and Execution) and Doug says 'Oasis'. Doug Hall presents the videos and helped launch the practice but is no longer the practice lead; OneAccord has no current practice lead and Nick Anderson is the contact. The implementer is a BOS COACH: teaches the system and ninety.io, models and facilitates meetings, monitors ninety.io usage, holds the leadership team accountable, sets quarterly planning dates on a rolling 12-month basis and the next annual retreat date, builds trust, helps the team discover its own answers (Raise, Discuss, Resolve), and does NOT run day-to-day operations. Market: the 'BOS upgrade market' - companies of roughly 20 to 500 employees that already have a BOS (their current way of leading and managing, a level above functions like sales, ops, finance); the work is with the leadership team (owner/CEO plus the 3-7 direct reports who manage functions; about 5 is ideal). All BOS frameworks (EOS, Scaling Up, 4DX, OKRs, Great Game of Business) share the same underlying ideas from Gerber, Harnish, Lencioni, Collins and others; OASYS adopts Ninety's vocabulary co-branded as OneAccord OASYS. Owner objectives: achieve purpose and goals; increase time freedom via a self-managing company; optimize enterprise value (reduce owner dependence, improve financial performance). Six upgrade strategies: equip the leadership team with tools and methods; right people and culture; alignment on a vision; right goals and objectives; right KPIs; execution accountability. The 'secret sauce' is connecting strategy to execution. Ten success indicators (reviewed with clients quarterly): solid strategy, shared vision, right people in right seats, great teamwork, right numbers, consistent execution, solving issues, getting the right stuff done (90-day cadence), financial performance, enterprise value. Ninety's 9 core competencies: vision, customer, goals, people, structure (some versions say culture), data, meetings, process, enterprise value. Roadmap: assessments/conversations -> situation analysis and proposal -> owner/CEO agreement -> baseline (ninety.io account, lightweight CSP/business assessment, enterprise value appraisal, behavioral assessments such as DISC/Predictive Index/Culture Index, work-style tools such as Working Genius or Kolbe) -> three implementation workshops (Foundation, Vision, Goal Setting) -> coach weekly meetings ('teach one, coach one'; doing more than two makes the client dependent) -> set quarterly planning dates for a rolling 12 months -> first annual 2-day retreat about a year in -> quarterly cycle until graduation. Kickoff: CSM finalizes the SOW, office sends it via DocuSign and issues the first invoice; coach schedules a 60-90 minute kickoff with key leaders; sets up the client's ninety.io account with Abby following the 'Onboarding a Client to Ninety.io' SOP; sends a welcome packet (OASYS overview, ninety.io intro, roles and expectations, pre-work); kickoff agenda: review BOS-upgrade goals, timeline and milestones, orient to ninety.io, assign a client BOS Champion; lock in all implementation meeting dates and send invites before the call ends. Workshop logistics: senior leaders only; a no-interruption venue, off-site if the office will distract; about 7 hours (+/- 1), oriented to objectives not filling time; in person is best, virtual works with breaks about every hour; ideally 2-4 weeks apart so behaviors sink in, so the three workshops form the client's first quarter. The coach chooses methods; outcomes matter. The order of foundational meetings can flex to client needs (e.g. urgent people issues, existing clear vision), but all elements eventually get covered. Facilitation: published agenda, timekeeping, active listening, respectful dialogue, guide don't dominate, open-ended questions, draw out quiet voices, summarize, drive to decisions, assign who/what/when in ninety.io, confirm next steps. Foundation Setting: objectives and ground rules (finish time, breaks together, no devices, kind but honest, advance the conversation, confidentiality); check-in and shift to working ON the business; set expectation of an 18-24 month journey; Org Fitness baseline; 5 Stages of Development / 'hitting the ceiling'; org chart (structure first, people second; look 6-12 months out; one accountable person per core function; seats with Roles/Accountabilities/Responsibilities; Visionary and 2iC; fill seats using CCC: Competency, Commitment, Capacity; aim for 80% right); Rocks (3-7 SMART company 90-day priorities, long-term issues prioritized 5 to 1); Scorecard (about 15 KPIs, ~3 per core function, each with an owner and target, reviewed weekly, missed targets go to Issues, 13 weeks at a glance); Meetings discipline (same day, time, agenda, start and end on time; Raise, Discuss, Resolve; decide who runs meetings and who updates ninety.io); homework; conclude with feedback and a 1-10 rating. Vision Setting: turn expectations into agreements; Focus Filters: core values (3-7, discovered not created, used to hire/fire/review/reward/recognize, fit check), industry and niche, compelling why (not about money, bigger than a goal), ideal customer (geographics, demographics, psychographics), compelling value proposition (innovation, cost, service, status); Compelling and Audacious Goal (at least 5 years out, bold, SMART, consistent with focus filters); homework: finalize values, core values speech at an all-hands, enter focus filters in ninety.io Vision. Goal Setting: 3-year goals (date, 1-3 financial goals, 1-3 KPIs, envision, agree transparency level); 1-year goals (3-7 goals or no more than the number of senior leaders, numerical and operational); set Rocks; tackle issues with RDR. OneAccord's own decks combine Vision and Goal Setting into one workshop, and there is an optional Sales Engine workshop. Weekly Team Meeting (run in ninety.io): Segue (personal and professional good news), Data/Scorecard (identify off-track numbers, add to Issues, no deep analysis), Rocks fly-by (on/off track; off-track to Issues), Headlines (cascading messages for other teams), To-Dos (5-minute check; off-track to Issues), Issues (cull, prioritize 5-1, resolve by To-Do, move to long-term, or solve), Conclude (recap and rate 1-10; anyone rating under 9 explains why). A scribe captures To-Dos and decisions. Quarterly planning: objectives and ground rules, check-in and expectations, quarter review (rocks, measurables, One-Thing promises, team health using Lencioni's five dysfunctions: trust, conflict, commitment, accountability, results, each rated 1-10; about 90% hit rate counts as a 10), 9 core competencies and org fitness review, focus filters check, operating system upgrades, key topics, set 3-7 SMART rocks, long-term issues via RDR, next steps (confirm next QPM/APM), conclude and rate. Ideally in person, every 90 days. Annual planning retreat: two days off-site. Day 1: progress reviews, team health, 9 core competencies, SWOT, vision and focus filters, 3-year goals. Day 2: 3-year recap, key topics, 1-year goals, rocks, long-term issues, next steps. Graduation = client moves into self-management of its BOS. It can be the coach's or the client's decision, timely or premature. Premature graduation is when the client is not about 80% strong across the 9 core competencies; common causes: budget crunch, chemistry mismatch with the coach, unresolved leadership-team dysfunction (e.g. a COO wanting to prove they can run it). Risks of self-management: quarterly rigor backslides, schedules stretch, self-facilitated sessions go poorly (you can't read the label from inside the jar), the CEO loses an advisor and the leadership team loses a coach. Respond by protecting a third-party facilitator for quarterlies/annuals, offering a lighter or lower-cost option, or helping them find another facilitator or peer group. Competitors: EOS/Traction sets the mark; Doug calls EOS the 'Toyota Camry' of operating systems, a reliable 80% solution, but rigid ('EOS pure', like a franchise that can't change the menu). OASYS is equally granular, built on Ninety's 9 core competencies versus EOS's 6 components, adds depth in strategy, financial literacy and culture, and is flexible (can change the order of sessions and add best-in-class tools) while still structured. Don't trash competitors. ninety.io: get access via Abby; learn through Knowledge > 'The 90 Way' and ninety.io resources; practice in a free trial company, not in OneAccord's real account. Ninety.io templates must be rebranded to OneAccord standards before client use."
+    }
+  ],
+  "coachPersona": "You are an experienced OneAccord OASYS implementer coaching a principal through 'Mastering OASYS: Certified Implementer', which prepares principals to coach client leadership teams through OASYS on ninety.io. OneAccord's values are Service, Compassion and Truth. Use plain, warm, specific language."
+}

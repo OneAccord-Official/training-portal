@@ -1,0 +1,108 @@
+{
+  "id": "lesson-1",
+  "title": "Lesson 1: The OASYS Strategic Planning Practice",
+  "completionTitle": "You've completed Lesson 1: The OASYS Strategic Planning Practice",
+  "keyConcepts": [
+    "The practice does two things: builds a strategic plan and upgrades the client's Business Operating System",
+    "OASYS is OneAccord's Business Operating System, run on the ninety.io platform",
+    "Doug Hall's background and best-of-breed approach",
+    "Your goal: understand the practice well enough to talk about it and recommend it"
+  ],
+  "nextTeaser": "Next, Lesson 2 covers what business owners actually want and what a strategic plan is made of.",
+  "nextLessonId": "lesson-2",
+  "resources": [
+    {
+      "label": "OASYS Strategic Planning on oneaccord.co",
+      "url": "https://oneaccord.co/strategic-planning-service/"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p><strong>Lesson 1 of 4.</strong> This course gives you a working understanding of OneAccord's <strong>OASYS Strategic Planning</strong> practice, so you can talk about it confidently and recommend it to the right prospects. It is not implementer training; that's the <em>Mastering OASYS</em> course.</p><p>Each lesson works the same way: watch a few short videos from Doug Hall, read the key points, answer a quick knowledge check, then respond to a realistic client scenario. Your coach grades the scenario, and you'll see how many points you need to pass.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Two jobs, one practice</h3><p>Putting a solid strategic plan in place is the bedrock of real, lasting growth. But a plan alone doesn't change anything. So the practice does two things for a client:</p><ul><li><strong>Builds the strategic plan:</strong> a clear picture of where the company is going and how it will get there.</li><li><strong>Upgrades the Business Operating System (BOS):</strong> the way the company actually leads and manages day to day, so the plan gets executed.</li></ul><p><strong>OASYS</strong> is OneAccord's BOS, and <strong>ninety.io</strong> is the software platform it runs on. Combining strong strategic planning with a disciplined BOS is what turns a plan into results.</p><div class='callout'><strong>A note on names.</strong> Older materials and Doug's videos call this practice <em>SPE</em> (Strategic Planning and Execution), and you'll sometimes hear \"Oasis.\" Today it's the <strong>OASYS Strategic Planning</strong> service line. Same thing.</div>"
+    },
+    {
+      "type": "video",
+      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=5844b665-4d1b-47c3-85e6-b835d7b93715&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+      "title": "Meet Doug Hall",
+      "links": [
+        {
+          "label": "Video won't play? Open it in SharePoint",
+          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2001%20-%20Meet%20Doug%20Hall.mp4?web=1"
+        }
+      ],
+      "confirmText": "I've watched the video - continue",
+      "note": "<strong>Before you watch:</strong> Doug recorded this series at OneAccord's internal OASYS launch in late 2024, and he notes that terminology may change as the practice matures. Listen for his background and how he describes the coaching approach."
+    },
+    {
+      "type": "text",
+      "html": "<h3>What to take from Doug's introduction</h3><ul><li><strong>Deep operator experience:</strong> nearly 50 years in business, including senior roles in the PC and barcoding/RFID industries, before moving into coaching small and mid-sized businesses in 2012.</li><li><strong>Business operating systems are his specialty:</strong> after reading <em>Traction</em>, he became the first EOS-certified implementer in Washington State (2017), later worked with Pinnacle Business Guides and Scaling Up, and now takes an independent, best-of-breed approach.</li><li><strong>The coaching mindset:</strong> you don't run to the base of Mount Rainier and start climbing. You prepare, gather tools, and learn disciplines first. OASYS coaches leadership teams up their own mountain.</li></ul>"
+    },
+    {
+      "type": "activity",
+      "label": "See how we position it",
+      "instructions": "<p>Open the <a href='https://oneaccord.co/strategic-planning-service/' target='_blank' rel='noopener'>OASYS Strategic Planning page on oneaccord.co</a>. Skim the headline, the problems it names, and the benefits it promises. That's the language prospects see before they talk to you.</p>",
+      "confirmText": "I've reviewed the page - continue"
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "What are the two things the OASYS Strategic Planning practice does for a client?",
+      "options": [
+        "Writes a business plan and finds investors",
+        "Builds a strategic plan and upgrades the client's Business Operating System so the plan gets executed",
+        "Replaces the leadership team and runs operations",
+        "Installs ninety.io and trains staff on the software"
+      ],
+      "correctIndex": 1,
+      "feedbackCorrect": "Right. A plan plus the operating system that makes it happen.",
+      "feedbackIncorrect": "Not quite. The practice builds the strategic plan and upgrades the BOS so the plan actually gets executed."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "How do OASYS and ninety.io relate?",
+      "options": [
+        "They're competing systems; clients pick one",
+        "ninety.io is OneAccord's consulting brand; OASYS is the software",
+        "OASYS is OneAccord's Business Operating System; ninety.io is the software platform it runs on",
+        "ninety.io is only used for scheduling meetings"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Exactly. OASYS is the system; ninety.io is where clients run it.",
+      "feedbackIncorrect": "OASYS is the system (the principles and practices). ninety.io is the platform that helps clients use it consistently."
+    },
+    {
+      "type": "question",
+      "format": "mcq",
+      "prompt": "In Doug's Mount Rainier metaphor, what does good coaching look like?",
+      "options": [
+        "Getting to the summit as fast as possible",
+        "Doing the climb for the client",
+        "Preparing first: gathering tools and learning disciplines before the leadership team climbs its own mountain",
+        "Skipping preparation because experienced teams don't need it"
+      ],
+      "correctIndex": 2,
+      "feedbackCorrect": "Right. Preparation and discipline first, then the team climbs its own mountain.",
+      "feedbackIncorrect": "The point is preparation: tools and disciplines first, then the team climbs its own mountain with a coach alongside."
+    },
+    {
+      "type": "scenario",
+      "id": "scenario",
+      "promptHtml": "<p>At a networking breakfast, a business owner hears you're with OneAccord and asks: <em>\"I keep hearing about your strategic planning work. What do you actually do, and how is that different from the planning retreat we already do?\"</em></p><p>Write what you'd say, in your own words.</p>",
+      "rubric": [
+        "Explains the practice does two things: builds a strategic plan and upgrades how the company leads and manages (its business operating system)",
+        "Makes the point that a plan alone isn't enough; the value is in executing it consistently",
+        "Mentions OASYS as OneAccord's system and ninety.io as the platform, in plain language without jargon overload",
+        "Ends with a natural next step, such as a follow-up conversation, rather than a hard pitch or quoting prices"
+      ],
+      "passThreshold": 3,
+      "coachContext": "OneAccord's OASYS Strategic Planning practice (older materials and videos call it SPE, Strategic Planning and Execution; Doug sometimes says 'Oasis') helps clients build a strategic plan AND upgrade their Business Operating System (BOS) so the plan actually gets executed. OASYS is OneAccord's branded BOS, built on the Ninety OS model and run on the ninety.io software platform. Doug Hall presents the training videos and helped launch the practice; he has coached business operating systems since 2016 (first EOS-certified implementer in Washington State in 2017, later Pinnacle Business Guides and Scaling Up), and takes an independent, best-of-breed approach. The practice currently has no dedicated lead; Nick Anderson is the contact for questions about it. Three owner objectives: (1) achieve the business purpose and goals (mission, vision, values, legacy, aligned team); (2) increase the owner's time freedom by building a self-managing company with a strong leadership team; (3) optimize enterprise value, mainly by reducing owner dependence and improving financial performance, which opens exit options including a financial exit or an operating exit (e.g. CEO emeritus). If an owner is comfortable on all three, they won't buy; there must be pain in at least one, or a vague dissatisfaction, a desire to be a 'category of one', or a sense the owner can't take the company to the next level alone (humility and hunger). Common strategic planning failures: no clear direction, misaligned teams, poor follow-through, 'shelfware' plans that never get executed (the execution gap), firefighting, bias, complexity. Strategic planning answers: where are we now, where do we want to be, how do we get there. Building blocks: vision, mission, core values, SWOT, long-term objectives, 90-day priorities ('Rocks'), KPIs, action plans, accountability structure. The practice is horizontal (no industry expertise needed), hired by the CEO, and works with the leadership team (the CEO's strategic direct reports). Engagement: onboarding and initial implementation, then a strategic plan refresh every 90 days anchored by an annual 2-day off-site retreat, typically as an annual plan of work billed as a monthly retainer. Do not quote prices; a managing principal guides pricing. It is a top-down upgrade that can cross-sell into functional work (marketing, sales, operations, interim/fractional leaders) and vice versa; OneAccord refers out legal and some CFO work. Every company that makes payroll already has a BOS: its current way of leading and managing (often informal, like a fish not knowing it's in water), shaped by the founder, shiny objects the CEO brings back from peer groups, and new managers' habits. Typical informal BOS tools: occasional off-site planning, a maybe-written strategic plan, a budget, monthly financials, weekly staff meetings, one-on-ones, all-hands, annual performance reviews. Upgrading means getting uncomfortable before getting comfortable again, so change management matters. Costs of an informal BOS: chaos, wasted time, inconsistent results, stalled growth, over-reliance on individuals, reduced company value. Deming: every system is perfectly designed to get the results it gets. Owners can upgrade functions (marketing, sales, ops, finance) or upgrade the BOS and leadership team; prospects for OASYS usually find the leadership team has become the limiting factor. BOS lineage: Gerber (E-Myth), Jack Stack (Great Game of Business), Andy Grove and John Doerr (OKRs), Verne Harnish (Rockefeller Habits, Scaling Up), Gino Wickman (EOS/Traction), Franklin Covey (4 Disciplines of Execution), plus Lencioni and Collins; Ninety OS is the first software-based BOS and covers the best of EOS, 4DX, OKRs and parts of Scaling Up. Foundational tools: one-page strategic plan (core values, purpose, 10-year, 3-year, 1-year goals, 90-day Rocks), org chart with functional accountability, KPI scorecards with lead and lag measures, weekly team meetings with a set agenda, quarterly planning cadence. Ninety OS has 9 core competencies (vision, customer, goals, people, structure, data, meetings, process, enterprise value), continuously improved by working the system. ninety.io holds vision and planning, scorecard, Rocks, issues, meeting rhythms, people tools, processes, to-dos. Client options: do-it-yourself alone (read Traction), DIY with group coaching, or done-for-you implementer coaching (OneAccord's recommended full engagement). The coach is like a sports coach on the sidelines: not better at the game, better at watching and coaching. OneAccord always recommends the full coached engagement but can help budget-limited clients self-implement on ninety.io and stay their go-to resource. Success = steady improvement on ten factors (solid strategy, shared vision, right people in right seats, teamwork, right numbers/KPIs, consistent execution, solving issues / self-managing team, getting the right stuff done in 90-day focus, financial performance, enterprise value), not a single end goal. Process: baseline benchmarks (OneAccord business assessment, enterprise value appraisal, behavioral assessments such as DISC or Predictive Index, team tools such as Working Genius and Five Dysfunctions trust-building) -> situation analysis and proposal -> agreement with owner/CEO -> implementation workshops (foundations, goals, vision; full days or several half days, virtual or in person) -> coach the weekly team meetings and roll the agenda down -> schedule quarterly planning dates for a rolling 12 months -> facilitate 90-day off-sites (ideally in person) -> first annual 2-day retreat about a year in -> 'graduate' the client when they can sustain the cadence themselves."
+    }
+  ],
+  "coachPersona": "You are an experienced OneAccord principal coaching a colleague through 'OASYS Strategic Planning: Overview', OneAccord's introduction to its OASYS business operating system for owner-led companies. OneAccord's values are Service, Compassion and Truth. Use plain, warm, specific language."
+}
