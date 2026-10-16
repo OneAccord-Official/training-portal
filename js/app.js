@@ -5,10 +5,9 @@
  * training's content blocks one at a time, gating progress on hands-on
  * confirmations and answered questions.
  *
- * DATA SOURCE: the SharePoint "Trainings" list, read via the
- * /.netlify/functions/get-trainings function (Microsoft Graph, app-only
- * auth). Falls back to the static /data/trainings-index.json file if that
- * call fails, so the portal still works if SharePoint/Graph is unreachable.
+ * DATA SOURCE: the version-controlled /data/trainings-index.json catalog.
+ * Keep course publishing and content in the same deployment; an incomplete
+ * SharePoint list must not replace this catalog and hide existing courses.
  *
  * LEARNER IDENTITY: a lightweight "email gate" (see showEmailGate()) asks
  * the learner for their work email once, stores it in localStorage, and
@@ -55,16 +54,10 @@ init();
 
 async function init() {
   try {
-    let index = null;
-    try {
-      const res = await fetch("/.netlify/functions/get-trainings");
-      if (!res.ok) throw new Error(`get-trainings returned ${res.status}`);
-      index = await res.json();
-    } catch (err) {
-      console.warn("Falling back to static trainings index", err);
-      const res = await fetch("data/trainings-index.json");
-      index = await res.json();
-    }
+    const res = await fetch("data/trainings-index.json");
+    if (!res.ok) throw new Error(`Training catalog returned ${res.status}`);
+    const index = await res.json();
+    if (!Array.isArray(index.trainings)) throw new Error("Invalid training catalog");
     state.index = index;
     // Default to the first training open so the nav isn't empty on first load.
     if (state.index.trainings.length) {
@@ -747,8 +740,9 @@ function renderGamePlanBlock(el, block) {
 function renderLessonComplete() {
   const stream = getStream();
   const meta = state.lessonMeta;
-
-  recordCompletion(state.currentTrainingId, state.currentLessonId);
+  // Capture the completed lesson before asynchronous saving or navigation.
+  const trainingId = state.currentTrainingId;
+  const lessonId = state.currentLessonId;
 
   const el = document.createElement("div");
   el.className = "lesson-complete";
@@ -758,6 +752,29 @@ function renderLessonComplete() {
     ${meta.nextTeaser ? `<p>${meta.nextTeaser}</p>` : ""}
     ${meta.resources && meta.resources.length ? `<p><strong>Keep going:</strong></p>${renderLinks(meta.resources)}` : ""}`;
   stream.appendChild(el);
+
+  const saveStatus = document.createElement("p");
+  saveStatus.setAttribute("role", "status");
+  const retrySave = document.createElement("button");
+  retrySave.type = "button";
+  retrySave.className = "primary-btn";
+  retrySave.textContent = "Retry saving completion";
+  retrySave.hidden = true;
+  el.appendChild(saveStatus);
+  el.appendChild(retrySave);
+  const save = async () => {
+    retrySave.hidden = true;
+    retrySave.disabled = true;
+    saveStatus.textContent = "Saving completion to SharePoint…";
+    const saved = await recordCompletion(trainingId, lessonId);
+    saveStatus.textContent = saved
+      ? "Completion saved to SharePoint."
+      : "You finished this lesson, but your completion has NOT been saved to SharePoint. Retry before leaving this page. If saving still fails, contact your training administrator.";
+    retrySave.hidden = saved;
+    retrySave.disabled = false;
+  };
+  retrySave.addEventListener("click", save);
+  void save();
 
   const actions = document.createElement("div");
   actions.className = "lesson-nav-actions";
@@ -800,10 +817,7 @@ function completionKey(trainingId, lessonId) {
 }
 
 async function recordCompletion(trainingId, lessonId, score) {
-  state.completions.add(completionKey(trainingId, lessonId));
-  renderNav();
-
-  if (!state.personEmail) return;
+  if (!state.personEmail) return false;
   try {
     const res = await fetch("/.netlify/functions/record-completion", {
       method: "POST",
@@ -816,8 +830,14 @@ async function recordCompletion(trainingId, lessonId, score) {
       }),
     });
     if (!res.ok) throw new Error(`record-completion returned ${res.status}`);
+    const data = await res.json();
+    if (data.ok !== true) throw new Error("Completion was not acknowledged");
+    state.completions.add(completionKey(trainingId, lessonId));
+    renderNav();
+    return true;
   } catch (err) {
     console.warn("Could not record completion to SharePoint", err);
+    return false;
   }
 }
 
