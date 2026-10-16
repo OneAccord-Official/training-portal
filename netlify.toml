@@ -1,17 +1,28 @@
 [build]
-  publish = "."
+  publish = "dist"
+  command = "npm run prepare:portal"
 
-# No X-Frame-Options / frame-ancestors restriction is set here, so the portal
-# can be embedded via SharePoint's Embed web part out of the box.
-#
-# Once this is live, tighten it to only allow OneAccord's SharePoint tenant
-# to frame the portal (replace <tenant> below), rather than leaving it
-# embeddable by any site:
-#
-# [[headers]]
-#   for = "/*"
-#   [headers.values]
-#     Content-Security-Policy = "frame-ancestors 'self' https://<tenant>.sharepoint.com"
+[build.environment]
+  NODE_VERSION = "22"
+  AWS_LAMBDA_JS_RUNTIME = "nodejs22.x"
+
+# SharePoint framing is allowed below, but framing is never authentication.
 
 [functions]
   directory = "netlify/functions"
+  node_bundler = "esbuild"
+  included_files = ["data/trainings-index.json"]
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors 'self' https://oneaccord.sharepoint.com"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+
+# The empty popup callback must retain its fragment until MSAL's parent polls it.
+# Do not load app.js, redirect it, or set COOP same-origin on the popup.
+[[headers]]
+  for = "/auth.html"
+  [headers.values]
+    Cache-Control = "no-store"
