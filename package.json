@@ -1,0 +1,14 @@
+{
+  "name": "oneaccord-training-portal",
+  "private": true,
+  "version": "0.0.0-draft",
+  "scripts": {
+    "prepare:portal": "node scripts/prepare.cjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "4.5.1",
+    "jose": "6.1.0"
+  },
+  "engines": { "node": ">=22" }
+}

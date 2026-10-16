@@ -5,22 +5,14 @@
  * training's content blocks one at a time, gating progress on hands-on
  * confirmations and answered questions.
  *
- * DATA SOURCE: the SharePoint "Trainings" list, read via the
- * /.netlify/functions/get-trainings function (Microsoft Graph, app-only
- * auth). Falls back to the static /data/trainings-index.json file if that
- * call fails, so the portal still works if SharePoint/Graph is unreachable.
+ * DATA SOURCE: the version-controlled /data/trainings-index.json catalog.
+ * Keep course publishing and content in the same deployment; an incomplete
+ * SharePoint list must not replace this catalog and hide existing courses.
  *
- * LEARNER IDENTITY: a lightweight "email gate" (see showEmailGate()) asks
- * the learner for their work email once, stores it in localStorage, and
- * sends it with every completion read/write so progress can be tied to a
- * person in the SharePoint "Training Completions" list without a full
- * sign-in flow.
- *
- * COMPLETION TRACKING: writes go to /.netlify/functions/record-completion
- * (one row per training+lesson+email in the SharePoint "Training
- * Completions" list); reads come from /.netlify/functions/get-completions,
- * filtered by the learner's email, and are cached in `state.completions`
- * for the session.
+ * LEARNER IDENTITY: Microsoft popup sign-in; API verifies the access token.
+ * COMPLETION TRACKING: authenticated /progress API; only acknowledged writes
+ * create a checkmark. Catalog remains version-controlled JSON. No browser email
+ * is ever accepted as a completion owner. Local deliverables are device-only.
  *
  * BLOCK TYPES SUPPORTED (the four the first pilot needs — see README):
  *   text      — static explanatory copy
@@ -45,7 +37,8 @@ const state = {
   blockCursor: 0,
   expandedTrainings: new Set(), // training ids whose lesson list is open in the nav
   completions: new Set(), // `${trainingId}:${lessonId}` keys the current learner has completed
-  personEmail: null,
+  learner: null,
+  identityEpoch: 0,
 };
 
 const navEl = document.getElementById("training-list");
@@ -55,111 +48,126 @@ init();
 
 async function init() {
   try {
-    let index = null;
-    try {
-      const res = await fetch("/.netlify/functions/get-trainings");
-      if (!res.ok) throw new Error(`get-trainings returned ${res.status}`);
-      index = await res.json();
-    } catch (err) {
-      console.warn("Falling back to static trainings index", err);
-      const res = await fetch("data/trainings-index.json");
-      index = await res.json();
-    }
+    const res = await fetch("data/trainings-index.json");
+    if (!res.ok) throw new Error(`Training catalog returned ${res.status}`);
+    const index = await res.json();
+    if (!Array.isArray(index.trainings)) throw new Error("Invalid training catalog");
     state.index = index;
     // Default to the first training open so the nav isn't empty on first load.
     if (state.index.trainings.length) {
       state.expandedTrainings.add(state.index.trainings[0].id);
     }
 
-    state.personEmail = getStoredEmail();
-    if (state.personEmail) {
-      await loadCompletions();
-    }
-
     renderNav();
-
-    if (!state.personEmail) {
-      showEmailGate();
-    }
+    showSignInGate();
+    document.getElementById('tracking-reconnect').addEventListener('click', async () => {
+      const button = document.getElementById('tracking-reconnect');
+      button.disabled = true;
+      state.identityEpoch += 1;
+      state.learner = null;
+      state.completions.clear();
+      renderNav();
+      try {
+        state.learner = await window.trainingAuth.connect();
+        await loadCompletions();
+        renderNav();
+        document.getElementById('tracking-disconnect').hidden = false;
+        // Keep the current lesson and its original retry button intact.
+      } catch (_) {
+        state.learner = null;
+        trackingStatus('Reconnect failed. Allow popups, then retry Microsoft sign-in.', true);
+      } finally { button.disabled = false; }
+    });
+    document.getElementById('tracking-disconnect').addEventListener('click', async () => {
+      state.identityEpoch += 1;
+      state.learner = null;
+      state.completions.clear();
+      state.currentTrainingId = null;
+      state.currentLessonId = null;
+      renderNav();
+      showSignInGate();
+      await window.trainingAuth.disconnect();
+      trackingStatus('Disconnected. Local drafts remain on this browser.', true);
+      document.getElementById('tracking-disconnect').hidden = true;
+    });
   } catch (err) {
     navEl.innerHTML = `<div style="padding:0 20px;color:#f5b7b1;">Couldn't load the training list.</div>`;
     console.error(err);
   }
 }
 
-/* ---------------- Learner identity (email gate) ----------------
- * We ask for a work email once (no password — this isn't meant to be a
- * security boundary, just a way to attribute completions to a person in
- * the SharePoint list). The email is stored in localStorage so returning
- * learners aren't asked again on this device/browser.
- */
-
-const EMAIL_STORAGE_KEY = "oa-training-email";
-
-function getStoredEmail() {
-  try {
-    return localStorage.getItem(EMAIL_STORAGE_KEY) || null;
-  } catch (err) {
-    return null;
-  }
+/* ---------------- Microsoft identity and progress ---------------- */
+function trackingStatus(message, reconnect = false) {
+  document.getElementById('tracking-status').textContent = message;
+  document.getElementById('tracking-reconnect').hidden = !reconnect;
 }
 
-function storeEmail(email) {
-  try {
-    localStorage.setItem(EMAIL_STORAGE_KEY, email);
-  } catch (err) {
-    console.warn("Could not store email locally", err);
-  }
-}
-
-function showEmailGate() {
+function showSignInGate() {
   mainEl.innerHTML = `<div class="email-gate">
-      <h2>Before you start</h2>
-      <p>Enter your work email so we can track your training progress.</p>
-      <div class="error" style="display:none;"></div>
-      <input type="email" placeholder="you@oneaccord.co" autocomplete="email" />
-      <button type="button" class="primary-btn">Continue</button>
-    </div>`;
-
-  const wrap = mainEl.querySelector(".email-gate");
-  const input = wrap.querySelector("input");
-  const errorEl = wrap.querySelector(".error");
-  const submit = wrap.querySelector("button");
-
-  const submitEmail = async () => {
-    const email = input.value.trim().toLowerCase();
-    if (!email || !email.includes("@") || !email.includes(".")) {
-      errorEl.textContent = "Please enter a valid email address.";
-      errorEl.style.display = "block";
-      return;
-    }
-    submit.disabled = true;
-    submit.textContent = "Loading…";
-    state.personEmail = email;
-    storeEmail(email);
-    await loadCompletions();
+    <h2>Connect your training progress</h2>
+    <p>Sign in with your OneAccord Microsoft account. A Microsoft popup will open.</p>
+    <p>This signs you in to training independently of the SharePoint page. Saved completions follow your Microsoft identity; drafts and Game Plans stay on this browser.</p>
+    <p class="error" role="alert" hidden></p>
+    <button type="button" class="primary-btn">Sign in with Microsoft</button>
+    <p>If a popup is blocked, allow popups for this site or <a href="/" target="_blank" rel="noopener">open training in a new tab</a>, then sign in there.</p>
+  </div>`;
+  const button = mainEl.querySelector('button');
+  const errorEl = mainEl.querySelector('.error');
+  button.addEventListener('click', async () => {
+    button.disabled = true;
+    errorEl.hidden = true;
+    // Reconnection/account change invalidates in-flight loads and old checkmarks.
+    state.identityEpoch += 1;
+    state.learner = null;
+    state.completions.clear();
     renderNav();
-    mainEl.innerHTML = `<div class="portal-welcome"><h1>Welcome!</h1><p>Pick a lesson from the menu on the left to get started.</p></div>`;
-  };
-
-  submit.addEventListener("click", submitEmail);
-  input.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") submitEmail();
+    try {
+      state.learner = await window.trainingAuth.connect();
+      await loadCompletions();
+      renderNav();
+      document.getElementById('tracking-disconnect').hidden = false;
+      mainEl.innerHTML = '<div class="portal-welcome"><h1>Welcome!</h1><p>Choose a lesson from the menu. A checkmark means SharePoint confirmed your saved completion.</p></div>';
+    } catch (_) {
+      state.learner = null;
+      trackingStatus('Not connected. Sign in again or contact your training administrator.', true);
+      errorEl.textContent = 'Microsoft sign-in or progress loading did not finish. Allow popups and try again. If this continues, your administrator may need to finish training access setup.';
+      errorEl.hidden = false;
+    } finally { button.disabled = false; }
   });
-  input.focus();
+}
+
+async function progressRequest(options = {}) {
+  const token = await window.trainingAuth.token();
+  const response = await fetch('/.netlify/functions/progress', {
+    ...options, headers:{'Authorization': 'Bearer ' + token, ...(options.body ? {'Content-Type':'application/json'} : {})},
+    cache:'no-store', credentials:'omit', signal:AbortSignal.timeout(20000),
+  });
+  const data = await response.json();
+  if (!response.ok) {
+    const message = data.error === 'tracking_schema_required'
+      ? 'Tracking storage needs administrator setup. Your completion is not saved.'
+      : data.error === 'tracking_configuration_required'
+        ? 'Training tracking is not configured yet. Contact your administrator.'
+        : response.status === 401 ? 'Microsoft session or account access needs attention. Reconnect to continue.'
+          : 'Training progress is unavailable. Retry or contact your administrator.';
+    trackingStatus(message, response.status === 401);
+    throw new Error('progress_request_failed');
+  }
+  return data;
 }
 
 async function loadCompletions() {
-  if (!state.personEmail) return;
+  if (!state.learner) return;
+  const epoch = state.identityEpoch;
   try {
-    const res = await fetch(`/.netlify/functions/get-completions?personEmail=${encodeURIComponent(state.personEmail)}`);
-    if (!res.ok) throw new Error(`get-completions returned ${res.status}`);
-    const data = await res.json();
-    state.completions = new Set(
-      (data.completions || []).map((c) => `${c.trainingId}:${c.lessonId}`)
-    );
-  } catch (err) {
-    console.warn("Could not load completions", err);
+    const data = await progressRequest();
+    if (epoch !== state.identityEpoch) return;
+    if (!Array.isArray(data.completions)) throw new Error('invalid_progress');
+    state.completions = new Set(data.completions.map(c => completionKey(c.trainingId,c.lessonId)));
+    trackingStatus('Connected. Saved completions loaded.');
+  } catch (error) {
+    if (epoch === state.identityEpoch) state.completions.clear();
+    throw error;
   }
 }
 
@@ -201,8 +209,8 @@ function renderNav() {
       item.innerHTML = `<span class="nav-lesson__check">${isDone ? "✅" : "⬜"}</span><span>${lesson.title}</span>`;
       if (!isPending) {
         item.addEventListener("click", () => {
-          if (!state.personEmail) {
-            showEmailGate();
+          if (!state.learner) {
+            showSignInGate();
             return;
           }
           loadLesson(training, lesson);
@@ -747,8 +755,10 @@ function renderGamePlanBlock(el, block) {
 function renderLessonComplete() {
   const stream = getStream();
   const meta = state.lessonMeta;
-
-  recordCompletion(state.currentTrainingId, state.currentLessonId);
+  // Capture the completed lesson before asynchronous saving or navigation.
+  const trainingId = state.currentTrainingId;
+  const lessonId = state.currentLessonId;
+  const learnerId = state.learner && state.learner.id;
 
   const el = document.createElement("div");
   el.className = "lesson-complete";
@@ -758,6 +768,29 @@ function renderLessonComplete() {
     ${meta.nextTeaser ? `<p>${meta.nextTeaser}</p>` : ""}
     ${meta.resources && meta.resources.length ? `<p><strong>Keep going:</strong></p>${renderLinks(meta.resources)}` : ""}`;
   stream.appendChild(el);
+
+  const saveStatus = document.createElement("p");
+  saveStatus.setAttribute("role", "status");
+  const retrySave = document.createElement("button");
+  retrySave.type = "button";
+  retrySave.className = "primary-btn";
+  retrySave.textContent = "Retry saving completion";
+  retrySave.hidden = true;
+  el.appendChild(saveStatus);
+  el.appendChild(retrySave);
+  const save = async () => {
+    retrySave.hidden = true;
+    retrySave.disabled = true;
+    saveStatus.textContent = "Saving completion to SharePoint…";
+    const saved = await recordCompletion(trainingId, lessonId, learnerId);
+    saveStatus.textContent = saved
+      ? "Completion saved to SharePoint."
+      : "You finished this lesson, but your completion has NOT been saved to SharePoint. Retry before leaving this page. If saving still fails, contact your training administrator.";
+    retrySave.hidden = saved;
+    retrySave.disabled = false;
+  };
+  retrySave.addEventListener("click", save);
+  void save();
 
   const actions = document.createElement("div");
   actions.className = "lesson-nav-actions";
@@ -790,34 +823,26 @@ function renderLessonComplete() {
 
 /* ---------------- Completion tracking ----------------
  * Writes go to the SharePoint "Training Completions" list via the
- * record-completion Netlify Function; state.completions (loaded from
- * get-completions in loadCompletions()) is the in-session cache that
- * isLessonComplete() reads for the nav checkmarks.
+ * authenticated progress Netlify Function; state.completions is the session
+ * cache that isLessonComplete() reads for the nav checkmarks.
  */
 
 function completionKey(trainingId, lessonId) {
   return `${trainingId}:${lessonId}`;
 }
 
-async function recordCompletion(trainingId, lessonId, score) {
-  state.completions.add(completionKey(trainingId, lessonId));
-  renderNav();
-
-  if (!state.personEmail) return;
+async function recordCompletion(trainingId, lessonId, expectedLearnerId) {
+  if (!state.learner || (expectedLearnerId && state.learner.id !== expectedLearnerId)) return false;
+  const epoch = state.identityEpoch;
   try {
-    const res = await fetch("/.netlify/functions/record-completion", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        trainingId,
-        lessonId,
-        personEmail: state.personEmail,
-        score: typeof score === "number" ? score : undefined,
-      }),
-    });
-    if (!res.ok) throw new Error(`record-completion returned ${res.status}`);
-  } catch (err) {
-    console.warn("Could not record completion to SharePoint", err);
+    const data = await progressRequest({method:'POST',body:JSON.stringify({trainingId,lessonId})});
+    if (data.ok !== true || epoch !== state.identityEpoch) return false;
+    state.completions.add(completionKey(trainingId,lessonId));
+    renderNav();
+    return true;
+  } catch (_) {
+    trackingStatus('Completion not saved. Retry; if Microsoft access expired, reconnect first.', true);
+    return false;
   }
 }
 

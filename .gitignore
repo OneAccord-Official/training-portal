@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+vendor/msal-browser.min.js
+vendor/msal-browser.min.js.map
