@@ -2,89 +2,150 @@
   "id": "lesson-4",
   "title": "Lesson 4: Data Hierarchy & The Lead Flow",
   "completionTitle": "You've completed Lesson 4: Data Hierarchy & The Lead Flow",
+  "coachPersona": "You are an experienced OneAccord principal coaching a colleague on using Zoho CRM (Customer Relationship Management) well. In OneAccord's Zoho, a Lead is an unqualified person, a Contact is a person, a Company is the organization they work for, and a Buyer's Journey record is a potential engagement (Zoho's standard 'Deal'). Converting a Lead creates a Contact, a Company and a Buyer's Journey record. Coach for sound judgment and clean, complete data, in plain, warm, specific language. OneAccord's values are truth, compassion and service.",
   "keyConcepts": [
-    "The difference between a Contact and a Company",
-    "Tracking where a Lead is with Lead Status",
-    "Maintaining clean, accurate CRM data",
-    "Why mandatory fields matter",
-    "When to convert a Lead into a Contact, Company, and Buyer's Journey record"
+    "Leads, Contacts and Companies: what each record is for",
+    "Deciding whether a Lead stays a Lead, gets converted, or is closed out",
+    "Moving a Lead with its Blueprint and Lead Status",
+    "What happens when you convert a Lead",
+    "Keeping records complete so reports and referral credit stay accurate"
   ],
-  "nextTeaser": "The next lesson moves from managing people to managing money — working a record through OneAccord's Buyer's Journey pipeline.",
+  "nextTeaser": "The next lesson follows a converted Lead into OneAccord's Buyer's Journey pipeline and shows how Blueprints move a record from stage to stage.",
   "nextLessonId": "lesson-5",
   "blocks": [
     {
       "type": "text",
-      "html": "<p>In this lesson, we define the \"Who\" and the \"Where.\" Understanding the difference between a Lead, a Contact, and a Company is the secret to keeping our database clean and accurate.</p>"
+      "html": "<h3>A situation you may recognize</h3><p>A referral partner emails you: <em>\"Did you ever connect with the owner I introduced you to? How's it going?\"</em></p><p>You search Zoho CRM (Customer Relationship Management) and find three things: a <strong>Lead</strong> for her from six weeks ago, a separate <strong>Contact</strong> with her name misspelled, and a <strong>Company</strong> record with no industry and no one linked to it. There's no note of who introduced her, and you can't tell whether anyone has followed up.</p><p>Now you're guessing in front of the person who sends you business, and the referral may never show up in anyone's reports.</p><p>This lesson is about avoiding that: knowing what each type of record is for, and when a Lead should move.</p>"
+    },
+    {
+      "type": "reflection",
+      "id": "experience",
+      "prompt": "Think of one prospect you're working right now. Do you know whether they're a Lead or a Contact in Zoho, and who introduced them? (\"Not sure\" is an honest answer and a useful starting point.)",
+      "coachContext": "Lesson on Zoho CRM data hierarchy: Lead (not yet qualified), Contact (a person), Company (their organization), Buyer's Journey record (potential engagement). Converting a Lead creates a Contact, a Company and a Buyer's Journey record. Encourage the learner to find that prospect's record during this lesson."
     },
     {
       "type": "text",
-      "html": "<h3>1. The Three Core Pillars of Data</h3><p>To keep our system organized, Zoho separates people from companies and potential money.</p><ul><li><strong>Contact:</strong> This is the individual person. Every person you interact with should be a Contact record.</li><li><strong>Company:</strong> This is the company. Multiple Contacts (employees) can be linked to a single Company (the employer).</li></ul>"
+      "html": "<h3>What you'll be able to do</h3><p>By the end of this lesson (about 20 minutes), you'll be able to:</p><ul><li>Decide whether a Lead should <strong>stay a Lead</strong>, be <strong>converted</strong>, or be <strong>closed out</strong>, and explain why.</li><li>Use the Lead's Blueprint to record where it stands.</li><li>Fill in a Contact record well enough that reports and referral credit stay accurate.</li></ul><p>You'll practise on three realistic Leads and then work on one of your own records.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Watch the flow first: one Lead, start to finish</h3><p>Here's how a principal handles one Lead from first contact to conversion.</p><ol><li><strong>Arrives as a Lead.</strong> A referral partner introduces Sam, owner of a 40-person engineering firm. The principal creates a <strong>Lead</strong> and notes who referred him. A Lead is someone you haven't qualified yet.</li><li><strong>Outreach.</strong> Two emails, no reply. It stays a Lead, and the principal records the attempt in its Blueprint so the team can see it.</li><li><strong>The conversation.</strong> Sam replies, and on a 30-minute call he describes a real problem: growth has stalled since his sales lead left. He agrees to a second meeting with his business partner.</li><li><strong>Convert.</strong> Now there's a confirmed pain point, the principal has Sam's title, email, phone and company, and they're entering a formal sales process. The principal clicks <strong>Convert</strong>, and Zoho creates three linked records:<ul><li>a <strong>Contact</strong> (Sam, the person)</li><li>a <strong>Company</strong> (his firm; one Company can have many Contacts)</li><li>a <strong>Buyer's Journey</strong> record (the potential engagement, covered in Lesson 5)</li></ul></li></ol><p>What made the difference wasn't how friendly the call felt. It was <em>evidence</em>: a stated problem, the essential details, and a next step in the sales process.</p>"
+    },
+    {
+      "type": "text",
+      "html": "<h3>Tracking where a Lead is: Lead Status and the Blueprint</h3><p>Every Lead has a <strong>Lead Status</strong> so the team knows where it stands without asking. You don't type a new status in. You move the Lead with its <strong>Blueprint</strong>: the colored buttons at the top of the record. (Lesson 5 uses Blueprints again for the Buyer's Journey.)</p><ul><li>A brand-new Lead starts at <strong>Not Contacted</strong>, with buttons such as <strong>Responded</strong>, <strong>No Response</strong> and <strong>Bad Lead</strong>.</li><li>Other statuses include Attempted to Contact, Contacted and Pre-Qualified (a real fit, heading toward conversion).</li><li>For a Lead that won't convert, there are outcomes such as Contact in Future, Junk Lead, Not Qualified and Lost Lead.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-4/lead-blueprint-not-contacted.png\" alt=\"Lead Blueprint showing Current State: Not Contacted, with transition buttons Responded, No Response, and Bad lead\"><figcaption>A Lead's Blueprint, currently at \"Not Contacted\"</figcaption></figure>"
     },
     {
       "type": "activity",
-      "label": "Find it now",
-      "instructions": "Look at your left-hand menu. Identify the Companies and Contacts modules. Click on Companies to see a list of companies we are currently tracking.",
-      "confirmText": "I've completed this activity in Zoho — continue"
+      "label": "In Zoho CRM",
+      "instructions": "Open one of your own Leads, or any Lead you can see. Find the Blueprint at the top and note two things:<ul><li>its <strong>Current State</strong></li><li>which buttons are available</li></ul>Just look for now. Don't click a transition unless you actually mean to move that Lead.",
+      "confirmText": "I've found a Lead's Blueprint — continue"
     },
     {
       "type": "text",
-      "html": "<h3>2. Tracking Where a Lead Is: Lead Status</h3><p>Every Lead carries a Lead Status field so the whole team knows where things stand without having to ask. Just like the Buyer's Journey pipeline you'll see in the next lesson, you don't just type a new status into the field — you move a Lead forward using its own Blueprint, the colored transition buttons at the top of the record.</p><ul><li><strong>Not Contacted:</strong> A new Lead you haven't reached out to yet. From here you'll see buttons like <strong>Responded</strong>, <strong>No Response</strong>, and <strong>Bad Lead</strong>.</li><li>Behind the scenes, the underlying statuses include Attempted to Contact, Contacted, and Pre-Qualified (a real fit, moving toward converting them), plus outcomes like Contact in Future, Junk Lead, Not Qualified, and Lost Lead for a Lead that isn't going to convert.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-4/lead-blueprint-not-contacted.png\" alt=\"Lead Blueprint showing Current State: Not Contacted, with transition buttons Responded, No Response, and Bad lead\"><figcaption>A Lead's Blueprint, currently at \"Not Contacted\"</figcaption></figure>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Open any Lead record and find its Blueprint at the top. Check the Current State and see what transition buttons are available to move it forward.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>3. Maintaining Data Excellence</h3><p>Our CRM is only as powerful as the data we put into it. As a Principal, you are the steward of your client information.</p><ul><li><strong>Update Early and Often:</strong> As you work through a deal, please update as much information as you can. Capturing details like job titles, industries, and specific roles ensures our reporting remains accurate.</li><li><strong>Watch for Mandatory Fields:</strong> Throughout the CRM, you will encounter fields marked with a red line or asterisk. These are \"Mandatory Fields\" required for our reporting and analytics. You will be prompted to fill these in before you can save a record or move a deal to the next stage.</li><li><strong>Accuracy is Key:</strong> Ensure that phone numbers, email addresses, and company names stay up-to-date as your relationships evolve.</li></ul>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Click into any Contact record. Scroll through the various sections (General Information, Categorization, etc.). Notice the fields available for you to fill in — the more complete this page is, the better we can serve our clients.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>4. Summary: When to Move Data</h3><ul><li><strong>Stay in Lead if:</strong> You are still attempting to reach them for an initial conversation or have not yet verified they are a fit for our services.</li><li><strong>Convert to Contact/Company/Buyer's Journey if:</strong> You have confirmed a pain point, gathered their essential details, and are moving into a formal sales process.</li></ul><p>The Convert button lives right at the top of a Lead record, next to Send Email and Edit.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-4/lead-convert-buttons.png\" alt=\"Lead record action buttons: Send Email, Convert, Edit, and more, with a Last Update timestamp\"><figcaption>The Convert button on a Lead record</figcaption></figure>"
+      "html": "<h3>The decision rule: stay, convert, or close out</h3><table><thead><tr><th>Situation</th><th>What to do</th></tr></thead><tbody><tr><td>You haven't had a real conversation yet, or haven't confirmed they're a fit.</td><td><strong>Keep it as a Lead.</strong> Record each attempt in the Blueprint.</td></tr><tr><td>You've confirmed a pain point, gathered their essential details, and you're moving into a formal sales process.</td><td><strong>Convert it.</strong> Check first whether their Company already exists, so you don't create a duplicate.</td></tr><tr><td>They're not a fit, not a real prospect, or have asked to be contacted later.</td><td><strong>Close it out with the right status</strong>, for example Not Qualified, Junk Lead or Contact in Future. Don't convert it, and don't just leave it sitting.</td></tr></tbody></table><p>The <strong>Convert</strong> button is at the top of a Lead record, next to Send Email and Edit. Once converted, the Lead leaves your Leads list. You'll work with the new Contact, Company and Buyer's Journey record from then on.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-4/lead-convert-buttons.png\" alt=\"Lead record action buttons: Send Email, Convert, Edit, and more, with a Last Update timestamp\"><figcaption>The Convert button on a Lead record</figcaption></figure>"
     },
     {
       "type": "question",
       "format": "mcq",
-      "prompt": "What happens to the Lead record when I click \"Convert\"?",
+      "prompt": "A CFO introduced by a referral partner hasn't replied to your voicemail or your first email. What's the best move?",
       "options": [
-        "It gets deleted permanently",
-        "It disappears and becomes a Contact, a Company, and a Buyer's Journey record",
-        "It moves to the Companies module only, unchanged",
-        "It stays as a Lead but changes status to \"Converted\""
+        "Convert now so the referral isn't lost",
+        "Keep it as a Lead and record the attempt in its Blueprint",
+        "Mark it Junk Lead, since they didn't reply",
+        "Delete the Lead and start over if they reply"
       ],
       "correctIndex": 1,
-      "feedbackCorrect": "Correct — converting a Lead turns it into a Contact, a Company, and a Buyer's Journey record all at once.",
-      "feedbackIncorrect": "Not quite — when you click Convert, the Lead disappears and becomes a Contact, a Company, and a Buyer's Journey record."
+      "feedbackCorrect": "Right. There's no conversation or confirmed fit yet, so it stays a Lead. Recording the attempt shows the team (and the referral partner, if they ask) exactly where things stand.",
+      "feedbackIncorrect": "Not quite. No reply yet means no confirmed pain point or fit, so it isn't ready to convert, and it's too early to close out. Keep it as a Lead and record the attempt in its Blueprint."
     },
     {
       "type": "question",
       "format": "mcq",
-      "prompt": "What should you do when you encounter a field marked as mandatory?",
+      "prompt": "What happens to the Lead record when you click \"Convert\"?",
       "options": [
-        "Skip it and come back to it later",
-        "Leave it blank if you don't have the information yet",
-        "Ensure the information is accurate and filled out before attempting to save or transition the record",
-        "Ask your Managing Principal to fill it in for you"
+        "It gets deleted permanently",
+        "It leaves the Leads list and becomes a linked Contact, Company and Buyer's Journey record",
+        "It moves to the Companies module only, unchanged",
+        "It stays a Lead and its status changes to \"Converted\""
       ],
-      "correctIndex": 2,
-      "feedbackCorrect": "Correct — mandatory fields need accurate information filled in before you can save or move the record forward.",
-      "feedbackIncorrect": "You need to ensure the information is accurate and filled out before attempting to save or transition the record — mandatory fields will block you otherwise."
+      "correctIndex": 1,
+      "feedbackCorrect": "Correct. One click creates the person (Contact), their organization (Company) and the potential engagement (Buyer's Journey), all linked together.",
+      "feedbackIncorrect": "Not quite. Converting turns the Lead into three linked records: a Contact (the person), a Company (the organization) and a Buyer's Journey record (the potential engagement)."
+    },
+    {
+      "type": "scenario",
+      "id": "convert-decisions",
+      "promptHtml": "<p>You open your Leads list and find these three:</p><ol><li><strong>Maria</strong>, operations director at a regional logistics company. You swapped cards at a chamber event and she said, \"Send me something.\" You haven't talked about her business yet.</li><li><strong>James</strong>, owner of a 60-person manufacturer. On a 45-minute call he said they've lost two key customers this year and wants help building a sales process. He agreed to a follow-up meeting with his partner. You have his title, email, phone and company website.</li><li><strong>Pat</strong>, a graduate student researching consulting careers, who filled out the website contact form.</li></ol><p>For <strong>each</strong> one, say whether you'd keep it as a Lead, convert it, or close it out, and why. For any Lead you'd convert, say what you'd check or fill in first.</p>",
+      "rubric": [
+        "Keeps Maria as a Lead (no conversation or confirmed fit yet) and mentions continuing outreach or recording attempts",
+        "Converts James, citing evidence such as the confirmed pain point, essential details and the agreed next meeting",
+        "Before converting James, mentions checking for an existing Company or Contact, or completing required details, to avoid duplicates or gaps",
+        "Closes out Pat with a suitable status (for example Not Qualified or Junk Lead) instead of converting or leaving the record open"
+      ],
+      "passThreshold": 3,
+      "coachContext": "Decision rule taught: keep as a Lead if there has been no real conversation yet or fit isn't confirmed; record attempts in the Lead's Blueprint. Convert when a pain point is confirmed, essential details are gathered and the prospect is moving into a formal sales process; check whether the Company/Contact already exists first to avoid duplicates, and fill mandatory fields. Converting creates a linked Contact, Company and Buyer's Journey record. Close out non-fits with a suitable Lead Status such as Not Qualified, Junk Lead, Lost Lead or Contact in Future, instead of converting or leaving them open. Lead Status values include Not Contacted, Attempted to Contact, Contacted, Pre-Qualified, Contact in Future, Junk Lead, Not Qualified, Lost Lead. Enthusiasm alone is not evidence."
+    },
+    {
+      "type": "scenario",
+      "id": "convert-changed-case",
+      "promptHtml": "<p>A harder one. A referral partner introduces <strong>Elena</strong>, who owns a growing dental group. Your first call goes really well, and she's enthusiastic. But she says: <em>\"Call me after the first quarter. Nothing happens until our new CFO starts.\"</em></p><p>So far you have only her first name and a cell number. A colleague mentions there may already be a Company record for her dental group in Zoho.</p><p>What do you do with this Lead today? Cover:</p><ul><li>whether you convert</li><li>what status you use</li><li>what information you clean up or add</li><li>how you make sure the follow-up actually happens</li></ul>",
+      "rubric": [
+        "Does not convert yet, because there's no formal sales process under way (enthusiasm alone isn't enough), and keeps it as a Lead with a fitting status such as Contact in Future",
+        "Plans to gather the missing essential details (for example last name, email, title, company)",
+        "Checks for the existing Company record to avoid creating a duplicate, and links to it when converting later",
+        "Sets a dated follow-up (a reminder or task) and records who referred her"
+      ],
+      "passThreshold": 3,
+      "coachContext": "Decision rule taught: convert only when a pain point is confirmed, essential details are gathered and the prospect is moving into a formal sales process. A prospect who asks to be contacted later stays a Lead with a status such as Contact in Future. Avoid duplicates by checking for an existing Company/Contact before converting. Record who referred a Lead. Keep records complete: title, email, phone, company. Follow-ups should be dated so they happen; tasks are covered in more depth in a later lesson. Enthusiasm alone is not evidence."
+    },
+    {
+      "type": "text",
+      "html": "<h3>Keeping records worth trusting</h3><p>A complete record is what lets the team credit the right referral partner, see who's working with whom, and report accurately on the business we're winning.</p><ul><li><strong>Update as you go.</strong> Add details like job title, industry and role when you learn them, not at the end.</li><li><strong>Mandatory fields</strong> are marked with a red line or asterisk. They feed OneAccord's reporting, so Zoho asks you to fill them in before you can save a record or move it forward. Accurate beats fast here.</li><li><strong>Keep the basics current.</strong> Update phone numbers, emails and company names as people change roles.</li></ul>"
     },
     {
       "type": "question",
       "format": "true_false",
-      "prompt": "True or False: It is okay to leave a Contact record mostly empty as long as I have their email address.",
+      "prompt": "True or False: It's fine to leave a Contact record mostly empty as long as you have their email address.",
       "correctIndex": 1,
-      "feedbackCorrect": "Right — providing as much detail as possible is essential for our reporting and automation.",
-      "feedbackIncorrect": "False — providing as much detail as possible is essential for our reporting and automation, not just an email address."
+      "feedbackCorrect": "Right. An email alone can't tell the team the person's role, industry or who referred them, so reports and referral credit end up wrong.",
+      "feedbackIncorrect": "It's actually false. An email alone can't tell the team the person's role, industry or who referred them, so reports and referral credit end up wrong."
+    },
+    {
+      "type": "activity",
+      "label": "Apply it in Zoho CRM",
+      "instructions": "Now use it on real work. Choose <strong>one record you own</strong>, either a Lead or a Contact (the prospect you thought of at the start is a good choice).<ol><li>If it's a Lead, decide: stay, convert or close out. Then take that action in its Blueprint.</li><li>If it's a Contact, fill in what's missing: title, industry or Categorization fields, and current phone, email and company.</li><li>Make sure the record shows who referred them, if anyone did.</li></ol>Only edit records you own. If you don't have any yet, open a record you can see and list what's missing instead.",
+      "confirmText": "I've updated one of my records — continue"
+    },
+    {
+      "type": "deliverable",
+      "id": "core-takeaway",
+      "label": "Core Takeaway",
+      "title": "Lesson 4: Leads, Contacts and Companies",
+      "promptHtml": "<p>Put this lesson in your own words so it sticks. Your answers are saved in this browser only; they aren't sent to your manager or saved as a grade.</p>",
+      "fields": [
+        {
+          "id": "takeaway",
+          "label": "In one or two sentences, how will you decide when a Lead is ready to convert?",
+          "rows": 3
+        },
+        {
+          "id": "commitment",
+          "label": "Which Lead or Contact will you clean up, convert or close out next, and by when?",
+          "rows": 2
+        },
+        {
+          "id": "cost",
+          "label": "If your records stay as they are, what could it cost you (for example a missed follow-up, a referral partner's trust, or time spent hunting for information)?",
+          "rows": 3
+        }
+      ],
+      "criteria": [
+        "The takeaway names evidence for converting (such as a confirmed pain point, essential details, or a formal next step), not just a feeling",
+        "The commitment names a specific record or prospect and a time frame",
+        "The cost is personal and concrete to the learner's own work"
+      ],
+      "planName": "Core Takeaway"
     }
   ]
 }
