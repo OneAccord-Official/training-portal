@@ -48,7 +48,8 @@ exports.handler = async (event) => {
   if (!MODES[mode]) return json(400, { error: "Invalid mode" });
 
   // Load the lesson definition from this deployed site.
-  const base = process.env.URL || `https://${event.headers.host}`;
+  // Prefer this deploy's own URL so review drafts grade against their own lesson JSON.
+  const base = process.env.DEPLOY_URL || process.env.URL || `https://${event.headers.host}`;
   let lesson;
   try {
     const res = await fetch(`${base}/data/trainings/${trainingId}/${lessonId}.json`);
