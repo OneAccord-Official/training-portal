@@ -1,84 +1,147 @@
 {
-  "id": "lesson-1",
-  "title": "Lesson 1: The Big Picture (Zoho One vs. CRM)",
-  "completionTitle": "You've completed Lesson 1: The Big Picture — Zoho One vs. CRM",
-  "keyConcepts": [
-    "Zoho One as the training starting point",
-    "The difference between Zoho One and Zoho CRM",
-    "Zoho CRM as OneAccord's source of truth",
-    "Basic CRM navigation",
-    "Core CRM modules"
-  ],
-  "nextTeaser": "The next lesson focuses on setting up your professional Zoho workspace, including your profile, notifications, email integration, and mobile setup.",
-  "nextLessonId": "lesson-2",
-  "blocks": [
+ "id": "lesson-1",
+ "title": "Lesson 1: The Big Picture (Zoho One vs. CRM)",
+ "completionTitle": "You’ve completed Lesson 1: The Big Picture — Zoho One vs. CRM",
+ "coachPersona": "You are an experienced OneAccord principal coaching a colleague on using Zoho CRM (Customer Relationship Management) well. OneAccord uses the Zoho One suite (one.zoho.com), in which Zoho CRM is the sales workspace where every person, company and opportunity lives. Zoho CRM is OneAccord's source of truth: if an interaction isn't recorded there, it doesn't exist for the team. Coach for sound judgment and clean, complete data, in plain, warm, specific language. OneAccord's values are truth, compassion and service.",
+ "keyConcepts": [
+  "Zoho One (the suite) versus Zoho CRM (the workspace)",
+  "Zoho CRM as OneAccord’s source of truth",
+  "Finding any record with Global Search",
+  "Top bar, bottom bar and left menu navigation",
+  "Where a prospect lives before and after conversion"
+ ],
+ "nextTeaser": "Next you’ll set up your own workspace properly: profile, notifications, email tracking, signature and the mobile app.",
+ "nextLessonId": "lesson-2",
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>9:55 a.m. A prospect calls in five minutes.</strong> Your colleague met them two weeks ago and said it went well. You open Zoho to prepare and find nothing. You search your inbox instead and find three email threads, no notes, no company, no record of what was said.</p><p>So you dial cold, and ten minutes in you ask a question your colleague already asked. The prospect answers politely, then says, “I think I already covered this with your team.” The call ends with a vague promise to reconnect.</p><p>That’s the cost of a deal living in someone’s inbox instead of in Zoho CRM. This lesson is about making sure your next call never starts that way.</p>"
+  },
+  {
+   "type": "reflection",
+   "id": "experience",
+   "prompt": "Think of a time you walked into a call, a meeting or a handover with less information than you needed. What was missing, and who ended up doing extra work to cover it? (Optional — skip if you’d rather get started.)",
+   "coachContext": "Opening reflection for a lesson on Zoho CRM basics: Zoho One suite vs Zoho CRM workspace, the source-of-truth rule, navigating the top bar, bottom bar and left menu. Respond briefly and warmly; connect what the learner says to why records belong in one place."
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you’ll be able to:</strong></p><ol><li><strong>Find</strong> any person, company or prospect in Zoho in under a minute, even if a colleague created the record.</li><li><strong>Tell</strong> Zoho One apart from Zoho CRM, and know which one to open when.</li><li><strong>Locate</strong> what you need in the top bar, the bottom bar and the left menu — including where a prospect lives before and after they become a real opportunity.</li></ol><p>About 15 minutes. Have a browser tab ready.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Two ways to prepare for the same call</h3><table><thead><tr><th>Rushed (what usually happens)</th><th>Prepared (what this lesson makes routine)</th></tr></thead><tbody><tr><td>9:55: search your inbox for the prospect’s name.</td><td>9:50: open <strong>Zoho One</strong>, use <strong>Global Search</strong> in the top bar, and type the company name.</td></tr><tr><td>Find three threads and a forwarded calendar invite.</td><td>Open the record: the meeting notes, the last two emails, and the referral partner’s name are all attached to it.</td></tr><tr><td>Discover on the call that you don’t know who referred them or what was discussed.</td><td>Open with “Last time you mentioned two customers left this year — how is that playing out?”</td></tr><tr><td>Promise to “circle back,” then rebuild the history from scratch.</td><td>Log the call as an activity during the same session, so the next person starts where you finished.</td></tr></tbody></table><p>Same ten minutes. Completely different conversation.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Rule one: the source of truth</h3><p><strong>Zoho CRM</strong> (Customer Relationship Management) is the system of record for every person, company and opportunity at OneAccord. Our rule is simple: <strong>if it isn’t in Zoho, it didn’t happen.</strong> A meeting nobody logged doesn’t count toward your numbers, and a relationship nobody recorded leaves with whoever was holding it.</p><p>Keeping everything in one place buys us three things:</p><ul><li><strong>Anybody can step in.</strong> A Managing Principal can pick up a conversation with full context instead of starting over.</li><li><strong>Our growth loop works.</strong> Automated referral asks only function when the underlying data is accurate.</li><li><strong>Memory outlasts email.</strong> Relationships stay with OneAccord, not with one person’s inbox.</li></ul>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Rule two: the suite versus the workspace</h3><p>Two addresses, two jobs:</p><ul><li><strong>Zoho One</strong> (<em>one.zoho.com</em>) is the suite: one dashboard for every Zoho app we use — CRM, Campaigns, Bookings and the rest. Use this view for training so your screen matches these lessons.</li><li><strong>Zoho CRM</strong> (<em>crm.zoho.com</em>) is the workspace: pipeline, contacts, companies and activity, with nothing else competing for attention.</li></ul><p>Both show the same data; only the menus move. Our screenshots use the Zoho One layout.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-1/zoho-one-sidebar-crm.png\" alt=\"Zoho One sidebar with the CRM app pinned\"><figcaption>The CRM icon under Pinned Apps in your Zoho One sidebar</figcaption></figure>"
+  },
+  {
+   "type": "activity",
+   "label": "Try it now",
+   "instructions": "Open <strong>one.zoho.com</strong> in a new tab and sign in. In the left sidebar, find the <strong>CRM</strong> icon under Pinned Apps and open it. While you’re in the CRM, hover the <strong>Plus (+)</strong> icon in the top bar to see how many record types you can create from anywhere.",
+   "confirmText": "I’ve opened Zoho CRM from Zoho One — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>The bars around your workspace</h3><p><strong>Top bar — universal tools</strong> (available on any page):</p><ul><li><strong>Global Search:</strong> type a name, company or phone number. It searches every module, which is why it’s the fastest way to find out whether we already know someone.</li><li><strong>Plus (+):</strong> quick create — a Task, Meeting, Call or Lead without leaving the page you’re on.</li><li><strong>Bell:</strong> alerts, colleague mentions and reminders.</li><li><strong>Zia:</strong> Zoho’s built-in AI assistant. You can ask it questions in plain English. Its icon moves between Zoho versions — you’ll usually find it bottom-right of the screen or from the search bar.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-1/top-bar-icons.png\" alt=\"Zoho CRM top bar icons\"><figcaption>The top bar: search, Zia, quick create and more</figcaption></figure><p><strong>Bottom bar — always pinned</strong>:</p><ul><li><strong>Cliq:</strong> Zoho’s internal chat and channels.</li><li><strong>Recent Items</strong> (clock icon): the last few records you visited — handy when you’re jumping between the same two or three accounts all morning.</li><li><strong>Reminders</strong> (alarm icon): activities due right now.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-1/bottom-bar-icons.png\" alt=\"Zoho CRM bottom bar icons\"><figcaption>The bottom bar: reminders, recent items and support tools</figcaption></figure>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>The left menu: where things live</h3><ul><li><strong>Leads:</strong> incoming prospects you haven’t qualified yet. This module used to be called “Inquiries,” so you may still hear that word.</li><li><strong>Contacts:</strong> individual people.</li><li><strong>Companies:</strong> the organizations those people work for. You may still hear “Accounts” — same module, newer name.</li><li><strong>Buyer’s Journey:</strong> your pipeline once a Lead is a real opportunity. Covered in depth in Lesson 5.</li><li><strong>Referral Partners:</strong> its own module for tracking who refers business to us, and also a lookup field on Leads and Buyer’s Journey records so credit follows the deal.</li><li><strong>Tasks, Meetings and Calls:</strong> your daily activity log.</li></ul><p>You’ll notice items like <strong>NAICS Codes</strong> (North American Industry Classification System) — an industry lookup used to segment Companies and Leads, not a place you’ll spend your day.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-1/crm-left-nav-menu.png\" alt=\"Zoho CRM left-hand navigation menu showing Leads, Buyer's Journey, Contacts, Companies, Referral Partners and Activities\"><figcaption>Your CRM left-hand menu</figcaption></figure>"
+  },
+  {
+   "type": "activity",
+   "label": "Try it now",
+   "instructions": "Click <strong>Leads</strong> in the menu to see the list of incoming prospects. Then use <strong>Global Search</strong> to look up one company you already know something about — yours, a current client, or a prospect from this week’s list. Notice what comes back from more than one module.",
+   "confirmText": "I’ve searched for a company — continue"
+  },
+  {
+   "type": "question",
+   "format": "true_false",
+   "prompt": "True or False: If I have a strong meeting but don’t log it in Zoho, it still counts toward my performance metrics.",
+   "correctIndex": 1,
+   "feedbackCorrect": "Right. If it isn’t in Zoho it didn’t happen: untracked meetings don’t count toward your metrics, and nobody else can see them.",
+   "feedbackIncorrect": "It’s false, and this is the rule most worth remembering. If it isn’t in Zoho it didn’t happen — untracked work doesn’t count toward your metrics and can’t be picked up by a colleague."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "A prospect calls you. You’ve never spoken with them, and you want to know within seconds whether anyone else at OneAccord has. Where do you look first?",
+   "options": [
+    "The Leads list, filtered to today",
+    "Global Search in the top bar",
+    "The Recent Items clock icon",
+    "Your Outlook inbox"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Yes — Global Search looks across every module at once, so it catches a Lead, a Contact, a Company or a Buyer’s Journey record in one go.",
+   "feedbackIncorrect": "Global Search is the fastest first move, because it searches every module at once. Checking only the Leads list misses anyone who has already been converted to a Contact, Company or Buyer’s Journey record."
+  },
+  {
+   "type": "scenario",
+   "id": "prep-ten-minutes",
+   "promptHtml": "<p>It’s 9:50 and a prospect, <strong>Dana Whitfield</strong>, calls you at 10:00. The introduction came through a referral partner. A colleague mentioned “someone already spoke with them” but can’t remember who or when.</p><p>You have ten minutes inside Zoho. Describe what you do, in order, and what you want to know before you dial.</p>",
+   "rubric": [
+    "Uses Global Search across modules (by name, company or phone) rather than only opening the Leads list",
+    "Checks the record for prior contact — notes, activities or an existing Buyer’s Journey record — and identifies who referred them",
+    "Names the gaps that matter on the call and how they’d fill them (for example logging the call as an activity or adding missing details)",
+    "Plans to confirm rather than re-ask what was already discussed"
+   ],
+   "passThreshold": 3,
+   "coachContext": "Skill taught: prepare for a call by finding the existing record first (Global Search searches all modules), reading notes/activities and the referral partner, then filling gaps. Zoho CRM is the source of truth: if it isn’t logged, it didn’t happen. Leads are unqualified prospects; Contacts are people; Companies are organizations; Buyer’s Journey records are opportunities; a converted Lead becomes linked Contact, Company and Buyer’s Journey records. Top bar: Global Search, Plus (quick create), Bell, Zia. Bottom bar: Cliq, Recent Items (clock), Reminders (alarm). Left menu: Leads, Contacts, Companies, Buyer’s Journey, Referral Partners, Tasks/Meetings/Calls, NAICS Codes (industry lookup). Good answers protect the prospect’s time, avoid duplicate records, and log the call."
+  },
+  {
+   "type": "scenario",
+   "id": "cannot-find-record",
+   "promptHtml": "<p>Change the conditions. You’re certain OneAccord has dealt with Dana’s company before — but you search Zoho and find <strong>nothing</strong>. Nothing in Leads, nothing by company name.</p><p>What are the likely explanations, and what do you check before you create any new record?</p>",
+   "rubric": [
+    "Explains that a converted Lead no longer sits in Leads, and looks in Contacts, Companies or Buyer’s Journey instead",
+    "Suggests searching by phone number, email or company variations rather than the name alone",
+    "Uses Recent Items or asks the colleague who spoke with them to get closer",
+    "Avoids creating a duplicate record before those checks"
+   ],
+   "passThreshold": 3,
+   "coachContext": "Transfer case for Zoho CRM navigation. Key insight: a converted Lead becomes linked Contact, Company and Buyer’s Journey records and leaves the Leads module. Search is Global (all modules) and can use phone or email; name spellings vary; Recent Items shows last visited records; a colleague who logged the meeting is another route. Creating a duplicate Company or Contact corrupts reports and referral credit, so check first. NAICS Codes is an industry lookup, not a record store."
+  },
+  {
+   "type": "activity",
+   "label": "Apply it in Zoho CRM",
+   "instructions": "Now use it on real work. Pick the next prospect you’ll actually speak with this week.<ol><li>Find them in Zoho with <strong>Global Search</strong> — try the company name and the phone number.</li><li>Open the record and confirm three things: the right company, who referred them, and the last conversation note.</li><li>If something is missing, add it now. If they aren’t in Zoho at all, create a <strong>Lead</strong> with name, company, phone and email.</li></ol>Only edit records you own. If you don’t have any yet, use one you can see and list what’s missing instead.",
+   "confirmText": "I’ve checked one of my prospects — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 1: The Big Picture",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>Put this lesson in your own words so it sticks. Your answers are saved in this browser only — they aren’t sent to your manager or kept as a grade.</p>",
+   "fields": [
     {
-      "type": "text",
-      "html": "<p><strong>Follow Along: Log In Now.</strong> Before we begin, please open a new tab and log in to <strong>one.zoho.com</strong>. While you can also access the system via crm.zoho.com, we use the Zoho One layout for all our training guides. The features are identical in both, but the navigation menus are located in different places. Logging into the \"One\" view now will ensure your screen matches these lessons.</p>"
+     "id": "takeaway",
+     "label": "In one or two sentences: what does “if it isn’t in Zoho, it didn’t happen” mean for how you work?",
+     "rows": 3
     },
     {
-      "type": "text",
-      "html": "<h3>The CRM Philosophy: Our \"Source of Truth\"</h3><p>At OneAccord, Zoho CRM is more than just a digital rolodex; it is the central nervous system of our business. Our \"Source of Truth\" philosophy means that if an interaction, a meeting note, or a deal status isn't in Zoho, it effectively didn't happen. By keeping all data in one place, we ensure:</p><ul><li><strong>Seamless Collaboration:</strong> Any Principal can step in to support a deal with full context.</li><li><strong>Growth Loop Integrity:</strong> Our automated referral asks only work if our data is accurate.</li><li><strong>Historical Memory:</strong> We maintain a permanent record of our relationships that outlasts any single email thread.</li></ul>"
+     "id": "commitment",
+     "label": "Which prospect or record will you find and tidy before your next call, and by when?",
+     "rows": 2
     },
     {
-      "type": "text",
-      "html": "<h3>Navigation Mastery: Suite vs. Workspace</h3><p><strong>Zoho One (one.zoho.com) — The Suite:</strong> Think of this as your Dashboard. It is the unified interface that gives you access to every Zoho app we use (CRM, Campaigns, Bookings, etc.) in one browser tab. This is the view we will be using throughout this training.</p><p><strong>Zoho CRM (crm.zoho.com) — The Workspace:</strong> This is your Engine Room. It focuses exclusively on the sales pipeline, contacts, and companies.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-1/zoho-one-sidebar-crm.png\" alt=\"Zoho One sidebar with the CRM app pinned\"><figcaption>The CRM icon under Pinned Apps in your Zoho One sidebar</figcaption></figure>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "On your Zoho One dashboard, look at the left-hand sidebar. Find the CRM icon and click it to open your workspace.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>The Top Bar: Your Universal Tools</h3><p>The icons at the top of your screen are your \"Quick Access\" tools available from any page.</p><ul><li><strong>Global Search:</strong> Type a name, phone number, or company. Zoho searches across all modules.</li><li><strong>The Plus (+) Icon:</strong> Your \"Quick Create.\" Use this to add a new Task, Meeting, or Lead without leaving your current page.</li><li><strong>The Bell (Notifications):</strong> Your command center for alerts, mentions from colleagues, or task reminders.</li><li><strong>Zia (The AI Assistant):</strong> Ask Zia questions like \"What is my revenue for this month?\"</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-1/top-bar-icons.png\" alt=\"Zoho CRM top bar icons\"><figcaption>The top bar: search, Zia, quick create, and more</figcaption></figure>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Hover your mouse over the Plus (+) icon at the top right. Notice how many different types of records you can create instantly.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>The Bottom Bar: Real-Time Communication</h3><p>The bottom of your screen stays pinned as you navigate:</p><ul><li><strong>Cliq (Chats & Channels):</strong> An internal communication tool.</li><li><strong>Recent Items:</strong> Click the clock icon to see the last five records you visited.</li><li><strong>Reminders:</strong> The alarm clock icon shows activities due right now.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-1/bottom-bar-icons.png\" alt=\"Zoho CRM bottom bar icons\"><figcaption>The bottom bar: reminders, recent items, and support tools</figcaption></figure>"
-    },
-    {
-      "type": "text",
-      "html": "<h3>The Menu: The CRM Modules</h3><p>The sidebar (or top menu depending on your view) organizes our data. Here's what you'll see today:</p><ul><li><strong>Contacts:</strong> Individual people.</li><li><strong>Companies:</strong> The companies those people work for. (You may still hear people call this \"Accounts\" — same module, new name.)</li><li><strong>Leads:</strong> Incoming prospects you're still qualifying, before you've confirmed they're a fit. This is what used to be called \"Inquiries.\"</li><li><strong>Buyer's Journey:</strong> Your sales pipeline once a Lead becomes a real opportunity. We'll cover this in depth in a later lesson.</li><li><strong>Referral Partners:</strong> Its own module for tracking who refers business to us — you'll also see it as a lookup field on Leads and Buyer's Journey records, so we always know who to credit for a deal.</li><li><strong>Tasks, Meetings, & Calls:</strong> Your daily activity logs.</li></ul><p>You'll notice a few other items in the menu too, like NAICS Codes — that's a lookup field used to segment Companies and Leads by industry, rather than a place you'll spend much day-to-day time.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-1/crm-left-nav-menu.png\" alt=\"Zoho CRM left-hand navigation menu showing Leads, Buyer's Journey, Contacts, Companies, Referral Partners, and Activities\"><figcaption>Your CRM left-hand menu</figcaption></figure>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Find the Leads module in your menu. Click it to see the list of incoming prospects.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "question",
-      "format": "true_false",
-      "prompt": "True or False: If I have a great meeting with a prospect but don't log it in Zoho, it still counts toward my performance metrics.",
-      "correctIndex": 1,
-      "feedbackCorrect": "Right — if it isn't in Zoho, it didn't happen. Untracked meetings don't count toward your metrics.",
-      "feedbackIncorrect": "Not quite — at OneAccord, if it isn't in Zoho, it didn't happen. Untracked meetings don't count toward your metrics."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Where is the fastest way to add a new task?",
-      "options": ["The Bell (Notifications) icon", "The Plus (+) Icon in the Top Bar", "The Cliq chat panel", "The Recent Items clock icon"],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct — the Plus (+) icon is your Quick Create for a new Task, Meeting, or Inquiry from anywhere.",
-      "feedbackIncorrect": "The fastest way is the Plus (+) Icon in the Top Bar — your Quick Create tool."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Which URL should you use to follow along with OneAccord training?",
-      "options": ["crm.zoho.com", "one.zoho.com", "zoho.com/one", "portal.zoho.com"],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct — we use the Zoho One layout (one.zoho.com) for all our training guides.",
-      "feedbackIncorrect": "It's one.zoho.com — we use the Zoho One layout for all our training guides."
+     "id": "cost",
+     "label": "If nothing changes, what could it cost you — for example a call that starts cold, a colleague duplicating your work, or credit that goes to nobody?",
+     "rows": 3
     }
-  ]
+   ],
+   "criteria": [
+    "The takeaway explains the consequence for the learner’s own work, not just the rule",
+    "The commitment names a specific prospect or record and a time frame",
+    "The cost is personal and concrete, not generic"
+   ]
+  }
+ ]
 }

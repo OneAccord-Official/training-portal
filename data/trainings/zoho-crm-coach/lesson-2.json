@@ -1,105 +1,140 @@
 {
-  "id": "lesson-2",
-  "title": "Lesson 2: Your Professional Setup",
-  "completionTitle": "You've completed Lesson 2: Your Professional Setup",
-  "keyConcepts": [
-    "Configuring your Zoho profile",
-    "Managing notifications",
-    "Connecting email integration",
-    "Creating your professional email signature",
-    "Using Zoho CRM mobile tools"
-  ],
-  "nextTeaser": "The next lesson focuses on creating and managing your personal Zoho Bookings page, including availability, calendar integration, and client scheduling.",
-  "nextLessonId": "lesson-3",
-  "blocks": [
+ "id": "lesson-2",
+ "title": "Lesson 2: Your Professional Setup",
+ "completionTitle": "You’ve completed Lesson 2: Your Professional Setup",
+ "coachPersona": "You are an experienced OneAccord principal coaching a colleague on using Zoho CRM (Customer Relationship Management) well. OneAccord uses the Zoho One suite (one.zoho.com); Zoho CRM is the sales workspace and the source of truth for people, companies and opportunities. Email integration links the learner's Outlook/Exchange mailbox so correspondence logs to records automatically. Coach for sound judgment, professional presentation and clean data, in plain, warm, specific language. OneAccord's values are truth, compassion and service.",
+ "keyConcepts": [
+  "A complete, professional Zoho profile",
+  "Notification settings that reduce noise",
+  "Linking Outlook/Exchange so email logs automatically",
+  "Email sharing and the BCC to CRM address",
+  "The OneAccord email signature standard",
+  "Using the Zoho CRM mobile app well"
+ ],
+ "nextTeaser": "Next: your personal Zoho Bookings page — availability, calendar and Teams integration, and a live link you can hand to a client.",
+ "nextLessonId": "lesson-3",
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>Your first email to a new prospect goes out this morning.</strong> It arrives with no photo, no title and no phone number, from an address they don’t recognize. Two days later a colleague asks how the opportunity is going and you forward two emails by hand, because the conversation isn’t anywhere they can see.</p><p>Meanwhile Zoho has sent you 40 notifications about things you already know, so you’ve started ignoring them — which means the one that mattered went past you too.</p><p>None of this is a skill problem. It’s five settings. Twenty minutes now saves that friction on every email and every handover for as long as you’re here.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you’ll be able to:</strong></p><ol><li><strong>Configure</strong> your profile so colleagues can identify you at a glance.</li><li><strong>Verify</strong> that email tracking is live — and fix it if it isn’t — so correspondence logs itself.</li><li><strong>Set</strong> notifications and your signature so Zoho adds signal instead of noise.</li><li><strong>Set up</strong> the mobile app for the moments when you’re not at a desk.</li></ol><p>About 20 minutes. Keep Zoho open in a second tab.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>What “done properly” looks like</h3><table><thead><tr><th>Unfinished setup</th><th>Finished setup</th></tr></thead><tbody><tr><td>Blank profile photo; colleagues see initials and a job title nobody has updated.</td><td>Photo, title and phone number current. Time zone correct, so bookings land at the right hour.</td></tr><tr><td>Mailbox never linked, so you paste emails into notes by hand — or forget.</td><td>Configuration Status <em>Working</em>, Sync Status <em>Completed</em>. Emails appear on the record without you doing anything.</td></tr><tr><td>Every notification on: your inbox fills with duplicates of what Zoho already shows you.</td><td>Email notifications off for things you check in the CRM daily; deal changes still reach you.</td></tr><tr><td>Signature differs from the OneAccord standard, or is missing entirely.</td><td>Standard OneAccord signature on every email sent from Zoho, with your booking link.</td></tr></tbody></table><p>Work through the five sections below in order — one is not much use without the one before it.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-2/email-imap-status.png\" alt=\"Zoho IMAP Integration status showing Configuration Status: Working and Sync Status: Completed\"><figcaption>What a correctly linked mailbox looks like: Configuration Status “Working”, Sync Status “Completed”</figcaption></figure>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>1. Your profile</h3><p>A complete profile is how colleagues recognise you when your name turns up on a record — and how clients see you if anything you send carries your details.</p><ul><li><strong>Photo:</strong> a professional headshot, not an avatar.</li><li><strong>Details:</strong> name, title and phone number, all current.</li><li><strong>Time zone:</strong> set correctly, or booking links and reminders misfire.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-2/profile-card.png\" alt=\"Zoho profile card showing name, email, User Id and organization\"><figcaption>Your profile card in Zoho</figcaption></figure>"
+  },
+  {
+   "type": "activity",
+   "label": "In Zoho CRM",
+   "instructions": "Click your profile icon (top right) → <strong>My Settings</strong> → <strong>Personal Settings</strong>. Upload your photo, check your name, title, phone and time zone, then save. Close the settings panel with the red X when you’re done.<br><br>Then, in the same menu, open <strong>Notifications</strong> and <strong>turn off email notifications</strong> for anything you already check in the CRM every day. Leave deal and mention alerts on.",
+   "confirmText": "My profile and notifications are set — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>2. Email tracking: the step that does the most work</h3><p>Linking your Outlook/Exchange mailbox lets Zoho read along. Emails to and from people in the CRM get attached to their records automatically — no BCC, no copy-paste, no “I’ll log it later.”</p><p><strong>How to link it:</strong> gear icon (top right) → <strong>Channels</strong> → <strong>Email</strong> → select <strong>Office 365 / Exchange (IMAP)</strong> → authorize. Then check the two status lines:</p><ul><li><strong>Configuration Status: Working</strong> — the connection is live.</li><li><strong>Sync Status: Completed</strong> — past mail has finished importing.</li></ul><p><strong>Sharing:</strong> leave Email Sharing set to <em>Public — Shared with Everyone</em>. That’s what lets a colleague pick up a deal without asking you for a recap.</p><p><strong>Sending from a private account?</strong> Use your unique <em>BCC to CRM</em> address (found in these same settings) and that one email still lands on the record.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-2/channels-menu.png\" alt=\"Zoho settings Channels menu showing Email and Telephony\"><figcaption>Channels, under Setup</figcaption></figure>"
+  },
+  {
+   "type": "activity",
+   "label": "In Zoho CRM",
+   "instructions": "Go to gear icon → <strong>Channels</strong> → <strong>Email</strong> and read your <strong>Configuration Status</strong> and <strong>Sync Status</strong>. Write down what they say:<ul><li>Both <em>Working</em> and <em>Completed</em>: you’re done here.</li><li>Anything else: don’t improvise. Note it and raise it with the Zoho admin — Christian or <strong>support@oneaccord.co</strong>.</li></ul>",
+   "confirmText": "I’ve checked my email connection status — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>3. Your signature: the digital business card</h3><p>Every email sent from Zoho should look like every other OneAccord email — same structure, same contact details.</p><ul><li>Use the OneAccord brand standard. You may need to drop the photo to get under the size limit.</li><li>Include your <strong>Zoho Bookings link</strong> (built in Lesson 3). It turns “let’s find a time” into one click for the client.</li><li>Don’t have the template yet? Ask Abby — she manages the OneAccord signature templates.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-2/signature-editor.png\" alt=\"Zoho email signature editor showing a OneAccord signature with photo, name, title and contact info\"><figcaption>The Email Signature tab, with a OneAccord signature in place</figcaption></figure>"
+  },
+  {
+   "type": "activity",
+   "label": "In Zoho CRM",
+   "instructions": "In Email Settings, open the <strong>Email Signature</strong> tab. Paste your standard OneAccord signature, remove the photo if Zoho rejects it for size, and save. Then send yourself a test email from inside Zoho and check how it looks on a phone.",
+   "confirmText": "I’ve saved and tested my signature — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>4. The mobile app</h3><p>Sales doesn’t only happen at a desk. The Zoho CRM app lets you check in at a client site, dictate a note straight after a call while it’s still fresh, and find an address without switching apps.</p><p>Two habits worth forming on day one: <strong>log the note before you leave the car park</strong>, and <strong>use check-in</strong> so your activity record matches where you actually were.</p>"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "A colleague says they can’t see the emails you’ve been sending a shared prospect. Your mailbox shows Configuration Status <em>Working</em>. What’s the most likely cause?",
+   "options": [
+    "You forgot to BCC the CRM address on each email",
+    "Your email sharing setting isn’t set to Public / Shared with Everyone",
+    "Your signature hasn’t been saved yet",
+    "Your notifications are turned off"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "That’s the usual culprit. Tracking runs on the server side — BCC isn’t needed once the mailbox is linked — but if sharing is set to private, the emails are logged and only you can see them.",
+   "feedbackIncorrect": "Check the sharing setting first: if Email Sharing isn’t Public / Shared with Everyone, emails are logged but stay visible only to you. BCC isn’t the issue once the mailbox is linked, and signatures and notifications don’t affect visibility."
+  },
+  {
+   "type": "scenario",
+   "id": "nothing-is-logging",
+   "promptHtml": "<p>You’ve been working a prospect hard for two weeks: nine emails, two calls, one meeting. Your colleague opens the record to help you prepare for the next call and sees nothing — no emails, no notes, an empty activity list.</p><p>Walk through how you’d work out what’s wrong, in what order, and what you’d do about it. Include what you’d check in Zoho, and what you’d do about the two weeks already missing.</p>",
+   "rubric": [
+    "Checks the email connection first (Configuration Status and Sync Status under Channels → Email) rather than assuming the data is lost",
+    "Checks the sharing setting, since private sharing makes logged email invisible to others",
+    "Says how to catch up on the missing history — for example forwarding key emails using the BCC to CRM address, or logging the calls and meeting as activities",
+    "Escalates to the Zoho admin (Christian or support@oneaccord.co) rather than trying random fixes if the connection is broken"
+   ],
+   "passThreshold": 3,
+   "coachContext": "Lesson on Zoho CRM personal setup. Correct diagnostic order: (1) Channels → Email configuration and sync status; (2) email sharing set to Public/Shared with Everyone; (3) whether the emails were sent from a mailbox other than the linked one (a private account needs the BCC to CRM address); (4) escalate to the Zoho admin. Past correspondence can be recovered by forwarding with BCC to CRM, and calls or meetings logged manually as activities. Notifications and signature settings do not affect logging. Zoho admin contacts: Christian or support@oneaccord.co."
+  },
+  {
+   "type": "scenario",
+   "id": "private-account-email",
+   "promptHtml": "<p>Different conditions. You’re emailing a prospect from your personal Gmail account on a Saturday, because that’s where you first swapped messages. On Monday you want that thread on the record — and you want the client-facing email to still look professional.</p><p>How do you handle it, and what would you change about how you work going forward?</p>",
+   "rubric": [
+    "Uses the BCC to CRM address so that specific thread lands on the record",
+    "Recognizes the professional-presentation problem of sending client email from a personal address and moves future correspondence into the work account",
+    "Keeps the signature and contact details consistent across both (the OneAccord standard)",
+    "Notes the effect on teammates — private-account email isn’t visible to colleagues unless it’s logged"
+   ],
+   "passThreshold": 3,
+   "coachContext": "Transfer case for the same setup skills. Key points: the BCC to CRM address logs a single email sent from an outside account; the linked work mailbox logs automatically; email sharing should remain Public so colleagues can see correspondence; the OneAccord signature standard applies to anything a client reads; personal-account client email undermines presentation and continuity. Notifications have no bearing on logging."
+  },
+  {
+   "type": "activity",
+   "label": "Apply it in Zoho CRM",
+   "instructions": "Now finish your own setup using the five-point check. Any item you can’t tick, note it and raise it with the Zoho admin (Christian or support@oneaccord.co).<ol><li><strong>Profile:</strong> photo, title, phone and time zone correct.</li><li><strong>Notifications:</strong> email duplicates off, deal and mention alerts on.</li><li><strong>Email:</strong> Configuration Status <em>Working</em> and Sync Status <em>Completed</em>; sharing set to Public.</li><li><strong>Signature:</strong> the OneAccord standard, tested by sending yourself an email.</li><li><strong>Mobile:</strong> the Zoho CRM app installed and signed in with your OneAccord credentials.</li></ol>",
+   "confirmText": "I’ve run the five-point check on my own setup — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 2: Your Professional Setup",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>Put this lesson in your own words so it sticks. Your answers are saved in this browser only — they aren’t sent to your manager or kept as a grade.</p>",
+   "fields": [
     {
-      "type": "text",
-      "html": "<p>Now that you understand the \"Big Picture,\" it's time to move into your own workspace and make it professional. This lesson covers the settings that ensure your clients see a polished image and that your email activity is tracked automatically.</p>"
+     "id": "takeaway",
+     "label": "In one or two sentences: what changes for you once email tracking and your signature are actually working?",
+     "rows": 3
     },
     {
-      "type": "text",
-      "html": "<h3>1. Establishing Your Profile</h3><p>A professional profile is essential for internal collaboration. When a colleague sees you assigned to a deal, your photo and title help them identify you immediately.</p><ul><li><strong>Profile Photo:</strong> Upload a high-resolution professional headshot.</li><li><strong>Personal Details:</strong> Verify your Name, Title, and Phone Number.</li><li><strong>Time Zone:</strong> Ensure your time zone is set correctly to prevent calendar booking errors.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-2/profile-card.png\" alt=\"Zoho profile card showing name, email, User Id, and organization\"><figcaption>Your profile card in Zoho</figcaption></figure>"
+     "id": "commitment",
+     "label": "Which of the five setup items will you finish first, and by when?",
+     "rows": 2
     },
     {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Click your Profile Icon (top right) → My Settings → Personal Settings. Take a moment to upload your photo and verify your information. When done, save, then click the big red X in the top left corner.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>2. Notification Mastery</h3><p>Zoho can be noisy if not configured correctly. You want to be alerted to important deal changes without being buried in emails.</p><ul><li><strong>Feeds:</strong> This is where internal \"social\" updates happen.</li><li><strong>Signal Notifications:</strong> These are the real-time \"pops\" you get when a lead opens an email or visits our website.</li></ul>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "In the same My Settings menu, find Notifications. Ensure \"Email Notifications\" are toggled OFF for things you check daily in the CRM to avoid double-alerts in your Outlook inbox.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>3. The Power of Email Integration</h3><p>This is the most important technical step in your setup. By linking your Outlook/Exchange account, Zoho will automatically \"listen\" for emails from your contacts and log them in the CRM for you.</p><ul><li><strong>Automatic Tracking:</strong> You don't have to manually BCC or copy-paste emails.</li><li><strong>Transparency:</strong> Your team can see the latest correspondence on a deal without asking you for an update.</li></ul><p><strong>How to link your email:</strong> Click the Gear Icon in the top right corner → Channels → Email → select Office 365 / Exchange (IMAP Integration) → follow the prompts to authorize the connection.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-2/channels-menu.png\" alt=\"Zoho settings Channels menu showing Email and Telephony\"><figcaption>Channels menu, under Setup</figcaption></figure><p><strong>Email Sharing Settings:</strong> Leave this set to \"Public — Shared with Everyone\" (the default) so your teammates can see correspondence on shared deals.</p><p><strong>BCC Feature:</strong> If you ever send an email from a private account and want it in the CRM, you can use your unique \"BCC to CRM\" address found in these settings.</p>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Navigate to Setup (Gear Icon) → Channels → Email. Check your \"Configuration Status\" and \"Sync Status\" to see if your account is already linked and syncing (they should read \"Working\" and \"Completed\").",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-2/email-imap-status.png\" alt=\"Zoho IMAP Integration status showing Configuration Status: Working and Sync Status: Completed\"><figcaption>A successfully linked account — Configuration Status “Working,” Sync Status “Completed”</figcaption></figure>"
-    },
-    {
-      "type": "text",
-      "html": "<h3>4. Your Digital Business Card: The Signature</h3><p>Every email you send from within Zoho should look identical to your standard Outlook signature.</p><ul><li><strong>Standardization:</strong> Use the OneAccord brand standards. You may need to remove the picture to make it a small enough file size to save.</li><li><strong>Links:</strong> Include your Zoho Bookings link (set up in Lesson 3) to make scheduling easier.</li></ul><p>Don't have your OneAccord signature yet? Check with Abby — she manages our signature templates and can get you one.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-2/signature-editor.png\" alt=\"Zoho email signature editor showing a OneAccord signature with photo, name, title, and contact info\"><figcaption>The Email Signature tab, with a OneAccord signature in place</figcaption></figure>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "In Email Settings, click on the Email Signature tab. Paste your standard OneAccord signature here and click Save. You may have to remove your photo for it to be the correct size.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>5. The Mobile App</h3><p>Sales doesn't just happen at a desk. The Zoho CRM mobile app is powerful — it allows you to \"Check-in\" to meetings, log voice-to-text notes immediately after a call, and find client addresses on a map.</p>"
-    },
-    {
-      "type": "activity",
-      "label": "Action Item",
-      "instructions": "Search for \"Zoho CRM\" in the App Store or Google Play Store. Log in using your OneAccord credentials.",
-      "confirmText": "I've completed this — continue"
-    },
-    {
-      "type": "question",
-      "format": "true_false",
-      "prompt": "True or False: I have to manually BCC every email to get it into the CRM once my Outlook is linked.",
-      "correctIndex": 1,
-      "feedbackCorrect": "Right — once linked, tracking is automatic. No manual BCC needed.",
-      "feedbackIncorrect": "False — once your Outlook is linked, email tracking happens automatically, no manual BCC needed."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Where do I go to change my profile picture?",
-      "options": ["Personal Settings", "Email Signature tab", "Notifications settings", "The Social tab"],
-      "correctIndex": 0,
-      "feedbackCorrect": "Correct — Personal Settings is where you manage your profile photo and details.",
-      "feedbackIncorrect": "It's Personal Settings, under your Profile Icon → My Settings."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "What is the benefit of the mobile app \"Check-in\" feature?",
-      "options": [
-        "It automatically drafts a follow-up email",
-        "It logs your location and time at a client site for accurate activity reporting",
-        "It schedules your next meeting automatically",
-        "It syncs your contacts to LinkedIn"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct — Check-in logs your location and time at a client site for accurate reporting.",
-      "feedbackIncorrect": "Check-in logs your location and time at a client site so activity reporting stays accurate."
+     "id": "cost",
+     "label": "If your setup stays as it is, what does it cost you — time rebuilding history, a colleague covering for you, or a client judging the first impression?",
+     "rows": 3
     }
-  ]
+   ],
+   "criteria": [
+    "The takeaway names a concrete consequence (time saved, handovers that work, a professional first impression)",
+    "The commitment names a specific setup item and a time frame",
+    "The cost is specific to the learner’s own work rather than generic"
+   ]
+  }
+ ]
 }
