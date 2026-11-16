@@ -1,70 +1,146 @@
 {
-  "id": "lesson-3",
-  "title": "Lesson 3: Your Personal Bookings Page",
-  "completionTitle": "You've completed Lesson 3: Your Personal Bookings Page",
-  "keyConcepts": [
-    "Personalizing your consultant profile",
-    "Syncing your Outlook calendar and Teams",
-    "Setting working hours and breaks",
-    "Understanding your service templates and buffers",
-    "Testing your live booking link"
-  ],
-  "nextTeaser": "The next lesson covers the CRM's data hierarchy — the difference between Leads, Contacts, and Companies, and when to move data from one to the other.",
-  "nextLessonId": "lesson-4",
-  "blocks": [
+ "id": "lesson-3",
+ "title": "Lesson 3: Your Personal Bookings Page",
+ "completionTitle": "You’ve completed Lesson 3: Your Personal Bookings Page",
+ "coachPersona": "You are an experienced OneAccord principal coaching a colleague on Zoho Bookings, the scheduling tool OneAccord uses for client appointments. Consultants have a personal booking page at bookings.oneaccord.co/<name>, linked to their Outlook calendar with conflict checking and Microsoft Teams for meeting links. Standard services are 30 and 60 minute appointments, each with a 15 minute buffer; other durations exist for exceptions. Coach for protecting the consultant's time, a polished client experience and correct calendar hygiene, in plain, warm, specific language. OneAccord's values are truth, compassion and service.",
+ "keyConcepts": [
+  "A professional consultant profile and booking URL",
+  "Outlook calendar connection with conflict checking",
+  "Microsoft Teams meeting links generated automatically",
+  "Working hours, breaks and time zones",
+  "The 30 and 60 minute service templates with a 15-minute buffer",
+  "Auditing your page from the client’s side"
+ ],
+ "nextTeaser": "Next: the CRM’s data hierarchy — Leads, Contacts and Companies — and when to convert one into the next.",
+ "nextLessonId": "lesson-4",
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>“Happy to meet — send me a time.”</strong> Three emails later you’re still trading calendar screenshots, and the client has gone quiet.</p><p>Or worse: a client books a 30-minute call, no Teams link ever arrives, and they sit looking at an empty window while you’re on another call. Or a booking lands on top of a meeting that was never in your Zoho calendar, because nothing checked it.</p><p>All three are the same problem: your availability lives in one place and your bookings happen in another. Zoho Bookings fixes that in about 20 minutes of setup — and then every future client does the calendar work for you.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you’ll be able to:</strong></p><ol><li><strong>Verify</strong> your personal booking page presents you professionally — photo, bio and URL.</li><li><strong>Connect</strong> Outlook and Microsoft Teams so bookings check your real calendar and arrive with a working meeting link.</li><li><strong>Control</strong> your availability, breaks and buffers so the page protects your time.</li><li><strong>Test</strong> your live link the way a client would, and fix what they’d see.</li></ol><p>About 20 minutes. You’ll need your Outlook calendar open too.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>The difference the page makes</h3><table><thead><tr><th>Scheduling by email</th><th>Scheduling with your booking page</th></tr></thead><tbody><tr><td>Four emails to agree a time; the client picks something you can’t do.</td><td>They see only the times you’re genuinely free, and book one.</td></tr><tr><td>No meeting link until you remember to send it.</td><td>Teams link generated automatically, every time.</td></tr><tr><td>Back-to-back calls with no room to write notes.</td><td>The 15-minute buffer is already built in.</td></tr><tr><td>Your availability is whatever your inbox says it is.</td><td>Hours, breaks and conflicts come from one place you control.</td></tr></tbody></table><p>The rest of this lesson is the five settings behind that page.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>1. Your consultant profile</h3><p>This is the first thing a client sees. Treat it like the front page of a proposal.</p><ul><li>Sign in to Zoho Bookings and open <strong>Consultants</strong> in the left menu.</li><li>Open your own profile — you’ll see tabs for Profile, Availability, Assigned Consultations and Integrations.</li><li><strong>Photo:</strong> professional headshot.</li><li><strong>Bio:</strong> one or two sentences on your expertise. It builds trust before they click a slot.</li><li><strong>URL:</strong> should read <em>bookings.oneaccord.co/<yourname></em>.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-3/bookings-left-nav.png\" alt=\"Zoho Bookings left-hand menu showing Appointments, Consultations, Schedules, Workflows, Consultants and Booking Pages\"><figcaption>The Bookings left-hand menu</figcaption></figure><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-3/profile-tabs-card.png\" alt=\"Consultant profile view with Profile, Availability, Assigned Consultations and Integrations tabs\"><figcaption>Your consultant profile, with its four tabs</figcaption></figure>"
+  },
+  {
+   "type": "activity",
+   "label": "In Zoho Bookings",
+   "instructions": "Open <strong>Zoho Bookings</strong> → <strong>Consultants</strong> → your profile. Check your photo, bio and booking URL, and update anything that’s missing or out of date.",
+   "confirmText": "My consultant profile is up to date — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>2. Outlook and Teams: where double-bookings come from</h3><p>Without these two connections the page is only guessing at your diary.</p><ul><li><strong>Calendar:</strong> Integrations tab → Office 365 / Outlook Calendar → Configure → sign in. Turn <strong>Check for Conflicts</strong> on for your primary work calendar.</li><li><strong>Video:</strong> in the Video Conferencing section, authorize <strong>Microsoft Teams</strong>. Every booking then generates its own link.</li><li><strong>Other calendars:</strong> link any second calendar you keep commitments in — this is also where you confirm everything is actually syncing.</li></ul><p>Conflict checking is only as good as what you connect. A meeting that lives in a calendar you didn’t link is invisible, and the page will happily book over it.</p>"
+  },
+  {
+   "type": "activity",
+   "label": "In Zoho Bookings",
+   "instructions": "Open your profile’s <strong>Integrations</strong> tab. Confirm three things: Office 365 / Outlook Calendar connected with <strong>Check for Conflicts</strong> on, Microsoft Teams authorized under Video Conferencing, and any other calendar you keep commitments in linked as well.",
+   "confirmText": "Both integrations are confirmed — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>3. Availability: your hours, your breaks</h3><ul><li>Availability tab → <em>Customize working hours for this staff</em>.</li><li>Set start and end times for each day. Not the same every day? Set them separately.</li><li><strong>Add breaks</strong> — a lunch hour, a school run, a no-meeting block for writing. Breaks are how the page protects thinking time, not just meetings.</li><li><strong>Check your time zone.</strong> A wrong time zone is the most common reason a client says “I booked 2 p.m. and nobody came.”</li></ul>"
+  },
+  {
+   "type": "activity",
+   "label": "In Zoho Bookings",
+   "instructions": "Open the <strong>Availability</strong> tab. Set your hours day by day, add any breaks you actually take, and confirm your time zone. If you work across time zones with clients, note how the page presents your hours to someone in a different zone.",
+   "confirmText": "My availability and time zone are set — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>4. Services and the 15-minute buffer</h3><ul><li>You’re assigned two standard templates: the <strong>30-minute</strong> and the <strong>60-minute</strong> appointment. Those are the two OneAccord offers by default. Other durations exist in the system for exceptions but aren’t meant to be on your page day to day.</li><li>Both include a <strong>15-minute buffer</strong> after the appointment for notes and preparation. You don’t set it — the system protects the time for you.</li><li>Check that both templates are active on your services list. If one is missing, ask the admin rather than building a replacement.</li></ul>"
+  },
+  {
+   "type": "activity",
+   "label": "In Zoho Bookings",
+   "instructions": "Open your services list and confirm the 30-minute and 60-minute appointment templates are both active. If one is missing, note it and raise it with the admin before moving on.",
+   "confirmText": "Both service templates are active — continue"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "A client books a 30-minute call and confirms by email — but no Teams link arrives. Where do you look first?",
+   "options": [
+    "Your Outlook calendar settings",
+    "The Video Conferencing integration in your Bookings profile",
+    "The 15-minute buffer setting",
+    "The client’s confirmation email"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Yes — if Microsoft Teams isn’t authorized under Video Conferencing, the booking is created without a link. Fixing the integration fixes every future booking too.",
+   "feedbackIncorrect": "Start with the Video Conferencing integration: if Microsoft Teams isn’t authorized, bookings are created without a link. The buffer and Outlook settings don’t generate meeting links."
+  },
+  {
+   "type": "scenario",
+   "id": "booking-page-broken",
+   "promptHtml": "<p>A colleague sends you their booking link to test, because clients have been complaining. Three things are wrong:</p><ol><li>Clients can book over meetings that are already in the colleague’s Outlook calendar.</li><li>Bookings arrive without a Teams link.</li><li>Two clients this week turned up an hour early.</li></ol><p>Diagnose each one: what setting is behind it, and what would you change? Then say how you’d check the page from the client’s side once it’s fixed.</p>",
+   "rubric": [
+    "Traces the double-booking to calendar integration and Check for Conflicts (or to an unlinked second calendar)",
+    "Traces the missing Teams link to the Video Conferencing integration not being authorized",
+    "Traces the hour-early arrivals to a wrong time zone in the profile or availability settings",
+    "Tests the fix from the client’s side — opening the booking link in a private window and stepping through a real booking"
+   ],
+   "passThreshold": 3,
+   "coachContext": "Lesson on Zoho Bookings setup. Correct mapping: (1) bookings over existing meetings = Outlook/Office 365 integration not connected or Check for Conflicts off, or a second calendar not linked; (2) no Teams link = Microsoft Teams not authorized under Video Conferencing; (3) clients arriving at the wrong hour = incorrect time zone on the profile or availability. Verification: open the booking URL in an incognito/private window, check photo, both service durations, availability matching Outlook free time, buffer applied, Teams link generated. Booking URL format bookings.oneaccord.co/<name>. Standard services 30 and 60 minutes with a 15-minute buffer set by the system. Admin handles missing service templates."
+  },
+  {
+   "type": "scenario",
+   "id": "exceptions-and-boundaries",
+   "promptHtml": "<p>Now the harder, more common case. Three requests arrive in one week:</p><ol><li>A prospect wants a <strong>45-minute</strong> introductory call — “all our vendors do 45.”</li><li>A client in another time zone says the only slot that works for them is outside your published hours.</li><li>A long-standing client asks you to book a Saturday morning directly, rather than through your page.</li></ol><p>For each: what do you do, and what do you change (if anything) in your Zoho setup?</p>",
+   "rubric": [
+    "Handles the 45-minute request without quietly creating a new service — either offers the 30 or 60 minute template or routes the exception for approval",
+    "For the time-zone request, checks what the client actually sees and offers a real slot rather than changing published hours permanently",
+    "For the Saturday request, books it without pretending the page handles it — and keeps the record of the meeting consistent",
+    "Keeps the buffer and calendar accurate so the exception doesn’t create a double-booking"
+   ],
+   "passThreshold": 3,
+   "coachContext": "Transfer case: exceptions to a standardised booking setup. Standard services are 30 and 60 minutes with a 15-minute buffer; other durations exist for exceptions but should not be offered day to day, so an unusual duration is either mapped to a standard template or raised for approval rather than created ad hoc. Availability changes are deliberate, not reactive; one-off meetings outside published hours can be booked manually as long as the calendar stays accurate and the buffer is respected. Consistency between the booking page and the real calendar is the whole point. OneAccord values: truth, compassion and service — say what's actually possible."
+  },
+  {
+   "type": "activity",
+   "label": "Apply it in Zoho Bookings",
+   "instructions": "Run the client-side audit on your own page.<ol><li>Copy your individual booking URL (<em>bookings.oneaccord.co/<yourname></em>).</li><li>Open it in a private/incognito window so you see what a client sees.</li><li>Run the checklist: photo visible, bio reads well, both 30 and 60-minute options offered, availability matches your Outlook free time, time zone right, Teams link appears on a test booking.</li><li>Add the link to your Outlook email signature, and open <strong>Share</strong> to look at the QR code — useful when you meet someone in person.</li><li>Cancel any test booking you created, so it doesn’t sit on your calendar.</li></ol>",
+   "confirmText": "I’ve audited my booking page as a client and fixed what I found — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 3: Your Personal Bookings Page",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>Put this lesson in your own words so it sticks. Your answers are saved in this browser only — they aren’t sent to your manager or kept as a grade.</p>",
+   "fields": [
     {
-      "type": "text",
-      "html": "<p>In our commitment to providing a seamless experience for both our consultants and our clients, we are transitioning to Zoho Bookings as our primary scheduling tool. This transition isn't just about moving to a new software; it's about empowering you to own your schedule while maintaining the professional, high-touch brand standards of OneAccord. By centralizing our bookings, we eliminate the back-and-forth of \"calendar tag,\" ensuring that your first touchpoint with a potential client is effortless, organized, and professional.</p><p>This training is designed to give you full control over your personal availability. You will learn how to sync your Outlook calendar to prevent double-bookings, integrate Microsoft Teams for automatic meeting links, and customize your own \"breathing room\" through buffer times and specific working hours. Ultimately, these tools are here to protect your time and allow you to focus on delivering high-value insights to your clients rather than managing administrative logistics.</p>"
+     "id": "takeaway",
+     "label": "In one or two sentences: what does a properly set-up booking page take off your plate?",
+     "rows": 3
     },
     {
-      "type": "text",
-      "html": "<h3>1. Personalizing Your Consultant Profile</h3><p><strong>Goal:</strong> Ensure your booking page looks professional and reflects your individual brand.</p><ul><li>Log in to Zoho Bookings.</li><li>Click on Consultants in the left-hand menu.</li><li>Find your name and open your profile. You'll see tabs across the top: Profile, Availability, Assigned Consultations, and Integrations.</li><li><strong>Upload your Profile Picture.</strong> Use a professional headshot — this is the first thing clients see.</li><li><strong>Write your Bio.</strong> Briefly explain your expertise (1–2 sentences). This builds trust before the client even clicks a time slot.</li><li><strong>Verify your Booking URL.</strong> It should follow the format bookings.oneaccord.co/&lt;yourname&gt;.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-3/bookings-left-nav.png\" alt=\"Zoho Bookings left-hand menu showing Appointments, Consultations, Schedules, Workflows, Consultants, and Booking Pages\"><figcaption>The Bookings left-hand menu</figcaption></figure><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-3/profile-tabs-card.png\" alt=\"Consultant profile view with Profile, Availability, Assigned Consultations, and Integrations tabs\"><figcaption>Your consultant profile</figcaption></figure>"
+     "id": "commitment",
+     "label": "What will you finish on your page next — which setting, and by when?",
+     "rows": 2
     },
     {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Log in to Zoho Bookings and open Consultants in the left-hand menu. Find your profile and take a moment to verify your profile picture, bio, and booking URL.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>2. Syncing Your Outlook Calendar & Teams</h3><p><strong>Goal:</strong> Prevent double-bookings and automate your meeting links.</p><ul><li>In your profile, click on the Integrations tab.</li><li>Find Office 365 / Outlook Calendar and click Configure. Follow the prompts to sign in.</li><li>Ensure \"Check for Conflicts\" is turned ON for your primary work calendar.</li><li>Find Microsoft Teams in the Video Conferencing section and click Authorize. This ensures every booking automatically generates a Teams link.</li><li>If you have other calendars that need to be checked for conflicts, link them here too — this is also where you can double-check that everything is syncing accurately.</li></ul>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "In your profile, open the Integrations tab. Confirm Office 365 / Outlook Calendar is connected with \"Check for Conflicts\" turned on, and that Microsoft Teams is authorized under Video Conferencing.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>3. Setting Your Working Hours & Breaks</h3><p><strong>Goal:</strong> Control exactly when you are available for meetings.</p><ul><li>In your profile, go to the Availability tab.</li><li>Select \"Customize working hours for this staff.\"</li><li>Set your start and end times for each day.</li><li><strong>Add Breaks.</strong> If you want a daily lunch hour or a \"no-meeting\" block, add it here.</li><li><strong>Time Zone Check.</strong> Ensure your time zone is set correctly to avoid confusion with remote clients.</li></ul>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Go to your profile → Availability tab. Customize your hours for each day, add any breaks you need, and double-check your time zone.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>4. Understanding Your Service Templates</h3><p><strong>Goal:</strong> Review your assigned meeting types and the built-in buffer.</p><ul><li>You are currently assigned to two standard templates: the 30-minute and 60-minute appointment. These are the two OneAccord offers by default — other durations exist in the system for exceptions but aren't meant to be offered on your booking page day-to-day.</li><li><strong>The 15-Minute Buffer:</strong> To ensure you have time for note-taking or preparation, both meeting types include a 15-minute buffer added to the end of the appointment.</li><li>Review your services list in your profile to ensure both options are active. If you notice a template is missing, please contact the Admin.</li><li>Note: you do not need to set the buffer manually — the system automatically protects this time on your calendar.</li></ul>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Review your services list in your Bookings profile. Confirm both the 30-minute and 60-minute appointment templates are active.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>5. Final Review & Live Link Test</h3><p><strong>Goal:</strong> Ensure the client experience is perfect.</p><ul><li>Copy your Individual Booking URL from your profile (bookings.oneaccord.co/&lt;yourname&gt;).</li><li>Open the link in an \"Incognito\" or \"Private\" browser window to see what the client sees.</li><li><strong>The Audit Checklist:</strong> Is your photo visible? Are the 30 and 60-minute options appearing? Does the availability match your Outlook \"Free\" time?</li><li>Once confirmed, add this link to your Outlook Email Signature.</li></ul><p><strong>The Share button</strong> on your profile gives you a few handy extras beyond the plain link: a QR code you can share so someone can open your booking page instantly on their phone, a shortened URL, a one-time-use link, and an option to embed your booking page as a widget elsewhere. Worth exploring if you're handing out your booking link in person or embedding it somewhere other than your email signature.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-3/share-modal-qr.png\" alt=\"Zoho Bookings Share modal showing a QR code, the booking URL, and Shorten Link / One time Link / Embed as Widget options\"><figcaption>The Share modal — QR code, shortened link, and embed options</figcaption></figure>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Copy your Individual Booking URL and open it in a private browser window. Run through the Audit Checklist, then add the link to your Outlook email signature. While you're there, click Share and take a look at the QR code option.",
-      "confirmText": "I've completed this activity in Zoho — continue"
+     "id": "cost",
+     "label": "If your page stayed as it is, what could it cost you — a double-booking, a client who arrives to nothing, or hours spent trading calendar emails?",
+     "rows": 3
     }
-  ]
+   ],
+   "criteria": [
+    "The takeaway names a concrete benefit for the learner's own time or the client's experience",
+    "The commitment names a specific setting or fix and a time frame",
+    "The cost is personal and concrete to the learner's own bookings"
+   ]
+  }
+ ]
 }
