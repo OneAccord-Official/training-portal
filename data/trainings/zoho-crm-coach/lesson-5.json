@@ -1,98 +1,146 @@
 {
-  "id": "lesson-5",
-  "title": "Lesson 5: Working the Buyer's Journey",
-  "completionTitle": "You've completed Lesson 5: Working the Buyer's Journey",
-  "keyConcepts": [
-    "The B.U.Y.E.R.S. framework and what each stage actually requires",
-    "Using Blueprints (\"Blue Boxes\") to advance a Buyer's Journey record",
-    "Recording calls in Teams and using the transcript as proof, not inference",
-    "Stage Corrections",
-    "The 21-Day Nudge"
-  ],
-  "nextTeaser": "The next lesson covers the daily habits that keep your CRM data alive — logging activities, managing tasks, and using Zia, Zoho's AI assistant.",
-  "nextLessonId": "lesson-6",
-  "blocks": [
+ "id": "lesson-5",
+ "title": "Lesson 5: Working the Buyer’s Journey",
+ "completionTitle": "You’ve completed Lesson 5: Working the Buyer’s Journey",
+ "coachPersona": "You are an experienced OneAccord principal coaching a colleague on working OneAccord's Buyer’s Journey pipeline in Zoho CRM (Customer Relationship Management). Services are bought, not sold: each stage is earned by what the prospect says in their own words, never by the rep’s read of the room. Stages advance only through Blueprint transition buttons, which a human must click. Coach for evidence, honest forecasting and respect for the prospect’s pace, in plain, warm, specific language. OneAccord’s values are truth, compassion and service.",
+ "keyConcepts": [
+  "What a Buyer’s Journey record represents",
+  "The B.U.Y.E.R.S. framework and what each stage actually requires",
+  "Advancing a record only through Blueprint transitions",
+  "Recording calls in Teams, with the prospect’s consent, as evidence",
+  "Stage corrections",
+  "Reading Last Update as a signal, not a prompt to click"
+ ],
+ "nextTeaser": "Next: the daily habits that keep the record alive — logging interactions, managing tasks, and closing what you finish.",
+ "nextLessonId": "lesson-6",
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>Two weeks ago the call went beautifully.</strong> The prospect finished your sentences, called the problem “exactly it,” and said he was “really excited about this.” You moved the record to <em>Yearning</em>. You told your Managing Principal it was coming this quarter.</p><p>Then nothing. Two emails unanswered, one voicemail. When you finally reach him he says, “I still need to talk to my partner about it.” He was never at Yearning. He was at Bothered, with good manners.</p><p>Nobody lied. You moved the record on enthusiasm instead of evidence — and that one honest mistake moved your forecast, your principal’s planning and a client’s expectation. This lesson is about the difference between a good feeling and a stage you can defend.</p>"
+  },
+  {
+   "type": "reflection",
+   "id": "experience",
+   "prompt": "Think of a deal you were sure about that stalled or died. What made you sure at the time — and what had the prospect actually said? (Optional — skip if you’d rather get started.)",
+   "coachContext": "Opening reflection for a lesson on the B.U.Y.E.R.S. stage framework. The aim is for the learner to notice that their confidence usually came from tone and rapport, not from the prospect’s explicit words. Respond briefly and warmly; connect what they say to why each stage needs a quotable condition."
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you’ll be able to:</strong></p><ol><li><strong>Decide</strong> the true stage of a record from the prospect’s own words, using the B.U.Y.E.R.S. framework.</li><li><strong>Move</strong> a record the way OneAccord moves records — through Blueprint transitions — and correct one you moved wrongly.</li><li><strong>Gather</strong> the evidence that justifies a stage, including recording calls in Microsoft Teams with the prospect’s consent.</li></ol><p>About 20 minutes. Keep Zoho open in a second tab.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>The same call, two different records</h3><table><thead><tr><th>What most reps record</th><th>What this lesson makes routine</th></tr></thead><tbody><tr><td>“Good call. He’s excited. Moved to Yearning.”</td><td>“He said: ‘The reporting is a mess and I can’t tell where we lose deals.’ Urgency is real: he wants it fixed before their Q2 board meeting.” → moved to <strong>Bothered</strong> → <strong>Understand</strong>.</td></tr><tr><td>Stage set by how the call felt.</td><td>Stage set by a sentence you could replay.</td></tr><tr><td>Forecast changes every week as tone changes.</td><td>Forecast moves when the buyer moves.</td></tr><tr><td>Next step: “follow up.”</td><td>Next step: get the missing condition in the buyer’s words.</td></tr></tbody></table><p>One habit: <strong>before you click a stage, find the sentence that earns it.</strong> If you can’t quote it, you’re not there yet.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-5/buyers-journey-blueprint-understand.png\" alt=\"A Buyer’s Journey record’s Blueprint, currently at the Understand stage\"><figcaption>A Buyer’s Journey record’s Blueprint, currently at the <em>Understand</em> stage</figcaption></figure><h3>What a Buyer’s Journey record is</h3><p>A <strong>Buyer’s Journey</strong> record is a potential piece of business — what other systems call an opportunity or a deal. It is always linked to a <strong>Contact</strong> (the person) and a <strong>Company</strong>, and it carries a value and an estimated close date. Those two numbers are only as trustworthy as the stage they sit at.</p>"
+  },
+  {
+   "type": "activity",
+   "label": "Find it now",
+   "instructions": "Open the <strong>Buyer’s Journey</strong> module from your left menu and open any existing record. Look at the top of the record for the coloured transition buttons, and notice that the <strong>Stage</strong> field is locked.",
+   "confirmText": "I’ve opened a Buyer’s Journey record and found its Blueprint buttons — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>The B.U.Y.E.R.S. framework</h3><p>Every stage is named for what the <em>prospect</em> has to do — not what you believe or hope is true. Each stage has two conditions, and both must be met before you move forward.</p><table><thead><tr><th>Stage</th><th>What must be true — in the prospect’s own words</th></tr></thead><tbody><tr><td><strong>B</strong>othered</td><td>The prospect can name the problem <em>and</em> articulate a real sense of urgency.</td></tr><tr><td><strong>U</strong>nderstand</td><td>The prospect can describe the scope of the problem and the outcome they want, <em>and</em> asks how to get there.</td></tr><tr><td><strong>Y</strong>earning</td><td>The prospect explicitly states the desire — “this is what I need” — and can describe the approach in their own words.</td></tr><tr><td><strong>E</strong>xplainable</td><td>The prospect can explain the value themselves and defend the decision to their own stakeholders.</td></tr><tr><td><strong>R</strong>eady</td><td>The prospect gives a specific verbal commitment — “I’m in” — and confirms final approval.</td></tr><tr><td><strong>S</strong>tarted</td><td>The contract is signed, payment is submitted and resources are committed.</td></tr><tr><td><strong>F</strong>inished</td><td>The engagement has actually been delivered. This is the real finish line, not the signature.</td></tr></tbody></table><p><strong>Eight rules hold it together:</strong> don’t skip steps. No urgency means no opportunity. To yearn, they must first understand. Yearning must be spoken and mutual. Buyers must be able to justify the decision to their own people. Enthusiasm is not commitment. If it isn’t paid for, it isn’t a deal yet. And celebrate the chance to deliver value, not the chance to book revenue.</p><p><strong>How you move a record.</strong> Not by dragging and dropping: click the Blueprint transition button. It is a guided path, one honest step at a time, and the locked Stage field exists so nobody skips ahead.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Prove it — and ask first</h3><p>Because every stage depends on the prospect’s words, OneAccord asks for evidence, not impressions.</p><ul><li><strong>Record your calls in Microsoft Teams.</strong> The transcript stays there, so you can go back and pull the actual sentence instead of your paraphrase of it.</li><li><strong>Recording needs consent.</strong> Tell the prospect at the start of the call that you record for note-taking, and get their agreement before you begin. If they decline, don’t record — take careful notes and quote them directly.</li><li><strong>The automated call-notes email.</strong> Once it is live, it will arrive after a call with notes and a suggested stage, worded so you can copy the language straight into Zoho. It is a documentation shortcut: you still click the Blueprint button yourself.</li></ul><p><strong>Moved it wrongly?</strong> Look for the transition labelled <em>Correction – [stage]</em>, for example “Correction – Bothered.” Nobody expects perfection; they expect an honest record.</p><p><strong>And when a record goes quiet?</strong> The <em>Last Update</em> timestamp is your cue to go and get the next real signal from the prospect — not to click the button and hope.</p>"
+  },
+  {
+   "type": "activity",
+   "label": "Set up your evidence trail",
+   "instructions": "Open your Teams calling settings and confirm recording is available to you. Then write, in your own words, the one sentence you’ll use to ask a prospect’s permission to record — short, plain, and easy to say at the start of a call.",
+   "confirmText": "I’ve checked my Teams recording and drafted my consent sentence — continue"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "According to B.U.Y.E.R.S., what must happen before you move a record from Understand to Yearning?",
+   "options": [
+    "Thirty days must pass in the current stage.",
+    "The prospect explicitly states their desire in their own words and can describe the approach themselves.",
+    "The rep decides the prospect seems interested enough.",
+    "A Managing Principal signs off on the move."
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Correct — the prospect has to say it: “this is what I need,” plus the approach in their own words. Their words move the stage, not your read of the room.",
+   "feedbackIncorrect": "Not quite. The prospect must explicitly state their desire in their own words and describe the approach themselves. Time in stage and your own confidence don’t count as conditions."
+  },
+  {
+   "type": "question",
+   "format": "true_false",
+   "prompt": "True or False: if a prospect seems excited and enthusiastic about your proposal, that is enough to move the record to Ready.",
+   "correctIndex": 1,
+   "feedbackCorrect": "Right — enthusiasm is not commitment. Ready needs a specific verbal commitment (“I’m in”) plus confirmed final approval.",
+   "feedbackIncorrect": "False. Enthusiasm is not commitment. Ready requires a specific verbal commitment plus confirmed final approval, not good energy on the call."
+  },
+  {
+   "type": "scenario",
+   "id": "stage-from-transcript",
+   "promptHtml": "<p>You record a discovery call with <strong>Marcus Bell</strong>, operations lead at a 40-person manufacturer. With his consent, the Teams transcript gives you these lines:</p><ul><li>“Quoting is the bottleneck. Three people touch every quote and we still lose two days.”</li><li>“It’s costing us deals. Two this quarter went to a competitor who answered faster.”</li><li>“I don’t know what the fix looks like. What would you do?”</li><li>“Before we go further — my CFO has to be comfortable. She’s the one who killed the last system.”</li></ul><p>Decide the stage you would set, quote the line or lines that earn it, name the condition that is missing, and say what your next conversation has to achieve.</p>",
+   "rubric": [
+    "Sets the stage at Understand (or Bothered moving to Understand) and justifies it with the urgency and scope lines",
+    "Explicitly identifies that Yearning is not yet earned because Marcus has not stated the desire or described the approach in his own words",
+    "Names the missing condition — the CFO’s buy-in — and treats it as a stakeholder to be won, not an obstacle",
+    "Sets a next step that gets Marcus to state the outcome and approach himself, rather than sending a proposal to create momentum",
+    "Does not overstate the record or the forecast"
+   ],
+   "passThreshold": 4,
+   "coachContext": "Skill taught: set the Buyer’s Journey stage only on evidence in the prospect’s own words. B.U.Y.E.R.S.: Bothered (problem + real urgency), Understand (scope + desired outcome + asks how), Yearning (explicit desire + approach in own words), Explainable (can defend to stakeholders), Ready (verbal commitment + final approval), Started (signed, paid, resourced), Finished (delivered). Rules: don’t skip steps; no urgency = no opportunity; enthusiasm ≠ commitment; buyers must be able to justify it. The model answer: he is Understand — problem and urgency stated, asks how; desire and approach not yet in his words, and the CFO is an unmet Explainable condition. Good next step: a conversation that names the outcome he wants and asks him to describe the approach, plus early engagement with the CFO."
+  },
+  {
+   "type": "scenario",
+   "id": "changed-case-flattery",
+   "promptHtml": "<p>Three weeks later Marcus says: “I want to do this. I’m sold. Let’s get started — send me something and I’ll get it approved.”</p><p>Then he adds: “I haven’t actually spoken to my CFO yet. But honestly, she’ll be fine — she trusts me.”</p><p>Decide the stage. Say what you would and would not do next, and quote the words that justify your decision.</p>",
+   "rubric": [
+    "Recognises Yearning (explicit desire) but does not advance to Ready",
+    "Names the unmet condition: no owner-level approval, and the buyer cannot yet defend the decision to the CFO",
+    "Plans a step that helps Marcus build his own case to the CFO — a business case, a joint conversation, or explicit discovery of her concerns",
+    "Resists sending a proposal purely to manufacture commitment",
+    "Records the conversation and the exact words, with consent, so the stage is defensible"
+   ],
+   "passThreshold": 4,
+   "coachContext": "Skill taught: distinguish Yearning from Ready, and treat Explainable as a real gate. Model answer: Yearning is earned by the desire statement, but Ready needs a verbal commitment plus confirmed final approval — the CFO is unknown to the deal, so the buyer cannot yet defend it. The useful next step is to equip Marcus for the CFO conversation (or ask for it directly), not to send a proposal and wait. Note the pattern: a champion’s confidence about an unseen approver is a common source of slipped forecasts."
+  },
+  {
+   "type": "activity",
+   "label": "Apply it to your own pipeline",
+   "instructions": "Open your oldest open Buyer’s Journey record. Write down the exact sentence the prospect said that justifies its current stage.<ul><li>If you can quote it, add it to the record’s notes so the next person can see the evidence.</li><li>If you cannot quote it, the stage is a guess. Use the <em>Correction</em> button to move it back to the stage you can defend, and note what you need to hear next.</li></ul>Move at least one record today, in whichever direction the evidence points.",
+   "confirmText": "I’ve checked one of my records against the evidence — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 5: Working the Buyer’s Journey",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>Put this lesson in your own words so it sticks. Your answers are saved in this browser only — they aren’t sent to your manager or kept as a grade.</p>",
+   "fields": [
     {
-      "type": "text",
-      "html": "<p><strong>Services are bought, not sold.</strong> That's the philosophy behind how we work a deal at OneAccord. Your job isn't to push a prospect through a pipeline — it's to help them move through their own buying journey, at their own pace, by earning each step honestly. That's exactly what the Buyer's Journey module (what you'd call \"Opportunities\" or \"Deals\" in a lot of other CRMs) is built to track.</p>"
+     "id": "takeaway",
+     "label": "In one or two sentences: how will you decide a stage differently from now on?",
+     "rows": 3
     },
     {
-      "type": "text",
-      "html": "<h3>1. What is a Buyer's Journey Record?</h3><p>A Buyer's Journey record represents a potential piece of business.</p><ul><li>It is always linked to a Contact (the person) and a Company.</li><li>It has a specific dollar value and an estimated closing date.</li></ul>"
+     "id": "commitment",
+     "label": "Which record will you check first, and what sentence do you need to hear from that prospect?",
+     "rows": 3
     },
     {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Click on the Buyer's Journey module in your sidebar. Open any existing record to see the layout.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>2. The B.U.Y.E.R.S. Framework</h3><p>Every stage in the pipeline is named for what the <em>prospect</em> has to do — not what you, the rep, believe or hope is true. Each stage requires both conditions below before you move forward:</p><ul><li><strong>Bothered:</strong> The prospect can identify the problem, <em>and</em> can articulate a real sense of urgency.</li><li><strong>Understand:</strong> The prospect can articulate the scope of the problem and their desired outcome, <em>and</em> they inquire how to achieve those objectives.</li><li><strong>Yearning:</strong> The prospect explicitly states their desire — e.g., \"This is what I need\" — <em>and</em> can describe the approach in their own words.</li><li><strong>Explainable:</strong> The prospect can explain the value in their own words, <em>and</em> can defend the decision to their own stakeholders.</li><li><strong>Ready:</strong> The prospect gives a specific verbal commitment — e.g., \"I'm in!\" — <em>and</em> confirms final approval.</li><li><strong>Started:</strong> The prospect signs the contract, <em>and</em> submits payment, <em>and</em> commits resources.</li><li><strong>Finished:</strong> The deal is Closed Won <em>and</em> the engagement itself has been delivered — this is the true finish line, not just the signature.</li></ul><p>Eight rules underpin all of it: Don't skip steps. No urgency = no opportunity. To yearn, they must understand. Yearning must be verbal and mutual. Buyers must be able to justify their decision. Enthusiasm ≠ commitment. If it isn't paid for, it isn't a deal yet. Celebrate the chance to deliver value.</p>"
-    },
-    {
-      "type": "text",
-      "html": "<h3>3. Moving Through the Pipeline (The Blue Boxes)</h3><p>At OneAccord, we don't just \"drag and drop\" a record forward. We use Blueprints — the colored transition buttons at the top of a Leads or Buyer's Journey record. They act as a guided path, showing you exactly what the next step is.</p><ul><li><strong>Linear Progress:</strong> You must click these buttons to advance the stage.</li><li><strong>Locked Fields:</strong> You may notice the \"Stage\" field is locked — this is intentional! The Blueprint ensures we follow our standardized process and don't skip a step.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-5/buyers-journey-blueprint-understand.png\" alt=\"Buyer's Journey Blueprint showing Current State: Understand, with transition buttons Yearning, Correction - Bothered, Dormant / On Hold, and Lost\"><figcaption>A Buyer's Journey record's Blueprint, currently at the \"Understand\" stage</figcaption></figure>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Look at the top of a Buyer's Journey record. Find the Blue Buttons. These are your action items to move the record forward through B.U.Y.E.R.S.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>4. Prove It, Don't Assume It</h3><p>Because every stage depends on the prospect's own words, not your read of the room, we need real evidence behind every stage move — not a rep's best guess that \"they seemed pretty into it.\"</p><ul><li><strong>Record your calls in Microsoft Teams.</strong> The transcript lives there afterward, so you can go back and find the prospect's exact words — the actual quote that shows they've reached \"This is what I need\" or \"I'm in,\" not just your paraphrase of it.</li><li><strong>The automated call-notes email.</strong> Once this rolls out, you'll get an automated email after your call with notes and a suggested Buyer's Journey stage, formatted so you can copy the relevant language straight into Zoho. It's a shortcut for documentation — you still have to click the Blueprint button yourself to actually move the stage.</li></ul>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Open your Teams calling settings and confirm recording is available for your calls. If you've had a recorded call recently, find its transcript.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>5. Stage Corrections</h3><p>We are all human! If you accidentally move a record to the wrong stage, look for a transition button labeled \"Correction - [stage name]\" (e.g., \"Correction - Bothered\"). This allows you to fix the error without the record getting stuck.</p>"
-    },
-    {
-      "type": "text",
-      "html": "<h3>6. Automation & Notifications</h3><p>Our pipeline has \"eyes.\" You may see automations in Zoho reminding you to take action on a record — these exist to make sure nothing goes stale. A record's \"Last Update\" timestamp is a quick visual cue too: if it's been a while, that's your signal to go get the next real signal from the prospect, not to just click the button anyway.</p>"
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "According to the B.U.Y.E.R.S. framework, what must happen before you move a record from \"Understand\" to \"Yearning\"?",
-      "options": [
-        "30 days must pass in the current stage",
-        "The prospect must explicitly state their desire in their own words, and be able to describe the approach themselves",
-        "The rep decides the prospect seems interested enough",
-        "A Managing Principal must sign off"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct — the prospect has to explicitly state their desire (\"This is what I need\") and describe the approach in their own words before you move to Yearning.",
-      "feedbackIncorrect": "Not quite — the prospect must explicitly state their desire in their own words and be able to describe the approach themselves. It's their words that move the stage, not your read of the room."
-    },
-    {
-      "type": "question",
-      "format": "true_false",
-      "prompt": "True or False: If a prospect seems excited and enthusiastic about your proposal, that's enough to move the record to \"Ready.\"",
-      "correctIndex": 1,
-      "feedbackCorrect": "Right — enthusiasm isn't commitment. \"Ready\" requires a specific verbal commitment (\"I'm in!\") plus confirmed final approval.",
-      "feedbackIncorrect": "False — enthusiasm isn't commitment. \"Ready\" requires a specific verbal commitment (\"I'm in!\") plus confirmed final approval, not just good vibes on the call."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Where should you find the exact words a prospect used to justify moving a record forward?",
-      "options": [
-        "Your own notes summarizing the gist of the call",
-        "The prospect's LinkedIn profile",
-        "The Teams recording/transcript of your call, or the automated call-notes email once it's live",
-        "Zia's Best Time to Contact suggestion"
-      ],
-      "correctIndex": 2,
-      "feedbackCorrect": "Correct — the Teams transcript (and eventually the automated call-notes email) is where you find the prospect's actual words, not your summary of them.",
-      "feedbackIncorrect": "You'd look at the Teams recording/transcript of your call, or the automated call-notes email once it's live — you need their actual words, not your paraphrase."
+     "id": "cost",
+     "label": "If you kept advancing records on enthusiasm, what would it cost — your forecast, your principal’s planning, or a client’s trust?",
+     "rows": 3
     }
-  ]
+   ],
+   "criteria": [
+    "The takeaway names evidence in the prospect’s own words rather than a feeling about the call",
+    "The commitment names a specific record and the missing condition it needs",
+    "The cost is specific to the learner’s own work rather than generic"
+   ]
+  }
+ ]
 }
