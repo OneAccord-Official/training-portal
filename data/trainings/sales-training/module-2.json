@@ -4,7 +4,7 @@
   "completionTitle": "You've completed Module 2: Qualifying Clients",
   "keyConcepts": [
     "Always be qualifying (ABQ)",
-    "Right-size clients: our $25M+ focus",
+    "Right-size clients: $10M+ in scope, with $25M to $100M the sweet spot",
     "BANT: Budget, Authority, Need, Timing",
     "Red flags beyond BANT",
     "\"You can't manufacture pain\""
@@ -52,7 +52,7 @@
     },
     {
       "type": "text",
-      "html": "<h3>2. Right-size clients</h3><table><tr><th>Annual revenue</th><th>Fit</th></tr><tr><td>$25M+</td><td>Our focus today</td></tr><tr><td>Under $25M</td><td>An exception, not the rule. We still take on a few smaller clients, so qualify carefully and involve your managing principal early.</td></tr></table><p>Look at the <em>bottom line</em>, not just the top line. A $30M company losing money may not be able to invest.</p>"
+      "html": "<h3>2. Right-size clients</h3><table><tr><th>Annual revenue</th><th>Fit</th></tr><tr><td>$25M to $100M</td><td>Our sweet spot</td></tr><tr><td>$10M to $25M</td><td>In scope. We take clients this size and have offerings that fit them.</td></tr><tr><td>Over $100M</td><td>In scope. Fit follows the offering, not the size. Involve your managing principal before you pursue.</td></tr><tr><td>Under $10M</td><td>No firm-wide rule at this size. Involve your managing principal before you pursue.</td></tr></table><p>Look at the <em>bottom line</em>, not just the top line. A $30M company losing money may not be able to invest.</p>"
     },
     {
       "type": "text",
@@ -81,14 +81,14 @@
       "format": "mcq",
       "prompt": "A prospect has $12M in revenue and a clear need. What's the right approach?",
       "options": [
-        "Pursue it like any other deal",
+        "Refer it out: it's below our minimum client size",
         "Decline immediately",
-        "Qualify carefully: it's below our $25M+ focus, so involve your managing principal before investing much time, or refer them",
+        "Pursue it: at $12M it's in scope, so qualify carefully and confirm the offering fits",
         "Offer a discount"
       ],
       "correctIndex": 2,
-      "feedbackCorrect": "Correct. Smaller clients are exceptions, so bring in your managing principal early.",
-      "feedbackIncorrect": "Smaller clients are exceptions. Qualify carefully and involve your managing principal early, or refer them."
+      "feedbackCorrect": "Right. $10M+ is in scope, so a $12M prospect is not an exception. The sweet spot is $25M to $100M, so you work harder on fit and the offering, and you bring in your managing principal when the fit is unclear.",
+      "feedbackIncorrect": "A $12M prospect is in scope: we take clients from $10M+. Pursue it and qualify carefully on fit and the offering; the sweet spot is $25M to $100M, and a managing principal gets involved when fit is unclear."
     },
     {
       "type": "question",
@@ -129,7 +129,7 @@
         "Reaches a clear decision (pursue with conditions, wait, or decline) with reasoning"
       ],
       "passThreshold": 3,
-      "coachContext": "Qualify thoroughly up front: ABQ, always be qualifying. OneAccord focuses on $25M+ revenue companies; a few smaller clients are exceptions, so qualify carefully and involve a managing principal early. BANT: Budget (bottom line, not just top line; a $30M company losing money may not be able to invest), Authority (who decides, and who else must agree: partners, board, spouse), Need (need-to-have vs nice-to-have; real pain; 'you can't manufacture pain'), Timing (right season: 3 weeks, 3 months or 3 years). Capacity is also time, energy and people. 'Ears to hear': will leadership receive hard truth delivered with compassion? Red flags from the playbook: no identifiable value, can't reach the decision-maker, unclear decision criteria or process, pain the owner won't name, no internal champion, no critical event. Keep good-but-not-ready prospects in the pipeline; don't want it more than they do. BANT comes first; qualified prospects are then tracked through the B.U.Y.E.R.S. Journey (Bothered = can identify the problem and expresses urgency)."
+      "coachContext": "Qualify thoroughly up front: ABQ, always be qualifying. OneAccord takes clients from $10M+ revenue; $25M to $100M is the sweet spot. A $12M prospect is in scope, not an exception, so qualify carefully and confirm the offering fits; involve a managing principal when the fit is unclear. BANT: Budget (bottom line, not just top line; a $30M company losing money may not be able to invest), Authority (who decides, and who else must agree: partners, board, spouse), Need (need-to-have vs nice-to-have; real pain; 'you can't manufacture pain'), Timing (right season: 3 weeks, 3 months or 3 years). Capacity is also time, energy and people. 'Ears to hear': will leadership receive hard truth delivered with compassion? Red flags from the playbook: no identifiable value, can't reach the decision-maker, unclear decision criteria or process, pain the owner won't name, no internal champion, no critical event. Keep good-but-not-ready prospects in the pipeline; don't want it more than they do. BANT comes first; qualified prospects are then tracked through the B.U.Y.E.R.S. Journey (Bothered = can identify the problem and expresses urgency)."
     },
     {
       "type": "deliverable",
@@ -162,15 +162,15 @@
         "Each BANT element is addressed honestly, with gaps flagged rather than assumed",
         "Red flags are considered, not skipped",
         "The next questions are open-ended and specific to this prospect",
-        "There is a clear pursue / wait / refer decision with a reason (and a managing principal involved if under $25M)"
+        "There is a clear pursue / wait / refer decision with a reason (and a managing principal involved when the fit is unclear)"
       ],
-      "coachContext": "Qualify thoroughly up front: ABQ, always be qualifying. OneAccord focuses on $25M+ revenue companies; a few smaller clients are exceptions, so qualify carefully and involve a managing principal early. BANT: Budget (bottom line, not just top line; a $30M company losing money may not be able to invest), Authority (who decides, and who else must agree: partners, board, spouse), Need (need-to-have vs nice-to-have; real pain; 'you can't manufacture pain'), Timing (right season: 3 weeks, 3 months or 3 years). Capacity is also time, energy and people. 'Ears to hear': will leadership receive hard truth delivered with compassion? Red flags from the playbook: no identifiable value, can't reach the decision-maker, unclear decision criteria or process, pain the owner won't name, no internal champion, no critical event. Keep good-but-not-ready prospects in the pipeline; don't want it more than they do. BANT comes first; qualified prospects are then tracked through the B.U.Y.E.R.S. Journey (Bothered = can identify the problem and expresses urgency)."
+      "coachContext": "Qualify thoroughly up front: ABQ, always be qualifying. OneAccord takes clients from $10M+ revenue; $25M to $100M is the sweet spot. A $12M prospect is in scope, not an exception, so qualify carefully and confirm the offering fits; involve a managing principal when the fit is unclear. BANT: Budget (bottom line, not just top line; a $30M company losing money may not be able to invest), Authority (who decides, and who else must agree: partners, board, spouse), Need (need-to-have vs nice-to-have; real pain; 'you can't manufacture pain'), Timing (right season: 3 weeks, 3 months or 3 years). Capacity is also time, energy and people. 'Ears to hear': will leadership receive hard truth delivered with compassion? Red flags from the playbook: no identifiable value, can't reach the decision-maker, unclear decision criteria or process, pain the owner won't name, no internal champion, no critical event. Keep good-but-not-ready prospects in the pipeline; don't want it more than they do. BANT comes first; qualified prospects are then tracked through the B.U.Y.E.R.S. Journey (Bothered = can identify the problem and expresses urgency)."
     },
     {
       "type": "reflection",
       "id": "reflection",
       "prompt": "Is there a deal in your pipeline you want more than the prospect does? What would it take to move it forward or let it rest?",
-      "coachContext": "Qualify thoroughly up front: ABQ, always be qualifying. OneAccord focuses on $25M+ revenue companies; a few smaller clients are exceptions, so qualify carefully and involve a managing principal early. BANT: Budget (bottom line, not just top line; a $30M company losing money may not be able to invest), Authority (who decides, and who else must agree: partners, board, spouse), Need (need-to-have vs nice-to-have; real pain; 'you can't manufacture pain'), Timing (right season: 3 weeks, 3 months or 3 years). Capacity is also time, energy and people. 'Ears to hear': will leadership receive hard truth delivered with compassion? Red flags from the playbook: no identifiable value, can't reach the decision-maker, unclear decision criteria or process, pain the owner won't name, no internal champion, no critical event. Keep good-but-not-ready prospects in the pipeline; don't want it more than they do. BANT comes first; qualified prospects are then tracked through the B.U.Y.E.R.S. Journey (Bothered = can identify the problem and expresses urgency)."
+      "coachContext": "Qualify thoroughly up front: ABQ, always be qualifying. OneAccord takes clients from $10M+ revenue; $25M to $100M is the sweet spot. A $12M prospect is in scope, not an exception, so qualify carefully and confirm the offering fits; involve a managing principal when the fit is unclear. BANT: Budget (bottom line, not just top line; a $30M company losing money may not be able to invest), Authority (who decides, and who else must agree: partners, board, spouse), Need (need-to-have vs nice-to-have; real pain; 'you can't manufacture pain'), Timing (right season: 3 weeks, 3 months or 3 years). Capacity is also time, energy and people. 'Ears to hear': will leadership receive hard truth delivered with compassion? Red flags from the playbook: no identifiable value, can't reach the decision-maker, unclear decision criteria or process, pain the owner won't name, no internal champion, no critical event. Keep good-but-not-ready prospects in the pipeline; don't want it more than they do. BANT comes first; qualified prospects are then tracked through the B.U.Y.E.R.S. Journey (Bothered = can identify the problem and expresses urgency)."
     },
     {
       "type": "links",
