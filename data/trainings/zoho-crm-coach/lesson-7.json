@@ -1,73 +1,141 @@
 {
-  "id": "lesson-7",
-  "title": "Lesson 7: Using AI Alongside Zoho",
-  "completionTitle": "You've completed Lesson 7: Using AI Alongside Zoho",
-  "keyConcepts": [
-    "What Zia can help you do inside Zoho",
-    "Asking Zia natural-language questions about your data",
-    "Using Claude to search records and get answers about your pipeline",
-    "Why Claude can't move a Blueprint stage for you — and the link workaround"
-  ],
-  "nextTeaser": "The next lesson covers reports, analytics, and the Zoho CRM mobile app — how to track your performance and stay productive in the field.",
-  "nextLessonId": "lesson-8",
-  "blocks": [
+ "id": "lesson-7",
+ "title": "Lesson 7: Using AI Alongside Zoho",
+ "completionTitle": "You’ve completed Lesson 7: Using AI Alongside Zoho",
+ "coachPersona": "You are an experienced OneAccord principal coaching a colleague on using AI alongside Zoho CRM (Customer Relationship Management). Zia is built into Zoho; Claude and Tasklet sit outside it and are both connected to OneAccord’s Zoho records — which one a colleague uses depends on their team. Neither can move a Blueprint stage — a human clicks that button. AI output is a draft the learner owns: verify facts in the record before they reach a client. Coach for judgment about what to delegate and what to check, in plain, warm, specific language. OneAccord’s values are truth, compassion and service.",
+ "keyConcepts": [
+  "What Zia can do inside Zoho, and where to find her",
+  "Asking questions precise enough to act on",
+  "Using Claude or Tasklet to search, summarise and update records",
+  "Why no assistant may move a Blueprint stage",
+  "Verifying AI output before it reaches a client"
+ ],
+ "nextTeaser": "Next: reports, analytics and the mobile app — how to see where you stand and stay current from the field.",
+ "nextLessonId": "lesson-8",
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>Your Managing Principal asks a simple question:</strong> “Which of your accounts have gone quiet?” You know the honest answer is “several,” but you’d need to open records one at a time to say which. So you guess, and the guess is wrong — one of the accounts you name had a call last week, and one you didn’t name has been silent for six weeks.</p><p>Then there’s the other failure. You ask an AI assistant to move a record to the next stage, and it politely refuses, because the stage button belongs to a human. Two different lessons in one: what AI is genuinely good at here, and the one thing it must never be allowed to do.</p>"
+  },
+  {
+   "type": "reflection",
+   "id": "experience",
+   "prompt": "Think of a question you’ve wanted to ask your pipeline — “who’s gone quiet,” “what closes this month” — that would take too long to answer by hand. What would you ask if you could just ask it? (Optional — skip if you’d rather get started.)",
+   "coachContext": "Opening reflection for a lesson on Zia and Claude alongside Zoho. Respond briefly and warmly; collect the learner’s own examples, because they make good practice questions later. Note that AI can search, summarise and draft, but cannot move Blueprint stages or vouch for a fact."
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you’ll be able to:</strong></p><ol><li><strong>Ask</strong> Zia a question about your own data in plain language, and read the answer critically.</li><li><strong>Use</strong> Zia’s enrichment and best-time-to-contact features without letting them replace a conversation.</li><li><strong>Use</strong> Claude or Tasklet to search, summarise and update records — and know what neither can do.</li><li><strong>Verify</strong> anything AI tells you before it reaches a client.</li></ol><p>About 20 minutes. Keep Zoho open, with Claude or Tasklet alongside it if your team uses one. Every step here also works on Zia alone.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>The same request, asked two ways</h3><table><thead><tr><th>A vague ask</th><th>An ask you can act on</th></tr></thead><tbody><tr><td>“Show me my stuff.”</td><td>“Show my Buyer’s Journeys closing this month, with no activity in the last three weeks.”</td></tr><tr><td>Answer: a long list you still have to sort.</td><td>Answer: four records that need a call today.</td></tr><tr><td>Trusts the first output.</td><td>Checks two names against the records before acting.</td></tr></tbody></table><p>The skill is not typing to the assistant. It’s asking a question precise enough that the answer changes what you do this afternoon.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Zia: Zoho’s built-in assistant</h3><p><strong>Zia</strong> is Zoho’s own artificial intelligence, built into the CRM. She watches patterns, answers questions and helps keep data honest, without leaving Zoho.</p><ul><li><strong>Ask about your data.</strong> Type or speak a plain question — “show my Buyer’s Journeys closing this month,” “what’s my revenue this quarter?” — and Zia pulls the answer.</li><li><strong>Enrich data.</strong> With a company’s website, Zia can often find the address, social profiles and description, and fill them in for you.</li><li><strong>Best Time to Contact.</strong> Zia analyses when a contact usually opens your emails or answers the phone, and suggests a window on their record.</li><li><strong>Reminders.</strong> She can flag a promising record you may have forgotten.</li><li><strong>Tasks and meetings by voice or text.</strong> Ask her to set a reminder, create a task or schedule a call.</li></ul><p><em>Where is she?</em> The Zia icon moves between Zoho versions. You’ll usually find it in the bottom-right of the screen, or reachable from the search bar. If you can’t see it, ask your Zoho admin rather than hunting for ten minutes.</p>"
+  },
+  {
+   "type": "activity",
+   "label": "Find it now",
+   "instructions": "Open Zia — usually bottom-right, or from the search bar — and ask her a real question about your own data, for example “show my Buyer’s Journeys closing this month.” Then open a record’s three-dot menu and find <strong>Enrich Data</strong>.",
+   "confirmText": "I’ve asked Zia a real question and found Enrich Data — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Claude or Tasklet, connected to your records</h3><p>Outside Zoho, OneAccord uses two assistants that are connected to our Zoho records, so you can talk to them about actual records rather than general questions: <strong>Claude</strong> and <strong>Tasklet</strong>. Both are connected. Some OneAccord teams still work in Claude and many have moved to Tasklet, so which one you use depends on your team — ask your Managing Principal which is standard for yours, and then use that one. Everything below applies to either.</p><ul><li><strong>Search records:</strong> “find all my open Leads from this month,” “pull up the Buyer’s Journey for [company].”</li><li><strong>Ask about your pipeline:</strong> “which of my contacts haven’t I spoken to in 30 days?” “summarise where things stand with [contact].”</li><li><strong>Update records:</strong> add a note, log a call or meeting, or fill in detail on a Lead, Contact, Company or Buyer’s Journey.</li></ul><p><strong>What neither can do:</strong> move a record to the next stage. Blueprint transitions require a manual click in Zoho, so ask for a direct link to the record and click the transition yourself.</p><h3>Three rules that keep you out of trouble</h3><ol><li><strong>Verify before you repeat.</strong> If an assistant gives you a date, a figure or a name, open the record and check it. AI is a fast first draft; you are the source of truth.</li><li><strong>Don’t paste what you shouldn’t.</strong> Client-confidential detail goes only into the tools OneAccord has approved and connected. If in doubt, keep it in Zoho.</li><li><strong>You still own the words.</strong> Anything an assistant drafts for a client is yours once you send it — read it as if a colleague wrote it.</li></ol>"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "Which of these is something Zia can help you do?",
+   "options": [
+    "Move a Buyer’s Journey record to the next Blueprint stage automatically",
+    "Suggest the best time to contact a Lead based on their email and call patterns",
+    "Sign a contract on your behalf",
+    "Approve a Managing Principal’s review"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Correct — Best Time to Contact analyses patterns and suggests a window. Zia doesn’t move stages or sign anything.",
+   "feedbackIncorrect": "Zia can suggest the best time to contact a Lead from their email and call patterns. Stage moves and signatures stay with people."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "Why can’t you ask Claude or Tasklet to move a record to the next Buyer’s Journey stage?",
+   "options": [
+    "Neither one can see our Zoho records, so the request is hypothetical",
+    "Stage transitions are gated by Zoho’s Blueprint buttons, which need a manual click in the CRM",
+    "Only Managing Principals may move stages",
+    "Blueprints are being retired"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Correct — Blueprint transitions need a manual click. Ask for a direct link, then click it yourself.",
+   "feedbackIncorrect": "Stage transitions are gated by the Blueprint buttons and need a manual click. Ask for a link to the record and make the move yourself."
+  },
+  {
+   "type": "scenario",
+   "id": "qbr-prep-with-ai",
+   "promptHtml": "<p>You have a quarterly review with a client tomorrow and two hours to prepare. Your notes are patchy across three Contacts and two Buyer’s Journey records.</p><p>Write the questions you’d put to Zia and to Claude or Tasklet, in the order you’d ask them, then say what you would verify by hand before anything goes into the client deck.</p>",
+   "rubric": [
+    "Asks specific, answerable questions tied to the meeting (activity since last review, open commitments, stage and close date, who has been in contact)",
+    "Uses the assistant for assembly and summary, not for judgment about the client",
+    "Names what must be checked in the record — dates, figures, commitments made, stage evidence — before it reaches the client",
+    "Spots that a summarised stage or close date is a draft until a person confirms it",
+    "Keeps client-confidential material inside approved tools"
+   ],
+   "passThreshold": 4,
+   "coachContext": "Skill taught: use AI as a research and assembly assistant, then verify. Good questions: what activity since the last review; which commitments are open; current stage and close date and whether evidence supports them; who at OneAccord last spoke to whom. Verification list: any figure, date or commitment quoted to the client; the stage, because AI can read a field but not judge evidence; names and titles. Bad answers: asking the assistant to write the client narrative unsupervised, or pasting confidential material into an unapproved tool."
+  },
+  {
+   "type": "scenario",
+   "id": "changed-case-conflict",
+   "promptHtml": "<p>Claude or Tasklet summarises a record for you and states the close date as <strong>March 14</strong>. When you open the record, the close date field says <strong>April 30</strong>, and the most recent note mentions “board approval not until April.”</p><p>What do you do before this reaches anyone else — and what does the mistake tell you about how to use the assistant from now on?</p>",
+   "rubric": [
+    "Treats the record as authoritative and corrects the draft, not the record",
+    "Investigates why the summary differed — stale source, a different field, or a note it read as a date",
+    "Fixes the record if it is genuinely wrong (for example a missing note or a stale field) rather than only editing the summary",
+    "States a habit: verify any date, figure or commitment the assistant produces against the record before reuse",
+    "Does not conclude the assistant is useless, nor keep using it unchecked"
+   ],
+   "passThreshold": 4,
+   "coachContext": "Skill taught: verify AI output against the record; the record wins. Model answer: correct the draft to April 30, then find out why — most likely the assistant summarised an old email or note as if it were the field, or the field itself is stale and the board-approval note means the date should move. Fix whichever is actually wrong in Zoho, then adopt a standing habit: any date, number or commitment from an assistant gets checked before reuse. Note the honest framing — one bad summary is a verification problem, not a reason to abandon the tool."
+  },
+  {
+   "type": "activity",
+   "label": "Apply it in Zoho CRM",
+   "instructions": "Pick one live record and do this now:<ol><li>Ask Zia, Claude or Tasklet for a direct link to it, then open it in Zoho.</li><li>Ask for a one-paragraph summary of where things stand.</li><li>Check three facts in the summary against the record — a date, a name and a commitment. Correct anything that is wrong.</li></ol>",
+   "confirmText": "I’ve verified three facts from an AI summary against the record — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 7: Using AI Alongside Zoho",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>Put this lesson in your own words so it sticks. Your answers are saved in this browser only — they aren’t sent to your manager or kept as a grade.</p>",
+   "fields": [
     {
-      "type": "text",
-      "html": "<p>OneAccord wants you leaning on AI to work faster in Zoho, not fighting the system by hand. This lesson covers two different AI tools you have access to: Zia, Zoho's own built-in assistant, and Claude, which is connected directly to our Zoho environment.</p>"
+     "id": "takeaway",
+     "label": "In one or two sentences: which part of your week will you hand to Zia, Claude or Tasklet first, and which part stays yours?",
+     "rows": 3
     },
     {
-      "type": "text",
-      "html": "<h3>1. Zia: Zoho's Built-In AI</h3><p>Zia is Zoho's artificial intelligence, built into the CRM itself. She watches patterns, answers questions, and helps you maintain data integrity — all without leaving Zoho.</p><ul><li><strong>Ask About Your Data:</strong> Type or say a natural-language question like \"Show my Buyer's Journeys closing this month\" or \"What's my revenue this quarter?\" and Zia will pull the answer.</li><li><strong>Data Enrichment:</strong> If you have a company's website, Zia can often \"crawl\" the web to find their address, social media profiles, and description for you.</li><li><strong>Best Time to Contact:</strong> Zia analyzes when a contact usually opens your emails or answers their phone and suggests the \"Best Time to Contact\" right on their profile.</li><li><strong>Reminders:</strong> Zia will alert you if she thinks you've forgotten to follow up on a promising record.</li><li><strong>Tasks &amp; Meetings by Voice or Text:</strong> You can ask Zia to set a reminder, create a task, or schedule a meeting or call, using either voice or typed text.</li></ul>"
+     "id": "commitment",
+     "label": "Name the first question you’ll ask, and the fact you’ll verify before trusting the answer.",
+     "rows": 3
     },
     {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Look for the Zia icon in the bottom right corner of your screen (or the search bar). Click it and try typing a question like \"Show my Buyer's Journeys closing this month.\"",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Click on the three dots in the top right hand corner of a record and click on the \"Enrich Data\" option.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>2. Claude: Your AI Assistant, Connected to Zoho</h3><p>If you have Claude access at OneAccord, it's connected directly to our Zoho environment — meaning you can talk to it about your actual records, not just ask generic questions.</p><p>Things you can ask Claude to do:</p><ul><li><strong>Search your records:</strong> \"Find all my open Leads from this month\" or \"Pull up the Buyer's Journey for [Company].\"</li><li><strong>Ask questions about your pipeline:</strong> \"Which of my Contacts haven't I talked to in 30 days?\" or \"Summarize where things stand with [Contact].\"</li><li><strong>Update records:</strong> Add or update notes, log a call or meeting, or fill in details on a Lead, Contact, Company, or Buyer's Journey record.</li></ul><p><strong>What Claude can't do:</strong> Move a record to the next Blueprint stage. Stage transitions are gated by Zoho's Blueprint buttons, which require a manual click in the CRM itself — Claude can't push that button for you. The best practice: ask Claude for a direct link to the record, then open it in Zoho and click the transition yourself.</p>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Ask Claude a question about one of your own Leads or Buyer's Journey records — for example, ask it to summarize where things stand, or ask for a direct link to a specific record.",
-      "confirmText": "I've completed this activity — continue"
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Which of these is something Zia can help you do?",
-      "options": [
-        "Move a Buyer's Journey record to the next Blueprint stage automatically",
-        "Suggest the best time to contact a Lead based on their email and call patterns",
-        "Sign a contract on your behalf",
-        "Approve a Managing Principal's review"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct — Zia's Best Time to Contact feature analyzes patterns and suggests when to reach out.",
-      "feedbackIncorrect": "Zia can suggest the best time to contact a Lead based on their email and call patterns — she doesn't move stages or sign anything on your behalf."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Why can't you just ask Claude to move a record to the next stage of the Buyer's Journey?",
-      "options": [
-        "Claude doesn't have any access to our Zoho environment",
-        "Stage transitions are gated by Zoho's Blueprint buttons, which require a manual click in the CRM",
-        "Only Managing Principals are allowed to move stages",
-        "Blueprints are being retired soon"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct — Blueprint transitions require a manual click in Zoho itself. Ask Claude for a direct link to the record, then click the button yourself.",
-      "feedbackIncorrect": "It's because stage transitions are gated by Zoho's Blueprint buttons, which require a manual click in the CRM. Ask Claude for a link to the record instead, and make the move yourself."
+     "id": "cost",
+     "label": "If you kept answering pipeline questions from memory, what would it cost — a wrong forecast, a client chased twice, or a colleague misled?",
+     "rows": 3
     }
-  ]
+   ],
+   "criteria": [
+    "The takeaway separates what AI can do (search, assemble, draft) from what stays human (stage moves, judgment, client-facing accuracy)",
+    "The commitment names a specific question and a specific fact to verify",
+    "The cost is concrete to the learner’s own work"
+   ]
+  }
+ ]
 }

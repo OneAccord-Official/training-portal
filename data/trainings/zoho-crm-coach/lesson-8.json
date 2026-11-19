@@ -1,88 +1,162 @@
 {
-  "id": "lesson-8",
-  "title": "Lesson 8: Reports, Analytics & Mobile",
-  "completionTitle": "You're complete! Thanks for finishing the Zoho CRM Training Coach curriculum",
-  "keyConcepts": [
-    "Finding your performance dashboards and standard reports",
-    "Scheduling recurring reports",
-    "Using the Zoho CRM mobile app in the field",
-    "The OneAccord Standard recap"
-  ],
-  "nextTeaser": "That's the full Zoho CRM Training Coach curriculum — feel free to revisit any lesson any time from the nav on the left.",
-  "blocks": [
+ "id": "lesson-8",
+ "title": "Lesson 8: Reports, Analytics & Mobile",
+ "completionTitle": "You’re complete! Thanks for finishing the Zoho CRM Training Coach curriculum",
+ "coachPersona": "You are an experienced OneAccord principal coaching a colleague on reports, analytics and the Zoho CRM (Customer Relationship Management) mobile app. Numbers are only useful if they are visible and honest: dashboards reflect the records people kept. Coach for a two-minute answer to “where do I stand?”, recurring reports that arrive without asking, and logging from the field the moment a meeting ends. In plain, warm, specific language. OneAccord’s values are truth, compassion and service.",
+ "keyConcepts": [
+  "Home tiles and Analytics dashboards",
+  "Standard reports and the Report Scheduler",
+  "Asking for access through the Zoho admin",
+  "Logging from the field with the mobile app",
+  "The OneAccord standard, in one page"
+ ],
+ "nextTeaser": "That’s the whole Zoho CRM curriculum — revisit any lesson from the menu on the left whenever you need it.",
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>Last week of the quarter. Your Managing Principal asks: “Where do you stand?”</strong> You have an answer, but it takes you forty minutes of opening records to give it — and by the time you finish, one of the deals has moved again.</p><p>Same week, you leave a client’s office with three commitments in your head. You mean to log them that evening. At 8 p.m. you remember two of them, and one of those wrong.</p><p>Two small failures with the same fix: make the numbers visible before you’re asked, and log from the car park instead of from memory.</p>"
+  },
+  {
+   "type": "reflection",
+   "id": "experience",
+   "prompt": "When someone asks how your pipeline is doing, how much of your answer comes from Zoho and how much from memory? (Optional — skip if you’d rather get started.)",
+   "coachContext": "Opening reflection for a lesson on dashboards, scheduled reports and the mobile app. Respond briefly and warmly; connect the learner’s answer to the habit of looking at the same two screens regularly instead of reconstructing from memory."
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you’ll be able to:</strong></p><ol><li><strong>Answer</strong> “where do I stand?” in under two minutes, from your Home tiles and Analytics.</li><li><strong>Schedule</strong> a recurring report so the numbers arrive without you logging in.</li><li><strong>Log</strong> from the field with the mobile app, the moment a meeting ends.</li><li><strong>Assemble</strong> the core habits of this course into one standard you can keep.</li></ol><p>About 20 minutes. Have your phone nearby.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Same question, two ways to answer it</h3><table><thead><tr><th>From memory and spreadsheets</th><th>From two screens</th></tr></thead><tbody><tr><td>Forty minutes opening records one at a time.</td><td>Home tiles first: open journeys, untouched journeys, calls today, leads.</td></tr><tr><td>“I think about three close this month.”</td><td>Analytics, Org Overview: pipeline by stage, leads this month, projected revenue.</td></tr><tr><td>The answer is out of date by the time it’s given.</td><td>A scheduled report arrives Monday morning whether you ask or not.</td></tr></tbody></table><p>The point isn’t the dashboard. It’s that an honest answer takes two minutes, so you’ll actually give it.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>1. Where your numbers live</h3><ul><li><strong>Home page tiles:</strong> quick glances — My Open Buyer’s Journeys, My Untouched Buyer’s Journeys, My Calls Today, My Leads.</li><li><strong>Analytics dashboards:</strong> fuller views such as Org Overview — leads this month, revenue this month, journeys in pipeline, companies this month, plus charts like leads by source and projected revenue.</li><li><strong>Standard reports:</strong> pre-built lists such as “Buyer’s Journeys closing this month” or “Companies by industry.”</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-8/home-tiles.png\" alt=\"Zoho CRM Home page shortcut tiles\"><figcaption>Your Home page tiles — the fastest read on what needs you today</figcaption></figure><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-8/org-overview-dashboard.png\" alt=\"The Org Overview dashboard in the Analytics module\"><figcaption>The Analytics module’s Org Overview dashboard</figcaption></figure>"
+  },
+  {
+   "type": "activity",
+   "label": "Find it now",
+   "instructions": "From the top navigation bar open <strong>Analytics</strong> and load the <strong>Org Overview</strong> dashboard (or whichever applies to your role). Note two figures you could quote to your Managing Principal, and one that looks wrong.",
+   "confirmText": "I’ve opened a dashboard and noted two useful figures and one doubtful one — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>2. Reports that arrive without you</h3><p>You don’t have to log in to see your numbers. Zoho can email a PDF or Excel version of any report on a schedule — every Monday morning, for example, so the week starts with the facts.</p><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-8/report-scheduler.png\" alt=\"Report Scheduler screen with a New Report Scheduler button\"><figcaption>The Report Scheduler</figcaption></figure><p><strong>If a report you need is missing,</strong> your Profile and Role usually explain it. Raise it with the Zoho admin — Kristjan Anderson or support@oneaccord.co — rather than working around it.</p>"
+  },
+  {
+   "type": "activity",
+   "label": "Find it now",
+   "instructions": "Open the <strong>Reports</strong> module, choose one report you would genuinely read weekly, and click <strong>New Report Scheduler</strong> to set it up for a single weekly send.",
+   "confirmText": "I’ve scheduled (or drafted) one recurring report — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>3. The mobile app: log before you drive</h3><p>Much of a principal’s work happens away from a desk. The app exists so the golden rule survives the car park:</p><ul><li><strong>Calls:</strong> make calls from the app, and log calls that reach your mobile straight after they end.</li><li><strong>Check-in:</strong> at a client site, the Check-in button records time and location, so activity reporting is accurate without a separate note.</li><li><strong>Voice-to-text:</strong> dictate outcomes into the record’s Notes section while the details are fresh.</li><li><strong>Near Me:</strong> a map of companies and contacts close by — useful when a meeting ends early.</li></ul>"
+  },
+  {
+   "type": "activity",
+   "label": "Action item",
+   "instructions": "Open the Zoho CRM app on your phone, find today’s Agenda, and log one real activity from today — a call, a visit or a note — before you close the app.",
+   "confirmText": "I’ve logged something real from my phone — continue"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "Where do you find a visual summary of your pipeline?",
+   "options": [
+    "The Tasks module",
+    "The Analytics or Dashboards module",
+    "The Social tab",
+    "Your email inbox"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Correct — Analytics holds the dashboards, including Org Overview.",
+   "feedbackIncorrect": "It’s the Analytics (dashboards) module — that’s where Org Overview and the pipeline charts live."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "What is the main benefit of the mobile app’s Check-in feature?",
+   "options": [
+    "It schedules your next appointment automatically",
+    "It sends a satisfaction survey to the client",
+    "It records the time and location of your client meeting for reporting",
+    "It advances the Buyer’s Journey stage automatically"
+   ],
+   "correctIndex": 2,
+   "feedbackCorrect": "Correct — Check-in records time and location so your activity reporting is accurate.",
+   "feedbackIncorrect": "Check-in records the time and location of the client meeting, which keeps activity reporting honest."
+  },
+  {
+   "type": "question",
+   "format": "true_false",
+   "prompt": "True or False: you can have Zoho email you a specific report every week, automatically.",
+   "correctIndex": 0,
+   "feedbackCorrect": "Right — any report can be scheduled as a recurring PDF or Excel email.",
+   "feedbackIncorrect": "This one is true — the Report Scheduler sends any report as a recurring PDF or Excel email."
+  },
+  {
+   "type": "scenario",
+   "id": "quarter-end-answer",
+   "promptHtml": "<p>It’s the last week of the quarter. Your Managing Principal wants a two-minute answer to “where do you stand?” — and wants to trust it.</p><p>Write the routine you would use: which screens you open in which order, what you say first, and what you would check before quoting a number.</p>",
+   "rubric": [
+    "Uses Home tiles for today’s actions and Analytics for the pipeline view, in a stated order",
+    "Quotes stage and close-date reality rather than a total, and separates committed from hopeful",
+    "Checks anything doubtful in the record before quoting it — stale close dates, missing values, untouched journeys",
+    "Keeps the answer to minutes by using a scheduled report rather than rebuilding it by hand",
+    "Names at least one thing they would fix in the data as a result of looking"
+   ],
+   "passThreshold": 4,
+   "coachContext": "Skill taught: a repeatable two-minute read of Home tiles then Analytics, with verification. Model answer: Home tiles for today’s calls and untouched journeys; Analytics for pipeline by stage and close month; quote committed stages separately from earlier stages; check any journey with a stale close date or no recent activity before quoting; ask for a scheduled weekly report so the routine costs nothing. A good answer ends with a data fix, because dashboards are only as honest as the records."
+  },
+  {
+   "type": "scenario",
+   "id": "changed-case-numbers-lie",
+   "promptHtml": "<p>Your dashboard shows four Buyer’s Journeys in pipeline. You know one has gone quiet, one has no close date, and one is at a stage the prospect’s words no longer support.</p><p>You’re reporting to your Managing Principal in an hour. Say what you report, what you fix first, and how you explain the difference between the dashboard and the truth.</p>",
+   "rubric": [
+    "Reports the honest picture and explains the gap rather than quoting the dashboard figure",
+    "Fixes the data that is wrong — close date, stage correction — before or immediately after reporting",
+    "Distinguishes “the number is wrong” from “the deal is weak,” and says which is which",
+    "Avoids quietly deleting or downgrading records to make the number look better",
+    "Proposes a habit that prevents the same drift — weekly check of untouched journeys"
+   ],
+   "passThreshold": 4,
+   "coachContext": "Skill taught: dashboards reflect records, so the analyst’s job is to make them honest. Model answer: report three defensible journeys plus one to be qualified, explain the correction (missing close date, stage moved back on evidence, one journey gone quiet), fix the records, and adopt a weekly pass over untouched journeys. Penalise answers that shade the truth to protect the forecast, and answers that blame the dashboard without correcting it."
+  },
+  {
+   "type": "text",
+   "html": "<h3>4. The standard, in one page</h3><ul><li><strong>one.zoho.com</strong> is your home base, and Zoho CRM is the source of truth: if it isn’t in Zoho, it didn’t happen.</li><li><strong>Blueprints</strong> move every stage of the B.U.Y.E.R.S. pipeline, one honest click at a time.</li><li><strong>Every stage move needs evidence</strong> in the prospect’s own words. Record calls in Teams with consent; quote, don’t paraphrase.</li><li><strong>Log before you leave:</strong> four lines — who, what was decided, what next, by when — and a task for every promise.</li><li><strong>Look before you’re asked:</strong> Home tiles, then Analytics, then a scheduled report on Monday.</li><li><strong>AI drafts, you decide.</strong> Ask for assembly and summaries, verify anything a client will see, and click your own stage buttons.</li></ul><p>That’s the course. Everything above is one habit repeated: keep the record true enough that someone else could pick it up.</p>"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 8: Reports, Analytics and Mobile",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>Put the whole course in your own words so it sticks. Your answers are saved in this browser only — they aren’t sent to your manager or kept as a grade.</p>",
+   "fields": [
     {
-      "type": "text",
-      "html": "<p>In this lesson, we look at how to measure your success and stay productive while in the field. You will learn how to access your performance metrics and how to use the mobile app to keep your records current.</p>"
+     "id": "takeaway",
+     "label": "In one or two sentences: which two or three habits from this course will you actually keep, and why those?",
+     "rows": 3
     },
     {
-      "type": "text",
-      "html": "<h3>1. Finding Your Performance Data</h3><p>Data is only useful if it's visible. Your OneAccord Home page and the Analytics module both give you real-time visibility into where things stand.</p><ul><li><strong>Home Page Tiles:</strong> Your Home page shows quick-glance tiles like My Open Buyer's Journeys, My Untouched Buyer's Journeys, My Calls Today, and My Leads.</li><li><strong>Analytics Dashboards:</strong> The Analytics module has fuller dashboards — like Org Overview — showing figures such as Leads This Month, Revenue This Month, Buyer's Journeys in Pipeline, and Companies This Month, plus charts like Leads by Source and Projected Revenue.</li><li><strong>Standard Reports:</strong> Pre-built lists that show things like \"Buyer's Journeys Closing This Month\" or \"Companies by Industry.\"</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-8/home-tiles.png\" alt=\"OneAccord Home page tiles: My Open BUYERS Journeys, My Untouched BUYERS Journeys, My Calls Today, My Leads\"><figcaption>Your Home page tiles</figcaption></figure><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-8/org-overview-dashboard.png\" alt=\"Analytics Org Overview dashboard showing Leads This Month, Revenue This Month, Buyers Journeys in Pipeline, Companies This Month, Leads by Source, and Projected Revenue\"><figcaption>The Analytics module's Org Overview dashboard</figcaption></figure>"
+     "id": "commitment",
+     "label": "Name your two-minute “where do I stand?” routine — which screens, when — and the first date you’ll run it.",
+     "rows": 3
     },
     {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "From the top navigation bar, click Analytics. Open the Org Overview dashboard (or whichever one applies to you) to see the current company snapshot.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>2. Scheduling Reports</h3><p>You don't always have to log in to see your numbers. You can schedule Zoho to email you a PDF or Excel version of any report on a recurring basis (e.g., every Monday morning).</p><ul><li><strong>Permissions:</strong> If you find you cannot see a specific report, check with the Administrator to make sure your Profile and Role are set correctly.</li></ul><figure><img src=\"data/trainings/zoho-crm-coach/images/lesson-8/report-scheduler.png\" alt=\"Report Scheduler screen with a New Report Scheduler button and Scheduler Next Run On column\"><figcaption>The Report Scheduler</figcaption></figure>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Go to the Reports module. Find a report you'd like to receive on a recurring basis and click New Report Scheduler to set it up.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>3. The Zoho CRM Mobile App</h3><p>As a Principal, much of your work happens away from your desk. The mobile app ensures you can fulfill the \"Golden Rule\" (Log Everything) the moment a meeting or phone call ends.</p><ul><li><strong>Calls:</strong> Make calls directly from the app. Log calls that come in to your cell phone immediately after the calls.</li><li><strong>Check-in:</strong> When you arrive at a client's office, use the \"Check-in\" button. This logs your location and time, proving the activity took place.</li><li><strong>Voice-to-Text:</strong> Don't wait until you get home to type notes. Use your phone's microphone to dictate meeting outcomes directly into the \"Notes\" section of the record.</li><li><strong>Map View:</strong> Use the \"Near Me\" feature to see a map of all your Companies and Contacts in your current vicinity — perfect for \"drop-in\" visits when a meeting ends early.</li></ul>"
-    },
-    {
-      "type": "activity",
-      "label": "Action Item",
-      "instructions": "If you haven't already, open the Zoho CRM app on your phone and find your Agenda for the day.",
-      "confirmText": "I've completed this — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>4. Final Review: The OneAccord Standard</h3><p>You have now completed the core training for our CRM. To be successful, remember:</p><ul><li>one.zoho.com is your home base for follow-along work.</li><li>Blueprints (The Blue Boxes) drive every stage of the B.U.Y.E.R.S. pipeline.</li><li>Every stage move needs proof in the prospect's own words — record your calls in Teams.</li><li>If it isn't in Zoho, it didn't happen.</li></ul>"
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Where can you find a visual summary of your sales pipeline?",
-      "options": [
-        "The Tasks module",
-        "The Analytics or Dashboards module",
-        "The Social tab",
-        "Your email inbox"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct — the Analytics (Dashboards) module gives you a visual summary of your pipeline.",
-      "feedbackIncorrect": "You'll find it in the Analytics or Dashboards module — that's where your dashboards, like Org Overview, live."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "What is a major benefit of using the \"Check-in\" feature on the mobile app?",
-      "options": [
-        "It automatically schedules your next appointment",
-        "It sends a satisfaction survey to the client",
-        "It automatically logs the time and location of your client meeting for reporting",
-        "It updates the Buyer's Journey stage automatically"
-      ],
-      "correctIndex": 2,
-      "feedbackCorrect": "Correct — Check-in logs your location and time at a client site so your activity reporting stays accurate.",
-      "feedbackIncorrect": "Check-in automatically logs the time and location of your client meeting for accurate activity reporting."
-    },
-    {
-      "type": "question",
-      "format": "true_false",
-      "prompt": "True or False: You can schedule Zoho to automatically email you a specific report every week.",
-      "correctIndex": 0,
-      "feedbackCorrect": "Right — you can schedule any report as a recurring PDF or Excel email, e.g., every Monday morning.",
-      "feedbackIncorrect": "Actually, this is True — you can schedule Zoho to email you a PDF or Excel version of any report on a recurring basis."
+     "id": "cost",
+     "label": "If you finished this course and changed nothing, what would it cost you and OneAccord over the next quarter?",
+     "rows": 3
     }
-  ]
+   ],
+   "criteria": [
+    "The takeaway picks specific habits rather than summarising the course",
+    "The commitment names screens, a cadence and a start date",
+    "The cost is concrete to the learner’s own work and to a colleague or client"
+   ]
+  }
+ ]
 }
