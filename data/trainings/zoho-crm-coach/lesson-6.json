@@ -1,78 +1,151 @@
 {
-  "id": "lesson-6",
-  "title": "Lesson 6: Activity Management",
-  "completionTitle": "You've completed Lesson 6: Activity Management",
-  "keyConcepts": [
-    "The Golden Rule: log everything",
-    "Managing automated and self-created tasks",
-    "Email Signals and staying on top of automated reminders"
-  ],
-  "nextTeaser": "Next up: using AI alongside Zoho — Zia's built-in assistant and Claude, connected directly to our CRM.",
-  "nextLessonId": "lesson-7",
-  "blocks": [
+ "id": "lesson-6",
+ "title": "Lesson 6: Activity Management",
+ "completionTitle": "You’ve completed Lesson 6: Activity Management",
+ "coachPersona": "You are an experienced OneAccord principal coaching a colleague on keeping Zoho CRM (Customer Relationship Management) records alive. OneAccord’s rule is that if it isn’t in Zoho it didn’t happen: meetings, calls and notes belong on the record, and promises become tasks the moment they are made. Coach for small, repeatable habits and clean handovers, in plain, warm, specific language. OneAccord’s values are truth, compassion and service.",
+ "keyConcepts": [
+  "The golden rule: log everything",
+  "What a usable note contains",
+  "Creating your own follow-up tasks at the moment of the promise",
+  "Closing tasks so reminders stay meaningful",
+  "Email Signals and stale-record reminders"
+ ],
+ "nextTeaser": "Next: using AI alongside Zoho — Zia inside the CRM, and Claude connected to your records.",
+ "nextLessonId": "lesson-7",
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>It’s Friday at 4:40 and a client calls.</strong> “You said you’d have the revised scope to me Tuesday. I haven’t seen it.” You remember the conversation clearly — the kitchen table, the two changes she asked for — but you never wrote it down and never created the task. The promise lived in your head for eleven days, and heads are where promises go to die.</p><p>Down the sidebar, four automated tasks sit open from last month. You stopped reading them weeks ago, so the one that mattered — the follow-up on this exact client — was easy to miss among the noise.</p><p>This lesson is the ten minutes after every conversation that makes the next one work: log it, task it, close it.</p>"
+  },
+  {
+   "type": "reflection",
+   "id": "experience",
+   "prompt": "Think of a promise you made to a client or colleague that slipped — not from bad intent, but because it wasn’t written anywhere. What would have caught it? (Optional — skip if you’d rather get started.)",
+   "coachContext": "Opening reflection for a lesson on activity management: logging meetings, calls and notes, creating your own follow-up tasks at the moment of the promise, and closing tasks so reminders stay meaningful. Respond briefly and warmly; connect what the learner says to the cost of history that lives in one person’s memory."
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you’ll be able to:</strong></p><ol><li><strong>Log</strong> a meeting or call so a colleague could pick up the conversation cold.</li><li><strong>Create</strong> your own follow-up task the moment you make a promise — not later.</li><li><strong>Close</strong> tasks so reminders stay worth reading, and use Signals and stale-record alerts well.</li></ol><p>About 15 minutes. Have a recent call in mind.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Two ways to end the same call</h3><table><thead><tr><th>The usual way</th><th>What this lesson makes routine</th></tr></thead><tbody><tr><td>“Good call.” Hang up, mentally note to send the scope.</td><td>Two minutes in the record: a note with the four facts, then a task with a date.</td></tr><tr><td>Details survive in your memory for about a week.</td><td>Details survive in the record for the life of the relationship.</td></tr><tr><td>A colleague covering for you starts with “where are we with these people?”</td><td>A colleague covering for you starts with “she wants the revised scope by Tuesday — here it is.”</td></tr><tr><td>The promise slips and the client has to chase.</td><td>The task surfaces before the client has to.</td></tr></tbody></table>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>The golden rule, in practice</h3><p><strong>If it isn’t in Zoho, it didn’t happen.</strong> You are expected to log:</p><ul><li><strong>Meetings:</strong> what was discussed and what happens next.</li><li><strong>Calls:</strong> the outcome of the conversation, in the client’s terms.</li><li><strong>Notes:</strong> context worth keeping about a Contact or Company — the daughter’s name, the system they hate, the reason the last vendor left.</li></ul><p>A note worth writing answers four questions in four lines: <strong>who</strong> was there, <strong>what was decided</strong>, <strong>what happens next</strong>, and <strong>by when</strong>. Anything shorter is a diary entry; anything longer is a transcript.</p>"
+  },
+  {
+   "type": "activity",
+   "label": "Find it now",
+   "instructions": "Open any Contact record and look at the left-hand menu for <strong>Notes</strong>, <strong>Activities</strong> and <strong>Closed Activities</strong>. Read one recent note and judge it against the four questions: who, what was decided, what happens next, by when.",
+   "confirmText": "I’ve opened a Contact record and read a recent note — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Tasks: the part only you can do</h3><p>Automations will create tasks for you to keep records from going stale. The most successful principals also run their own schedule.</p><ul><li><strong>Automated tasks</strong> are system-generated reminders that protect the process.</li><li><strong>Self-created follow-ups</strong> are yours. If you tell a client “I’ll check back in three weeks,” create that task immediately, with the date, before you close the call. A promise without a task is a hope.</li><li><strong>Closing tasks</strong> matters as much as creating them. When the action is done, mark the task <em>Closed</em> so the automation stops reminding you and your dashboard tells the truth.</li></ul>"
+  },
+  {
+   "type": "activity",
+   "label": "Find it now",
+   "instructions": "Open the <strong>Tasks</strong> module from your left menu and switch the view to <strong>My Open Tasks</strong>. Note how many are genuinely open, then create a task of your own with the <strong>plus (+)</strong> button — give it a real date, not “someday.”",
+   "confirmText": "I’ve reviewed my open tasks and created one with a real date — continue"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Signals, reminders and the noise problem</h3><p>Zoho will help you remember, but only if you keep the help meaningful:</p><ul><li><strong>Email Signals.</strong> When a client opens an email you sent from Zoho, a Signal appears in real time — useful for timing a call, not a substitute for one.</li><li><strong>Stale-record reminders.</strong> A record untouched for too long triggers a reminder. Answer it by getting a real update from the client, not by editing the record to make the reminder go away.</li><li><strong>Keep the list short.</strong> A dashboard with forty open tasks gets ignored. Closing what you finished is what keeps the next one visible.</li></ul>"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "Where do you look to see the full history of interactions with a client?",
+   "options": [
+    "Your personal email inbox",
+    "The Reports module",
+    "The Timeline and Activities sections within their Contact or Company record",
+    "The Social tab"
+   ],
+   "correctIndex": 2,
+   "feedbackCorrect": "Correct — the Timeline and Activities sections on the Contact or Company hold the relationship’s history.",
+   "feedbackIncorrect": "It’s the Timeline and Activities sections within their Contact or Company record. Your inbox only holds your half of the story."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "Besides automated reminders, how do you make sure you don’t forget a specific account detail?",
+   "options": [
+    "Set a reminder on your phone instead",
+    "Wait for an automated reminder to fire",
+    "Ask Zia to remember it for you",
+    "Create a follow-up task for yourself in the Company or Contact record"
+   ],
+   "correctIndex": 3,
+   "feedbackCorrect": "Correct — create the task yourself, with a date, at the moment you make the promise.",
+   "feedbackIncorrect": "Create a follow-up task for yourself in the Company or Contact record. Automation protects the process; your own promises need your own tasks."
+  },
+  {
+   "type": "scenario",
+   "id": "friday-logging",
+   "promptHtml": "<p>It’s Friday afternoon. Three things happened today:</p><ul><li>A 40-minute call with a client who asked for a revised scope by <strong>Tuesday</strong> and mentioned her CFO joins the next call.</li><li>A 10-minute call with a prospect who said he’s “not ready yet, try me after the holidays.”</li><li>A colleague emailed a useful article about the client’s industry.</li></ul><p>You have ten minutes before you leave. Write your logging sequence: what you record where, what task you create and with what date, and what you deliberately leave out.</p>",
+   "rubric": [
+    "Logs the client call as an activity or note on the Contact/Company with the four facts: who, what was decided, next step, by when",
+    "Creates a dated task for the Tuesday scope and notes the CFO’s involvement as a next-call requirement",
+    "Logs the “not ready” call honestly without inflating the stage, and sets a real follow-up date after the holidays",
+    "Records the industry article where it belongs — a note or attachment on the record — rather than leaving it in email",
+    "Prioritises the promise first and keeps total effort to minutes, not an hour"
+   ],
+   "passThreshold": 4,
+   "coachContext": "Skill taught: activity management. Log meetings, calls and notes onto the Contact/Company record; a good note answers who, what was decided, what happens next, by when. Create your own follow-up task immediately at the moment of a promise, with a date. Close tasks when done. Automated reminders protect process; they cannot hold a personal promise. Model answer: client call logged with the Tuesday commitment and a Tuesday-dated task plus a note that the CFO joins next; prospect call logged as a genuine follow-up after the holidays with a dated task and no stage inflation; the article attached as a note on the client record. Left out: re-typing a transcript, or logging things that belong to someone else’s record."
+  },
+  {
+   "type": "scenario",
+   "id": "changed-case-handover",
+   "promptHtml": "<p>Same client, but now you’re going on leave in four days and a deal is mid-conversation. A colleague will cover your calls while you’re away.</p><p>What do you log, what do you create, and what do you tell your colleague — so that they can pick up without calling you on holiday?</p>",
+   "rubric": [
+    "Writes a handover note on each active record: where things stand, what the client expects, and what not to raise",
+    "Creates dated tasks assigned or visible to the covering colleague for anything due while away",
+    "Names the commitments already made to the client so the colleague doesn’t contradict them",
+    "Closes or reassigns the tasks that will fall due, rather than leaving them to fire into an empty account",
+    "Keeps the client’s experience unchanged — the cover is invisible to them"
+   ],
+   "passThreshold": 4,
+   "coachContext": "Skill taught: the same logging habits, tested under a handover. The point is that records exist so another principal can step in seamlessly. Model answer: a short handover note per active record (status, client expectation, sensitivities, next date), dated tasks created for the cover period and made visible to the colleague, existing commitments restated so nothing is contradicted, and tasks due while away closed or reassigned. Bonus: a single list of the records in play, so the colleague knows the whole surface area."
+  },
+  {
+   "type": "activity",
+   "label": "Apply it in Zoho CRM",
+   "instructions": "Do this now, with a real record.<ol><li><strong>Log</strong> your most recent client conversation: four lines — who, what was decided, what happens next, by when.</li><li><strong>Task</strong> the next promise you made, with a real date.</li><li><strong>Close</strong> any task you have already finished, so your dashboard tells the truth.</li></ol>",
+   "confirmText": "I’ve logged a conversation, dated my next promise and closed a finished task — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 6: Activity Management",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>Put this lesson in your own words so it sticks. Your answers are saved in this browser only — they aren’t sent to your manager or kept as a grade.</p>",
+   "fields": [
     {
-      "type": "text",
-      "html": "<p>In this lesson, we cover the daily habits that keep our \"Source of Truth\" alive: the correct way to log your interactions and manage your tasks.</p>"
+     "id": "takeaway",
+     "label": "In one or two sentences: what will you do in the two minutes after every client conversation from now on?",
+     "rows": 3
     },
     {
-      "type": "text",
-      "html": "<h3>1. The Golden Rule: Log Everything</h3><p>At OneAccord, we have a simple rule of thumb: \"If it isn't in Zoho, it didn't happen.\" Our system relies on accurate history to ensure that if a Principal is away, another can step in seamlessly. You are expected to log:</p><ul><li><strong>Meetings:</strong> Summary of what was discussed and next steps.</li><li><strong>Calls:</strong> Brief notes on the outcome of the conversation.</li><li><strong>Notes:</strong> General observations or important context about a Contact or Company.</li></ul>"
+     "id": "commitment",
+     "label": "Which regular conversation will you start logging first — weekly client call, pipeline review, something else — and when does it begin?",
+     "rows": 2
     },
     {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Open any Contact record. Look at the left-hand menu for Notes, Activities, and Closed Activities. This is where the entire history of that relationship lives.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>2. Managing Your Tasks</h3><p>Automations will frequently create tasks for you to keep records from going stale, but the most successful Principals also drive their own schedule.</p><ul><li><strong>Automated Tasks:</strong> These are system-generated \"To-Do\" items to ensure we don't drop the ball on process.</li><li><strong>Self-Created Follow-ups:</strong> You are expected to create manual follow-up tasks for yourself for anything you want to track within an account. If you tell a client \"I'll check back in three weeks,\" create that task immediately so it doesn't live in your head.</li><li><strong>Closing Tasks:</strong> Once you complete an action, you must mark the task as \"Closed.\" This stops the automation from nudging you further and keeps your dashboard clean.</li></ul>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "Click on the Tasks module in your sidebar. Switch the view to \"My Open Tasks.\" Try creating a \"Test Follow-up\" task for yourself now using the plus (+) button.",
-      "confirmText": "I've completed this activity in Zoho — continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>3. Automation & Notifications</h3><p>Because we have built-in workflows, you don't always have to remember the next step — Zoho will remind you.</p><ul><li><strong>Email Signals:</strong> When a client opens an email you sent from Zoho, you'll see a \"Signal\" (the bell icon) pop up in real-time.</li><li><strong>Stale-record reminders:</strong> If a record sits untouched for too long, you may get an automated email reminder to check in and update it.</li></ul>"
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Where should you look to see the full history of interactions with a client?",
-      "options": [
-        "Your personal email inbox",
-        "The Reports module",
-        "The Timeline and Activities sections within their Contact or Company record",
-        "The Social tab"
-      ],
-      "correctIndex": 2,
-      "feedbackCorrect": "Correct — the Timeline and Activities sections within their Contact or Company record hold the full interaction history.",
-      "feedbackIncorrect": "It's the Timeline and Activities sections within their Contact or Company record — that's where the entire relationship history lives."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Besides automated nudges, how should you ensure you don't forget to follow up on a specific account detail?",
-      "options": [
-        "Set a reminder on your phone instead",
-        "Wait for an automated nudge to fire",
-        "Ask Zia to remember it for you",
-        "Manually create a follow-up task for yourself in the Company or Contact record"
-      ],
-      "correctIndex": 3,
-      "feedbackCorrect": "Correct — create a manual follow-up task for yourself so it doesn't just live in your head.",
-      "feedbackIncorrect": "You should manually create a follow-up task for yourself in the Company or Contact record, rather than relying on memory or automation alone."
-    },
-    {
-      "type": "question",
-      "format": "true_false",
-      "prompt": "True or False: Marking a task as \"Closed\" is necessary to stop automated nudges.",
-      "correctIndex": 0,
-      "feedbackCorrect": "Right — closing a task stops the automation from continuing to nudge you and keeps your dashboard clean.",
-      "feedbackIncorrect": "Actually, this is True — marking a task \"Closed\" stops the automated nudges and keeps your dashboard clean."
+     "id": "cost",
+     "label": "If your logging stayed the way it is now, what would it cost you and a colleague covering for you?",
+     "rows": 3
     }
-  ]
+   ],
+   "criteria": [
+    "The takeaway names a concrete habit (log four facts, task the promise, close finished tasks) rather than “log more”",
+    "The commitment names a specific recurring conversation and a start point",
+    "The cost is specific to the learner’s own work or a real handover"
+   ]
+  }
+ ]
 }
