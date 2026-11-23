@@ -94,11 +94,11 @@
     "Labels it [ACTION NEEDED], because people are being asked to adopt it — and says what adopting it means in practice",
     "Chooses a Ninety.io Headline to raise it at the all-team meeting, rather than a firm-wide email",
     "Drafts a Headline that is short, starts with the tag, and prompts discussion rather than explaining everything",
-    "Names a fitting place for the detail — a #Lessons post with the steps, so the Headline doesn't have to carry them",
+    "Names a fitting place for the detail — a #Shared Lessons post with the steps, so the Headline doesn't have to carry them",
     "Says how they'll know it's been adopted, rather than assuming the announcement is the change"
    ],
    "passThreshold": 4,
-   "coachContext": "Every message is labelled [ACTION NEEDED] or [INFORMED], with the tag at the start of the subject line or post title, decided from the reader's point of view. A method people should adopt is [ACTION NEEDED]. A win or an alignment point for the whole firm goes in a Ninety.io Headline for the all-team meeting: short, tagged, a prompt for discussion. Detail belongs in a #Lessons post. Adoption needs a way of noticing whether it happened. No prices."
+   "coachContext": "Every message is labelled [ACTION NEEDED] or [INFORMED], with the tag at the start of the subject line or post title, decided from the reader's point of view. A method people should adopt is [ACTION NEEDED]. A win or an alignment point for the whole firm goes in a Ninety.io Headline for the all-team meeting: short, tagged, a prompt for discussion. Detail belongs in a #Shared Lessons post. Adoption needs a way of noticing whether it happened. No prices."
   },
   {
    "type": "scenario",
@@ -131,7 +131,7 @@
   {
    "type": "activity",
    "label": "In Ninety.io",
-   "instructions": "Two minutes, on a real item:<ul><li><strong>Find something worth telling the firm</strong> — a win, something you learned that others would sell better for knowing, or a question that deserves ten minutes at the all-team meeting.</li><li><strong>Write the Headline.</strong> One or two lines, tag first. If you can't get it under three lines, the detail belongs somewhere else — a #Lessons post, probably.</li><li><strong>Add it</strong> to the Headlines section of the next meeting agenda.</li></ul><br>If you genuinely have nothing this week, take the last Headline you read and rewrite it as you would have written it — then note what you'd have cut.",
+   "instructions": "Two minutes, on a real item:<ul><li><strong>Find something worth telling the firm</strong> — a win, something you learned that others would sell better for knowing, or a question that deserves ten minutes at the all-team meeting.</li><li><strong>Write the Headline.</strong> One or two lines, tag first. If you can't get it under three lines, the detail belongs somewhere else — a #Shared Lessons post, probably.</li><li><strong>Add it</strong> to the Headlines section of the next meeting agenda.</li></ul><br>If you genuinely have nothing this week, take the last Headline you read and rewrite it as you would have written it — then note what you'd have cut.",
    "confirmText": "I've written and posted a real Headline — continue"
   },
   {
