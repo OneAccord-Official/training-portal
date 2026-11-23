@@ -1,129 +1,177 @@
 {
-  "id": "lesson-4",
-  "title": "Lesson 4: Files: OneDrive, the Hand-Off and Client Files",
-  "completionTitle": "You've completed Lesson 4: Files",
-  "keyConcepts": [
-    "OneDrive is your secure desk for drafts and personal files",
-    "Never save OneAccord files to your local hard drive",
-    "The hand-off: MOVE the file to the Teams channel Files tab when collaboration begins",
-    "Client files are stored and finalized in the project channel"
-  ],
-  "nextTeaser": "Next, Lesson 5 covers the SharePoint Hub and the company-wide Wins, Lessons, Resources team.",
-  "nextLessonId": "lesson-5",
-  "coachPersona": "You are an experienced OneAccord team member coaching a new colleague through the OneAccord Digital Standard training on how we use Outlook, Teams, OneDrive, SharePoint and Ninety.io. The firm's standard: Outlook email is for external parties and anything needing a formal record (formal decisions, firm-wide announcements needing acknowledgment); Teams channel posts are the default for internal group work and day-to-day decisions; Teams private chat is for quick questions to one or two people (move to a channel post or a call after 3 replies); Ninety.io Headlines are for items the whole team should see or align on at the monthly all-team meeting (wins, issues, firm updates); the SharePoint Hub is a read-only reference library; OneDrive is for solo drafts and never the local hard drive; files are MOVED to the Teams channel Files tab when collaboration begins, and finalized client files live there. Every firm communication is labeled Action Needed or Informed. Use plain, warm, specific language.",
-  "blocks": [
+ "id": "lesson-4",
+ "title": "Lesson 4: Files: OneDrive, the Hand-Off and Client Files",
+ "completionTitle": "You've completed Lesson 4: Files",
+ "keyConcepts": [
+  "OneDrive is your workbench for drafts and personal files; the local hard drive is never the place",
+  "The hand-off happens when collaboration starts: the file goes into the project channel's Files tab",
+  "The hand-off is complete when the channel copy is the only copy anyone edits",
+  "Client files are stored and finalized in the channel, whoever they travel to",
+  "How a client receives a file varies by client; the engagement lead sets the route"
+ ],
+ "nextTeaser": "Next, Lesson 5 covers the SharePoint Hub and the company-wide Wins, Lessons, Resources team.",
+ "nextLessonId": "lesson-5",
+ "coachPersona": "You are an experienced OneAccord team member coaching a new colleague through the OneAccord Digital Standard, which covers Outlook, Microsoft Teams, OneDrive, SharePoint (the OneAccord Hub) and Ninety.io. The firm's standard: Outlook email is for external parties and anything needing a formal record (formal decisions, firm-wide announcements that need acknowledgment); Teams channel posts are the default for internal group work and day-to-day decisions; Teams private chat is for quick questions between one or two people; Ninety.io Headlines are for items the whole firm should see at the all-team meeting; the Hub is a read-only reference library. Files: OneDrive is your own workbench for drafts and personal files and is never the local hard drive; once a file needs group input or belongs to a client project it lives in the Teams channel's Files tab, and the channel copy is the only working copy; a finalized client deliverable is never left only on a hard drive or in a personal OneDrive. How a client actually receives a file varies by situation, so the engagement lead sets that per client. Coach judgment, no prices quoted, plain and warm. OneAccord's values are truth, compassion and service.",
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>The client replies: “Thanks — but this is the version we already commented on.”</strong> The version they needed went out three hours earlier, from a different copy.</p><p>Nobody was careless. Someone drafted in OneDrive, someone else edited an earlier download on their desktop, a third person worked from a copy in an email, and each of them believed they had the right file. There were four files and one deliverable, and no moment when anyone chose which one won.</p><p>This lesson is about that moment: the point where a file stops being yours and becomes the team's, and how to make sure it only happens once.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you'll be able to:</strong></p><ol><li><strong>Decide</strong> where a file belongs at each stage of its life — and notice the moment it changes stage.</li><li><strong>Hand off</strong> a draft so there is exactly one working copy, and the team knows which one it is.</li><li><strong>Handle</strong> a client deliverable, including the part the standard leaves to the engagement lead: how the client receives it.</li></ol><p>About 15 minutes. Keep OneDrive open — the task at the end uses your own files.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>One proposal, two lives</h3><p>A five-page proposal, from first draft to the client. Both paths feel normal while you're on them.</p><table><thead><tr><th></th><th>The laptop-and-links path</th><th>The channel path</th></tr></thead><tbody><tr><td><strong>Drafting</strong></td><td>Created on the Desktop, because that's where downloads land.</td><td>Created in OneDrive, so it's backed up and reachable from any device.</td></tr><tr><td><strong>Team edits</strong></td><td>A link is shared and each person edits their own copy, then sends it back.</td><td>The file moves into the project channel's Files tab, and everyone edits that one file.</td></tr><tr><td><strong>A week later</strong></td><td>Four files, three names, and nobody can say which is current.</td><td>One file with version history. Who changed what, and when.</td></tr><tr><td><strong>Someone leaves or is on leave</strong></td><td>The copy they owned is on their machine.</td><td>The file belongs to the project, not to a person.</td></tr><tr><td><strong>Six months later</strong></td><td>Searching for the final version means asking around.</td><td>The channel holds the delivered version, ready when the client asks.</td></tr></tbody></table><p>The difference isn't effort. It's one decision, made once, in the right place: <strong>when collaboration starts, the file changes home.</strong></p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>OneDrive is your workbench</h3><p>OneDrive is where solo work happens. It's the right place for:</p><ul><li><strong>Drafts</strong> you're creating or editing alone, before the team needs them.</li><li><strong>Personal files</strong> — your notes, training certificates, checklists, anything not tied to a client project or a shared deliverable.</li><li><strong>A quick share</strong> with one or two colleagues for fast feedback, before the work is real.</li></ul><div class='callout'><strong>Never work from your computer's hard drive.</strong> A file saved only to your Desktop or Documents is one failed machine away from gone, and nobody else can find it. Create and save OneAccord files in your synced OneDrive, even a personal draft.</div><h3>The hand-off</h3><p>OneDrive is for solo work. Once a file needs group input, team editing, or belongs to a client project, it moves to the project's Teams channel — into that channel's <strong>Files</strong> tab.</p><table><thead><tr><th>Stage</th><th>Where it lives</th><th>What you do</th></tr></thead><tbody><tr><td>Draft</td><td>Your OneDrive</td><td>Work on it alone</td></tr><tr><td>Collaboration starts</td><td>The project channel's Files tab</td><td>Put the file into the channel from inside the channel, then stop working on the OneDrive copy and remove it so there's only one</td></tr><tr><td>Delivered to the client</td><td>The channel, as the record of what was sent</td><td>Keep the delivered version there, whatever route it travelled to the client</td></tr></tbody></table><p>The hand-off is complete when <strong>the channel copy is the only copy anyone edits.</strong> That's the test — not whether a link was shared, and not how many people can open it.</p><h3>Why not just share a link from OneDrive?</h3><ul><li><strong>Version chaos.</strong> People download, edit a copy, and send it back. Now there are as many files as people.</li><li><strong>Access risk.</strong> A file that lives in one person's OneDrive leaves with them when they change roles or move on.</li><li><strong>No archive.</strong> A client file in a personal OneDrive can't be archived with the project, which is a security and compliance problem, not just tidiness.</li></ul><h3>Client files, and the part that varies</h3><p>All client project files, proposals and deliverables are stored and finalized in the relevant channel's Files tab. A finalized client file is never left only on a hard drive or in a personal OneDrive.</p><p><strong>How the client receives it depends on the client.</strong> Some want a link, some want an attachment, some use their own portal or their own filing convention. There's no single answer, and the engagement lead sets it for each client. What doesn't vary is your side: the version that went out is the version in the channel, so anyone can answer “what did we send them?” in a minute.</p>"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "You're starting the first draft of a client proposal, alone. Where do you create it?",
+   "options": [
+    "In your OneDrive",
+    "On your computer's Desktop",
+    "In the Hub",
+    "In an Outlook draft"
+   ],
+   "correctIndex": 0,
+   "feedbackCorrect": "Right. Drafts live in OneDrive — never on the local drive, and the Hub is a reference library, not a workspace.",
+   "feedbackIncorrect": "A solo draft belongs in your OneDrive. The Desktop isn't backed up or findable, and the Hub is read-only reference."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "Your draft is ready for two colleagues to edit with you. What makes the hand-off complete?",
+   "options": [
+    "You email the file to both of them",
+    "They can open a link to your OneDrive copy",
+    "The file is in the channel's Files tab and that copy is the only one anyone edits",
+    "You keep the original and they send edits back"
+   ],
+   "correctIndex": 2,
+   "feedbackCorrect": "Correct. The test is one working copy, in the channel — not who has a link.",
+   "feedbackIncorrect": "The hand-off is done when the channel copy is the only copy being edited. A link still leaves the working file in your OneDrive."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "A teammate suggests sharing your draft by OneDrive link “for now.” What's the problem?",
+   "options": [
+    "OneDrive links never work",
+    "Version chaos, access risk if the owner leaves, and no project archive",
+    "It's slower than email",
+    "There's no problem for small files"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Right. All three problems come from the file staying in one person's OneDrive.",
+   "feedbackIncorrect": "Sharing from OneDrive creates three problems: copies multiply, the file leaves when the owner does, and it can't be archived with the project."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "You downloaded a template to your Desktop and edited it there. What now?",
+   "options": [
+    "Nothing, it's only a short edit",
+    "Email it to yourself as a backup",
+    "Leave it and use it again next time",
+    "Move it into your synced OneDrive and work from there"
+   ],
+   "correctIndex": 3,
+   "feedbackCorrect": "Right. Get it into OneDrive, then delete the Desktop copy so there's one file.",
+   "feedbackIncorrect": "OneAccord files belong in your synced OneDrive. Move it, then remove the Desktop copy."
+  },
+  {
+   "type": "scenario",
+   "id": "scenario",
+   "promptHtml": "<p>You've been drafting a client proposal in your OneDrive. Your manager and another teammate now need to edit it with you, and it goes to the client on Friday.</p><p>Walk through what happens to the file between now and delivery — the actual moves, and where it sits at each point.</p>",
+   "rubric": [
+    "Puts the file into the project channel's Files tab when collaboration begins, rather than sharing a link to the OneDrive copy",
+    "Makes clear that the channel copy is the only version the team edits, and removes the stray OneDrive copy",
+    "Keeps the finalized client version in the channel, not on a local drive or in a personal OneDrive",
+    "Handles delivery with the engagement lead's route for that client, and keeps the version that went out as the channel's record",
+    "Names a reason: version control, access if someone leaves or changes roles, or project archiving and compliance"
+   ],
+   "passThreshold": 4,
+   "coachContext": "Drafts start in OneDrive. When collaboration begins the file goes into the project channel's Files tab, brought in from inside the channel, and that copy becomes the only working version; the OneDrive copy is removed so nobody edits the wrong one. Finalized client files are stored and finalized in the channel, never only on a hard drive or in a personal OneDrive. How the client receives the file varies by client and is set by the engagement lead; what must hold is that the delivered version is kept in the channel. Reasons: version control, access when someone leaves or changes roles, and project archiving and compliance. No prices."
+  },
+  {
+   "type": "scenario",
+   "id": "file-from-the-client",
+   "promptHtml": "<p>Different conditions: the file arrives from outside.</p><p>A client emails you a document they've been editing with two of their own colleagues, asks you to add a section, and wants it back by Thursday. Your teammate will write part of the section. The client also mentions, in passing, that they'd rather not use shared links because their IT team blocks them.</p><p>Where does the file live at each step, and how does it get back to the client?</p>",
+   "rubric": [
+    "Gets the client's document into the project channel's Files tab before any team editing starts, rather than editing the email attachment",
+    "Keeps the version the client sent intact as the received copy, so there's a clear record of what came in",
+    "Has the teammate work on the channel copy, so there is one working version rather than copies by email",
+    "Sends the file back the way that client can receive it — no shared link, given what they said — and confirms the route with the engagement lead rather than deciding alone",
+    "Keeps the delivered version in the channel so the project records what went out and when"
+   ],
+   "passThreshold": 4,
+   "coachContext": "A file received from a client belongs in the project channel's Files tab before team editing begins; editing an email attachment creates copies. Keep the client's original as the received record. All team work happens on the channel copy, so there is one working version. Delivery route varies by client: this client's IT blocks shared links, so a link is the wrong answer here, and the engagement lead sets the route. The delivered version stays in the channel. No prices."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "A finalized client deliverable goes out on Tuesday. Where does that exact version need to exist afterwards?",
+   "options": [
+    "Only in your Outlook Sent Items",
+    "Only in the client's inbox",
+    "In the project channel's Files tab",
+    "In your personal OneDrive, for safekeeping"
+   ],
+   "correctIndex": 2,
+   "feedbackCorrect": "Right. The channel is where the project can answer “what did we send?” months later.",
+   "feedbackIncorrect": "Finalized client files live in the project channel's Files tab. Sent Items proves you emailed it; the channel proves what the project delivered."
+  },
+  {
+   "type": "activity",
+   "label": "In OneDrive and Teams",
+   "instructions": "Find one real file that's in the wrong place — it takes about five minutes and you'll almost certainly find one:<ul><li><strong>Look in your OneDrive</strong> for a file that a teammate or a client project depends on. If more than one person needs it, it belongs in the channel.</li><li><strong>Look for a second copy.</strong> Check the channel's Files tab (or your Desktop) for the same file. If there are two, decide which is current — open both, check the date and the last edit — and make the channel copy the one that survives.</li><li><strong>Clean up the loser.</strong> Delete the duplicate you identified as out of date — deleted files sit in the Recycle Bin, so this is recoverable. The point is that nobody has to guess which one is current again.</li></ul><br>If everything is already where it should be, pick the file your team uses most and confirm it's in the channel — that's the habit.",
+   "confirmText": "I've checked a real file and removed a duplicate copy — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 4: Files — OneDrive, the Hand-Off and Client Files",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>Put this lesson in your own words. Your answers are saved in this browser only — they aren't sent to your manager or kept as a grade.</p>",
+   "fields": [
     {
-      "type": "text",
-      "html": "<p><strong>Lesson 4 of 7.</strong> This lesson answers one question: where does a file live at each stage? Get this right and you avoid version confusion, lost files and compliance headaches.</p>"
+     "id": "takeaway",
+     "label": "In one or two sentences: what is OneDrive for, and when does a file leave it?",
+     "rows": 3
     },
     {
-      "type": "text",
-      "html": "<h3>OneDrive is your secure digital desk</h3><p>OneDrive is for solo work and early drafts. It's the right place for:</p><ul><li><strong>Drafts</strong> you're creating or editing alone before they're ready for the team.</li><li><strong>Personal files</strong>: notes, training certificates, internal checklists, anything not tied to a client project or shared deliverable.</li><li><strong>Quick shares</strong> of a draft with one or two colleagues for fast feedback.</li></ul><div class='callout'><strong>Never save OneAccord files to your computer's hard drive.</strong> Files saved only to your Desktop or Documents folder can be lost, and nobody else can find them. Create and save every OneAccord file, even a personal draft, directly in your synced OneDrive. It gives you immediate backup and access from anywhere.</div>"
+     "id": "signal",
+     "label": "What tells you the hand-off is complete — and what do you do about the old copy?",
+     "rows": 2
     },
     {
-      "type": "text",
-      "html": "<h3>The hand-off</h3><p>OneDrive is for solo work. Once a file needs group input or team editing, or is part of a client project, you hand it off to the team.</p><table><tr><th>Stage of the file</th><th>Where it lives</th><th>What you do</th></tr><tr><td>Initial draft</td><td>Your OneDrive</td><td>Create and edit it alone</td></tr><tr><td>Ready for collaboration</td><td>The Teams channel's <strong>Files</strong> tab</td><td><strong>Move</strong> the file from OneDrive to the channel</td></tr></table><p>The hand-off is complete when the file is <strong>moved</strong>. From then on, the channel is the only place the team opens and edits it.</p><h3>Why not just share a link from OneDrive?</h3><ul><li><strong>Version chaos.</strong> People download the file, edit a copy and send it back.</li><li><strong>Access risk.</strong> If you leave or change roles, the team can lose the file.</li><li><strong>Poor archiving.</strong> Client files in a personal OneDrive can't be archived with the project, which creates security and compliance risk.</li></ul>"
-    },
-    {
-      "type": "text",
-      "html": "<h3>Client file policy (mandatory)</h3><p>All client project files, proposals and deliverables are stored and finalized in the relevant Teams channel's Files tab. A finalized client file must never live only on your hard drive or in your personal OneDrive.</p><h3>How to move a file</h3><ol><li>Open OneDrive in your web browser.</li><li>Select the file.</li><li>Click <strong>Move to</strong> in the top menu.</li><li>Choose the Teams channel where the file belongs.</li></ol><p>Use <strong>Move to</strong>, not copy and paste, so the file's history and permissions carry over.</p>"
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "You're starting a first draft of a client proposal. Where should you create it?",
-      "options": [
-        "In your OneDrive",
-        "On your computer's Desktop",
-        "Directly in the Hub",
-        "In an email draft"
-      ],
-      "correctIndex": 0,
-      "feedbackCorrect": "Right. Drafts start in your OneDrive.",
-      "feedbackIncorrect": "Early drafts live in your OneDrive, never on the local hard drive."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Your draft is ready for your team to edit together. What do you do?",
-      "options": [
-        "Email the file to everyone",
-        "Move it from your OneDrive to the Teams channel's Files tab",
-        "Share a OneDrive link and keep the original there",
-        "Copy it to a USB drive"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct. The hand-off means moving the file to the channel.",
-      "feedbackIncorrect": "When collaboration begins, the file is moved to the channel's Files tab."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "A teammate suggests sharing your draft by OneDrive link \"for now.\" What's the problem?",
-      "options": [
-        "Version chaos, access risk if you leave, and poor archiving",
-        "OneDrive links never work",
-        "It's faster to email",
-        "There's no problem for small files"
-      ],
-      "correctIndex": 0,
-      "feedbackCorrect": "Right. A single copy in the channel avoids all three.",
-      "feedbackIncorrect": "Sharing from OneDrive creates version, access and archiving problems. Move the file to the channel."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Where must a finalized client deliverable live?",
-      "options": [
-        "In your personal OneDrive",
-        "On your local hard drive",
-        "In your Outlook Sent Items",
-        "In the project's Teams channel Files tab"
-      ],
-      "correctIndex": 3,
-      "feedbackCorrect": "Yes. Client files are stored and finalized in the channel.",
-      "feedbackIncorrect": "Finalized client files live in the project's channel Files tab."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "You downloaded a template to your Desktop and edited it there. What should you do?",
-      "options": [
-        "Nothing, it's fine for short edits",
-        "Save and work on it in your synced OneDrive instead",
-        "Email it to yourself",
-        "Leave it on the Desktop as a backup"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Right. OneAccord files belong in OneDrive, not on your local drive.",
-      "feedbackIncorrect": "OneAccord files should be created and saved in your synced OneDrive."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Which method correctly hands off a file to a Teams channel?",
-      "options": [
-        "Copy and paste it into the channel",
-        "Download it and upload a new copy",
-        "Send the channel a link to your OneDrive file",
-        "Use Move to so history and permissions carry over"
-      ],
-      "correctIndex": 3,
-      "feedbackCorrect": "Correct. Move to keeps the file's history and permissions.",
-      "feedbackIncorrect": "Use Move to, not copy and paste, so history and permissions transfer correctly."
-    },
-    {
-      "type": "scenario",
-      "id": "scenario",
-      "promptHtml": "<p>You've been drafting a client proposal in your OneDrive. Your manager and another teammate now need to edit it with you, and it goes to the client on Friday.</p><p>Walk through what you do with the file between now and delivery.</p>",
-      "rubric": [
-        "Moves (not copies or links) the file from OneDrive to the project channel's Files tab",
-        "Explains that the channel copy becomes the only working version the team edits",
-        "Keeps the finalized client version in the channel, not in OneDrive or on a local drive",
-        "Names a reason: version control, access if someone leaves, or archiving and compliance"
-      ],
-      "passThreshold": 3,
-      "coachContext": "Drafts start in OneDrive. When collaboration begins, the file is MOVED (using Move to) to the project Teams channel's Files tab, and that copy becomes the only place the team edits it. Finalized client files must be stored and finalized in the channel, never only on a local hard drive or in a personal OneDrive. Reasons: version control, access if someone leaves or changes roles, and proper archiving and compliance."
+     "id": "cost",
+     "label": "What does a file in the wrong place cost the client, your team, or you?",
+     "rows": 3
     }
-  ]
+   ],
+   "criteria": [
+    "The takeaway names the moment a file changes home — collaboration or a client project — rather than calling OneDrive 'for drafts'",
+    "The signal is that one copy exists and the team edits it, with the stray copy removed",
+    "The cost is concrete: a client receiving the wrong version, a colleague editing a dead copy, or a file lost when someone leaves"
+   ]
+  },
+  {
+   "type": "links",
+   "html": "<h3>Keep these to hand</h3>",
+   "links": [
+    {
+     "label": "The OneAccord Hub — approved policies, standards and training",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
+    }
+   ]
+  }
+ ]
 }

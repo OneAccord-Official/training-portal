@@ -1,127 +1,183 @@
 {
-  "id": "lesson-5",
-  "title": "Lesson 5: SharePoint: The Hub and the Company-Wide Team",
-  "completionTitle": "You've completed Lesson 5: The Hub and the Company-Wide Team",
-  "keyConcepts": [
-    "The OneAccord Hub is our read-only reference library",
-    "Hub additions go through Jesse or Abby",
-    "SharePoint Hub vs. Teams channel files",
-    "#Wins, #Lessons, #Resources and #Events each have a job"
-  ],
-  "nextTeaser": "Next, Lesson 6 shows you how to label announcements and post a Ninety.io Headline for the all-team meeting.",
-  "nextLessonId": "lesson-6",
-  "resources": [
+ "id": "lesson-5",
+ "title": "Lesson 5: SharePoint: The Hub and the Company-Wide Team",
+ "completionTitle": "You've completed Lesson 5: The Hub and the Company-Wide Team",
+ "keyConcepts": [
+  "The OneAccord Hub is the read-only reference library for finished, approved information",
+  "SharePoint appears twice: a channel's Files tab is where work happens, the Hub is where the answer lives",
+  "Hub additions and corrections go through Jesse or Abby",
+  "A channel copy or an email attachment is not authority, however new it looks",
+  "#Wins, #Lessons, #Resources and #Events each have a job, and #Lessons is where a good practice is discussed before it's approved"
+ ],
+ "nextTeaser": "Next, Lesson 6 shows you how to label announcements and post a Ninety.io Headline for the all-team meeting.",
+ "nextLessonId": "lesson-6",
+ "resources": [
+  {
+   "label": "The OneAccord Hub",
+   "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>You quote the policy to a client, and they read it back to you a week later — from their own notes.</strong> The version you used came from a document in a Teams channel. It was the working draft. The approved version, on the Hub, said something slightly different in the paragraph that mattered.</p><p>Nothing about the search felt risky. You found a document with the right name, in a place colleagues use, and it answered the question. What it couldn't tell you was whether it was <em>the</em> version.</p><p>That's the difference this lesson is about: a channel is where work is argued out, and the Hub is where the answer is kept.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you'll be able to:</strong></p><ol><li><strong>Tell</strong> which of the two places a document belongs in, and know which one to trust when they disagree.</li><li><strong>Find</strong> the approved version of a policy, standard or template, and check the one you've been using.</li><li><strong>Contribute</strong> what you learn — in the right channel, in a form someone else can use.</li></ol><p>About 15 minutes. Keep the Hub open in another tab — you'll be checking a real document against it.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>One question, two places</h3><p>“What's our current policy on this?” Both of these will produce an answer today. Only one survives being checked.</p><table><thead><tr><th></th><th>Found in a Teams channel</th><th>Found on the Hub</th></tr></thead><tbody><tr><td><strong>What it is</strong></td><td>A version someone was working on, possibly the final one, possibly not.</td><td>The approved version, kept in one place.</td></tr><tr><td><strong>Who can change it</strong></td><td>Anyone in the channel, at any time, usually without telling you.</td><td>Administrators only, so what you read stays read.</td></tr><tr><td><strong>Six months later</strong></td><td>Two or three copies, and no way to tell which one was adopted.</td><td>The same document, still current, or replaced by a newer approved one.</td></tr><tr><td><strong>When a client asks you to prove it</strong></td><td>You can't say where it came from or whether it was approved.</td><td>You can send the link.</td></tr></tbody></table><p>So the working rule: <strong>if you're quoting it to a client or relying on it as a standard, it has to come from the Hub.</strong> If there's no approved version there yet, that's a gap worth reporting — not a reason to use the draft.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>What the Hub is for</h3><p>The Hub holds information that is <strong>finished, rarely changed, and useful beyond one team</strong>: <a href='https://oneaccord.sharepoint.com/sites/WelcomeOneAccord' target='_blank' rel='noopener'>oneaccord.sharepoint.com/sites/WelcomeOneAccord</a></p><ul><li><strong>Official policies and procedures</strong> — compliance documents and operational procedures.</li><li><strong>Standards and reference guides</strong> — branding standards, report templates, technical specifications.</li><li><strong>Sales and marketing resources</strong> — final, approved, client-facing documents.</li><li><strong>Archive</strong> — historical, non-client material kept but no longer edited.</li></ul><p><strong>Your role on the Hub is to read, search and reference.</strong> You won't post or edit there. If something should be added or corrected, raise it with Jesse or Abby.</p><div class='callout'><strong>SharePoint, two ways.</strong> The Files tab behind a Teams channel is SharePoint too — it's the collaborative space from Lesson 4. The Hub is a separate site with a different job. Same technology, opposite rules: one is where work happens, the other is where the answer lives.</div><h3>Hub or channel?</h3><table><thead><tr><th>You need to…</th><th>Go to</th><th>Because</th></tr></thead><tbody><tr><td>Look up final, approved information</td><td><strong>The Hub</strong></td><td>Read-only, administrator-managed, the current approved version</td></tr><tr><td>Draft, edit or argue about a document</td><td><strong>The Teams channel's Files tab</strong></td><td>The team works on it together there</td></tr></tbody></table><h3>The company-wide team: Wins, Lessons, Resources, Events</h3><p>This is the team that crosses departments — culture, knowledge sharing, questions that don't belong to one project. The channels are open and lightly used, which means your participation is most of what makes them valuable.</p><table><thead><tr><th>Channel</th><th>Use it for</th><th>How to contribute</th></tr></thead><tbody><tr><td><strong>#Wins</strong></td><td>Celebrating, lightly</td><td>React (🎉, ❤️) and reply briefly. For a win you want recognised at the all-team meeting, also post a Ninety.io Headline (Lesson 6).</td></tr><tr><td><strong>#Lessons</strong></td><td>What a finished project taught you: what worked, what to avoid</td><td>New post with a specific subject line, then invite discussion in replies</td></tr><tr><td><strong>#Resources</strong></td><td>Articles, notes from events, material that could help the wider team</td><td>New post with a clear subject; keep discussion in replies</td></tr><tr><td><strong>#Events</strong></td><td>Training, gatherings, internal deadlines</td><td>Post it here, check it regularly, and react to confirm you saw it</td></tr></tbody></table><p>Lesson 3's etiquette matters more here, not less: reply in the thread, and reserve @Team for something genuinely relevant to every person in the company.</p><p><strong>Where a lesson becomes a standard.</strong> #Lessons is where you say what you learned. The Hub is where it becomes the approved way to do something, if it's good enough and general enough to be one — and that move goes through Jesse or Abby. Posting in #Lessons and assuming it's now policy is how a channel draft ends up being quoted to a client.</p>"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "You need the approved, current version of a company policy. Where do you look?",
+   "options": [
+    "The OneAccord Hub",
+    "Your OneDrive",
+    "A private chat with a colleague",
+    "Your email archive"
+   ],
+   "correctIndex": 0,
+   "feedbackCorrect": "Right. The Hub is the single source of truth for approved documents.",
+   "feedbackIncorrect": "The Hub holds the approved version. A chat or your inbox gives you someone's copy of it."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "You find an outdated document on the Hub. What do you do?",
+   "options": [
+    "Edit it yourself, it's quicker",
+    "Raise it with Jesse or Abby so it can be corrected",
+    "Post your corrected version in #Resources",
+    "Leave it, someone will notice"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Correct. The Hub is read-only for staff, so corrections go through Jesse or Abby.",
+   "feedbackIncorrect": "You can't edit the Hub. Raise it with Jesse or Abby — and until it's fixed, don't quote the old version."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "Your team is revising a document together this week. Where does it live?",
+   "options": [
+    "On the Hub",
+    "In the Teams channel's Files tab",
+    "In one person's OneDrive",
+    "As an email attachment"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Yes. Active editing happens in the channel; the Hub is for what's finished.",
+   "feedbackIncorrect": "A document being worked on lives in the channel's Files tab. The Hub only holds approved versions."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "You read an article that would help people well beyond your project. Where does it go?",
+   "options": [
+    "A new post in #Resources with a clear subject line",
+    "A reply in #Wins",
+    "A private chat to the people you think need it",
+    "The Hub"
+   ],
+   "correctIndex": 0,
+   "feedbackCorrect": "Right. #Resources is for exactly this, and a clear subject line is what makes it findable later.",
+   "feedbackIncorrect": "Firm-wide knowledge sharing goes in #Resources. A chat helps the three people you picked and nobody after them."
+  },
+  {
+   "type": "scenario",
+   "id": "three-versions",
+   "promptHtml": "<p>You're preparing a proposal and need the firm's current approved wording for a contractual clause. You find three versions:</p><ul><li>One in the project channel's Files tab, edited three weeks ago by a colleague.</li><li>One on the Hub, last updated last year.</li><li>One attached to an email from a former colleague, six months old.</li></ul><p>None of them agree. What do you do — and what do you do about the fact that they disagree?</p>",
+   "rubric": [
+    "Uses the Hub version as the approved one, and checks the others against it rather than choosing the newest or the nearest",
+    "Recognises that the channel copy and the emailed copy aren't authoritative, whatever their dates",
+    "Escalates the discrepancy — raises it with Jesse or Abby so the Hub version is confirmed or corrected — rather than deciding alone",
+    "Keeps the proposal from going out on an unverified clause until the approved wording is confirmed",
+    "Names the underlying cause: an approved document being copied, edited and emailed around instead of referenced where it lives"
+   ],
+   "passThreshold": 4,
+   "coachContext": "The Hub holds approved, administrator-managed versions and is the reference for anything quoted or relied on. A document in a channel or an email attachment may be newer, older or unauthorised; recency is not authority. When versions disagree the learner should use the Hub version, raise the discrepancy with Jesse or Abby so the approved version is confirmed or corrected, and keep the client-facing document from going out on unverified wording. The cause is copying an approved document into channels and inboxes instead of linking to where it lives. No prices."
+  },
+  {
+   "type": "scenario",
+   "id": "good-lesson-to-standard",
+   "promptHtml": "<p>Different conditions: this time you're the source.</p><p>You finished an engagement and found a way of running the kickoff meeting that worked much better than the usual approach. Two colleagues on other projects have already asked you to send them “whatever you used.” One of them says the firm should make it the standard.</p><p>Where does it go, in what order, and what do you deliberately not do?</p>",
+   "rubric": [
+    "Shares it in #Lessons with a specific subject line, as a post others can discuss and add to, rather than sending files to two people",
+    "Points people at the post instead of attaching copies, so the material lives in one place and improves as people comment",
+    "Raises the idea of making it a standard with Jesse or Abby rather than declaring it the new standard",
+    "Waits for the approved version to reach the Hub before treating it as the firm's way of doing it",
+    "Names the sequencing: share and discuss first, approve second, publish to the Hub third"
+   ],
+   "passThreshold": 4,
+   "coachContext": "A reusable lesson or method is shared in #Lessons as a post with a specific subject, so it can be discussed and improved; sending copies to individuals produces scattered versions. Nothing is a firm standard until it's approved and on the Hub, and Hub changes go through Jesse or Abby. The order is: share and discuss, then approve, then publish to the Hub. The learner should not announce a new standard on their own authority."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "A teammate posts a better way of doing something in #Lessons, and it's genuinely good. Is it now the firm's standard?",
+   "options": [
+    "Yes, if enough people react to it",
+    "Yes, because #Lessons is the firm-wide channel",
+    "Only once it's approved and on the Hub",
+    "Only if a Managing Principal replies to the post"
+   ],
+   "correctIndex": 2,
+   "feedbackCorrect": "Right. #Lessons starts the conversation; the Hub is where an approved standard lives.",
+   "feedbackIncorrect": "A good post is a proposal, not a standard. It becomes one when it's approved and published on the Hub."
+  },
+  {
+   "type": "activity",
+   "label": "In the Hub",
+   "instructions": "Open the <a href='https://oneaccord.sharepoint.com/sites/WelcomeOneAccord' target='_blank' rel='noopener'>OneAccord Hub</a> and check something you actually use:<ul><li><strong>Find the approved version</strong> of a policy, standard or template you rely on — the one you'd quote to a client.</li><li><strong>Compare it with what you've been using.</strong> Same version, or a copy that's drifted?</li><li><strong>Note one thing.</strong> If they differ, raise it with Jesse or Abby. If they match, note where the approved version lives so you go there next time instead of searching a channel.</li></ul><br>Also find where the sales and marketing resources sit. That's the folder people ask about most.",
+   "confirmText": "I've checked a real document against the Hub — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 5: SharePoint — The Hub and the Company-Wide Team",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>Put this lesson in your own words. Your answers are saved in this browser only — they aren't sent to your manager or kept as a grade.</p>",
+   "fields": [
     {
-      "label": "The OneAccord Hub",
-      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
+     "id": "takeaway",
+     "label": "In one or two sentences: what is the Hub for, and how is it different from a channel's Files tab?",
+     "rows": 3
+    },
+    {
+     "id": "trust",
+     "label": "Two documents disagree and one is newer. Which do you rely on, and what do you do next?",
+     "rows": 2
+    },
+    {
+     "id": "contribute",
+     "label": "Where would you share something you learned on a project, and what has to happen before it becomes the firm's standard?",
+     "rows": 3
     }
-  ],
-  "blocks": [
+   ],
+   "criteria": [
+    "The takeaway separates approved reference from working collaboration, rather than describing the Hub as 'where documents are'",
+    "The answer on the disagreement uses the Hub version and escalates — it does not pick the newest or decide alone",
+    "The contribution path names #Lessons first, then approval through Jesse or Abby, then the Hub"
+   ]
+  },
+  {
+   "type": "links",
+   "html": "<h3>Keep these to hand</h3>",
+   "links": [
     {
-      "type": "text",
-      "html": "<p><strong>Lesson 5 of 7.</strong> \"SharePoint\" shows up in two ways at OneAccord. Behind your Teams channel files, it's the collaborative space you worked in during Lesson 4. The other is the dedicated SharePoint site called the <strong>OneAccord Hub</strong>, and that's what this lesson is about.</p>"
-    },
-    {
-      "type": "text",
-      "html": "<h3>The OneAccord Hub: your read-only reference library</h3><p>The Hub holds information that is finished, rarely updated and useful across a department or the whole company: <a href='https://oneaccord.sharepoint.com/sites/WelcomeOneAccord' target='_blank' rel='noopener'>oneaccord.sharepoint.com/sites/WelcomeOneAccord</a></p><p>It's the single source of truth for:</p><ul><li><strong>Official policies and procedures</strong>, including compliance documents and operational procedures.</li><li><strong>Standards and reference guides</strong>, such as branding standards, report templates and technical specifications.</li><li><strong>Sales and marketing resources</strong>: final, approved, public-facing documents.</li><li><strong>Archival information</strong>: historical, non-client documents that are kept but no longer edited.</li></ul><p><strong>Your role on the Hub is to read, search and reference.</strong> You won't post or edit there. If you think something should be added or corrected, contact Jesse or Abby.</p>"
-    },
-    {
-      "type": "activity",
-      "label": "Find it now",
-      "instructions": "<p>Open the <a href='https://oneaccord.sharepoint.com/sites/WelcomeOneAccord' target='_blank' rel='noopener'>OneAccord Hub</a> and take a few minutes to explore. Find where the company policies and the sales and marketing resources live.</p>",
-      "confirmText": "I've explored the Hub - continue"
-    },
-    {
-      "type": "text",
-      "html": "<h3>Hub vs. Teams channel files</h3><table><tr><th>Purpose</th><th>Where</th><th>Key difference</th></tr><tr><td>Looking up final, approved information</td><td><strong>SharePoint Hub</strong></td><td>Read-only; managed by administrators</td></tr><tr><td>Actively editing or drafting</td><td><strong>Teams channel Files</strong></td><td>Your team works on it together</td></tr></table><p>Using the Hub strictly for official reference means everyone is reading the most current approved version.</p>"
-    },
-    {
-      "type": "text",
-      "html": "<h3>The OneAccord Wins, Lessons, Resources team</h3><p>This is our company-wide team for culture, knowledge sharing and questions that cross departments. The channels are open but lightly used, so your participation helps make them valuable.</p><table><tr><th>Channel</th><th>Use it for</th><th>How to contribute</th></tr><tr><td><strong>#Wins</strong></td><td>A light space to celebrate</td><td>Add reactions (🎉, ❤️) and short replies. For a win you want recognized at the all-team meeting, also post a Ninety.io Headline (Lesson 6).</td></tr><tr><td><strong>#Lessons</strong></td><td>What you learned from a finished project: best practices, things to avoid</td><td>New post with a subject line. Invite discussion in replies.</td></tr><tr><td><strong>#Resources</strong></td><td>Notes from events, articles and resources that could help the wider team</td><td>New post with a clear subject. Use replies for discussion.</td></tr><tr><td><strong>#Events</strong></td><td>Upcoming events: training, gatherings, internal deadlines</td><td>Post events here. Check it regularly and react to confirm you saw it or will attend.</td></tr></table><p>The etiquette from Lesson 3 matters even more in a company-wide space. Always reply in the thread, and use @Team only for messages that are truly relevant to every person in the company.</p>"
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Where do you look for the approved, final version of a company policy?",
-      "options": [
-        "Your OneDrive",
-        "The OneAccord Hub",
-        "A private chat with a colleague",
-        "Your email archive"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Right. The Hub is the home for official, approved documents.",
-      "feedbackIncorrect": "The Hub is the single source of truth for approved policies."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "You spot an outdated document on the Hub. What do you do?",
-      "options": [
-        "Contact Jesse or Abby so it can be updated",
-        "Edit it yourself",
-        "Post the corrected version in #Resources",
-        "Ignore it"
-      ],
-      "correctIndex": 0,
-      "feedbackCorrect": "Correct. The Hub is read-only for staff, so changes go through Jesse or Abby.",
-      "feedbackIncorrect": "You can't edit the Hub. Contact Jesse or Abby."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Your team is actively revising a document together. Where should it live?",
-      "options": [
-        "On the Hub",
-        "In one person's OneDrive",
-        "As an email attachment",
-        "In the Teams channel's Files tab"
-      ],
-      "correctIndex": 3,
-      "feedbackCorrect": "Yes. Active editing happens in the channel.",
-      "feedbackIncorrect": "Documents being actively edited live in the Teams channel Files tab, not the Hub."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "You want to share an article that could help the wider team. Where does it go?",
-      "options": [
-        "A new post in #Resources with a clear subject line",
-        "A reply in #Wins",
-        "A private chat to everyone",
-        "The Hub"
-      ],
-      "correctIndex": 0,
-      "feedbackCorrect": "Right. #Resources is for sharing articles and knowledge.",
-      "feedbackIncorrect": "Articles and resources go in #Resources with a clear subject line."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "A project finished and you learned what to do differently next time. Where do you share it?",
-      "options": [
-        "A private chat with your manager",
-        "A detailed post in #Lessons",
-        "#Events",
-        "An email to the whole firm"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct. #Lessons is for knowledge transfer after a project.",
-      "feedbackIncorrect": "What you learned from a finished project goes in #Lessons."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "An internal training session is coming up. Where do you post it?",
-      "options": [
-        "In #Wins",
-        "On the Hub",
-        "In the #Events channel",
-        "In a private chat"
-      ],
-      "correctIndex": 2,
-      "feedbackCorrect": "Right. Events are posted in #Events.",
-      "feedbackIncorrect": "Upcoming events are posted in the #Events channel."
+     "label": "The OneAccord Hub",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
     }
-  ]
+   ]
+  }
+ ],
+ "coachPersona": "You are an experienced OneAccord team member coaching a new colleague through the OneAccord Digital Standard, which covers Outlook, Microsoft Teams, OneDrive, SharePoint (the OneAccord Hub) and Ninety.io. The firm's standard: Outlook email is for external parties and anything needing a formal record; Teams channel posts are the default for internal group work and day-to-day decisions; Teams private chat is for quick questions between one or two people; OneDrive is your own workbench for drafts and never the local hard drive; once a group is collaborating, files live in the Teams channel's Files tab. The OneAccord Hub is the SharePoint reference site for finished, approved information — read-only for staff, and changes to it go through Jesse or Abby. The company-wide Wins, Lessons, Resources team in Teams is where knowledge is shared and discussed before anything is approved. Ninety.io Headlines are for items the whole firm should see at the all-team meeting. Coach judgment: which of the two places a piece of information belongs in, and why. No prices quoted. OneAccord's values are truth, compassion and service."
 }
