@@ -41,7 +41,7 @@
    ],
    "correctIndex": 3,
    "feedbackCorrect": "Right. The vendor is external, and an invoice question should have a written trail.",
-   "feedbackIncorrect": "The vendor is external, so Teams can't reach them — and an invoice needs a record. Reply in Outlook."
+   "feedbackIncorrect": "The vendor is external, so this goes in Outlook: email is how we reach people outside the firm, and an invoice needs a record."
   },
   {
    "type": "question",

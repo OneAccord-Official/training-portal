@@ -7,7 +7,7 @@
   "SharePoint appears twice: a channel's Files tab is where work happens, the Hub is where the answer lives",
   "Hub additions and corrections go through Jesse or Abby",
   "A channel copy or an email attachment is not authority, however new it looks",
-  "#Wins, #Lessons, #Resources and #Events each have a job, and #Lessons is where a good practice is discussed before it's approved"
+  "#Wins, #Shared Lessons, #Resources and #Events each have a job, and #Shared Lessons is where a good practice is discussed before it's approved"
  ],
  "nextTeaser": "Next, Lesson 6 shows you how to label announcements and post a Ninety.io Headline for the all-team meeting.",
  "nextLessonId": "lesson-6",
@@ -32,7 +32,7 @@
   },
   {
    "type": "text",
-   "html": "<h3>What the Hub is for</h3><p>The Hub holds information that is <strong>finished, rarely changed, and useful beyond one team</strong>: <a href='https://oneaccord.sharepoint.com/sites/WelcomeOneAccord' target='_blank' rel='noopener'>oneaccord.sharepoint.com/sites/WelcomeOneAccord</a></p><ul><li><strong>Official policies and procedures</strong> — compliance documents and operational procedures.</li><li><strong>Standards and reference guides</strong> — branding standards, report templates, technical specifications.</li><li><strong>Sales and marketing resources</strong> — final, approved, client-facing documents.</li><li><strong>Archive</strong> — historical, non-client material kept but no longer edited.</li></ul><p><strong>Your role on the Hub is to read, search and reference.</strong> You won't post or edit there. If something should be added or corrected, raise it with Jesse or Abby.</p><div class='callout'><strong>SharePoint, two ways.</strong> The Files tab behind a Teams channel is SharePoint too — it's the collaborative space from Lesson 4. The Hub is a separate site with a different job. Same technology, opposite rules: one is where work happens, the other is where the answer lives.</div><h3>Hub or channel?</h3><table><thead><tr><th>You need to…</th><th>Go to</th><th>Because</th></tr></thead><tbody><tr><td>Look up final, approved information</td><td><strong>The Hub</strong></td><td>Read-only, administrator-managed, the current approved version</td></tr><tr><td>Draft, edit or argue about a document</td><td><strong>The Teams channel's Files tab</strong></td><td>The team works on it together there</td></tr></tbody></table><h3>The company-wide team: Wins, Lessons, Resources, Events</h3><p>This is the team that crosses departments — culture, knowledge sharing, questions that don't belong to one project. The channels are open and lightly used, which means your participation is most of what makes them valuable.</p><table><thead><tr><th>Channel</th><th>Use it for</th><th>How to contribute</th></tr></thead><tbody><tr><td><strong>#Wins</strong></td><td>Celebrating, lightly</td><td>React (🎉, ❤️) and reply briefly. For a win you want recognised at the all-team meeting, also post a Ninety.io Headline (Lesson 6).</td></tr><tr><td><strong>#Lessons</strong></td><td>What a finished project taught you: what worked, what to avoid</td><td>New post with a specific subject line, then invite discussion in replies</td></tr><tr><td><strong>#Resources</strong></td><td>Articles, notes from events, material that could help the wider team</td><td>New post with a clear subject; keep discussion in replies</td></tr><tr><td><strong>#Events</strong></td><td>Training, gatherings, internal deadlines</td><td>Post it here, check it regularly, and react to confirm you saw it</td></tr></tbody></table><p>Lesson 3's etiquette matters more here, not less: reply in the thread, and reserve @Team for something genuinely relevant to every person in the company.</p><p><strong>Where a lesson becomes a standard.</strong> #Lessons is where you say what you learned. The Hub is where it becomes the approved way to do something, if it's good enough and general enough to be one — and that move goes through Jesse or Abby. Posting in #Lessons and assuming it's now policy is how a channel draft ends up being quoted to a client.</p>"
+   "html": "<h3>What the Hub is for</h3><p>The Hub holds information that is <strong>finished, rarely changed, and useful beyond one team</strong>: <a href='https://oneaccord.sharepoint.com/sites/WelcomeOneAccord' target='_blank' rel='noopener'>oneaccord.sharepoint.com/sites/WelcomeOneAccord</a></p><ul><li><strong>Official policies and procedures</strong> — compliance documents and operational procedures.</li><li><strong>Standards and reference guides</strong> — branding standards, report templates, technical specifications.</li><li><strong>Sales and marketing resources</strong> — final, approved, client-facing documents.</li><li><strong>Archive</strong> — historical, non-client material kept but no longer edited.</li></ul><p><strong>Your role on the Hub is to read, search and reference.</strong> You won't post or edit there. If something should be added or corrected, raise it with Jesse or Abby.</p><div class='callout'><strong>SharePoint, two ways.</strong> The Files tab behind a Teams channel is SharePoint too — it's the collaborative space from Lesson 4. The Hub is a separate site with a different job. Same technology, opposite rules: one is where work happens, the other is where the answer lives.</div><h3>Hub or channel?</h3><table><thead><tr><th>You need to…</th><th>Go to</th><th>Because</th></tr></thead><tbody><tr><td>Look up final, approved information</td><td><strong>The Hub</strong></td><td>Read-only, administrator-managed, the current approved version</td></tr><tr><td>Draft, edit or argue about a document</td><td><strong>The Teams channel's Files tab</strong></td><td>The team works on it together there</td></tr></tbody></table><h3>The company-wide team: Wins, Lessons, Resources, Events</h3><p>This is the team that crosses departments — culture, knowledge sharing, questions that don't belong to one project. The channels are open and lightly used, which means your participation is most of what makes them valuable. In Teams each channel name carries a small icon in front of it; the names in this table are the words to search for.</p><table><thead><tr><th>Channel</th><th>Use it for</th><th>How to contribute</th></tr></thead><tbody><tr><td><strong>#Wins</strong></td><td>Celebrating, lightly</td><td>React (🎉, ❤️) and reply briefly. For a win you want recognised at the all-team meeting, also post a Ninety.io Headline (Lesson 6).</td></tr><tr><td><strong>#Shared Lessons</strong></td><td>What a finished project taught you: what worked, what to avoid</td><td>New post with a specific subject line, then invite discussion in replies</td></tr><tr><td><strong>#Resources</strong></td><td>Articles, notes from events, material that could help the wider team</td><td>New post with a clear subject; keep discussion in replies</td></tr><tr><td><strong>#Events</strong></td><td>Training, gatherings, internal deadlines</td><td>Post it here, check it regularly, and react to confirm you saw it</td></tr></tbody></table><p>Lesson 3's etiquette matters more here, not less: reply in the thread, and reserve @Team for something genuinely relevant to every person in the company.</p><p><strong>Where a lesson becomes a standard.</strong> #Shared Lessons is where you say what you learned. The Hub is where it becomes the approved way to do something, if it's good enough and general enough to be one — and that move goes through Jesse or Abby. Posting in #Shared Lessons and assuming it's now policy is how a channel draft ends up being quoted to a client.</p>"
   },
   {
    "type": "question",
@@ -109,27 +109,27 @@
    "id": "good-lesson-to-standard",
    "promptHtml": "<p>Different conditions: this time you're the source.</p><p>You finished an engagement and found a way of running the kickoff meeting that worked much better than the usual approach. Two colleagues on other projects have already asked you to send them “whatever you used.” One of them says the firm should make it the standard.</p><p>Where does it go, in what order, and what do you deliberately not do?</p>",
    "rubric": [
-    "Shares it in #Lessons with a specific subject line, as a post others can discuss and add to, rather than sending files to two people",
+    "Shares it in #Shared Lessons with a specific subject line, as a post others can discuss and add to, rather than sending files to two people",
     "Points people at the post instead of attaching copies, so the material lives in one place and improves as people comment",
     "Raises the idea of making it a standard with Jesse or Abby rather than declaring it the new standard",
     "Waits for the approved version to reach the Hub before treating it as the firm's way of doing it",
     "Names the sequencing: share and discuss first, approve second, publish to the Hub third"
    ],
    "passThreshold": 4,
-   "coachContext": "A reusable lesson or method is shared in #Lessons as a post with a specific subject, so it can be discussed and improved; sending copies to individuals produces scattered versions. Nothing is a firm standard until it's approved and on the Hub, and Hub changes go through Jesse or Abby. The order is: share and discuss, then approve, then publish to the Hub. The learner should not announce a new standard on their own authority."
+   "coachContext": "A reusable lesson or method is shared in #Shared Lessons as a post with a specific subject, so it can be discussed and improved; sending copies to individuals produces scattered versions. Nothing is a firm standard until it's approved and on the Hub, and Hub changes go through Jesse or Abby. The order is: share and discuss, then approve, then publish to the Hub. The learner should not announce a new standard on their own authority."
   },
   {
    "type": "question",
    "format": "mcq",
-   "prompt": "A teammate posts a better way of doing something in #Lessons, and it's genuinely good. Is it now the firm's standard?",
+   "prompt": "A teammate posts a better way of doing something in #Shared Lessons, and it's genuinely good. Is it now the firm's standard?",
    "options": [
     "Yes, if enough people react to it",
-    "Yes, because #Lessons is the firm-wide channel",
+    "Yes, because #Shared Lessons is the firm-wide channel",
     "Only once it's approved and on the Hub",
     "Only if a Managing Principal replies to the post"
    ],
    "correctIndex": 2,
-   "feedbackCorrect": "Right. #Lessons starts the conversation; the Hub is where an approved standard lives.",
+   "feedbackCorrect": "Right. #Shared Lessons starts the conversation; the Hub is where an approved standard lives.",
    "feedbackIncorrect": "A good post is a proposal, not a standard. It becomes one when it's approved and published on the Hub."
   },
   {
@@ -165,7 +165,7 @@
    "criteria": [
     "The takeaway separates approved reference from working collaboration, rather than describing the Hub as 'where documents are'",
     "The answer on the disagreement uses the Hub version and escalates — it does not pick the newest or decide alone",
-    "The contribution path names #Lessons first, then approval through Jesse or Abby, then the Hub"
+    "The contribution path names #Shared Lessons first, then approval through Jesse or Abby, then the Hub"
    ]
   },
   {
