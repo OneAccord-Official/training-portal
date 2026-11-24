@@ -1,204 +1,263 @@
 {
-  "id": "lesson-3",
-  "title": "Lesson 3: What Is a Business Operating System?",
-  "completionTitle": "You've completed Lesson 3: What Is a Business Operating System?",
-  "keyConcepts": [
-    "Every company already has a BOS: its current way of leading and managing",
-    "The cost of an informal BOS, and why owners decide to upgrade",
-    "\"Every system is perfectly designed to get the results it gets\"",
-    "Where OASYS comes from: EOS, Scaling Up, OKRs, 4DX and Ninety OS",
-    "The foundational tools and the 9 core competencies"
-  ],
-  "nextTeaser": "Next, Lesson 4 walks through what a client actually experiences in an OASYS engagement.",
-  "nextLessonId": "lesson-4",
-  "resources": [
+ "id": "lesson-3",
+ "title": "Lesson 3: What Is a Business Operating System?",
+ "completionTitle": "You've completed Lesson 3: What Is a Business Operating System?",
+ "keyConcepts": [
+  "Every company that makes payroll already has a Business Operating System — the only question is whether it was designed",
+  "The same meeting, run by an informal system and a designed one, and what people leave with in each",
+  "What an informal system costs, including the one that lands with owners: reduced company value",
+  "When an owner is ready — pain in an objective, plus humility and hunger — and when they aren't",
+  "Where today's systems come from, the foundational tools, and Ninety OS's nine core competencies",
+  "ninety.io is where the system runs, not the system itself"
+ ],
+ "nextTeaser": "Next, Lesson 4 walks through what a client actually experiences in an OASYS engagement.",
+ "nextLessonId": "lesson-4",
+ "resources": [
+  {
+   "label": "OASYS Strategic Planning on oneaccord.co",
+   "url": "https://oneaccord.co/strategic-planning-service/"
+  },
+  {
+   "label": "ninety.io",
+   "url": "https://www.ninety.io/"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>You're a guest at a client's weekly leadership meeting. Forty minutes, three topics, no numbers, no decisions. At the end the CEO says “same time next week” and everyone leaves.</strong></p><p>In the car park the owner says the thing you've heard from a hundred owners: <em>“We have good people. We meet every week. So why does nothing change?”</em></p><p>He's describing his operating system, and he doesn't know he has one. The agenda, the missing numbers, the topics chosen by whoever spoke loudest, the fact that nobody left with a follow-up — that is the system, and it is producing exactly the results it was built to produce.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you'll be able to:</strong></p><ol><li><strong>Explain</strong> that every company already has a Business Operating System, and point to where it's visible.</li><li><strong>Name</strong> what an informal system costs — in the owner's language, not in theory.</li><li><strong>Recognise</strong> when an owner is ready to upgrade, and what a designed system actually contains.</li></ol><p>This is the longest lesson in the course: about 30 minutes, including five short videos.</p>"
+  },
+  {
+   "type": "video",
+   "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=e14c5388-b5ab-489c-a00f-a00e9114818b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+   "title": "What Is a Business Operating System?",
+   "links": [
     {
-      "label": "OASYS Strategic Planning on oneaccord.co",
-      "url": "https://oneaccord.co/strategic-planning-service/"
-    },
-    {
-      "label": "ninety.io",
-      "url": "https://www.ninety.io/"
+     "label": "Video won't play? Open it in SharePoint",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2004%20-%20What%20Is%20a%20BOS.mp4?web=1"
     }
-  ],
-  "blocks": [
+   ],
+   "confirmText": "I've watched the video - continue",
+   "note": "<strong>Listen for:</strong> why Doug says every company that makes payroll already has a BOS, and the eight familiar tools most companies use today."
+  },
+  {
+   "type": "text",
+   "html": "<div class='callout'><strong>What changed since these videos were recorded (2026)</strong><br>Practice lead is Jesse Kreun (acting Managing Principal). Every engagement starts with some form of fact-finding assessment, not always a full CSP; a CSP usually recommends OASYS, and OASYS can start without one.</div>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>The same meeting, twice</h3><p>Both are real weekly leadership meetings at companies of about forty people. Nothing here requires software.</p><table><thead><tr><th></th><th>The informal system</th><th>The designed system</th></tr></thead><tbody><tr><td><strong>The agenda</strong></td><td>Whoever raised something loudest since Monday.</td><td>Fixed: good news, the numbers, the quarterly priorities, then the issues list, hardest first.</td></tr><tr><td><strong>The numbers</strong></td><td>Nobody brings them; finance reports monthly.</td><td>Five numbers on one page, each owned by someone in the room, red or green.</td></tr><tr><td><strong>The problems</strong></td><td>Discussed, usually twice, then dropped.</td><td>Named, solved or assigned, and written down so it doesn't return next week.</td></tr><tr><td><strong>The decisions</strong></td><td>Unclear who decided, or whether anyone did.</td><td>One person decides; the decision and its owner are recorded.</td></tr><tr><td><strong>What people leave with</strong></td><td>A vague sense of what was discussed.</td><td>Two or three actions with names and dates, and one thing they now know.</td></tr></tbody></table><p>The people are the same. The room is the same. One company is running a system that happens to produce meetings, and the other is running a system designed to produce a result. That's the entire difference OASYS sells — and the owner in the car park is already paying for the first one.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Every company already has one</h3><p>A Business Operating System (BOS) is the way a company leads and manages: how decisions get made, how information flows, how goals are set, how people are held accountable. Like a fish that doesn't know it's in water, most leaders don't realise they have one.</p><p>It evolves by accident — habits from the founder, “shiny objects” the CEO brings back from a peer group, practices new managers bring with them. For most companies it's a mix of eight familiar tools:</p><ul><li>Occasional off-site planning meetings</li><li>A strategic plan that may or may not be written down</li><li>A budget (sometimes)</li><li>Monthly financial statements</li><li>A weekly staff meeting</li><li>One-on-ones</li><li>All-hands meetings</li><li>Annual performance reviews</li></ul><p>The current system is like comfortable shoes that are wrong for the journey. Upgrading means getting <strong>uncomfortable before you're comfortable again</strong>, which is why change management is a large part of the work and why an owner who expects it to be painless will stall in month three.</p>"
+  },
+  {
+   "type": "video",
+   "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=228b63f4-963b-4640-a071-e5e809ff1bfc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+   "title": "The Power of an Optimized BOS",
+   "links": [
     {
-      "type": "text",
-      "html": "<p><strong>Lesson 3 of 4.</strong> Strategy is the <em>what</em> and <em>why</em>. A Business Operating System is the <em>how</em>: the engine that turns a plan into daily action and measurable results. This is the longest lesson, with five short videos.</p>"
-    },
-    {
-      "type": "text",
-      "html": "<div class='callout'><strong>What changed since these videos were recorded (2026)</strong><br>Practice lead is Jesse Kreun (acting Managing Principal). Every engagement starts with some form of fact-finding assessment, not always a full CSP; a CSP usually recommends OASYS, and OASYS can start without one.</div>"
-    },
-    {
-      "type": "video",
-      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=e14c5388-b5ab-489c-a00f-a00e9114818b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
-      "title": "What Is a Business Operating System?",
-      "links": [
-        {
-          "label": "Video won't play? Open it in SharePoint",
-          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2004%20-%20What%20Is%20a%20BOS.mp4?web=1"
-        }
-      ],
-      "confirmText": "I've watched the video - continue",
-      "note": "<strong>Listen for:</strong> why Doug says every company that makes payroll already has a BOS, and the eight familiar tools most companies use today."
-    },
-    {
-      "type": "text",
-      "html": "<h3>Every company already has one</h3><p>A BOS is the way a company leads and manages: how decisions get made, how information flows, how goals are set, how people are held accountable. Like a fish that doesn't know it's in water, most leaders don't realize they have one.</p><p>It evolves by accident: habits from the founder, \"shiny objects\" the CEO brings back from a peer group, practices new managers bring with them. For most companies it's a mix of eight familiar tools:</p><ul><li>Occasional off-site planning meetings</li><li>A strategic plan that may or may not be written down</li><li>A budget (sometimes)</li><li>Monthly financial statements</li><li>A weekly staff meeting</li><li>One-on-ones</li><li>All-hands meetings</li><li>Annual performance reviews</li></ul><p>The current BOS is like comfortable shoes that may be wrong for the journey. Upgrading means getting <strong>uncomfortable before you're comfortable again</strong>, so change management is a big part of the work.</p>"
-    },
-    {
-      "type": "text",
-      "html": "<h3>The cost of an informal BOS</h3><ul><li><strong>Chaos and confusion:</strong> unclear processes and roles.</li><li><strong>Wasted time:</strong> manual work, repeated errors, constant firefighting.</li><li><strong>Inconsistent results:</strong> quality varies from person to person.</li><li><strong>Stalled growth:</strong> informal systems can't handle more volume or complexity.</li><li><strong>Over-reliance on individuals:</strong> knowledge lives in people's heads.</li><li><strong>Reduced company value:</strong> buyers and investors discount an informal, owner-dependent business.</li></ul><p>Without clear systems for accountability, communication and process, even the best strategy stays an aspiration.</p>"
-    },
-    {
-      "type": "video",
-      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=228b63f4-963b-4640-a071-e5e809ff1bfc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
-      "title": "The Power of an Optimized BOS",
-      "links": [
-        {
-          "label": "Video won't play? Open it in SharePoint",
-          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2005%20-%20The%20Power%20of%20an%20Optimized%20BOS%20%28Client%20Perspective%29.mp4?web=1"
-        }
-      ],
-      "confirmText": "I've watched the video - continue",
-      "note": "<strong>Listen for:</strong> what has to be true for an owner to want this, and the three other signals that a prospect may be ready."
-    },
-    {
-      "type": "text",
-      "html": "<h3>When an owner is ready</h3><p>Doug revisits the three owner objectives as questions an owner asks: <em>Are we achieving our purpose and goals? Am I gaining time freedom? Are we building enterprise value?</em> If an owner is comfortable with all three, they won't hire us, and that's fine. <strong>There has to be some pain.</strong></p><p>Other signals that a prospect may be ready:</p><ul><li>A vague dissatisfaction with the status quo: \"we can do more.\"</li><li>A desire to be a <em>category of one</em>, truly differentiated.</li><li>A sense that the company can reach the next level, but the owner can't take it there alone.</li></ul><p>All three take a certain <strong>humility and hunger</strong>. Listen for them in discovery conversations.</p>"
-    },
-    {
-      "type": "video",
-      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=4b4a78ff-b62a-4b03-b6b4-990e00f48fdc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
-      "title": "A Designed BOS Case Study",
-      "links": [
-        {
-          "label": "Video won't play? Open it in SharePoint",
-          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2006%20-%20A%20Designed%20BOS%20Case%20Study.mp4?web=1"
-        }
-      ],
-      "confirmText": "I've watched the video - continue",
-      "note": "<strong>Watch for:</strong> how a well-designed operating system can transform a company, and even an industry. For OASYS-specific client stories, see the case studies on the OneAccord website and the Hub."
-    },
-    {
-      "type": "video",
-      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=c30c9f84-bf5f-4dca-a25e-6497d1342ff6&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
-      "title": "A Brief History of Business Operating Systems",
-      "links": [
-        {
-          "label": "Video won't play? Open it in SharePoint",
-          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2007%20-%20History%20of%20BOS%20Methodologies.mp4?web=1"
-        }
-      ],
-      "confirmText": "I've watched the video - continue",
-      "note": "<strong>Listen for:</strong> Dr. Deming's famous line, the \"chicken or the egg\" choice owners face, and the books behind today's operating systems. Doug mentions going back to Kajabi to rewatch; this portal is now the home for this training."
-    },
-    {
-      "type": "text",
-      "html": "<h3>Where operating systems come from</h3><p><strong>\"Every system is perfectly designed to get the results it gets.\"</strong> (W. Edwards Deming) If results are inconsistent, the system is built for inconsistency.</p><p>When owners aren't happy with results, they have two options: upgrade the <em>functions</em> (marketing, sales, operations, finance), or upgrade the <em>Business Operating System and leadership team</em> that enable those functions. Both matter, but by the time owners find OASYS, the leadership team has usually become the limiting factor.</p><p>Today's systems draw on a line of business thinkers, each designing part of the \"building\":</p><ul><li>Michael Gerber, <em>The E-Myth</em></li><li>Jack Stack, <em>The Great Game of Business</em></li><li>Andy Grove and John Doerr, OKRs (<em>Measure What Matters</em>)</li><li>Verne Harnish, <em>Mastering the Rockefeller Habits</em> and <em>Scaling Up</em></li><li>Gino Wickman, EOS and <em>Traction</em>, now the most influential book in our market</li><li>Franklin Covey, <em>The 4 Disciplines of Execution</em>, plus Patrick Lencioni and Jim Collins</li></ul><p><strong>Ninety OS</strong> is the first software-based BOS, and it combines the best of EOS, 4DX, OKRs and parts of Scaling Up. OASYS is built on that foundation. You don't need to read all these books, but you should know they exist.</p><h3>The foundational tools</h3><ul><li><strong>One-page strategic plan:</strong> core values, purpose, 10-year, 3-year and 1-year goals, and 90-day Rocks.</li><li><strong>Org chart with functional accountability:</strong> everyone knows what they own; no role confusion.</li><li><strong>KPI scorecards:</strong> both leading and lagging indicators.</li><li><strong>Weekly team meetings:</strong> a set agenda, built into the software.</li><li><strong>Quarterly planning:</strong> every 90 days the leadership team reviews, resets priorities and updates the plan.</li></ul>"
-    },
-    {
-      "type": "video",
-      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=395dce0d-9adc-4fd7-8295-88f82af7fb10&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
-      "title": "Key Pillars of the OASYS Business Operating System",
-      "links": [
-        {
-          "label": "Video won't play? Open it in SharePoint",
-          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2008%20-%20Key%20Pillars%20of%20the%20OASYS%20Business%20Operating%20System.mp4?web=1"
-        }
-      ],
-      "confirmText": "I've watched the video - continue",
-      "note": "<strong>Listen for:</strong> the nine core competencies OASYS strengthens."
-    },
-    {
-      "type": "text",
-      "html": "<h3>The OASYS foundation: Ninety OS and its 9 core competencies</h3><p>OASYS uses the <strong>Ninety OS</strong> model from ninety.io: a leadership and management model built into software, with strong learning resources and enough flexibility to make it our own. It strengthens nine core competencies, each improved continuously by working the system:</p><p><strong>Vision &middot; Customer &middot; Goals &middot; People &middot; Structure &middot; Data &middot; Meetings &middot; Process &middot; Enterprise value</strong></p><h3>ninety.io: where clients run OASYS</h3><p>OASYS is the system; ninety.io is the platform that helps clients use it consistently, replacing scattered documents and spreadsheets with one place for:</p><ul><li>Vision and planning</li><li>The company scorecard (KPIs)</li><li>Rocks: quarterly priorities with owners and due dates</li><li>Issues: identifying and solving problems so nothing falls through the cracks</li><li>Meeting rhythms: weekly, quarterly and annual</li><li>People tools: right people in the right seats</li><li>Processes and knowledge</li><li>To-dos for weekly accountability</li></ul>"
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Which statement about Business Operating Systems is true?",
-      "options": [
-        "Only large corporations have one",
-        "Every company that makes payroll already has one, even if it's informal",
-        "A company gets one when it buys ninety.io",
-        "A BOS is the same thing as an accounting system"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Right. Every company has a BOS; the question is whether it's designed or accidental.",
-      "feedbackIncorrect": "Every company that makes payroll already has a BOS: its current way of leading and managing."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Complete Deming's line: \"Every system is perfectly designed to...\"",
-      "options": [
-        "...fail eventually.",
-        "...get the results it gets.",
-        "...be replaced every five years.",
-        "...reflect the CEO's personality."
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Exactly. If you want different results, change the system.",
-      "feedbackIncorrect": "\"Every system is perfectly designed to get the results it gets.\""
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "By the time an owner is a good prospect for OASYS, what has usually become the limiting factor?",
-      "options": [
-        "The marketing budget",
-        "The leadership team and how it leads and manages",
-        "Office space",
-        "The product line"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Right. They've squeezed what they can from functional fixes; leadership is now the constraint.",
-      "feedbackIncorrect": "Usually it's the leadership team: how the company is led and managed."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "According to Doug, what has to be true before an owner will hire us?",
-      "options": [
-        "They must already use EOS",
-        "They must be planning to sell within a year",
-        "They must feel some pain or dissatisfaction around their objectives",
-        "They must have more than 100 employees"
-      ],
-      "correctIndex": 2,
-      "feedbackCorrect": "Right. Comfortable owners don't change. Listen for pain, dissatisfaction, or hunger.",
-      "feedbackIncorrect": "There has to be some pain, dissatisfaction, or hunger. If an owner is comfortable with all three objectives, they won't buy."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "What is Ninety OS?",
-      "options": [
-        "OneAccord's internal HR system",
-        "The first software-based BOS, combining the best of EOS, 4DX, OKRs and parts of Scaling Up, and the foundation OASYS is built on",
-        "A competitor we position against",
-        "A financial reporting tool"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Exactly. OASYS builds on Ninety OS.",
-      "feedbackIncorrect": "Ninety OS is the first software-based BOS, and OASYS is built on it."
-    },
-    {
-      "type": "scenario",
-      "id": "scenario",
-      "promptHtml": "<p>The owner of a 35-person landscaping company tells you: <em>\"Business operating system? We're not a big corporation. We don't need a system. We just need more sales.\"</em></p><p>Write how you'd respond.</p>",
-      "rubric": [
-        "Explains that every company already has a BOS (its current way of leading and managing), even if it's informal",
-        "Uses the idea that the current system produces the current results (Deming), or the cost of an informal BOS, in plain language",
-        "Acknowledges that sales matter while pointing out the leadership team and operating system often limit growth (the functions vs. BOS choice)",
-        "Gives at least one concrete example of what an upgraded BOS looks like (90-day priorities, a KPI scorecard, weekly meeting rhythm, clear accountability)",
-        "Stays curious about his situation rather than lecturing, and doesn't oversell"
-      ],
-      "passThreshold": 4,
-      "coachContext": "OneAccord's OASYS Strategic Planning practice (older materials and videos call it SPE, Strategic Planning and Execution; Doug sometimes says 'Oasis') helps clients build a strategic plan AND upgrade their Business Operating System (BOS) so the plan actually gets executed. OASYS is OneAccord's branded BOS, built on the Ninety OS model and run on the ninety.io software platform. Doug Hall presents the training videos and helped launch the practice; he has coached business operating systems since 2016 (first EOS-certified implementer in Washington State in 2017, later Pinnacle Business Guides and Scaling Up), and takes an independent, best-of-breed approach. Jesse Kreun is acting Managing Principal and leads the OASYS practice; questions about the practice go to Jesse. A CSP and OASYS are independent offerings: every engagement starts with some form of fact-finding assessment, which is not always a full CSP; a CSP usually recommends OASYS, and OASYS can begin without a CSP. Three owner objectives: (1) achieve the business purpose and goals (mission, vision, values, legacy, aligned team); (2) increase the owner's time freedom by building a self-managing company with a strong leadership team; (3) optimize enterprise value, mainly by reducing owner dependence and improving financial performance, which opens exit options including a financial exit or an operating exit (e.g. CEO emeritus). If an owner is comfortable on all three, they won't buy; there must be pain in at least one, or a vague dissatisfaction, a desire to be a 'category of one', or a sense the owner can't take the company to the next level alone (humility and hunger). Common strategic planning failures: no clear direction, misaligned teams, poor follow-through, 'shelfware' plans that never get executed (the execution gap), firefighting, bias, complexity. Strategic planning answers: where are we now, where do we want to be, how do we get there. Building blocks: vision, mission, core values, SWOT, long-term objectives, 90-day priorities ('Rocks'), KPIs, action plans, accountability structure. The practice is horizontal (no industry expertise needed), hired by the CEO, and works with the leadership team (the CEO's strategic direct reports). Engagement: onboarding and initial implementation, then a strategic plan refresh every 90 days anchored by an annual 2-day off-site retreat, typically as an annual plan of work billed as a monthly retainer. Do not quote prices; a managing principal guides pricing. It is a top-down upgrade that can cross-sell into functional work (marketing, sales, operations, interim/fractional leaders) and vice versa; OneAccord refers out legal and some CFO work. Every company that makes payroll already has a BOS: its current way of leading and managing (often informal, like a fish not knowing it's in water), shaped by the founder, shiny objects the CEO brings back from peer groups, and new managers' habits. Typical informal BOS tools: occasional off-site planning, a maybe-written strategic plan, a budget, monthly financials, weekly staff meetings, one-on-ones, all-hands, annual performance reviews. Upgrading means getting uncomfortable before getting comfortable again, so change management matters. Costs of an informal BOS: chaos, wasted time, inconsistent results, stalled growth, over-reliance on individuals, reduced company value. Deming: every system is perfectly designed to get the results it gets. Owners can upgrade functions (marketing, sales, ops, finance) or upgrade the BOS and leadership team; prospects for OASYS usually find the leadership team has become the limiting factor. BOS lineage: Gerber (E-Myth), Jack Stack (Great Game of Business), Andy Grove and John Doerr (OKRs), Verne Harnish (Rockefeller Habits, Scaling Up), Gino Wickman (EOS/Traction), Franklin Covey (4 Disciplines of Execution), plus Lencioni and Collins; Ninety OS is the first software-based BOS and covers the best of EOS, 4DX, OKRs and parts of Scaling Up. Foundational tools: one-page strategic plan (core values, purpose, 10-year, 3-year, 1-year goals, 90-day Rocks), org chart with functional accountability, KPI scorecards with lead and lag measures, weekly team meetings with a set agenda, quarterly planning cadence. Ninety OS has 9 core competencies (vision, customer, goals, people, structure, data, meetings, process, enterprise value), continuously improved by working the system. ninety.io holds vision and planning, scorecard, Rocks, issues, meeting rhythms, people tools, processes, to-dos. Client options: do-it-yourself alone (read Traction), DIY with group coaching, or done-for-you implementer coaching (OneAccord's recommended full engagement). The coach is like a sports coach on the sidelines: not better at the game, better at watching and coaching. OneAccord always recommends the full coached engagement but can help budget-limited clients self-implement on ninety.io and stay their go-to resource. Success = steady improvement on ten factors (solid strategy, shared vision, right people in right seats, teamwork, right numbers/KPIs, consistent execution, solving issues / self-managing team, getting the right stuff done in 90-day focus, financial performance, enterprise value), not a single end goal. Process: baseline benchmarks (OneAccord business assessment, enterprise value appraisal, behavioral assessments such as DISC or Predictive Index, team tools such as Working Genius and Five Dysfunctions trust-building) -> situation analysis and proposal -> agreement with owner/CEO -> implementation workshops (foundations, goals, vision; full days or several half days, virtual or in person) -> coach the weekly team meetings and roll the agenda down -> schedule quarterly planning dates for a rolling 12 months -> facilitate 90-day off-sites (ideally in person) -> the first two-day session IS year one's annual session and carries the Foundation work -> three one-day quarterlies plus one two-day annual every year, ongoing with no planned end -> 'graduate' is allowed if the client can sustain the cadence itself, but it is not the design goal."
+     "label": "Video won't play? Open it in SharePoint",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2005%20-%20The%20Power%20of%20an%20Optimized%20BOS%20%28Client%20Perspective%29.mp4?web=1"
     }
-  ],
-  "coachPersona": "You are an experienced OneAccord principal coaching a colleague through 'OASYS Strategic Planning: Overview', OneAccord's introduction to its OASYS business operating system for owner-led companies. OneAccord's values are Service, Compassion and Truth. Use plain, warm, specific language."
+   ],
+   "confirmText": "I've watched the video - continue",
+   "note": "<strong>Listen for:</strong> what has to be true for an owner to want this, and the three other signals that a prospect may be ready."
+  },
+  {
+   "type": "text",
+   "html": "<h3>What an informal system costs</h3><ul><li><strong>Chaos and confusion:</strong> unclear processes and roles.</li><li><strong>Wasted time:</strong> manual work, repeated errors, constant firefighting.</li><li><strong>Inconsistent results:</strong> quality varies from person to person.</li><li><strong>Stalled growth:</strong> informal systems can't carry more volume or complexity.</li><li><strong>Over-reliance on individuals:</strong> knowledge lives in people's heads.</li><li><strong>Reduced company value:</strong> buyers and investors discount an informal, owner-dependent business.</li></ul><p>That last one is usually the sentence that lands with an owner who is thinking about the future: the system he built to get here is the reason the company is worth less than its revenue suggests.</p><h3>When an owner is ready</h3><p>Doug returns to the three owner objectives as questions: <em>Are we achieving our purpose and goals? Am I gaining time freedom? Are we building enterprise value?</em> An owner comfortable on all three won't hire us, and that's fine — <strong>there has to be some pain.</strong></p><p>Three other signals a prospect may be ready:</p><ul><li>A vague dissatisfaction with the status quo: “we can do more.”</li><li>A desire to be a <em>category of one</em>, genuinely differentiated.</li><li>A sense the company can reach the next level, but the owner can't take it there alone.</li></ul><p>All three take a certain <strong>humility and hunger</strong>. Listen for them in discovery; an owner with neither will buy a plan and not the work.</p>"
+  },
+  {
+   "type": "video",
+   "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=4b4a78ff-b62a-4b03-b6b4-990e00f48fdc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+   "title": "A Designed BOS Case Study",
+   "links": [
+    {
+     "label": "Video won't play? Open it in SharePoint",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2006%20-%20A%20Designed%20BOS%20Case%20Study.mp4?web=1"
+    }
+   ],
+   "confirmText": "I've watched the video - continue",
+   "note": "<strong>Watch for:</strong> how a well-designed operating system can transform a company, and even an industry. For OASYS-specific client stories, see the case studies on the OneAccord website and the Hub."
+  },
+  {
+   "type": "video",
+   "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=c30c9f84-bf5f-4dca-a25e-6497d1342ff6&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+   "title": "A Brief History of Business Operating Systems",
+   "links": [
+    {
+     "label": "Video won't play? Open it in SharePoint",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2007%20-%20History%20of%20BOS%20Methodologies.mp4?web=1"
+    }
+   ],
+   "confirmText": "I've watched the video - continue",
+   "note": "<strong>Listen for:</strong> Dr. Deming's famous line, the \"chicken or the egg\" choice owners face, and the books behind today's operating systems. Doug mentions going back to Kajabi to rewatch; this portal is now the home for this training."
+  },
+  {
+   "type": "text",
+   "html": "<h3>Where operating systems come from</h3><p><strong>“Every system is perfectly designed to get the results it gets.”</strong> (W. Edwards Deming) If results are inconsistent, the system is built for inconsistency — which is a kinder and more useful thing to say to an owner than “your team isn't executing”.</p><p>When owners aren't happy with results they have two options: upgrade the <em>functions</em> (marketing, sales, operations, finance), or upgrade the <em>operating system and leadership team</em> that enable those functions. Both matter — but by the time an owner finds OASYS, the leadership team has usually become the limiting factor. That's the sentence to test in discovery: “we've replaced the sales leader twice” is evidence you're looking at a system problem wearing a function's clothes.</p><p>Today's systems draw on a line of business thinkers, each designing part of the building:</p><ul><li>Michael Gerber, <em>The E-Myth</em></li><li>Jack Stack, <em>The Great Game of Business</em></li><li>Andy Grove and John Doerr, OKRs (<em>Measure What Matters</em>)</li><li>Verne Harnish, <em>Mastering the Rockefeller Habits</em> and <em>Scaling Up</em></li><li>Gino Wickman, EOS and <em>Traction</em>, now the most influential book in our market</li><li>Franklin Covey, <em>The 4 Disciplines of Execution</em>, plus Patrick Lencioni and Jim Collins</li></ul><p><strong>Ninety OS</strong> is the first software-based BOS, combining the best of EOS, 4DX, OKRs and parts of Scaling Up. OASYS is built on that foundation. You don't need to read all these books, but you should know they exist — an owner who has read <em>Traction</em> will test you on it in the first ten minutes.</p><h3>The foundational tools</h3><ul><li><strong>One-page strategic plan:</strong> core values, purpose, 10-year, 3-year and 1-year goals, and 90-day Rocks.</li><li><strong>Org chart with functional accountability:</strong> everyone knows what they own; no role confusion.</li><li><strong>KPI scorecards:</strong> leading and lagging indicators.</li><li><strong>Weekly team meetings:</strong> a set agenda, built into the software.</li><li><strong>Quarterly planning:</strong> every 90 days the leadership team reviews, resets priorities and updates the plan.</li></ul>"
+  },
+  {
+   "type": "video",
+   "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=395dce0d-9adc-4fd7-8295-88f82af7fb10&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+   "title": "Key Pillars of the OASYS Business Operating System",
+   "links": [
+    {
+     "label": "Video won't play? Open it in SharePoint",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2008%20-%20Key%20Pillars%20of%20the%20OASYS%20Business%20Operating%20System.mp4?web=1"
+    }
+   ],
+   "confirmText": "I've watched the video - continue",
+   "note": "<strong>Listen for:</strong> the nine core competencies OASYS strengthens."
+  },
+  {
+   "type": "text",
+   "html": "<h3>The OASYS foundation: Ninety OS and its nine core competencies</h3><p>OASYS uses the <strong>Ninety OS</strong> model: a leadership and management model built into software, with strong learning resources and enough flexibility to make it our own. It strengthens nine core competencies, each improved continuously by working the system:</p><p><strong>Vision &middot; Customer &middot; Goals &middot; People &middot; Structure &middot; Data &middot; Meetings &middot; Process &middot; Enterprise value</strong></p><h3>ninety.io: where clients run OASYS</h3><p>OASYS is the system; <strong>ninety.io</strong> is the platform that helps clients use it consistently, replacing scattered documents and spreadsheets with one place for:</p><ul><li>Vision and planning</li><li>The company scorecard (KPIs)</li><li>Rocks: quarterly priorities with owners and due dates</li><li>Issues: identifying and solving problems so nothing falls through the cracks</li><li>Meeting rhythms: weekly, quarterly and annual</li><li>People tools: right people in the right seats</li><li>Processes and knowledge</li><li>To-dos for weekly accountability</li></ul><div class='callout'><strong>What the firm provides.</strong> A new OASYS coach is given the access the work needs — the operations SOP, the session decks and a ninety.io seat — and OneAccord covers the Ninety licence for as long as we are the client's active coach. There is nothing for you to arrange, invoice or bill. If something is missing, ask Jesse.</div>"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "What does Deming's line let you say to an owner who blames his people?",
+   "options": [
+    "“You need better people.”",
+    "“The system is designed to get exactly these results — so change the system, not the people.”",
+    "“Every company struggles with this.”",
+    "“Results would improve if everyone worked harder.”"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Right. It moves the conversation from blame to design, which is where you can actually help — and it's far easier to hear than a criticism of the team.",
+   "feedbackIncorrect": "Deming: every system is perfectly designed to get the results it gets. The useful move is to the design, not to the people."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "An owner has already invested in marketing, sales, operations and finance — new leaders, new tools — and results are still flat. Where is the constraint most likely to be?",
+   "options": [
+    "The market",
+    "The product line",
+    "The leadership team and the way the company is led and managed",
+    "The pricing strategy"
+   ],
+   "correctIndex": 2,
+   "feedbackCorrect": "Exactly. Function by function they've improved; what they haven't upgraded is the system and team that enable all four. That's the OASYS conversation.",
+   "feedbackIncorrect": "When every function has been upgraded and results are flat, the limiting factor is usually the leadership team and the operating system around it."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "Two owners both pay for ninety.io. One is steadily improving; the other is doing the same tasks in a nicer tool. What's the difference?",
+   "options": [
+    "The second one needs more software features",
+    "The second one has the platform without the system — no weekly rhythm, no scorecard anyone reviews, no Rocks with owners",
+    "The second one has a smaller company",
+    "There is no difference; the software does the work"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Right. ninety.io is where the system runs; it isn't the system. No meeting rhythm, numbers or accountability means it's a to-do list with a subscription.",
+   "feedbackIncorrect": "The platform isn't the system. The competencies — meetings, data, goals, structure — are what produce the improvement, and a tool alone supplies none of them."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "What has to be true before an owner will hire us?",
+   "options": [
+    "They already use EOS",
+    "They're planning to sell within a year",
+    "They feel some pain or dissatisfaction around at least one of the three objectives",
+    "They have more than 100 employees"
+   ],
+   "correctIndex": 2,
+   "feedbackCorrect": "Right. Comfortable owners don't change. Listen for pain, dissatisfaction, or hunger — and for the humility to admit the company outgrew the way it's run.",
+   "feedbackIncorrect": "There has to be some pain, dissatisfaction or hunger. An owner comfortable on all three objectives has no reason to buy."
+  },
+  {
+   "type": "scenario",
+   "id": "scenario",
+   "promptHtml": "<p>The owner of a 35-person landscaping company tells you: <em>\"Business operating system? We're not a big corporation. We don't need a system. We just need more sales.\"</em></p><p>Write how you'd respond.</p>",
+   "rubric": [
+    "Explains that every company already has a BOS (its current way of leading and managing), even if it's informal",
+    "Uses the idea that the current system produces the current results (Deming), or the cost of an informal BOS, in plain language",
+    "Acknowledges that sales matter while pointing out the leadership team and operating system often limit growth (the functions vs. BOS choice)",
+    "Gives at least one concrete example of what an upgraded BOS looks like (90-day priorities, a KPI scorecard, weekly meeting rhythm, clear accountability)",
+    "Stays curious about his situation rather than lecturing, and doesn't oversell"
+   ],
+   "passThreshold": 4,
+   "coachContext": "OneAccord's OASYS Strategic Planning practice (older materials and videos call it SPE, Strategic Planning and Execution; Doug sometimes says 'Oasis') helps clients build a strategic plan AND upgrade their Business Operating System (BOS) so the plan actually gets executed. OASYS is OneAccord's branded BOS, built on the Ninety OS model and run on the ninety.io software platform. Doug Hall presents the training videos and helped launch the practice; he has coached business operating systems since 2016 (first EOS-certified implementer in Washington State in 2017, later Pinnacle Business Guides and Scaling Up), and takes an independent, best-of-breed approach. Jesse Kreun is acting Managing Principal and leads the OASYS practice; questions about the practice go to Jesse. A CSP and OASYS are independent offerings: every engagement starts with some form of fact-finding assessment, which is not always a full CSP; a CSP usually recommends OASYS, and OASYS can begin without a CSP. Three owner objectives: (1) achieve the business purpose and goals (mission, vision, values, legacy, aligned team); (2) increase the owner's time freedom by building a self-managing company with a strong leadership team; (3) optimize enterprise value, mainly by reducing owner dependence and improving financial performance, which opens exit options including a financial exit or an operating exit (e.g. CEO emeritus). If an owner is comfortable on all three, they won't buy; there must be pain in at least one, or a vague dissatisfaction, a desire to be a 'category of one', or a sense the owner can't take the company to the next level alone (humility and hunger). Common strategic planning failures: no clear direction, misaligned teams, poor follow-through, 'shelfware' plans that never get executed (the execution gap), firefighting, bias, complexity. Strategic planning answers: where are we now, where do we want to be, how do we get there. Building blocks: vision, mission, core values, SWOT, long-term objectives, 90-day priorities ('Rocks'), KPIs, action plans, accountability structure. The practice is horizontal (no industry expertise needed), hired by the CEO, and works with the leadership team (the CEO's strategic direct reports). Engagement: onboarding and initial implementation, then a strategic plan refresh every 90 days anchored by an annual 2-day off-site retreat, typically as an annual plan of work billed as a monthly retainer. Do not quote prices; a managing principal guides pricing. It is a top-down upgrade that can cross-sell into functional work (marketing, sales, operations, interim/fractional leaders) and vice versa; OneAccord refers out legal and some CFO work. Every company that makes payroll already has a BOS: its current way of leading and managing (often informal, like a fish not knowing it's in water), shaped by the founder, shiny objects the CEO brings back from peer groups, and new managers' habits. Typical informal BOS tools: occasional off-site planning, a maybe-written strategic plan, a budget, monthly financials, weekly staff meetings, one-on-ones, all-hands, annual performance reviews. Upgrading means getting uncomfortable before getting comfortable again, so change management matters. Costs of an informal BOS: chaos, wasted time, inconsistent results, stalled growth, over-reliance on individuals, reduced company value. Deming: every system is perfectly designed to get the results it gets. Owners can upgrade functions (marketing, sales, ops, finance) or upgrade the BOS and leadership team; prospects for OASYS usually find the leadership team has become the limiting factor. BOS lineage: Gerber (E-Myth), Jack Stack (Great Game of Business), Andy Grove and John Doerr (OKRs), Verne Harnish (Rockefeller Habits, Scaling Up), Gino Wickman (EOS/Traction), Franklin Covey (4 Disciplines of Execution), plus Lencioni and Collins; Ninety OS is the first software-based BOS and covers the best of EOS, 4DX, OKRs and parts of Scaling Up. Foundational tools: one-page strategic plan (core values, purpose, 10-year, 3-year, 1-year goals, 90-day Rocks), org chart with functional accountability, KPI scorecards with lead and lag measures, weekly team meetings with a set agenda, quarterly planning cadence. Ninety OS has 9 core competencies (vision, customer, goals, people, structure, data, meetings, process, enterprise value), continuously improved by working the system. ninety.io holds vision and planning, scorecard, Rocks, issues, meeting rhythms, people tools, processes, to-dos. Client options: do-it-yourself alone (read Traction), DIY with group coaching, or done-for-you implementer coaching (OneAccord's recommended full engagement). The coach is like a sports coach on the sidelines: not better at the game, better at watching and coaching. OneAccord always recommends the full coached engagement but can help budget-limited clients self-implement on ninety.io and stay their go-to resource. Success = steady improvement on ten factors (solid strategy, shared vision, right people in right seats, teamwork, right numbers/KPIs, consistent execution, solving issues / self-managing team, getting the right stuff done in 90-day focus, financial performance, enterprise value), not a single end goal. Process: baseline benchmarks (OneAccord business assessment, enterprise value appraisal, behavioral assessments such as DISC or Predictive Index, team tools such as Working Genius and Five Dysfunctions trust-building) -> situation analysis and proposal -> agreement with owner/CEO -> implementation workshops (foundations, goals, vision; full days or several half days, virtual or in person) -> coach the weekly team meetings and roll the agenda down -> schedule quarterly planning dates for a rolling 12 months -> facilitate 90-day off-sites (ideally in person) -> the first two-day session IS year one's annual session and carries the Foundation work -> three one-day quarterlies plus one two-day annual every year, ongoing with no planned end -> 'graduate' is allowed if the client can sustain the cadence itself, but it is not the design goal."
+  },
+  {
+   "type": "scenario",
+   "id": "we-bought-the-software",
+   "promptHtml": "<p>Different conditions: this owner has already bought the platform.</p><p>The owner of a 70-person manufacturer says: <em>“We've had ninety.io for two years. The team logs their to-dos in it. If we already have the system, what would you even do?”</em></p><p>What do you say, and what do you need to find out?</p>",
+   "rubric": [
+    "Separates the platform from the system: ninety.io is where the work runs, not the operating system itself",
+    "Asks what's actually running — is there a weekly leadership meeting with a scorecard, are quarterly priorities owned and reviewed, do problems get solved or recycle",
+    "Names concretely what a designed system would add (a meeting rhythm, lead and lag measures, Rocks with owners, accountability), rather than criticising what they have",
+    "Doesn't dismiss the two years of work or the tool, and doesn't oversell OASYS as a replacement for software they already pay for",
+    "Suggests a specific next step (an assessment or a conversation about the weekly rhythm) without quoting a price"
+   ],
+   "passThreshold": 4,
+   "coachContext": "OASYS is OneAccord's Business Operating System, built on the Ninety OS model and run on ninety.io. The platform is not the system: the nine competencies (vision, customer, goals, people, structure, data, meetings, process, enterprise value) are improved by working the system — a weekly meeting with a set agenda and a scorecard, quarterly priorities (Rocks) with named owners, an issues list that gets solved, and functional accountability. Foundational tools: one-page strategic plan, org chart with functional accountability, KPI scorecards with lead and lag measures, weekly team meetings, quarterly planning. Every company that makes payroll already has a BOS, usually informal; an informal one costs chaos, wasted time, inconsistent results, stalled growth, over-reliance on individuals and reduced company value. Deming: every system is perfectly designed to get the results it gets. OneAccord pays for the Ninety licence while we are the client's active coach, and a new OASYS coach is given the access the work needs. Do not quote prices; price and scope go to the Managing Principal."
+  },
+  {
+   "type": "activity",
+   "label": "Audit one real meeting",
+   "instructions": "Take the next leadership or client meeting you sit in — any meeting where work gets decided.<ol><li><strong>Write the actual agenda</strong> as it happened, not as it was circulated.</li><li><strong>Note whether any numbers were reviewed</strong>, and who owned them.</li><li><strong>Count the decisions</strong>, then count how many people left with a named action and a date.</li></ol><br>Compare it with the designed-meeting table above. You now have something specific to say to that owner — and it isn't “you need a better plan”.",
+   "confirmText": "I've audited a real meeting — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 3: What Is a Business Operating System?",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>In your own words. Your answers stay in this browser; they aren't sent to your manager or kept as a grade.</p>",
+   "fields": [
+    {
+     "id": "nosystem",
+     "label": "How you'd answer an owner who says “we don't need a system” — in two sentences",
+     "rows": 3
+    },
+    {
+     "id": "lookfor",
+     "label": "What you'd look at to judge whether a company's system is designed or accidental",
+     "rows": 3
+    },
+    {
+     "id": "ready",
+     "label": "The signal that tells you an owner is ready — and the one that tells you they aren't",
+     "rows": 2
+    }
+   ],
+   "criteria": [
+    "The answer establishes that the owner already has a system, and that the question is whether it was designed",
+    "The evidence named is behavioural — meeting rhythm, numbers reviewed, priorities owned, problems solved — not software",
+    "The readiness signal is pain or hunger around an owner objective, not company size"
+   ]
+  },
+  {
+   "type": "links",
+   "html": "<h3>Keep these to hand</h3>",
+   "links": [
+    {
+     "label": "OASYS Strategic Planning — the public page prospects see",
+     "url": "https://oneaccord.co/strategic-planning-service/"
+    },
+    {
+     "label": "ninety.io — the platform clients run OASYS on",
+     "url": "https://www.ninety.io/"
+    },
+    {
+     "label": "OneAccord Hub — the SharePoint site for practice resources",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
+    }
+   ]
+  }
+ ],
+ "coachPersona": "You are an experienced OneAccord principal coaching a colleague through 'OASYS Strategic Planning: Overview', OneAccord's introduction to its OASYS business operating system for owner-led companies. OASYS is OneAccord's business operating system, built on the Ninety OS model and run on the ninety.io software platform. A Business Operating System is the way a company leads and manages: every company that makes payroll already has one, usually informal. Jesse Kreun is acting Managing Principal and leads the OASYS practice; questions about the practice go to Jesse. New OASYS coaches are given the access the work needs — the operations SOP, the session decks and a ninety.io seat — and OneAccord pays for the Ninety licence while we are the client's active coach, so there is nothing for a coach to arrange, invoice or bill. Every engagement starts with some form of fact-finding assessment, not always a full CSP. Ideal client: $10M+ with no upper cap. Never quote prices; price and scope questions go to the Managing Principal. Coach in plain, warm, specific language and never invent a rule the standard doesn't state. OneAccord's values are truth, compassion and service."
 }

@@ -1,158 +1,239 @@
 {
-  "id": "lesson-4",
-  "title": "Lesson 4: The OASYS Process",
-  "completionTitle": "Congratulations! You've completed the OASYS Strategic Planning Overview",
-  "keyConcepts": [
-    "Three client options, and why we recommend the full coached engagement",
-    "Success means steady improvement across ten factors, not one end goal",
-    "The engagement journey: baseline, implementation workshops, then the quarterly cadence and annual session, year after year",
-    "How to explain OASYS to a prospect in about a minute"
-  ],
-  "nextTeaser": "You now have what you need to talk about OASYS with confidence. If you'd like to guide clients through it yourself, continue with the Mastering OASYS: Becoming a Certified Implementer course.",
-  "resources": [
+ "id": "lesson-4",
+ "title": "Lesson 4: The OASYS Process",
+ "completionTitle": "Congratulations! You've completed the OASYS Strategic Planning Overview",
+ "keyConcepts": [
+  "Three client options, and why OneAccord always recommends the full coached engagement without dismissing the others",
+  "Year one: a two-day onboarding (Foundation Setting, then Vision and Goal Setting) plus three quarterly sessions",
+  "Every year after: one two-day annual session plus three quarterlies, ongoing, with no planned end",
+  "Success is steady improvement across ten factors that serve the three owner objectives, not one finish line",
+  "The engagement journey from baseline assessment to the annual rhythm — and what to say when a client asks if they're done"
+ ],
+ "nextTeaser": "You now have what you need to talk about OASYS with confidence. If you'd like to guide clients through it yourself, continue with the Mastering OASYS: Becoming a Certified Implementer course.",
+ "resources": [
+  {
+   "label": "OASYS Strategic Planning on oneaccord.co",
+   "url": "https://oneaccord.co/strategic-planning-service/"
+  },
+  {
+   "label": "ninety.io",
+   "url": "https://www.ninety.io/"
+  },
+  {
+   "label": "OneAccord Hub",
+   "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "html": "<p><strong>Eleven months in. The two-day session was last spring, you've facilitated three quarterly planning days since, and the CEO opens with: “So — are we done? What happens now?”</strong></p><p>It sounds like a scheduling question. It isn't. It's the moment a client decides whether this was a project they completed or a rhythm they're now in, and what you say in the next thirty seconds shapes year two.</p><p>This lesson gives you that answer, along with the rest of what a client experiences: the three ways owners approach this work, how success is actually measured, and what to say to a prospect who wants only the software.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<p><strong>By the end of this lesson you'll be able to:</strong></p><ol><li><strong>Describe</strong> the first year and every year after it accurately, session by session.</li><li><strong>Explain</strong> the three client options and why we recommend the coached engagement — without dismissing the do-it-yourself path.</li><li><strong>Measure</strong> success the way the practice does: ten factors improving, not one finish line.</li></ol><p>About 20 minutes, including three short videos.</p>"
+  },
+  {
+   "type": "video",
+   "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=e29a6db3-db93-4787-a9e3-d6367023810b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+   "title": "Client Options",
+   "links": [
     {
-      "label": "OASYS Strategic Planning on oneaccord.co",
-      "url": "https://oneaccord.co/strategic-planning-service/"
-    },
-    {
-      "label": "ninety.io",
-      "url": "https://www.ninety.io/"
-    },
-    {
-      "label": "OneAccord Hub",
-      "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
+     "label": "Video won't play? Open it in SharePoint",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2009%20-%20Client%20Options.mp4?web=1"
     }
-  ],
-  "blocks": [
+   ],
+   "confirmText": "I've watched the video - continue",
+   "note": "<strong>Listen for:</strong> the three ways owners typically approach this, and Doug's sports-coaching comparison."
+  },
+  {
+   "type": "text",
+   "html": "<div class='callout'><strong>What changed since these videos were recorded (2026)</strong><br>Each year, including year one, is one two-day annual session plus three one-day quarterlies, ongoing, with no planned end. In year one the two-day session carries the Foundation work.</div>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Three ways owners approach it</h3><p>All three are legitimate. Watch what each one gets, and where each one usually stalls.</p><table><thead><tr><th></th><th>Do it alone</th><th>Group coaching</th><th>Done for you — OASYS</th></tr></thead><tbody><tr><td><strong>What they get</strong></td><td>A book — usually <em>Traction</em> or <em>Scaling Up</em> — and their own reading of it.</td><td>Some structure and other owners to compare with.</td><td>Facilitated sessions, the tools set up with them, and a coach in the room watching how the team actually behaves.</td></tr><tr><td><strong>Where it stalls</strong></td><td>Month three: the team drifts back, and there's nobody outside to notice.</td><td>The cadence fits the group's calendar, not the company's quarter.</td><td>It doesn't — provided the owner does the work between sessions.</td></tr><tr><td><strong>The honest limit</strong></td><td>Works for a disciplined owner with a strong team.</td><td>Works as a bridge for a smaller company.</td><td>Needs an owner willing to be coached, not just advised.</td></tr></tbody></table><p>The comparison isn't a sales device — it's the reason the recommendation is what it is. Like a coach on the sidelines, we're not better at the game than the players. We're better at watching, knowing what to look for, and helping them improve. Say that before you say anything about what we offer.</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>Why OneAccord always recommends the full engagement</h3><p>We help set up the tools, facilitate the initial and ongoing planning sessions, and coach the leadership team. That's where clients get the most value, and it's what we lead with — every time.</p><p>For prospects who genuinely can't support a full engagement yet, we can set them up on ninety.io to self-implement and stay their go-to resource when bigger issues come up. That's a real option, offered honestly — it isn't a consolation prize, and it isn't a discount conversation. <strong>Cost and scope belong with the Managing Principal</strong>; your job is to describe the options accurately and let the right person price them.</p>"
+  },
+  {
+   "type": "video",
+   "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=65762557-a458-487d-8e35-fb1fa3b721ff&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+   "title": "Starting Strong and Maintaining Momentum: The OASYS Journey",
+   "links": [
     {
-      "type": "text",
-      "html": "<p><strong>Lesson 4 of 4.</strong> This lesson shows what a client experiences in an OASYS engagement. We offer a do-it-yourself option, but <strong>OneAccord always recommends the full coached engagement</strong>, because that's where clients get the most value. The lesson ends with a short exercise: explaining OASYS to a prospect.</p>"
-    },
-    {
-      "type": "text",
-      "html": "<div class='callout'><strong>What changed since these videos were recorded (2026)</strong><br>Each year, including year one, is one two-day annual session plus three one-day quarterlies, ongoing, with no planned end. In year one the two-day session carries the Foundation work.</div>"
-    },
-    {
-      "type": "video",
-      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=e29a6db3-db93-4787-a9e3-d6367023810b&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
-      "title": "Client Options",
-      "links": [
-        {
-          "label": "Video won't play? Open it in SharePoint",
-          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2009%20-%20Client%20Options.mp4?web=1"
-        }
-      ],
-      "confirmText": "I've watched the video - continue",
-      "note": "<strong>Listen for:</strong> the three ways owners typically approach this, and Doug's sports-coaching comparison."
-    },
-    {
-      "type": "text",
-      "html": "<h3>Three ways owners approach it</h3><ol><li><strong>Do it yourself, alone:</strong> thousands of owners read <em>Traction</em> or <em>Scaling Up</em> and start implementing on their own.</li><li><strong>Do it yourself with group coaching:</strong> some support, shared with other companies.</li><li><strong>Done for you with an implementer coach (OASYS):</strong> we help set up the tools, facilitate the initial and ongoing planning sessions, and coach the leadership team.</li></ol><p>Like a coach on the sidelines, we're not better at the game than the players. We're better at watching, knowing what to look for, and helping them improve.</p><p>For prospects who can't afford a full engagement yet, we can set them up on ninety.io to self-implement and stay their go-to resource when bigger issues come up. Lead with the full engagement.</p>"
-    },
-    {
-      "type": "video",
-      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=65762557-a458-487d-8e35-fb1fa3b721ff&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
-      "title": "Starting Strong and Maintaining Momentum: The OASYS Journey",
-      "links": [
-        {
-          "label": "Video won't play? Open it in SharePoint",
-          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2010%20-%20Starting%20Strong%20and%20Maintaining%20Momentum%20%28Upgrade%20Journey%29.mp4?web=1"
-        }
-      ],
-      "confirmText": "I've watched the video - continue",
-      "note": "<strong>Listen for:</strong> how Doug defines success, and the steps of the engagement from first assessment into the ongoing annual cadence."
-    },
-    {
-      "type": "text",
-      "html": "<h3>How success is measured</h3><p>Success isn't one end goal like selling the company. It's <strong>getting steadily better at ten things</strong> that serve the three owner objectives:</p><ol><li>A solid strategy</li><li>A shared vision</li><li>The right people in the right seats</li><li>Great teamwork</li><li>The right numbers (KPIs)</li><li>Consistent execution</li><li>A leadership team that solves its own issues</li><li>The right things getting done each 90 days</li><li>Financial performance</li><li>Enterprise value</li></ol><h3>The engagement journey</h3><ol><li><strong>Baseline:</strong> a OneAccord business assessment, an enterprise value appraisal, and behavioral and team assessments (for example DISC, Working Genius, and Five Dysfunctions trust-building).</li><li><strong>Situation analysis and proposal</strong>, then agreement with the owner or CEO.</li><li><strong>Implementation workshops:</strong> Foundations, Goals and Vision. These can be full days or several half days, virtual or in person.</li><li><strong>Weekly meetings:</strong> we coach the leadership team's first weekly meetings, then the agenda rolls out through the company.</li><li><strong>Quarterly planning:</strong> dates set for a rolling 12 months; we facilitate each 90-day session, ideally in person.</li><li><strong>Annual session:</strong> every year, including year one, is one two-day annual session plus three one-day quarterly sessions. In year one the two-day session carries the Foundation work; from year two the annual focuses on long-term vision and the next 90-day plan.</li><li><strong>Ongoing:</strong> the engagement is designed to continue year after year. A client may graduate once they can sustain the cadence on their own, but graduation is allowed, not the goal.</li></ol>"
-    },
-    {
-      "type": "video",
-      "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=6342116d-00ec-4bc8-82b1-8ce8929f7ccf&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
-      "title": "Resources to Go Deeper",
-      "links": [
-        {
-          "label": "Video won't play? Open it in SharePoint",
-          "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2011%20-%20Resources%20%28Want%20to%20Know%20More%29.mp4?web=1"
-        }
-      ],
-      "confirmText": "I've watched the video - continue",
-      "note": "<strong>Note:</strong> Doug mentions a monthly self-implementer group. It may no longer be running, so check with Jesse Kreun before inviting anyone."
-    },
-    {
-      "type": "text",
-      "html": "<h3>Go deeper</h3><ul><li><strong>Books:</strong> <em>Traction</em> (Gino Wickman), <em>Start to Scale</em> and <em>Scaling Up</em> (Verne Harnish).</li><li><strong>ninety.io:</strong> including Ninety University's learning resources. Ask if you need an invitation.</li><li><strong>Questions about the practice:</strong> message Jesse Kreun in Microsoft Teams.</li></ul>"
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "Which option does OneAccord always recommend to clients?",
-      "options": [
-        "Do it yourself after reading Traction",
-        "Group coaching with other companies",
-        "The full coached OASYS engagement with an implementer coach",
-        "Buying ninety.io with no support"
-      ],
-      "correctIndex": 2,
-      "feedbackCorrect": "Right. Lead with the full coached engagement; self-implementation is a fallback.",
-      "feedbackIncorrect": "We always recommend the full coached engagement. Self-implementation on ninety.io is a fallback for budget-limited clients."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "How does Doug define success in an OASYS engagement?",
-      "options": [
-        "Selling the company",
-        "Steady improvement across ten key factors that serve the owner objectives",
-        "Finishing the implementation workshops",
-        "Hitting one revenue target"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Exactly. It's continuous improvement, not one finish line.",
-      "feedbackIncorrect": "Success is steady improvement across ten factors, from strategy and vision to financial performance and enterprise value."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "What are the three implementation workshops?",
-      "options": [
-        "Sales, Marketing and Operations",
-        "Foundations, Goals and Vision",
-        "Hiring, Training and Reviews",
-        "Budget, Forecast and Audit"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Correct. Foundations, Goals and Vision.",
-      "feedbackIncorrect": "The three implementation workshops are Foundations, Goals and Vision."
-    },
-    {
-      "type": "question",
-      "format": "mcq",
-      "prompt": "What does it mean when a client \"graduates\"?",
-      "options": [
-        "They've paid their final invoice",
-        "They can sustain the OASYS cadence on their own without a coach",
-        "They've sold the company",
-        "They've finished their first quarterly meeting"
-      ],
-      "correctIndex": 1,
-      "feedbackCorrect": "Right. Graduation means they can run it themselves.",
-      "feedbackIncorrect": "Graduation is when the client can sustain the meeting cadence and disciplines on their own."
-    },
-    {
-      "type": "scenario",
-      "id": "scenario",
-      "promptHtml": "<p><strong>Final exercise: explain OASYS in about a minute.</strong></p><p>A CPA you work with introduces you to one of her clients, the owner of a growing manufacturing company: <em>\"He's stretched thin, his team isn't aligned, and he says he'd like to sell in five or six years. I told him you might be able to help.\"</em></p><p>Write what you'd say to the owner, in about 150 to 250 words, the way you'd actually say it.</p>",
-      "rubric": [
-        "Connects to his situation and at least one owner objective (time freedom, alignment on goals, or enterprise value and exit readiness)",
-        "Explains what OASYS does: a strategic plan plus an upgraded operating system, run on ninety.io, so the plan actually gets executed",
-        "Describes how an engagement works at a high level (assessment, implementation workshops, 90-day planning cadence, annual retreat, and ongoing coaching year after year, with graduation allowed but not the goal)",
-        "Explains why the coached approach beats doing it alone, without dismissing the DIY option",
-        "Proposes a clear, low-pressure next step and does not quote prices"
-      ],
-      "passThreshold": 4,
-      "coachContext": "OneAccord's OASYS Strategic Planning practice (older materials and videos call it SPE, Strategic Planning and Execution; Doug sometimes says 'Oasis') helps clients build a strategic plan AND upgrade their Business Operating System (BOS) so the plan actually gets executed. OASYS is OneAccord's branded BOS, built on the Ninety OS model and run on the ninety.io software platform. Doug Hall presents the training videos and helped launch the practice; he has coached business operating systems since 2016 (first EOS-certified implementer in Washington State in 2017, later Pinnacle Business Guides and Scaling Up), and takes an independent, best-of-breed approach. Jesse Kreun is acting Managing Principal and leads the OASYS practice; questions about the practice go to Jesse. A CSP and OASYS are independent offerings: every engagement starts with some form of fact-finding assessment, which is not always a full CSP; a CSP usually recommends OASYS, and OASYS can begin without a CSP. Three owner objectives: (1) achieve the business purpose and goals (mission, vision, values, legacy, aligned team); (2) increase the owner's time freedom by building a self-managing company with a strong leadership team; (3) optimize enterprise value, mainly by reducing owner dependence and improving financial performance, which opens exit options including a financial exit or an operating exit (e.g. CEO emeritus). If an owner is comfortable on all three, they won't buy; there must be pain in at least one, or a vague dissatisfaction, a desire to be a 'category of one', or a sense the owner can't take the company to the next level alone (humility and hunger). Common strategic planning failures: no clear direction, misaligned teams, poor follow-through, 'shelfware' plans that never get executed (the execution gap), firefighting, bias, complexity. Strategic planning answers: where are we now, where do we want to be, how do we get there. Building blocks: vision, mission, core values, SWOT, long-term objectives, 90-day priorities ('Rocks'), KPIs, action plans, accountability structure. The practice is horizontal (no industry expertise needed), hired by the CEO, and works with the leadership team (the CEO's strategic direct reports). Engagement: onboarding and initial implementation, then a strategic plan refresh every 90 days anchored by an annual 2-day off-site retreat, typically as an annual plan of work billed as a monthly retainer. Do not quote prices; a managing principal guides pricing. It is a top-down upgrade that can cross-sell into functional work (marketing, sales, operations, interim/fractional leaders) and vice versa; OneAccord refers out legal and some CFO work. Every company that makes payroll already has a BOS: its current way of leading and managing (often informal, like a fish not knowing it's in water), shaped by the founder, shiny objects the CEO brings back from peer groups, and new managers' habits. Typical informal BOS tools: occasional off-site planning, a maybe-written strategic plan, a budget, monthly financials, weekly staff meetings, one-on-ones, all-hands, annual performance reviews. Upgrading means getting uncomfortable before getting comfortable again, so change management matters. Costs of an informal BOS: chaos, wasted time, inconsistent results, stalled growth, over-reliance on individuals, reduced company value. Deming: every system is perfectly designed to get the results it gets. Owners can upgrade functions (marketing, sales, ops, finance) or upgrade the BOS and leadership team; prospects for OASYS usually find the leadership team has become the limiting factor. BOS lineage: Gerber (E-Myth), Jack Stack (Great Game of Business), Andy Grove and John Doerr (OKRs), Verne Harnish (Rockefeller Habits, Scaling Up), Gino Wickman (EOS/Traction), Franklin Covey (4 Disciplines of Execution), plus Lencioni and Collins; Ninety OS is the first software-based BOS and covers the best of EOS, 4DX, OKRs and parts of Scaling Up. Foundational tools: one-page strategic plan (core values, purpose, 10-year, 3-year, 1-year goals, 90-day Rocks), org chart with functional accountability, KPI scorecards with lead and lag measures, weekly team meetings with a set agenda, quarterly planning cadence. Ninety OS has 9 core competencies (vision, customer, goals, people, structure, data, meetings, process, enterprise value), continuously improved by working the system. ninety.io holds vision and planning, scorecard, Rocks, issues, meeting rhythms, people tools, processes, to-dos. Client options: do-it-yourself alone (read Traction), DIY with group coaching, or done-for-you implementer coaching (OneAccord's recommended full engagement). The coach is like a sports coach on the sidelines: not better at the game, better at watching and coaching. OneAccord always recommends the full coached engagement but can help budget-limited clients self-implement on ninety.io and stay their go-to resource. Success = steady improvement on ten factors (solid strategy, shared vision, right people in right seats, teamwork, right numbers/KPIs, consistent execution, solving issues / self-managing team, getting the right stuff done in 90-day focus, financial performance, enterprise value), not a single end goal. Process: baseline benchmarks (OneAccord business assessment, enterprise value appraisal, behavioral assessments such as DISC or Predictive Index, team tools such as Working Genius and Five Dysfunctions trust-building) -> situation analysis and proposal -> agreement with owner/CEO -> implementation workshops (foundations, goals, vision; full days or several half days, virtual or in person) -> coach the weekly team meetings and roll the agenda down -> schedule quarterly planning dates for a rolling 12 months -> facilitate 90-day off-sites (ideally in person) -> the first two-day session IS year one's annual session and carries the Foundation work -> three one-day quarterlies plus one two-day annual every year, ongoing with no planned end -> 'graduate' is allowed if the client can sustain the cadence itself, but it is not the design goal. This is the capstone exercise of the overview course. Grade generously on wording but strictly on substance: the learner should sound like a credible, consultative OneAccord principal."
+     "label": "Video won't play? Open it in SharePoint",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2010%20-%20Starting%20Strong%20and%20Maintaining%20Momentum%20%28Upgrade%20Journey%29.mp4?web=1"
     }
-  ],
-  "coachPersona": "You are an experienced OneAccord principal coaching a colleague through 'OASYS Strategic Planning: Overview', OneAccord's introduction to its OASYS business operating system for owner-led companies. OneAccord's values are Service, Compassion and Truth. Use plain, warm, specific language."
+   ],
+   "confirmText": "I've watched the video - continue",
+   "note": "<strong>Listen for:</strong> how Doug defines success, and the steps of the engagement from first assessment into the ongoing annual cadence."
+  },
+  {
+   "type": "text",
+   "html": "<h3>How success is measured</h3><p>Success isn't one end goal, like selling the company. It's <strong>getting steadily better at ten things</strong> — and they map onto the three owner objectives:</p><table><thead><tr><th>The objective</th><th>What improving looks like</th></tr></thead><tbody><tr><td><strong>Purpose and goals</strong></td><td>A solid strategy &middot; a shared vision &middot; the right things getting done each 90 days</td></tr><tr><td><strong>Time freedom</strong></td><td>The right people in the right seats &middot; great teamwork &middot; consistent execution &middot; a leadership team that solves its own issues</td></tr><tr><td><strong>Enterprise value</strong></td><td>The right numbers (KPIs) &middot; financial performance &middot; enterprise value itself</td></tr></tbody></table><p>This is what to say when an owner asks how they'll know it's working. Not “you'll hit the target” — “you'll be measurably better at these ten things, and you'll see it quarter by quarter.”</p>"
+  },
+  {
+   "type": "text",
+   "html": "<h3>The engagement journey</h3><ol><li><strong>Baseline:</strong> a OneAccord business assessment, an enterprise value appraisal, and behavioural and team assessments (for example DISC, Working Genius, and Five Dysfunctions trust-building).</li><li><strong>Situation analysis and proposal</strong>, then agreement with the owner or CEO.</li><li><strong>Two-day onboarding in year one:</strong> day one is <strong>Foundation Setting</strong> — values, purpose, the one-page plan, the scorecard and the meeting rhythm. Day two is <strong>Vision and Goal Setting</strong> — the long-term vision and the goals that follow from it. Coaches may adapt how they run the two days; the work they carry is fixed.</li><li><strong>Weekly meetings:</strong> we coach the leadership team's first weekly meetings, then the agenda rolls out through the company.</li><li><strong>Quarterly planning:</strong> dates set for a rolling 12 months; we facilitate each 90-day session, ideally in person.</li><li><strong>Every year after that:</strong> one two-day annual session plus three one-day quarterly sessions — ongoing, with no planned end. From year two the annual session focuses on long-term vision and the next 90-day plan.</li><li><strong>Graduation:</strong> a client may graduate once they can sustain the cadence themselves. It's allowed, and it isn't the design goal.</li></ol><p>So the answer to “are we done?” at the end of year one is: <em>no — this is the rhythm now.</em> Year one built the foundation; from here it's an annual session and three quarterlies, every year, with the plan refreshed each quarter.</p>"
+  },
+  {
+   "type": "video",
+   "src": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/_layouts/15/embed.aspx?UniqueId=6342116d-00ec-4bc8-82b1-8ce8929f7ccf&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+   "title": "Resources to Go Deeper",
+   "links": [
+    {
+     "label": "Video won't play? Open it in SharePoint",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord/Client%20Operations/Training%20Videos/OASYS-OV%2011%20-%20Resources%20%28Want%20to%20Know%20More%29.mp4?web=1"
+    }
+   ],
+   "confirmText": "I've watched the video - continue",
+   "note": "<strong>Note:</strong> Doug mentions a monthly self-implementer group. It may no longer be running, so check with Jesse Kreun before inviting anyone."
+  },
+  {
+   "type": "text",
+   "html": "<h3>Go deeper</h3><ul><li><strong>Books:</strong> <em>Traction</em> (Gino Wickman), <em>Start to Scale</em> and <em>Scaling Up</em> (Verne Harnish).</li><li><strong>ninety.io:</strong> including Ninety University's learning resources. Ask Jesse if you need an invitation — a new OASYS coach is given the access the work needs, and OneAccord covers the Ninety licence while we are the client's active coach.</li><li><strong>Questions about the practice:</strong> message Jesse Kreun in Microsoft Teams.</li></ul><div class='callout'><strong>One caution on the video.</strong> Doug mentions a monthly self-implementer group. It may no longer be running, so check with Jesse before inviting a prospect to anything like it.</div>"
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "A prospect asks what year two looks like. What's the accurate answer?",
+   "options": [
+    "Nothing — the implementation workshops finish and they're done",
+    "One two-day annual session plus three one-day quarterly sessions, ongoing, with no planned end",
+    "Monthly coaching calls for as long as they want them",
+    "A single annual retreat"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Right. Year one is the two-day onboarding (Foundation Setting, then Vision and Goal Setting) plus three quarterlies; every year after is a two-day annual plus three quarterlies, continuing.",
+   "feedbackIncorrect": "Each year, including year one, is one two-day session plus three one-day quarterlies, ongoing with no planned end. The older “three implementation workshops and you're done” framing is out of date."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "What does year one's two-day session carry?",
+   "options": [
+    "Sales training and a budget review",
+    "Day one Foundation Setting, day two Vision and Goal Setting",
+    "A SWOT analysis and a hiring plan",
+    "A software setup day and a demo"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Correct — and coaches may adapt how they run the two days, but that's the work they carry.",
+   "feedbackIncorrect": "Day one is Foundation Setting, day two is Vision and Goal Setting. That's the Foundation work, and it's why year one's annual session is the two-day onboarding."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "Which option does OneAccord always recommend?",
+   "options": [
+    "Do it yourself after reading Traction",
+    "Group coaching with other companies",
+    "The full coached OASYS engagement with an implementer coach",
+    "Buying ninety.io with no support"
+   ],
+   "correctIndex": 2,
+   "feedbackCorrect": "Right. Lead with the full coached engagement; self-implementation on ninety.io is an honest fallback for clients who can't support a full engagement yet.",
+   "feedbackIncorrect": "We always recommend the full coached engagement. Self-implementation is a real option for budget-limited clients, not the recommendation."
+  },
+  {
+   "type": "question",
+   "format": "mcq",
+   "prompt": "How does the practice define success in an engagement?",
+   "options": [
+    "Selling the company",
+    "Steady improvement across ten factors that serve the owner objectives",
+    "Finishing the implementation sessions",
+    "Hitting one revenue target"
+   ],
+   "correctIndex": 1,
+   "feedbackCorrect": "Exactly. Ten factors, improving quarter by quarter — continuous improvement, not one finish line.",
+   "feedbackIncorrect": "Success is steady improvement across ten factors, from strategy and vision to financial performance and enterprise value — all of them serving the three owner objectives."
+  },
+  {
+   "type": "scenario",
+   "id": "scenario",
+   "promptHtml": "<p><strong>Final exercise: explain OASYS in about a minute.</strong></p><p>A CPA you work with introduces you to one of her clients, the owner of a growing manufacturing company: <em>\"He's stretched thin, his team isn't aligned, and he says he'd like to sell in five or six years. I told him you might be able to help.\"</em></p><p>Write what you'd say to the owner, in about 150 to 250 words, the way you'd actually say it.</p>",
+   "rubric": [
+    "Connects to his situation and at least one owner objective (time freedom, alignment on goals, or enterprise value and exit readiness)",
+    "Explains what OASYS does: a strategic plan plus an upgraded operating system, run on ninety.io, so the plan actually gets executed",
+    "Describes how an engagement works at a high level (assessment, implementation workshops, 90-day planning cadence, annual retreat, and ongoing coaching year after year, with graduation allowed but not the goal)",
+    "Explains why the coached approach beats doing it alone, without dismissing the DIY option",
+    "Proposes a clear, low-pressure next step and does not quote prices"
+   ],
+   "passThreshold": 4,
+   "coachContext": "OneAccord's OASYS Strategic Planning practice (older materials and videos call it SPE, Strategic Planning and Execution; Doug sometimes says 'Oasis') helps clients build a strategic plan AND upgrade their Business Operating System (BOS) so the plan actually gets executed. OASYS is OneAccord's branded BOS, built on the Ninety OS model and run on the ninety.io software platform. Doug Hall presents the training videos and helped launch the practice; he has coached business operating systems since 2016 (first EOS-certified implementer in Washington State in 2017, later Pinnacle Business Guides and Scaling Up), and takes an independent, best-of-breed approach. Jesse Kreun is acting Managing Principal and leads the OASYS practice; questions about the practice go to Jesse. A CSP and OASYS are independent offerings: every engagement starts with some form of fact-finding assessment, which is not always a full CSP; a CSP usually recommends OASYS, and OASYS can begin without a CSP. Three owner objectives: (1) achieve the business purpose and goals (mission, vision, values, legacy, aligned team); (2) increase the owner's time freedom by building a self-managing company with a strong leadership team; (3) optimize enterprise value, mainly by reducing owner dependence and improving financial performance, which opens exit options including a financial exit or an operating exit (e.g. CEO emeritus). If an owner is comfortable on all three, they won't buy; there must be pain in at least one, or a vague dissatisfaction, a desire to be a 'category of one', or a sense the owner can't take the company to the next level alone (humility and hunger). Common strategic planning failures: no clear direction, misaligned teams, poor follow-through, 'shelfware' plans that never get executed (the execution gap), firefighting, bias, complexity. Strategic planning answers: where are we now, where do we want to be, how do we get there. Building blocks: vision, mission, core values, SWOT, long-term objectives, 90-day priorities ('Rocks'), KPIs, action plans, accountability structure. The practice is horizontal (no industry expertise needed), hired by the CEO, and works with the leadership team (the CEO's strategic direct reports). Engagement: onboarding and initial implementation, then a strategic plan refresh every 90 days anchored by an annual 2-day off-site retreat, typically as an annual plan of work billed as a monthly retainer. Do not quote prices; a managing principal guides pricing. It is a top-down upgrade that can cross-sell into functional work (marketing, sales, operations, interim/fractional leaders) and vice versa; OneAccord refers out legal and some CFO work. Every company that makes payroll already has a BOS: its current way of leading and managing (often informal, like a fish not knowing it's in water), shaped by the founder, shiny objects the CEO brings back from peer groups, and new managers' habits. Typical informal BOS tools: occasional off-site planning, a maybe-written strategic plan, a budget, monthly financials, weekly staff meetings, one-on-ones, all-hands, annual performance reviews. Upgrading means getting uncomfortable before getting comfortable again, so change management matters. Costs of an informal BOS: chaos, wasted time, inconsistent results, stalled growth, over-reliance on individuals, reduced company value. Deming: every system is perfectly designed to get the results it gets. Owners can upgrade functions (marketing, sales, ops, finance) or upgrade the BOS and leadership team; prospects for OASYS usually find the leadership team has become the limiting factor. BOS lineage: Gerber (E-Myth), Jack Stack (Great Game of Business), Andy Grove and John Doerr (OKRs), Verne Harnish (Rockefeller Habits, Scaling Up), Gino Wickman (EOS/Traction), Franklin Covey (4 Disciplines of Execution), plus Lencioni and Collins; Ninety OS is the first software-based BOS and covers the best of EOS, 4DX, OKRs and parts of Scaling Up. Foundational tools: one-page strategic plan (core values, purpose, 10-year, 3-year, 1-year goals, 90-day Rocks), org chart with functional accountability, KPI scorecards with lead and lag measures, weekly team meetings with a set agenda, quarterly planning cadence. Ninety OS has 9 core competencies (vision, customer, goals, people, structure, data, meetings, process, enterprise value), continuously improved by working the system. ninety.io holds vision and planning, scorecard, Rocks, issues, meeting rhythms, people tools, processes, to-dos. Client options: do-it-yourself alone (read Traction), DIY with group coaching, or done-for-you implementer coaching (OneAccord's recommended full engagement). The coach is like a sports coach on the sidelines: not better at the game, better at watching and coaching. OneAccord always recommends the full coached engagement but can help budget-limited clients self-implement on ninety.io and stay their go-to resource. Success = steady improvement on ten factors (solid strategy, shared vision, right people in right seats, teamwork, right numbers/KPIs, consistent execution, solving issues / self-managing team, getting the right stuff done in 90-day focus, financial performance, enterprise value), not a single end goal. Process: baseline benchmarks (OneAccord business assessment, enterprise value appraisal, behavioral assessments such as DISC or Predictive Index, team tools such as Working Genius and Five Dysfunctions trust-building) -> situation analysis and proposal -> agreement with owner/CEO -> implementation workshops (foundations, goals, vision; full days or several half days, virtual or in person) -> coach the weekly team meetings and roll the agenda down -> schedule quarterly planning dates for a rolling 12 months -> facilitate 90-day off-sites (ideally in person) -> the first two-day session IS year one's annual session and carries the Foundation work -> three one-day quarterlies plus one two-day annual every year, ongoing with no planned end -> 'graduate' is allowed if the client can sustain the cadence itself, but it is not the design goal. This is the capstone exercise of the overview course. Grade generously on wording but strictly on substance: the learner should sound like a credible, consultative OneAccord principal."
+  },
+  {
+   "type": "scenario",
+   "id": "just-the-software",
+   "promptHtml": "<p>Different conditions: this prospect has already decided, and he's read the book.</p><p>The owner of a $15M electrical contractor says: <em>“I've read Traction twice. I don't need a consultant in my business — I just want the software and someone to call when I get stuck. Can you do that, or not?”</em></p><p>What do you say?</p>",
+   "rubric": [
+    "Answers the question honestly and directly — yes, that's possible — rather than deflecting into a pitch",
+    "Names what the coached engagement adds that self-implementation doesn't: facilitated sessions, a cadence held by someone else, and a coach who sees what the team can't see about itself",
+    "Uses the coaching comparison without condescension — a coach isn't better at the game, better at watching it",
+    "Describes the self-implement path accurately (set up on ninety.io, we stay his resource) while still making the full engagement the recommendation",
+    "Quotes no price, routes cost and scope to the Managing Principal, and leaves with a concrete next step"
+   ],
+   "passThreshold": 4,
+   "coachContext": "The client options are: do it alone (read Traction or Scaling Up); do it with group coaching; or done for you with an implementer coach, which OneAccord always recommends. For prospects who can't support a full engagement yet, we can set them up on ninety.io to self-implement and stay their go-to resource when bigger issues come up. The coach is like a sports coach on the sidelines: not better at the game than the players, better at watching, knowing what to look for and helping them improve. An owner who has read Traction twice is not a blank slate — respect what he knows and don't re-teach him the book. Success is steady improvement across ten factors (solid strategy, shared vision, right people in right seats, teamwork, right KPIs, consistent execution, a leadership team that solves its own issues, the right things done each 90 days, financial performance, enterprise value), not a single end goal. Do not quote prices; price and scope go to the Managing Principal."
+  },
+  {
+   "type": "activity",
+   "label": "Draft a real first year",
+   "instructions": "Take one prospect or client you'd genuinely recommend OASYS to, and draft the shape of their first year — the cadence, not the fees:<ol><li><strong>The two-day onboarding:</strong> day one Foundation Setting, day two Vision and Goal Setting.</li><li><strong>The weekly rhythm:</strong> who's in the room, and what the agenda would be.</li><li><strong>Three quarterly sessions:</strong> roughly when, across twelve months.</li><li><strong>Year two and beyond:</strong> what their calendar looks like every year after this one.</li></ol><br>Then mark the two things you'd have to confirm with the Managing Principal before promising anything — dates and cost are almost certainly two of them.",
+   "confirmText": "I've drafted a real first year — continue"
+  },
+  {
+   "type": "deliverable",
+   "id": "core-takeaway",
+   "label": "Core Takeaway",
+   "title": "Lesson 4: The OASYS Process",
+   "planName": "Core Takeaway",
+   "promptHtml": "<p>In your own words. Your answers stay in this browser; they aren't sent to your manager or kept as a grade.</p>",
+   "fields": [
+    {
+     "id": "firstyear",
+     "label": "The first year as a calendar — the sessions in order, and what each one carries",
+     "rows": 3
+    },
+    {
+     "id": "aredone",
+     "label": "How you'd answer “are we done?” at the end of year one",
+     "rows": 2
+    },
+    {
+     "id": "software",
+     "label": "What you'd say to a prospect who wants only the software",
+     "rows": 3
+    }
+   ],
+   "criteria": [
+    "The calendar shows the two-day onboarding (Foundation Setting, then Vision and Goal Setting) plus three quarterlies, and the same annual shape continuing",
+    "The answer to “are we done?” describes an ongoing rhythm rather than a completed project",
+    "The software answer names what coaching adds, respects the do-it-yourself path, and leaves cost with the Managing Principal"
+   ]
+  },
+  {
+   "type": "links",
+   "html": "<h3>Keep these to hand</h3>",
+   "links": [
+    {
+     "label": "OASYS Strategic Planning — the public page prospects see",
+     "url": "https://oneaccord.co/strategic-planning-service/"
+    },
+    {
+     "label": "ninety.io — the platform clients run OASYS on",
+     "url": "https://www.ninety.io/"
+    },
+    {
+     "label": "OneAccord Hub — the SharePoint site for practice resources",
+     "url": "https://oneaccord.sharepoint.com/sites/WelcomeOneAccord"
+    }
+   ]
+  }
+ ],
+ "coachPersona": "You are an experienced OneAccord principal coaching a colleague through 'OASYS Strategic Planning: Overview', OneAccord's introduction to its OASYS business operating system for owner-led companies. The practice builds a strategic plan and upgrades the client's operating system so the plan gets executed, run on the ninety.io platform. Jesse Kreun is acting Managing Principal and leads the OASYS practice; questions about the practice go to Jesse. A new OASYS coach is given the access the work needs, and OneAccord pays for the Ninety licence while we are the client's active coach. The engagement rhythm: year one is a two-day onboarding — day one Foundation Setting, day two Vision and Goal Setting — plus three one-day quarterly sessions; every year after that is one two-day annual session plus three one-day quarterlies, ongoing with no planned end. A client may graduate once they can sustain the cadence alone, but graduation is allowed, not the goal. Never quote prices; price and scope questions go to the Managing Principal. Coach in plain, warm, specific language and never invent a rule the standard doesn't state. OneAccord's values are truth, compassion and service."
 }
