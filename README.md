@@ -21,13 +21,27 @@ python3 -m http.server 8080
 
 Then open `http://localhost:8080`.
 
-## Deploy (GitHub + Netlify, per the plan)
+## Deploy (GitHub + Netlify)
 
-1. Push this folder to a new GitHub repo (e.g. `oneaccord/training-portal`).
-2. In Netlify, "Add new site" → "Import an existing project" → pick that repo.
-   Build command: none. Publish directory: `.` (already set in `netlify.toml`).
-3. Netlify gives you a URL (e.g. `oneaccord-training.netlify.app`, or attach a
-   custom domain). That URL is what goes into SharePoint's Embed web part.
+Netlify builds and publishes this site from `main` on every merge. `netlify.toml`
+sets publish directory `dist` and build command `npm run prepare:portal`;
+`scripts/prepare.cjs` copies only `index.html`, `auth.html`, `css`, `js`, `data`
+and `vendor` into `dist`, and pins the Microsoft sign-in library to the version
+in `package-lock.json` rather than loading it from a third party. Server source,
+tests and review evidence are never published.
+
+Live site: `https://oneaccord-training-portal.netlify.app`. That URL is what goes
+into SharePoint's Embed web part.
+
+## Release rule (decided 25 November 2026)
+
+Merge to `main` and let the build publish. Do not upload files straight into a
+live deployment: a file swapped by API is not in the repo, so the next merge
+silently reverts it and nobody notices until a learner hits the old page.
+
+The API file-swap remains available for an emergency hotfix only, and any use of
+it requires a same-day commit that brings `main` level with live, or the drift
+returns.
 
 ## Embedding in SharePoint
 
