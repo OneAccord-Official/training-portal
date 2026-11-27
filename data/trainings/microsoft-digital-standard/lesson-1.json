@@ -49,7 +49,7 @@
    ],
    "correctIndex": 1,
    "feedbackCorrect": "Right. Two reasons, not one: the client is external, and a proposal needs a record of what was sent and when.",
-   "feedbackIncorrect": "The client is outside OneAccord — Teams doesn't reach them — and a proposal needs a record. That's email."
+   "feedbackIncorrect": "The client is outside OneAccord, and a proposal needs a record of what was sent and when. Email is how we reach clients, and it leaves the trail."
   },
   {
    "type": "question",
